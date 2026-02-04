@@ -1,6 +1,6 @@
 # SPF Personal
 
-**Second Principles Framework — Пак «Личное развитие»**
+**Second Principles Framework по «Личному развитию»**
 
 Репозиторий знаний о личном развитии как домене, построенный на основе First Principles Framework (FPF).
 
