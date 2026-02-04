@@ -157,3 +157,144 @@ Domain codes:
 - Version pinned in `/fpf/README.md`.
 - Distinctions in this repo may **extend** FPF distinctions but must not contradict them.
 - If a conflict arises, open an issue referencing both repos.
+
+---
+
+## 9. Mandatory Knowledge-Creation Process
+
+**All modifications to `/pack/` must follow the normative process defined in [`/process/`](/process/README.md).**
+
+The knowledge-creation process is NOT part of domain knowledge — it is the meta-process for producing and maintaining domain knowledge.
+
+| Directory | Contains |
+|-----------|----------|
+| `/pack/` | Domain knowledge (what the domain knows) |
+| `/process/` | How that knowledge is created and maintained |
+
+### Process Stages
+
+| Stage | File | Purpose |
+|-------|------|---------|
+| 01 | [01-domain-selection.md](/process/01-domain-selection.md) | Select and bound the domain |
+| 02 | [02-bounded-context.md](/process/02-bounded-context.md) | Formalize boundaries |
+| 03 | [03-distinctions-work.md](/process/03-distinctions-work.md) | Establish conceptual vocabulary |
+| 04 | [04-domain-entities-identification.md](/process/04-domain-entities-identification.md) | Identify stable entities |
+| 05 | [05-information-ingestion.md](/process/05-information-ingestion.md) | Admit information for analysis |
+| 06 | [06-analysis-and-formalization.md](/process/06-analysis-and-formalization.md) | Transform information to candidates |
+| 07 | [07-method-and-product-extraction.md](/process/07-method-and-product-extraction.md) | Extract methods and products |
+| 08 | [08-failure-modes-extraction.md](/process/08-failure-modes-extraction.md) | Extract failure modes |
+| 09 | [09-sota-annotation.md](/process/09-sota-annotation.md) | Assign SoTA status |
+| 10 | [10-map-maintenance.md](/process/10-map-maintenance.md) | Update navigation map |
+| 11 | [11-review-and-evolution-cycle.md](/process/11-review-and-evolution-cycle.md) | Ongoing review |
+
+### Process Paths by Action
+
+| Action | Process Path |
+|--------|--------------|
+| New pack | 01 → 02 → 03 → 04 → 05 → 06 → 07/08/09 → 10 → 11 |
+| Add method | 05 → 06 → 07 → 10 |
+| Add failure mode | 06 → 08 → 10 |
+| Update SoTA | 09 → 10 |
+| Add distinction | 03 → 10 |
+
+---
+
+## 10. Working Rules for Claude
+
+When modifying any file in `/pack/`, Claude MUST:
+
+### 10.1 Declare Current Process Stage
+
+Before creating or modifying pack files, state:
+- **Current stage**: Which process stage (01-11) is being executed
+- **Work products**: Which outputs this stage produces
+
+Example:
+```
+Process stage: 07 (Method and Product Extraction)
+Work products: PD.METHOD.002, PD.WP.002
+Inputs: Ready candidates from Stage 06
+```
+
+### 10.2 Follow Stage Prerequisites
+
+| To Do This | Must Have Completed |
+|------------|---------------------|
+| Add method | Distinctions (03), Entities (04), Analysis (06) |
+| Add work product | Method that produces it (07) |
+| Add failure mode | Distinction it violates (03), Analysis (06) |
+| Add SoTA annotation | Target claim exists |
+| Update map | Content changes committed |
+
+### 10.3 Prohibited Shortcuts
+
+**FORBIDDEN**:
+- Adding methods directly without passing through distinctions and analysis
+- Creating work products without specifying producing method
+- Adding failure modes without linking to distinctions
+- Skipping map update after structural changes
+- Treating information as knowledge (copying source text)
+
+### 10.4 Stage Declaration Format
+
+When working on pack content, begin with:
+
+```
+## Process Declaration
+
+- **Action**: [Adding method | Adding FM | Updating SoTA | ...]
+- **Current stage**: [Stage number and name]
+- **Prerequisites verified**: [Yes/No — list what was checked]
+- **Work products to create**: [List files]
+- **Map update required**: [Yes/No]
+```
+
+---
+
+## 11. Process Compliance Checklist
+
+Before any pack modification, verify:
+
+### Domain & Context
+- [ ] **Domain is fixed**: Pack manifest exists with explicit scope
+- [ ] **Bounded context exists**: `00-pack-manifest.md` specifies in/out
+- [ ] **FPF dependencies listed**: Manifest references FPF distinctions
+
+### Distinctions
+- [ ] **Distinctions checked**: Relevant distinctions exist in `01-distinctions.md`
+- [ ] **No new undefined terms**: All concepts have distinctions
+- [ ] **Distinction tests exist**: Each distinction has "how to tell X from Y"
+
+### Content Quality
+- [ ] **Methods are not scenarios**: No numbered steps, describes what not how
+- [ ] **Work products are observable**: Existence criteria specified
+- [ ] **Failure modes are typed**: Has error type and distinction link
+- [ ] **SoTA status assigned**: With revision criterion
+
+### Structure
+- [ ] **Map updated**: New content reflected in `07-map/`
+- [ ] **Cross-references valid**: All links resolve
+- [ ] **IDs follow convention**: Correct pattern for item type
+- [ ] **Index updated**: Methods index includes new methods
+
+### Process
+- [ ] **Stage declared**: Current process stage is stated
+- [ ] **Prerequisites met**: Earlier stages completed for this change
+- [ ] **No information-as-knowledge**: Source text not copied into pack
+
+---
+
+## 12. Enforcement
+
+Violations of this constitution result in:
+
+| Violation | Consequence |
+|-----------|-------------|
+| Didactic language in pack | Rewrite required |
+| Method is actually scenario | Rewrite required |
+| Missing map update | Update required before merge |
+| Missing SoTA revision criterion | Add criterion |
+| Skipped process stage | Return to skipped stage |
+| Information treated as knowledge | Re-analyze through distinctions |
+
+Claude must self-enforce these rules. If uncertain whether a rule applies, err on the side of compliance.
