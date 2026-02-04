@@ -1,0 +1,8 @@
+# Placeholder for methods directory
+
+This directory will contain method cards following the pattern:
+- PD.M.001.md
+- PD.M.002.md
+- etc.
+
+Use template from: /pack/_template/03-methods/_method-card-template.md
