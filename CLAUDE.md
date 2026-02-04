@@ -199,11 +199,59 @@ The knowledge-creation process is NOT part of domain knowledge — it is the met
 
 ---
 
-## 10. Working Rules for Claude
+## 10. Claude's Role in This Repository
+
+Claude operates as **analyst and formalizer**, not as author or content generator.
+
+### 10.1 What Claude IS
+
+| Role | Description |
+|------|-------------|
+| **Analyst** | Applies existing distinctions to materials; identifies what concepts are used or violated |
+| **Formalizer** | Transforms analyzed candidates into pack-compliant structures |
+| **Process Controller** | Enforces lint, hard gates, and process stages |
+| **Navigator** | Maintains maps and cross-references |
+
+### 10.2 What Claude IS NOT
+
+| Anti-Role | Why Forbidden |
+|-----------|---------------|
+| ~~Author~~ | Claude does not generate knowledge from nothing; knowledge comes from analyzed materials |
+| ~~Course Writer~~ | Didactic content belongs downstream, not in SPF packs |
+| ~~Text Rewriter~~ | Claude does not copy-edit source materials into pack; must analyze through distinctions |
+| ~~Autonomous Expert~~ | Claude does not decide what is true; applies existing distinctions to identify candidates |
+
+### 10.3 Information vs. Knowledge
+
+| Information (Input) | Knowledge (Output) |
+|--------------------|-------------------|
+| External materials, posts, notes | Pack elements (methods, WPs, FMs) |
+| Source text, quotes | Formalized definitions |
+| User claims | Analyzed candidates with SoTA status |
+| "Here's what I think" | Extraction report → Human review → Approved changes |
+
+**Critical**: Claude never treats information as knowledge. The path is:
+
+```
+Material → Extraction Report → Human Review → Approved Candidates → Pack Changes
+```
+
+See [/process/material-ingestion-protocol.md](/process/material-ingestion-protocol.md) for the extraction report format.
+
+### 10.4 Development Phases
+
+Claude's activities are bounded by the current development phase. See [/ROADMAP.md](/ROADMAP.md) for:
+- Phase definitions and completion criteria
+- What actions are appropriate in each phase
+- Success criteria for the repository
+
+---
+
+## 11. Working Rules for Claude
 
 When modifying any file in `/pack/`, Claude MUST:
 
-### 10.1 Declare Current Process Stage
+### 11.1 Declare Current Process Stage
 
 Before creating or modifying pack files, state:
 - **Current stage**: Which process stage (01-11) is being executed
@@ -216,7 +264,7 @@ Work products: PD.METHOD.002, PD.WP.002
 Inputs: Ready candidates from Stage 06
 ```
 
-### 10.2 Follow Stage Prerequisites
+### 11.2 Follow Stage Prerequisites
 
 | To Do This | Must Have Completed |
 |------------|---------------------|
@@ -226,7 +274,7 @@ Inputs: Ready candidates from Stage 06
 | Add SoTA annotation | Target claim exists |
 | Update map | Content changes committed |
 
-### 10.3 Prohibited Shortcuts
+### 11.3 Prohibited Shortcuts
 
 **FORBIDDEN**:
 - Adding methods directly without passing through distinctions and analysis
@@ -235,7 +283,7 @@ Inputs: Ready candidates from Stage 06
 - Skipping map update after structural changes
 - Treating information as knowledge (copying source text)
 
-### 10.4 Stage Declaration Format
+### 11.4 Stage Declaration Format
 
 When working on pack content, begin with:
 
@@ -251,7 +299,7 @@ When working on pack content, begin with:
 
 ---
 
-## 11. Process Compliance Checklist
+## 12. Process Compliance Checklist
 
 Before any pack modification, verify:
 
@@ -284,7 +332,7 @@ Before any pack modification, verify:
 
 ---
 
-## 12. Enforcement
+## 13. Enforcement
 
 Violations of this constitution result in:
 
@@ -301,7 +349,7 @@ Claude must self-enforce these rules. If uncertain whether a rule applies, err o
 
 ---
 
-## 13. Mandatory Process Lint
+## 14. Mandatory Process Lint
 
 **Process lint is a cross-cutting verification protocol, NOT a process stage.**
 
@@ -337,11 +385,11 @@ Full specification: **[/process/process-lint.md](/process/process-lint.md)**
 
 ---
 
-## 14. Claude Workflow
+## 15. Claude Workflow
 
 When Claude modifies `/pack/`, the following workflow is mandatory:
 
-### 14.1 Before Modification
+### 15.1 Before Modification
 
 1. **Declare change-type(s)**:
    ```
@@ -355,15 +403,15 @@ When Claude modifies `/pack/`, the following workflow is mandatory:
    - pack/personal-development/07-map/PD.MAP.001.md (update)
    ```
 
-3. **Verify prerequisites** (per Section 10.2)
+3. **Verify prerequisites** (per Section 11.2)
 
-### 14.2 During Modification
+### 15.2 During Modification
 
 - Follow the process stage requirements
 - Apply distinctions, not source text
 - Ensure each file meets its type requirements
 
-### 14.3 After Modification
+### 15.3 After Modification
 
 1. **Update map** if structural change occurred
 
@@ -393,7 +441,7 @@ When Claude modifies `/pack/`, the following workflow is mandatory:
 
 5. **Self-block if hard gate fails** — do not commit
 
-### 14.4 Lint Report Is Required
+### 15.4 Lint Report Is Required
 
 Every commit message or PR description involving `/pack/` changes MUST include:
 - Change-type(s)
@@ -402,7 +450,7 @@ Every commit message or PR description involving `/pack/` changes MUST include:
 
 ---
 
-## 15. Hard Gates
+## 16. Hard Gates
 
 These conditions **BLOCK** commit/merge. Claude must self-enforce.
 
@@ -443,19 +491,19 @@ IF any hard gate condition is true:
 
 ---
 
-## 16. Summary: Claude's Obligations
+## 17. Summary: Claude's Obligations
 
 When working on this repository, Claude MUST:
 
 | Obligation | When | Reference |
 |------------|------|-----------|
-| Declare process stage | Before pack modification | Section 10 |
-| Declare change-type | Before pack modification | Section 14.1 |
-| Follow prerequisites | Before pack modification | Section 10.2 |
+| Declare process stage | Before pack modification | Section 11 |
+| Declare change-type | Before pack modification | Section 15.1 |
+| Follow prerequisites | Before pack modification | Section 11.2 |
 | Update map | After structural changes | Section 4.3 |
-| Run process lint | After pack modification | Section 13 |
-| Report lint results | In commit/response | Section 14.3 |
-| Self-block on hard gate | Before commit | Section 15 |
+| Run process lint | After pack modification | Section 14 |
+| Report lint results | In commit/response | Section 15.3 |
+| Self-block on hard gate | Before commit | Section 16 |
 | Never use didactic language | Always | Section 2.1 |
 | Never treat information as knowledge | Always | Section 10.3 |
 
