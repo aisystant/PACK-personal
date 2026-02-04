@@ -5,9 +5,9 @@
 ```yaml
 pack_id: PD
 pack_name: Personal Development
-version: 0.1.0
+version: 0.2.0
 fpf_edition: v1.0
-status: draft
+status: active
 maintainers:
   - name: AISYSTANT Team
     contact: TBD
@@ -24,9 +24,10 @@ last_updated: 2025-02-04
 This pack captures knowledge about personal development as a domain:
 
 - Methods for developing oneself (skills, capabilities, character)
-- Roles involved in personal development (agent, mentor, coach, etc.)
+- Roles involved in personal development (agent, mentor, analyst, architect)
 - Work products that evidence development
 - Failure modes in personal development practice
+- Distinctions that structure the domain
 
 ### What This Pack Does NOT Cover
 
@@ -37,6 +38,7 @@ This pack captures knowledge about personal development as a domain:
 | Motivation/inspiration content | Downstream engagement |
 | Psychological therapy | Different domain (mental health) |
 | Organizational development | Different SPF pack (management) |
+| Step-by-step instructions | Downstream guides |
 
 ---
 
@@ -46,9 +48,9 @@ This pack captures knowledge about personal development as a domain:
 
 | FPF Distinction | How Used in This Pack |
 |-----------------|----------------------|
-| method vs tool | Distinguish development methods from tools that support them |
-| work product | Define observable outputs of development methods |
-| role | Agent, mentor, coach as functional positions |
+| method vs tool | [D.001](01-distinctions.md#d001-method-vs-tool) — fundamental to all methods |
+| work product | [D.005](01-distinctions.md#d005-work-product-vs-description) — defines observable outputs |
+| role vs person | [D.002](01-distinctions.md#d002-role-vs-person) — structures responsibilities |
 | system vs process | Avoid "personal development as a system" conflation |
 
 ### Other SPF Packs
@@ -63,13 +65,30 @@ This pack captures knowledge about personal development as a domain:
 
 | Section | Item Count | Status |
 |---------|------------|--------|
-| Distinctions | 0 | draft |
-| Roles | 0 | draft |
-| Methods | 0 | draft |
-| Work Products | 0 | draft |
-| Failure Modes | 0 | draft |
-| SoTA Annotations | 0 | draft |
-| Maps | 1 | draft |
+| Distinctions | 12 | active |
+| Roles | 4 | active |
+| Objects of Attention | 6 | active |
+| Methods | 1 | active |
+| Work Products | 1 | active |
+| Failure Modes | 6 | active |
+| SoTA Annotations | 1 | active |
+| Maps | 1 | active |
+
+---
+
+## Key Files
+
+| File | Description |
+|------|-------------|
+| [01-distinctions.md](01-distinctions.md) | 12 core distinctions |
+| [02A-roles.md](02-domain-entities/02A-roles.md) | Agent, Analyst, Mentor, Architect |
+| [02B-objects-of-attention.md](02-domain-entities/02B-objects-of-attention.md) | 6 objects |
+| [02C-methods-index.md](02-domain-entities/02C-methods-index.md) | Methods navigation |
+| [PD.METHOD.001](03-methods/PD.METHOD.001-time-accounting.md) | Time Accounting |
+| [PD.WP.001](04-work-products/PD.WP.001-time-budget.md) | Time Budget |
+| [05-failure-modes/](05-failure-modes/) | 6 failure mode cards |
+| [PD.SOTA.001](06-sota/PD.SOTA.001-time-accounting-interpretations.md) | Time Accounting interpretations |
+| [PD.MAP.001](07-map/PD.MAP.001.md) | Full navigation map |
 
 ---
 
@@ -78,3 +97,4 @@ This pack captures knowledge about personal development as a domain:
 | Date | Change | Author |
 |------|--------|--------|
 | 2025-02-04 | Initial scaffold creation | AISYSTANT |
+| 2025-02-04 | MVP content: 1 method, 1 WP, 6 FMs, 12 distinctions, 4 roles, 6 OAs, 1 SoTA | AISYSTANT |
