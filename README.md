@@ -1,6 +1,6 @@
 # SPF Personal
 
-**Second Principles Framework — Репозиторий доменных знаний**
+**Second Principles Framework — Репозиторий доменных знаний по личному развитию (Pack)**
 
 ---
 
