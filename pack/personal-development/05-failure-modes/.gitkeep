@@ -1,0 +1,8 @@
+# Placeholder for failure modes directory
+
+This directory will contain failure mode cards following the pattern:
+- PD.FM.001.md
+- PD.FM.002.md
+- etc.
+
+Use template from: /pack/_template/05-failure-modes/_failure-mode-template.md
