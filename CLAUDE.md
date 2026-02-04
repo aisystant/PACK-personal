@@ -298,3 +298,165 @@ Violations of this constitution result in:
 | Information treated as knowledge | Re-analyze through distinctions |
 
 Claude must self-enforce these rules. If uncertain whether a rule applies, err on the side of compliance.
+
+---
+
+## 13. Mandatory Process Lint
+
+**Process lint is a cross-cutting verification protocol, NOT a process stage.**
+
+Full specification: **[/process/process-lint.md](/process/process-lint.md)**
+
+### When Lint Runs
+
+| Point | Actor | Mandatory |
+|-------|-------|-----------|
+| Pre-commit | Author (Claude or human) | YES |
+| PR Review | Reviewer | YES |
+| After pack modification | AI agent | YES |
+
+### Lint Components
+
+1. **Change-Type Matrix**: Specific checks per change type (CT-1 through CT-8)
+2. **Universal Bans**: Didactics, scenarios, method/tool confusion
+3. **Hard Gates**: Conditions that block commit
+4. **Process Compliance**: Context, distinctions, structure checks
+
+### Quick Lint Reference
+
+| Change Type | Code | Key Checks |
+|-------------|------|------------|
+| Method | CT-1 | L-M01 to L-M10 |
+| Work Product | CT-2 | L-WP01 to L-WP08 |
+| Failure Mode | CT-3 | L-FM01 to L-FM08 |
+| Distinction | CT-4 | L-D01 to L-D07 |
+| SoTA | CT-5 | L-S01 to L-S06 |
+| Role/Object | CT-6 | L-R01 to L-R06 |
+| Map | CT-7 | L-MAP01 to L-MAP04 |
+| Structural | CT-8 | L-STR01 to L-STR03 |
+
+---
+
+## 14. Claude Workflow
+
+When Claude modifies `/pack/`, the following workflow is mandatory:
+
+### 14.1 Before Modification
+
+1. **Declare change-type(s)**:
+   ```
+   Change type: CT-1 (Method), CT-7 (Map)
+   ```
+
+2. **List files to be changed**:
+   ```
+   Files:
+   - pack/personal-development/03-methods/PD.METHOD.002.md (new)
+   - pack/personal-development/07-map/PD.MAP.001.md (update)
+   ```
+
+3. **Verify prerequisites** (per Section 10.2)
+
+### 14.2 During Modification
+
+- Follow the process stage requirements
+- Apply distinctions, not source text
+- Ensure each file meets its type requirements
+
+### 14.3 After Modification
+
+1. **Update map** if structural change occurred
+
+2. **Update SoTA** if claim status changed
+
+3. **Run lint checks** for declared change-type(s)
+
+4. **Generate lint report**:
+   ```
+   ## Lint Report
+
+   Change type: CT-1 (Method)
+
+   ### CT-1 Checks
+   - [x] L-M01: Definition describes what, not how
+   - [x] L-M02: Inputs filled
+   - [x] L-M03: Outputs link to WP
+   ...
+
+   ### Universal Bans
+   - [x] UB-1: No didactic language
+   - [x] UB-2: No "domain as system"
+   ...
+
+   Result: PASS
+   ```
+
+5. **Self-block if hard gate fails** — do not commit
+
+### 14.4 Lint Report Is Required
+
+Every commit message or PR description involving `/pack/` changes MUST include:
+- Change-type(s)
+- Files changed
+- Lint result (PASS or what failed)
+
+---
+
+## 15. Hard Gates
+
+These conditions **BLOCK** commit/merge. Claude must self-enforce.
+
+| Gate | Condition | Resolution |
+|------|-----------|------------|
+| **HG-1** | Method without work product link | Add WP link |
+| **HG-2** | Method without distinction reference | Add distinction link |
+| **HG-3** | Work product without existence criteria | Add criteria |
+| **HG-4** | Failure mode without detection test | Add test |
+| **HG-5** | Structural change without map update | Update map |
+| **HG-6** | Didactic language detected | Rewrite content |
+| **HG-7** | Scenario instead of method | Rewrite as method |
+| **HG-8** | SoTA without revision criterion | Add criterion |
+
+### Hard Gate Protocol for Claude
+
+```
+IF any hard gate condition is true:
+  1. DO NOT commit
+  2. REPORT which gate failed
+  3. FIX the issue
+  4. RE-RUN lint
+  5. ONLY commit when all gates pass
+```
+
+### Detecting Hard Gate Violations
+
+| Gate | Detection Test |
+|------|----------------|
+| HG-1 | Method file has no link to `04-work-products/` |
+| HG-2 | Method file has no link to `01-distinctions.md` |
+| HG-3 | WP file has no "existence criteria" section |
+| HG-4 | FM file has no "detection test" section |
+| HG-5 | Files in `03-07` changed but `07-map/` unchanged |
+| HG-6 | Text contains "step", "lesson", "implement", "in N days" |
+| HG-7 | Method has numbered steps or imperative sequences |
+| HG-8 | SoTA status without "would change if" clause |
+
+---
+
+## 16. Summary: Claude's Obligations
+
+When working on this repository, Claude MUST:
+
+| Obligation | When | Reference |
+|------------|------|-----------|
+| Declare process stage | Before pack modification | Section 10 |
+| Declare change-type | Before pack modification | Section 14.1 |
+| Follow prerequisites | Before pack modification | Section 10.2 |
+| Update map | After structural changes | Section 4.3 |
+| Run process lint | After pack modification | Section 13 |
+| Report lint results | In commit/response | Section 14.3 |
+| Self-block on hard gate | Before commit | Section 15 |
+| Never use didactic language | Always | Section 2.1 |
+| Never treat information as knowledge | Always | Section 10.3 |
+
+Failure to follow these obligations results in invalid changes that must be corrected.

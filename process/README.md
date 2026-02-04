@@ -86,6 +86,48 @@ Skipping steps produces:
 
 ---
 
+## Process Lint (Mandatory)
+
+**Every change to `/pack/` must pass process lint before commit.**
+
+Process lint is NOT a process stage — it is a **cross-cutting verification protocol** that ensures compliance with the SPF constitution.
+
+| When Applied | By Whom |
+|--------------|---------|
+| Pre-commit | Author (human or AI) |
+| PR Review | Reviewer |
+| Agent work | AI after each modification |
+
+### Lint Document
+
+**See: [process-lint.md](process-lint.md)** for:
+- Change-type matrix (what to check for each type of change)
+- Universal bans (didactics, scenarios, method/tool confusion)
+- Hard gates (conditions that block commit)
+- Lint report format
+
+### Quick Reference
+
+| Change Type | Key Checks |
+|-------------|------------|
+| Method | No scenarios, has WP link, has distinction link |
+| Work Product | Has existence criteria, links to method |
+| Failure Mode | Has detection test, links to distinction |
+| Distinction | Has contrast, has test, has consequence |
+| SoTA | Has status, has revision criterion |
+| Any structural | Map updated |
+
+### Hard Gates
+
+These block commit. No exceptions:
+- Method without work product link
+- Work product without existence criteria
+- Failure mode without detection test
+- Structural change without map update
+- Didactic language detected
+
+---
+
 ## For AI Agents
 
 AI agents working on this repository:
@@ -93,5 +135,6 @@ AI agents working on this repository:
 2. Must produce the work products specified for that stage
 3. Must not skip to later stages without completing earlier ones
 4. Must update the map after any structural change
+5. **Must run process lint and report results before committing**
 
-See [CLAUDE.md](/CLAUDE.md) for explicit working rules.
+See [CLAUDE.md](/CLAUDE.md) for explicit working rules and lint requirements.
