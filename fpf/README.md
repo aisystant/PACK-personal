@@ -19,9 +19,9 @@ FPF provides:
 
 | Field | Value |
 |-------|-------|
-| **FPF Edition** | `v1.0` (placeholder — update when FPF is versioned) |
-| **FPF Repository** | `https://github.com/aisystant/fpf` (placeholder) |
-| **Pinned Commit** | _TBD when FPF repo is established_ |
+| **FPF Edition** | `v1.0` (update when FPF is versioned) |
+| **FPF Repository** | https://github.com/ailev/FPF |
+| **Pinned Commit** | _TBD — pin to specific commit for stability_ |
 
 ---
 
