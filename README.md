@@ -1,74 +1,222 @@
 # SPF Personal
 
-**Second Principles Framework — Personal Development Pack**
+**Second Principles Framework — Пак «Личное развитие»**
 
-A knowledge pack capturing the epistemic content of Personal Development as a domain, built on top of the First Principles Framework (FPF).
-
----
-
-## What This Repository Is
-
-This is a **source-of-truth for second-level principles** — domain-specific knowledge artifacts that describe:
-
-- **Distinctions**: Core concepts that carve the domain of personal development
-- **Domain Entities**: Roles, objects of attention, methods, tools
-- **Methods**: What practitioners do (not how to learn it)
-- **Work Products**: Observable outputs of methods
-- **Failure Modes**: Typed errors and their symptoms
-- **SoTA Annotations**: Status of claims (current / deprecated / hypothesis)
-- **Maps**: Navigation structures for the pack
+Репозиторий знаний о личном развитии как домене, построенный на основе First Principles Framework (FPF).
 
 ---
 
-## What This Repository Is NOT
+## Что это такое
 
-| Excluded Content | Where It Belongs |
-|------------------|------------------|
-| Courses, lessons, modules | Downstream learning systems |
-| Step-by-step scenarios | Downstream guides |
-| "In N days" programs | Downstream curricula |
-| Embeddings, vector indexes | Downstream AI implementations |
-| User progress tracking | Downstream applications |
+Это **источник истины для принципов второго уровня (SPF)** — формализованные знания домена, описывающие:
 
-See `/spec/` for interface contracts with downstream systems.
-
----
-
-## Relationship to FPF
-
-- **FPF (Level 1)**: First principles — meta-episteme, the language of distinctions. External dependency.
-- **SPF Personal (Level 2)**: This repo — domain knowledge without didactics.
-- **Downstream (Level 3+)**: Courses, AI agents, guides — consume this repo via specs.
-
-FPF dependency is managed in `/fpf/README.md`.
+| Элемент | Что содержит |
+|---------|--------------|
+| **Различения** | Концептуальные границы домена (метод vs. инструмент, роль vs. человек) |
+| **Роли** | Участники деятельности (агент, аналитик, ментор, архитектор) |
+| **Объекты внимания** | На что практик обращает внимание |
+| **Методы** | Что делают практики (не как учить!) |
+| **Рабочие продукты** | Наблюдаемые результаты методов |
+| **Failure modes** | Типизированные ошибки и их симптомы |
+| **SoTA-аннотации** | Статус утверждений (current / deprecated / hypothesis) |
+| **Карты** | Навигационные структуры |
 
 ---
 
-## Repository Structure
+## Чем этот репозиторий НЕ является
+
+| Исключено | Где должно быть |
+|-----------|-----------------|
+| Курсы, уроки, модули | Downstream (обучающие системы) |
+| Пошаговые сценарии | Downstream (руководства) |
+| «30-дневные программы» | Downstream (учебные планы) |
+| Embeddings, векторные индексы | Downstream (AI-имплементации) |
+| Прогресс пользователя | Downstream (приложения) |
+
+---
+
+## Архитектура уровней
 
 ```
-/CLAUDE.md              # Constitution for working with this repo
-/fpf/README.md          # FPF dependency management
-/pack/
-  /_template/           # Universal templates for any pack
-  /personal-development/ # Personal Development pack content
-/spec/
-  downstream-contract.md # Contract for downstream consumers
-  ai-view.md            # Spec for AI representations
-  human-guides.md       # Spec for human-readable guides
-  ids-and-references.md # ID schemes and reference formats
+FPF (Level 1)           — Первые принципы, язык различений
+    ↓
+SPF Personal (Level 2)  — Этот репозиторий, знания домена без дидактики
+    ↓
+Downstream (Level 3+)   — Курсы, AI-агенты, руководства
 ```
 
 ---
 
-## Contributing
+## Текущая фаза развития
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+| Фаза | Статус |
+|------|--------|
+| Phase 0: Infrastructure | ✅ Complete |
+| Phase 1: Domain Init | ✅ Complete (MVP) |
+| Phase 2: Material Ingestion | 🔄 Ready |
+| Phase 3: Analysis | ⏳ Not Started |
+| Phase 4: Formalization | ⏳ Not Started |
+| Phase 5: Evolution | ♾️ Ongoing |
 
-All contributors must follow the constitution in [CLAUDE.md](CLAUDE.md).
+Подробности: [ROADMAP.md](ROADMAP.md)
 
 ---
 
-## License
+## Структура репозитория
 
-MIT License. See [LICENSE](LICENSE).
+### Корневые файлы
+
+| Файл | Назначение |
+|------|------------|
+| [CLAUDE.md](CLAUDE.md) | Конституция репозитория — правила работы для Claude и людей |
+| [ROADMAP.md](ROADMAP.md) | План развития по фазам, критерии успеха |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Руководство для контрибьюторов |
+| [CHANGELOG.md](CHANGELOG.md) | История изменений |
+| [LICENSE](LICENSE) | MIT License |
+
+### `/pack/` — Доменные знания
+
+```
+pack/
+├── _template/                      # Универсальные шаблоны для любого пака
+│   ├── 00-pack-manifest.md         # Шаблон манифеста
+│   ├── 01-distinctions.md          # Шаблон различений
+│   ├── 02-domain-entities/         # Шаблоны сущностей
+│   ├── 03-methods/                 # Шаблон карточки метода
+│   ├── 04-work-products/           # Шаблон рабочего продукта
+│   ├── 05-failure-modes/           # Шаблон failure mode
+│   ├── 06-sota/                    # Шаблон SoTA-аннотации
+│   └── 07-map/                     # Шаблон карты навигации
+│
+└── personal-development/           # Пак «Личное развитие»
+    ├── 00-pack-manifest.md         # Манифест: scope, версия, зависимости
+    ├── 01-distinctions.md          # 12 различений домена
+    ├── 02-domain-entities/
+    │   ├── 02A-roles.md            # 4 роли: Agent, Analyst, Mentor, Architect
+    │   ├── 02B-objects-of-attention.md  # 6 объектов внимания
+    │   ├── 02C-methods-index.md    # Индекс методов
+    │   └── 02D-tools-index.md      # Индекс инструментов
+    ├── 03-methods/
+    │   └── PD.METHOD.001-time-accounting.md  # Метод: Учёт времени
+    ├── 04-work-products/
+    │   └── PD.WP.001-time-budget.md  # Рабочий продукт: Баланс времени
+    ├── 05-failure-modes/           # 6 failure modes
+    │   ├── PD.FAIL.001-time-accounting-is-pomodoro.md
+    │   ├── PD.FAIL.002-time-accounting-is-discipline.md
+    │   ├── PD.FAIL.003-time-accounting-is-control.md
+    │   ├── PD.FAIL.004-time-accounting-is-productivity-hack.md
+    │   ├── PD.FAIL.005-tool-is-method.md
+    │   └── PD.FAIL.006-work-product-is-description.md
+    ├── 06-sota/
+    │   └── PD.SOTA.001-time-accounting-interpretations.md
+    └── 07-map/
+        └── PD.MAP.001.md           # Главная карта навигации
+```
+
+### `/process/` — Процесс создания знаний
+
+Это **НЕ знания домена**, а мета-процесс их производства.
+
+| Файл | Этап |
+|------|------|
+| [README.md](process/README.md) | Обзор процесса |
+| [00-process-overview.md](process/00-process-overview.md) | Что такое этот процесс |
+| [01-domain-selection.md](process/01-domain-selection.md) | Выбор домена |
+| [02-bounded-context.md](process/02-bounded-context.md) | Определение границ |
+| [03-distinctions-work.md](process/03-distinctions-work.md) | Работа с различениями |
+| [04-domain-entities-identification.md](process/04-domain-entities-identification.md) | Идентификация сущностей |
+| [05-information-ingestion.md](process/05-information-ingestion.md) | Приём информации |
+| [06-analysis-and-formalization.md](process/06-analysis-and-formalization.md) | Анализ и формализация |
+| [07-method-and-product-extraction.md](process/07-method-and-product-extraction.md) | Извлечение методов и продуктов |
+| [08-failure-modes-extraction.md](process/08-failure-modes-extraction.md) | Извлечение failure modes |
+| [09-sota-annotation.md](process/09-sota-annotation.md) | SoTA-аннотирование |
+| [10-map-maintenance.md](process/10-map-maintenance.md) | Поддержание карты |
+| [11-review-and-evolution-cycle.md](process/11-review-and-evolution-cycle.md) | Цикл ревью и эволюции |
+| [process-lint.md](process/process-lint.md) | Линт-проверки (cross-cutting) |
+| [material-ingestion-protocol.md](process/material-ingestion-protocol.md) | Протокол обработки материалов |
+
+### `/spec/` — Интерфейсы для downstream
+
+| Файл | Назначение |
+|------|------------|
+| [downstream-contract.md](spec/downstream-contract.md) | Контракт для downstream-систем |
+| [ai-view.md](spec/ai-view.md) | Спецификация для AI-агентов |
+| [human-guides.md](spec/human-guides.md) | Спецификация для человеческих руководств |
+| [ids-and-references.md](spec/ids-and-references.md) | Схема ID и форматы ссылок |
+
+### `/fpf/` — Зависимость от FPF
+
+| Файл | Назначение |
+|------|------------|
+| [README.md](fpf/README.md) | Управление зависимостью от First Principles Framework |
+
+### `/.github/` — GitHub-конфигурация
+
+| Файл | Назначение |
+|------|------------|
+| [pull_request_template.md](.github/pull_request_template.md) | Шаблон PR с линт-чеклистами |
+
+---
+
+## Ключевые концепции
+
+### Различение: Информация vs. Знание
+
+| Информация (вход) | Знание (выход) |
+|-------------------|----------------|
+| Внешние материалы, посты, заметки | Элементы пака (методы, WP, FM) |
+| Исходный текст, цитаты | Формализованные определения |
+| Утверждения пользователя | Кандидаты с SoTA-статусом |
+
+**Критически важно**: Информация ≠ знание. Путь:
+
+```
+Материал → Extraction Report → Human Review → Approved Candidates → Изменения в pack/
+```
+
+### Hard Bans (Жёсткие запреты)
+
+| Запрещено | Почему |
+|-----------|--------|
+| Дидактика: «шаг 1», «урок», «за 30 дней» | Дидактика — downstream |
+| Сценарии с пошаговыми инструкциями | Сценарии — downstream |
+| Embeddings как источник истины | Источник — markdown |
+| «Личное развитие — это система» | Какая система? Уточнить! |
+
+### Роль Claude
+
+| Claude ЯВЛЯЕТСЯ | Claude НЕ является |
+|-----------------|-------------------|
+| Аналитиком (применяет различения) | ~~Автором~~ (не генерирует знания из ничего) |
+| Формализатором (структурирует кандидатов) | ~~Курсописателем~~ (дидактика — downstream) |
+| Контролёром процесса (lint, hard gates) | ~~Переписчиком~~ (не copy-paste из источников) |
+
+---
+
+## Текущее содержимое пака (MVP)
+
+| Тип | Количество | Ключевые элементы |
+|-----|------------|-------------------|
+| Различения | 12 | Method vs Tool, Role vs Person, Accounting vs Planning, ... |
+| Роли | 4 | Agent, Analyst, Mentor, Architect |
+| Объекты внимания | 6 | Time Allocation, Behavior Patterns, ... |
+| Методы | 1 | PD.METHOD.001 — Учёт времени |
+| Рабочие продукты | 1 | PD.WP.001 — Баланс времени |
+| Failure Modes | 6 | FAIL.001–006 |
+| SoTA-аннотации | 1 | SOTA.001 — Интерпретации учёта времени |
+
+---
+
+## Навигация
+
+- **Новый в паке?** → [00-pack-manifest.md](pack/personal-development/00-pack-manifest.md)
+- **Ищете метод?** → [02C-methods-index.md](pack/personal-development/02-domain-entities/02C-methods-index.md)
+- **Хотите понять ошибку?** → [05-failure-modes/](pack/personal-development/05-failure-modes/)
+- **Нужна карта?** → [PD.MAP.001.md](pack/personal-development/07-map/PD.MAP.001.md)
+- **Хотите внести вклад?** → [CONTRIBUTING.md](CONTRIBUTING.md) + [CLAUDE.md](CLAUDE.md)
+
+---
+
+## Лицензия
+
+MIT License. См. [LICENSE](LICENSE).

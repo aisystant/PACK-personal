@@ -139,11 +139,15 @@ Before committing any change, verify:
 
 | Type | Pattern | Example |
 |------|---------|---------|
-| Method card | `<DOMAIN>.M.<NNN>.md` | `PD.M.001.md` |
-| Work product | `<DOMAIN>.WP.<NNN>.md` | `PD.WP.001.md` |
-| Failure mode | `<DOMAIN>.FM.<NNN>.md` | `PD.FM.001.md` |
-| SoTA annotation | `<DOMAIN>.SOTA.<NNN>.md` | `PD.SOTA.001.md` |
+| Method card | `<DOMAIN>.METHOD.<NNN>[-name].md` | `PD.METHOD.001-time-accounting.md` |
+| Work product | `<DOMAIN>.WP.<NNN>[-name].md` | `PD.WP.001-time-budget.md` |
+| Failure mode | `<DOMAIN>.FAIL.<NNN>[-name].md` | `PD.FAIL.001-time-accounting-is-pomodoro.md` |
+| SoTA annotation | `<DOMAIN>.SOTA.<NNN>[-name].md` | `PD.SOTA.001-time-accounting-interpretations.md` |
 | Map | `<DOMAIN>.MAP.<NNN>.md` | `PD.MAP.001.md` |
+
+**Notes**:
+- `[-name]` is optional but recommended for readability
+- IDs in content (e.g., links, references) may omit the name suffix: `[PD.METHOD.001]`
 
 Domain codes:
 - `PD` = Personal Development
