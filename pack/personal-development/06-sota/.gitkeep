@@ -1,0 +1,8 @@
+# Placeholder for SoTA annotations directory
+
+This directory will contain SoTA annotation files following the pattern:
+- PD.SOTA.001.md
+- PD.SOTA.002.md
+- etc.
+
+Use template from: /pack/_template/06-sota/_sota-annotation-template.md
