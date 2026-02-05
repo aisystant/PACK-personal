@@ -2,13 +2,26 @@
 
 ## 1. Purpose
 
-This repository is the **source-of-truth for second-level principles (SPF)** in the domain of Personal Development.
+This repository contains **two distinct layers**:
 
-- **Level 1 (FPF)**: First principles — meta-episteme, the language of distinctions. External dependency.
-- **Level 2 (SPF)**: Second principles — domain-specific packs that capture **what** the domain knows (entities, methods, work products, failure modes) without **how** to teach or deploy it.
-- **Downstream** (courses, learning paths, AI agents, guides): NOT stored here. Only interface specifications allowed (`/spec/`).
+1. **SPF (Second Principles Framework)** — the framework for producing domain knowledge packs
+   - Templates (`/pack/_template/`), process (`/process/`), lint rules, hard gates, downstream specs (`/spec/`)
 
-SPF packs are **descriptive knowledge artifacts**, not instructional content.
+2. **Pack "Personal Development"** — one domain pack produced using SPF
+   - Domain-specific knowledge: distinctions, methods, work products, failure modes
+
+### Level Architecture
+
+| Level | What | Universality |
+|-------|------|--------------|
+| **FPF (Level 1)** | Meta-ontology — language of distinctions | Universal by type (same distinctions for any domain) |
+| **SPF (Level 2 framework)** | Structure + process + gates for pack production | Universal by form (same structure for any pack) |
+| **Pack (Level 2 content)** | Domain knowledge (here: Personal Development) | Domain-specific (not universal) |
+| **Downstream (Level 3+)** | Courses, AI agents, guides | NOT stored here; only specs in `/spec/` |
+
+**Key distinction**: SPF is the "factory"; Pack is the "product". This repo contains both.
+
+Packs are **descriptive knowledge artifacts**, not instructional content.
 
 ---
 
