@@ -4,22 +4,26 @@
 
 This repository contains **two distinct layers**:
 
-1. **SPF (Second Principles Framework)** — the framework for producing domain knowledge packs
+1. **SPF (Second Principles Framework)** — the framework of second principles
+   - Defines form (structure) and process (production) for domain knowledge, based on FPF
    - Templates (`/pack/_template/`), process (`/process/`), lint rules, hard gates, downstream specs (`/spec/`)
 
-2. **Pack "Personal Development"** — one domain pack produced using SPF
-   - Domain-specific knowledge: distinctions, methods, work products, failure modes
+2. **Pack "Характеристики и состояния созидателя"** — one domain pack produced using SPF
+   - Formalized knowledge (not information!) about the domain
+   - Folder: `/pack/personal-development/` (historical name)
 
 ### Level Architecture
 
 | Level | What | Universality |
 |-------|------|--------------|
-| **FPF (Level 1)** | Meta-ontology — language of distinctions | Universal by type (same distinctions for any domain) |
-| **SPF (Level 2 framework)** | Structure + process + gates for pack production | Universal by form (same structure for any pack) |
-| **Pack (Level 2 content)** | Domain knowledge (here: Personal Development) | Domain-specific (not universal) |
-| **Downstream (Level 3+)** | Courses, AI agents, guides | NOT stored here; only specs in `/spec/` |
+| **FPF (Level 1)** | Framework of first principles: meta-ontology + language of distinctions | Universal — applies to any domain |
+| **SPF (Level 2)** | Framework of second principles: form + process (based on FPF) | Universal by form and process |
+| **Pack** | Formalized knowledge (not information!) | Domain-specific |
+| **Downstream** | Derivative representations of Pack | Free form and process |
 
-**Key distinction**: SPF is the "factory"; Pack is the "product". This repo contains both.
+**Key distinctions**:
+- SPF is the "factory"; Pack is the "product". This repo contains both.
+- Pack contains **knowledge** (formalized through distinctions, passed through SPF process), not **information** (raw data).
 
 Packs are **descriptive knowledge artifacts**, not instructional content.
 
