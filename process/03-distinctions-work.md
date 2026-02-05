@@ -74,7 +74,7 @@ A distinction IS:
 
 ### 4. Document Distinction Entry
 
-For each distinction in `01-distinctions.md`:
+For each distinction in `01-domain-contract/01B-distinctions.md`:
 
 ```markdown
 ## [D.NNN] X vs. Y
@@ -114,7 +114,7 @@ Note these for Stage 08.
 
 ## Output: Work Product
 
-**Primary**: `/pack/<domain>/01-distinctions.md`
+**Primary**: `/pack/<domain>/01-domain-contract/01B-distinctions.md`
 
 All distinctions in one file with:
 - Index table (ID, name, status, related items)
@@ -203,7 +203,7 @@ All distinctions in one file with:
 ## Transition to Next Stage
 
 When Distinctions Work is complete:
-- `01-distinctions.md` exists with indexed entries
+- `01-domain-contract/01B-distinctions.md` exists with indexed entries
 - FPF distinctions are domain-applied
 - Domain-specific distinctions are formulated with tests
 - Failure mode candidates are noted

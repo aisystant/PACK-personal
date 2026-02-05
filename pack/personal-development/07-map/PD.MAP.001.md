@@ -73,20 +73,20 @@ OBJECTS OF ATTENTION
 
 | ID | Distinction | Related Failure Modes |
 |----|-------------|----------------------|
-| [D.001](../01-distinctions.md#d001-method-vs-tool) | Method vs. Tool | [FAIL.005](../05-failure-modes/PD.FAIL.005-tool-is-method.md) |
-| [D.002](../01-distinctions.md#d002-role-vs-person) | Role vs. Person | — |
-| [D.003](../01-distinctions.md#d003-accounting-vs-planning) | Accounting vs. Planning | [FAIL.001](../05-failure-modes/PD.FAIL.001-time-accounting-is-pomodoro.md) |
-| [D.004](../01-distinctions.md#d004-actual-vs-intended) | Actual vs. Intended | — |
-| [D.005](../01-distinctions.md#d005-work-product-vs-description) | Work Product vs. Description | [FAIL.006](../05-failure-modes/PD.FAIL.006-work-product-is-description.md) |
-| [D.006](../01-distinctions.md#d006-category-vs-instance) | Category vs. Instance | — |
-| [D.007](../01-distinctions.md#d007-method-vs-skill) | Method vs. Skill | — |
-| [D.008](../01-distinctions.md#d008-observation-vs-judgment) | Observation vs. Judgment | [FAIL.003](../05-failure-modes/PD.FAIL.003-time-accounting-is-control.md) |
-| [D.009](../01-distinctions.md#d009-registration-vs-intervention) | Registration vs. Intervention | [FAIL.002](../05-failure-modes/PD.FAIL.002-time-accounting-is-discipline.md) |
-| [D.010](../01-distinctions.md#d010-infrastructure-vs-intervention) | Infrastructure vs. Intervention | [FAIL.004](../05-failure-modes/PD.FAIL.004-time-accounting-is-productivity-hack.md) |
-| [D.011](../01-distinctions.md#d011-data-vs-insight) | Data vs. Insight | — |
-| [D.012](../01-distinctions.md#d012-artifact-vs-process) | Artifact vs. Process | — |
+| [D.001](../01-domain-contract/01B-distinctions.md#d001-method-vs-tool) | Method vs. Tool | [FAIL.005](../05-failure-modes/PD.FAIL.005-tool-is-method.md) |
+| [D.002](../01-domain-contract/01B-distinctions.md#d002-role-vs-person) | Role vs. Person | — |
+| [D.003](../01-domain-contract/01B-distinctions.md#d003-accounting-vs-planning) | Accounting vs. Planning | [FAIL.001](../05-failure-modes/PD.FAIL.001-time-accounting-is-pomodoro.md) |
+| [D.004](../01-domain-contract/01B-distinctions.md#d004-actual-vs-intended) | Actual vs. Intended | — |
+| [D.005](../01-domain-contract/01B-distinctions.md#d005-work-product-vs-description) | Work Product vs. Description | [FAIL.006](../05-failure-modes/PD.FAIL.006-work-product-is-description.md) |
+| [D.006](../01-domain-contract/01B-distinctions.md#d006-category-vs-instance) | Category vs. Instance | — |
+| [D.007](../01-domain-contract/01B-distinctions.md#d007-method-vs-skill) | Method vs. Skill | — |
+| [D.008](../01-domain-contract/01B-distinctions.md#d008-observation-vs-judgment) | Observation vs. Judgment | [FAIL.003](../05-failure-modes/PD.FAIL.003-time-accounting-is-control.md) |
+| [D.009](../01-domain-contract/01B-distinctions.md#d009-registration-vs-intervention) | Registration vs. Intervention | [FAIL.002](../05-failure-modes/PD.FAIL.002-time-accounting-is-discipline.md) |
+| [D.010](../01-domain-contract/01B-distinctions.md#d010-infrastructure-vs-intervention) | Infrastructure vs. Intervention | [FAIL.004](../05-failure-modes/PD.FAIL.004-time-accounting-is-productivity-hack.md) |
+| [D.011](../01-domain-contract/01B-distinctions.md#d011-data-vs-insight) | Data vs. Insight | — |
+| [D.012](../01-domain-contract/01B-distinctions.md#d012-artifact-vs-process) | Artifact vs. Process | — |
 
-**File**: [01-distinctions.md](../01-distinctions.md)
+**File**: [01-distinctions.md](../01-domain-contract/01B-distinctions.md)
 
 ---
 
@@ -201,7 +201,7 @@ OBJECTS OF ATTENTION
 - **New to this pack?** Read [00-pack-manifest.md](../00-pack-manifest.md) for scope
 - **Looking for a method?** Check [02C-methods-index.md](../02-domain-entities/02C-methods-index.md)
 - **Understanding an error?** Check failure modes in [05-failure-modes/](../05-failure-modes/)
-- **Clarifying a concept?** Check distinctions in [01-distinctions.md](../01-distinctions.md)
+- **Clarifying a concept?** Check distinctions in [01-distinctions.md](../01-domain-contract/01B-distinctions.md)
 - **Want to contribute?** See [CONTRIBUTING.md](/CONTRIBUTING.md) and [CLAUDE.md](/CLAUDE.md)
 
 ---

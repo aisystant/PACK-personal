@@ -66,7 +66,7 @@ Pomodoro prescribes how to work. Time accounting describes how time was spent. C
 
 ## Correct Distinction
 
-**Reference**: [D.003 Accounting vs. Planning](../01-distinctions.md#d003-accounting-vs-planning), [D.009 Registration vs. Intervention](../01-distinctions.md#d009-registration-vs-intervention)
+**Reference**: [D.003 Accounting vs. Planning](../01-domain-contract/01B-distinctions.md#d003-accounting-vs-planning), [D.009 Registration vs. Intervention](../01-domain-contract/01B-distinctions.md#d009-registration-vs-intervention)
 
 Time accounting registers facts about past time allocation. Pomodoro prescribes future work intervals. They can coexist (one can account for Pomodoro sessions) but serve different functions.
 
@@ -87,8 +87,8 @@ Time accounting registers facts about past time allocation. Pomodoro prescribes 
 | Type | Item | Relationship |
 |------|------|--------------|
 | Method | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) | Misapplied when this error occurs |
-| Distinction | [D.003](../01-distinctions.md#d003-accounting-vs-planning) | Clarifies the difference |
-| Distinction | [D.009](../01-distinctions.md#d009-registration-vs-intervention) | Registration does not intervene |
+| Distinction | [D.003](../01-domain-contract/01B-distinctions.md#d003-accounting-vs-planning) | Clarifies the difference |
+| Distinction | [D.009](../01-domain-contract/01B-distinctions.md#d009-registration-vs-intervention) | Registration does not intervene |
 
 ---
 

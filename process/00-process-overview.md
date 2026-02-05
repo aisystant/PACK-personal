@@ -157,7 +157,7 @@ This process is designed for both human and AI execution.
 |-------|---------------------|
 | 01 | Domain name and boundary statement |
 | 02 | `00-pack-manifest.md` with bounded context |
-| 03 | `01-distinctions.md` entries |
+| 03 | `01-domain-contract/01B-distinctions.md` entries |
 | 04 | `02-domain-entities/` files |
 | 05 | Ingestion log (not in pack) |
 | 06 | Candidate list (not in pack) |

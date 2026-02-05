@@ -58,7 +58,7 @@ Per FPF: Tools enable methods; they are not methods. A spreadsheet enables accou
 
 ## Correct Distinction
 
-**Reference**: [D.001 Method vs. Tool](../01-distinctions.md#d001-method-vs-tool)
+**Reference**: [D.001 Method vs. Tool](../01-domain-contract/01B-distinctions.md#d001-method-vs-tool)
 
 - **Method**: A repeatable way of doing something, performed by an agent
 - **Tool**: An artifact that enables or facilitates method performance
@@ -84,7 +84,7 @@ Test: Can different tools support the same method? (Yes → they are distinct en
 | Type | Item | Relationship |
 |------|------|--------------|
 | Method | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) | Method confused with its tools |
-| Distinction | [D.001](../01-distinctions.md#d001-method-vs-tool) | Core distinction violated |
+| Distinction | [D.001](../01-domain-contract/01B-distinctions.md#d001-method-vs-tool) | Core distinction violated |
 | Tools Index | [02D](../02-domain-entities/02D-tools-index.md) | Lists tools as secondary to methods |
 
 ---

@@ -112,7 +112,7 @@ Distinctions that the material uses, assumes, or violates:
 | Action | Target File | What Changes | Priority |
 |--------|-------------|--------------|----------|
 | Add method | 03-methods/PD.METHOD.XXX.md | New method card | High/Medium/Low |
-| Update distinction | 01-distinctions.md | Refine D.XXX | ... |
+| Update distinction | 01-domain-contract/01B-distinctions.md | Refine D.XXX | ... |
 | Add FM | 05-failure-modes/... | New FM card | ... |
 | None | — | Material has no new content | — |
 

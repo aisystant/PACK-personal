@@ -59,7 +59,7 @@ A time budget is a structured artifact. A sentence about time use is not a time 
 
 ## Correct Distinction
 
-**Reference**: [D.005 Work Product vs. Description](../01-distinctions.md#d005-work-product-vs-description)
+**Reference**: [D.005 Work Product vs. Description](../01-domain-contract/01B-distinctions.md#d005-work-product-vs-description)
 
 - **Work product**: Observable, verifiable artifact that exists independently
 - **Description**: Linguistic representation of (potential or actual) work product
@@ -85,7 +85,7 @@ Test: Can you hand the work product to someone without speaking? If you can only
 | Type | Item | Relationship |
 |------|------|--------------|
 | Work Product | [PD.WP.001](../04-work-products/PD.WP.001-time-budget.md) | The actual artifact (not a description) |
-| Distinction | [D.005](../01-distinctions.md#d005-work-product-vs-description) | Core distinction violated |
+| Distinction | [D.005](../01-domain-contract/01B-distinctions.md#d005-work-product-vs-description) | Core distinction violated |
 | Method | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) | Method requires actual WP, not description |
 
 ---

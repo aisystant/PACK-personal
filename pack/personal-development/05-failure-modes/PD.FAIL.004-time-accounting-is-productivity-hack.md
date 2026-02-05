@@ -58,7 +58,7 @@ Accounting is infrastructure for decision-making, not a lever for immediate outp
 
 ## Correct Distinction
 
-**Reference**: [D.010 Infrastructure vs. Intervention](../01-distinctions.md#d010-infrastructure-vs-intervention)
+**Reference**: [D.010 Infrastructure vs. Intervention](../01-domain-contract/01B-distinctions.md#d010-infrastructure-vs-intervention)
 
 Infrastructure methods (accounting) build capacity for future decisions. Intervention methods act directly on outcomes. Confusing them leads to expecting infrastructure to produce intervention-level results immediately.
 
@@ -80,7 +80,7 @@ Infrastructure methods (accounting) build capacity for future decisions. Interve
 | Type | Item | Relationship |
 |------|------|--------------|
 | Method | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) | Misframed when this error occurs |
-| Distinction | [D.010](../01-distinctions.md#d010-infrastructure-vs-intervention) | Clarifies infrastructure ≠ immediate intervention |
+| Distinction | [D.010](../01-domain-contract/01B-distinctions.md#d010-infrastructure-vs-intervention) | Clarifies infrastructure ≠ immediate intervention |
 | SoTA | [PD.SOTA.001](../06-sota/PD.SOTA.001-time-accounting-interpretations.md) | Documents productivity-hack as deprecated interpretation |
 
 ---

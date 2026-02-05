@@ -67,7 +67,7 @@ _What happens if this failure mode is not addressed?_
 |------|------|--------------|
 | Method | [DOMAIN.M.XXX](../03-methods/DOMAIN.M.XXX.md) | _fails when..._ |
 | Work Product | [DOMAIN.WP.XXX](../04-work-products/DOMAIN.WP.XXX.md) | _missing/malformed_ |
-| Distinction | [DOMAIN.D.XXX](../01-distinctions.md#d-xxx) | _confused with..._ |
+| Distinction | [DOMAIN.D.XXX](../01-domain-contract/01B-distinctions.md#d-xxx) | _confused with..._ |
 
 ### Detection Methods
 

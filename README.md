@@ -14,7 +14,7 @@
 2. **Pack «Характеристики и состояния созидателя»** — один конкретный pack, реализованный с помощью SPF
    - Доменное знание о характеристиках и состояниях созидателя (методы оценки, различения, failure modes и т.д.)
    - Папка: `/pack/personal-development/` (историческое имя)
-   - Bounded context: [01-bounded-context.md](pack/personal-development/01-bounded-context.md)
+   - Bounded context: [01A-bounded-context.md](pack/personal-development/01-domain-contract/01A-bounded-context.md)
 
 **Кратко**:
 - `SPF` = фреймворк (универсален по форме)
@@ -77,8 +77,9 @@ S2R — это формат **формы** (структуры), ортогон�
 |------|------------|
 | [`/pack/personal-development/`](pack/personal-development/) | Весь контент pack |
 | [`00-pack-manifest.md`](pack/personal-development/00-pack-manifest.md) | Метаданные и scope |
-| [`01-bounded-context.md`](pack/personal-development/01-bounded-context.md) | Границы предметной области |
-| [`01-distinctions.md`](pack/personal-development/01-distinctions.md) | 12 различений |
+| [`01-domain-contract/`](pack/personal-development/01-domain-contract/) | Контракт домена |
+| [`01A-bounded-context.md`](pack/personal-development/01-domain-contract/01A-bounded-context.md) | Границы предметной области |
+| [`01B-distinctions.md`](pack/personal-development/01-domain-contract/01B-distinctions.md) | 12 различений |
 | [`07-map/PD.MAP.001.md`](pack/personal-development/07-map/PD.MAP.001.md) | Навигационная карта |
 
 ---
@@ -159,7 +160,9 @@ Pack содержит **что известно** о домене, но не **�
 pack/
 ├── _template/                      # Универсальные шаблоны для любого пака
 │   ├── 00-pack-manifest.md         # Шаблон манифеста
-│   ├── 01-distinctions.md          # Шаблон различений
+│   ├── 01-domain-contract/         # Шаблоны контракта домена
+│   │   ├── 01A-bounded-context.md  # Шаблон bounded context
+│   │   └── 01B-distinctions.md     # Шаблон различений
 │   ├── 02-domain-entities/         # Шаблоны сущностей
 │   ├── 03-methods/                 # Шаблон карточки метода
 │   ├── 04-work-products/           # Шаблон рабочего продукта
@@ -169,8 +172,9 @@ pack/
 │
 └── personal-development/           # Pack «Характеристики и состояния созидателя»
     ├── 00-pack-manifest.md         # Манифест: scope, версия, зависимости
-    ├── 01-bounded-context.md       # Границы предметной области
-    ├── 01-distinctions.md          # 12 различений домена
+    ├── 01-domain-contract/         # Контракт домена
+    │   ├── 01A-bounded-context.md  # Границы предметной области
+    │   └── 01B-distinctions.md     # 12 различений домена
     ├── 02-domain-entities/
     │   ├── 02A-roles.md            # 4 роли: Agent, Analyst, Mentor, Architect
     │   ├── 02B-objects-of-attention.md  # 6 объектов внимания

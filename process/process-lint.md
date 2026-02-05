@@ -48,7 +48,7 @@ File pattern: `/pack/<domain>/04-work-products/*.md`
 | **L-WP05** | Consumed-by roles/methods are linked |
 | **L-WP06** | ID follows convention `<DOMAIN>.WP.<NNN>` |
 | **L-WP07** | Map updated in `07-map/` |
-| **L-WP08** | Product is artifact, not description (see [D.005](/pack/personal-development/01-distinctions.md#d005-work-product-vs-description)) |
+| **L-WP08** | Product is artifact, not description (see [D.005](/pack/personal-development/01-domain-contract/01B-distinctions.md#d005-work-product-vs-description)) |
 
 ### CT-3: Failure Mode Added/Modified
 
@@ -67,7 +67,7 @@ File pattern: `/pack/<domain>/05-failure-modes/*.md`
 
 ### CT-4: Distinction Added/Modified
 
-File pattern: `/pack/<domain>/01-distinctions.md`
+File pattern: `/pack/<domain>/01-domain-contract/01B-distinctions.md`
 
 | Check | Verification |
 |-------|--------------|
@@ -168,7 +168,7 @@ Every pack file must respect:
 | Tool | Artifact that supports method | Method itself |
 | Work Product | Observable artifact | Description, feeling, intention |
 
-**Test**: Apply [D.001](/pack/personal-development/01-distinctions.md#d001-method-vs-tool) and [D.005](/pack/personal-development/01-distinctions.md#d005-work-product-vs-description).
+**Test**: Apply [D.001](/pack/personal-development/01-domain-contract/01B-distinctions.md#d001-method-vs-tool) and [D.005](/pack/personal-development/01-domain-contract/01B-distinctions.md#d005-work-product-vs-description).
 
 ### UB-4: No Information-as-Knowledge
 

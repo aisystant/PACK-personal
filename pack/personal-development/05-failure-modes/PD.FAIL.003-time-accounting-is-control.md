@@ -58,7 +58,7 @@ When accounting becomes surveillance, the agent optimizes for "looking good in t
 
 ## Correct Distinction
 
-**Reference**: [D.008 Observation vs. Judgment](../01-distinctions.md#d008-observation-vs-judgment)
+**Reference**: [D.008 Observation vs. Judgment](../01-domain-contract/01B-distinctions.md#d008-observation-vs-judgment)
 
 Observation records what is. Judgment evaluates what should be. Accounting is observation. Using it as judgment changes agent behavior in ways that distort the data being collected.
 
@@ -80,7 +80,7 @@ Observation records what is. Judgment evaluates what should be. Accounting is ob
 | Type | Item | Relationship |
 |------|------|--------------|
 | Method | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) | Corrupted when this error occurs |
-| Distinction | [D.008](../01-distinctions.md#d008-observation-vs-judgment) | Clarifies observation ≠ judgment |
+| Distinction | [D.008](../01-domain-contract/01B-distinctions.md#d008-observation-vs-judgment) | Clarifies observation ≠ judgment |
 | Work Product | [PD.WP.001](../04-work-products/PD.WP.001-time-budget.md) | Quality degraded by biased registration |
 
 ---

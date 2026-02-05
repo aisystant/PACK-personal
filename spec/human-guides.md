@@ -42,7 +42,7 @@ A guide consuming SPF may follow this structure:
    - Prerequisites (reference other guides or FPF)
 
 2. Core Concepts
-   - Pull from: 01-distinctions.md
+   - Pull from: 01-domain-contract/01B-distinctions.md
    - Add: Examples, analogies (NOT in SPF)
 
 3. Methods in Practice

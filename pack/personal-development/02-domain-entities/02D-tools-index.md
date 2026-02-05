@@ -2,7 +2,7 @@
 
 Tools relevant to Personal Development methods.
 
-**Note**: Tools are secondary to methods. See [D.001 Method vs. Tool](../01-distinctions.md#d001-method-vs-tool). This index lists tools that support methods; tool selection does not change the method.
+**Note**: Tools are secondary to methods. See [D.001 Method vs. Tool](../01-domain-contract/01B-distinctions.md#d001-method-vs-tool). This index lists tools that support methods; tool selection does not change the method.
 
 ---
 
@@ -59,7 +59,7 @@ Tools that support data analysis and pattern recognition.
 | Failure Mode | Description | Related |
 |--------------|-------------|---------|
 | Tool = Method | Equating tool with practice | [PD.FAIL.005](../05-failure-modes/PD.FAIL.005-tool-is-method.md) |
-| Tool shopping | Switching tools instead of practicing | [D.001](../01-distinctions.md#d001-method-vs-tool) |
+| Tool shopping | Switching tools instead of practicing | [D.001](../01-domain-contract/01B-distinctions.md#d001-method-vs-tool) |
 | Feature dependency | Method breaks when feature unavailable | — |
 | Data lock-in | Cannot export/migrate data | — |
 

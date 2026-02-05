@@ -58,7 +58,7 @@ Accounting produces information. Information may inform decisions that lead to b
 
 ## Correct Distinction
 
-**Reference**: [D.009 Registration vs. Intervention](../01-distinctions.md#d009-registration-vs-intervention)
+**Reference**: [D.009 Registration vs. Intervention](../01-domain-contract/01B-distinctions.md#d009-registration-vs-intervention)
 
 Registration (accounting) ≠ Intervention (discipline). Accounting can inform an intervention but is not itself an intervention. Expecting it to be one produces disappointment and method abandonment.
 
@@ -80,7 +80,7 @@ Registration (accounting) ≠ Intervention (discipline). Accounting can inform a
 | Type | Item | Relationship |
 |------|------|--------------|
 | Method | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) | Misapplied when this error occurs |
-| Distinction | [D.009](../01-distinctions.md#d009-registration-vs-intervention) | Clarifies registration ≠ intervention |
+| Distinction | [D.009](../01-domain-contract/01B-distinctions.md#d009-registration-vs-intervention) | Clarifies registration ≠ intervention |
 
 ---
 
