@@ -221,7 +221,7 @@ This protocol is the operational core of:
 - **Phase 2**: Material Ingestion
 - **Phase 3**: Analytical Processing
 
-See [/ROADMAP.md](/ROADMAP.md) for phase context.
+See [/docs/roadmap.md](/docs/roadmap.md) for phase context.
 
 ---
 

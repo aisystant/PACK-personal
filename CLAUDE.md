@@ -257,7 +257,7 @@ See [/process/material-ingestion-protocol.md](/process/material-ingestion-protoc
 
 ### 10.4 Development Phases
 
-Claude's activities are bounded by the current development phase. See [/ROADMAP.md](/ROADMAP.md) for:
+Claude's activities are bounded by the current development phase. See [/docs/roadmap.md](/docs/roadmap.md) for:
 - Phase definitions and completion criteria
 - What actions are appropriate in each phase
 - Success criteria for the repository
