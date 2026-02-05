@@ -97,9 +97,9 @@ Downstream — **implementation** (как использовать).
 | Характеристика vs Метод оценки | Core distinction |
 | Индикатор vs Критерий | Core distinction |
 | Испытание vs Наблюдение | Core distinction |
-| Продукт vs Описание | [D.005](01-distinctions.md#d005-work-product-vs-description) |
-| Метод vs Инструмент | [D.001](01-distinctions.md#d001-method-vs-tool) |
-| Роль vs Человек | [D.002](01-distinctions.md#d002-role-vs-person) |
+| Продукт vs Описание | [D.005](01B-distinctions.md#d005-work-product-vs-description) |
+| Метод vs Инструмент | [D.001](01B-distinctions.md#d001-method-vs-tool) |
+| Роль vs Человек | [D.002](01B-distinctions.md#d002-role-vs-person) |
 
 ---
 

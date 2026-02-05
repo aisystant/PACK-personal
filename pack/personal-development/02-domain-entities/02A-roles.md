@@ -44,7 +44,7 @@ Functional roles relevant to Personal Development.
 - Methods started but not sustained
 - Data not recorded (relies on memory)
 
-**Often confused with**: Person (the individual who occupies this role). See [D.002 Role vs. Person](../01-distinctions.md#d002-role-vs-person).
+**Often confused with**: Person (the individual who occupies this role). See [D.002 Role vs. Person](../01-domain-contract/01B-distinctions.md#d002-role-vs-person).
 
 ---
 

@@ -62,7 +62,7 @@ _What does this method produce?_
 
 _What conceptual distinctions are essential to performing this method correctly?_
 
-- [DOMAIN.D.XXX](../01-distinctions.md#d-xxx): _Why it matters here_
+- [DOMAIN.D.XXX](../01-domain-contract/01B-distinctions.md#d-xxx): _Why it matters here_
 
 ### Failure Modes
 

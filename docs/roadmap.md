@@ -25,7 +25,7 @@
 
 **Объект описания**: «созидатель» как объект инженерного описания (не субъект обучения)
 
-**Bounded context**: [01-bounded-context.md](/pack/personal-development/01-bounded-context.md)
+**Bounded context**: [01A-bounded-context.md](/pack/personal-development/01-domain-contract/01A-bounded-context.md)
 
 ---
 
@@ -37,11 +37,11 @@
 
 | Задача | Артефакт |
 |--------|----------|
-| Зафиксировать доменное имя | `01-bounded-context.md` |
-| Определить объект описания | `01-bounded-context.md` |
-| Описать scope (что входит) | `01-bounded-context.md` |
-| Описать non-goals (что НЕ входит) | `01-bounded-context.md` |
-| Указать truth criteria | `01-bounded-context.md` |
+| Зафиксировать доменное имя | `01-domain-contract/01A-bounded-context.md` |
+| Определить объект описания | `01-domain-contract/01A-bounded-context.md` |
+| Описать scope (что входит) | `01-domain-contract/01A-bounded-context.md` |
+| Описать non-goals (что НЕ входит) | `01-domain-contract/01A-bounded-context.md` |
+| Указать truth criteria | `01-domain-contract/01A-bounded-context.md` |
 
 ### A.2 Core Distinctions
 
@@ -66,8 +66,8 @@
 
 ### Definition of Done (Phase A)
 
-- [ ] `01-bounded-context.md` создан и заполнен
-- [ ] Core distinctions добавлены в `01-distinctions.md`
+- [ ] `01-domain-contract/01A-bounded-context.md` создан и заполнен
+- [ ] Core distinctions добавлены в `01-domain-contract/01B-distinctions.md`
 - [ ] ID-схема задокументирована (без изменений схемы)
 - [ ] Map обновлена
 
@@ -336,7 +336,7 @@ Pack Update (с lint и hard gates)
 
 | Элемент | Где |
 |---------|-----|
-| `01-bounded-context.md` | `/pack/personal-development/` |
+| `01-domain-contract/01A-bounded-context.md` | `/pack/personal-development/` |
 | Реестр характеристик | `02-domain-entities/02E-characteristics-registry.md` |
 | Карточки характеристик | `03-characteristics/PD.CHAR.NNN.md` |
 | Карточки состояний | `08-states/PD.STATE.NNN.md` (новая папка) |
@@ -371,8 +371,8 @@ Downstream использует pack для построения **как раз
 
 ## Ссылки
 
-- [Bounded Context](/pack/personal-development/01-bounded-context.md)
-- [Distinctions](/pack/personal-development/01-distinctions.md)
+- [Bounded Context](/pack/personal-development/01-domain-contract/01A-bounded-context.md)
+- [Distinctions](/pack/personal-development/01-domain-contract/01B-distinctions.md)
 - [Process Overview](/process/README.md)
 - [Material Ingestion Protocol](/process/material-ingestion-protocol.md)
 - [ID и References](/spec/ids-and-references.md)

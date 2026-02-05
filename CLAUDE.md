@@ -53,7 +53,9 @@ Every pack follows this universal structure:
 ```
 /pack/<domain-name>/
   00-pack-manifest.md       # Metadata: scope, version, FPF edition, maintainers
-  01-distinctions.md        # Core distinctions (concepts that carve the domain)
+  01-domain-contract/
+    01A-bounded-context.md  # Domain scope and boundaries
+    01B-distinctions.md     # Core distinctions (concepts that carve the domain)
   02-domain-entities/
     02A-roles.md            # Roles relevant to this domain
     02B-objects-of-attention.md  # What practitioners attend to
@@ -257,7 +259,7 @@ See [/process/material-ingestion-protocol.md](/process/material-ingestion-protoc
 
 ### 10.4 Development Phases
 
-Claude's activities are bounded by the current development phase. See [/ROADMAP.md](/ROADMAP.md) for:
+Claude's activities are bounded by the current development phase. See [/docs/roadmap.md](/docs/roadmap.md) for:
 - Phase definitions and completion criteria
 - What actions are appropriate in each phase
 - Success criteria for the repository
@@ -326,7 +328,7 @@ Before any pack modification, verify:
 - [ ] **FPF dependencies listed**: Manifest references FPF distinctions
 
 ### Distinctions
-- [ ] **Distinctions checked**: Relevant distinctions exist in `01-distinctions.md`
+- [ ] **Distinctions checked**: Relevant distinctions exist in `01-domain-contract/01B-distinctions.md`
 - [ ] **No new undefined terms**: All concepts have distinctions
 - [ ] **Distinction tests exist**: Each distinction has "how to tell X from Y"
 
@@ -498,7 +500,7 @@ IF any hard gate condition is true:
 | Gate | Detection Test |
 |------|----------------|
 | HG-1 | Method file has no link to `04-work-products/` |
-| HG-2 | Method file has no link to `01-distinctions.md` |
+| HG-2 | Method file has no link to `01-domain-contract/01B-distinctions.md` |
 | HG-3 | WP file has no "existence criteria" section |
 | HG-4 | FM file has no "detection test" section |
 | HG-5 | Files in `03-07` changed but `07-map/` unchanged |

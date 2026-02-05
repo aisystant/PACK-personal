@@ -29,7 +29,7 @@ FPF provides:
 
 1. Review FPF release notes for breaking changes
 2. Update the version/commit reference in this file
-3. Audit all distinctions in `/pack/*/01-distinctions.md` for compatibility
+3. Audit all distinctions in `/pack/*/01-domain-contract/01B-distinctions.md` for compatibility
 4. Resolve any conflicts (FPF takes precedence unless explicitly overridden with rationale)
 5. Document changes in `/CHANGELOG.md`
 

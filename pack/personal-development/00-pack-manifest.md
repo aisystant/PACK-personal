@@ -7,7 +7,7 @@ pack_id: PD
 pack_name: Характеристики и состояния созидателя
 pack_name_en: Characteristics and States of Creator
 folder_name: personal-development  # Historical name, do not change
-version: 0.3.0
+version: 0.4.0
 fpf_edition: v1.0
 status: active
 maintainers:
@@ -21,7 +21,7 @@ last_updated: 2025-02-05
 
 ## Scope
 
-**Bounded context**: [01-bounded-context.md](01-bounded-context.md)
+**Bounded context**: [01A-bounded-context.md](01-domain-contract/01A-bounded-context.md)
 
 ### What This Pack Covers
 
@@ -55,9 +55,9 @@ This pack captures knowledge about **characteristics and states of creator** as 
 
 | FPF Distinction | How Used in This Pack |
 |-----------------|----------------------|
-| method vs tool | [D.001](01-distinctions.md#d001-method-vs-tool) — fundamental to all methods |
-| work product | [D.005](01-distinctions.md#d005-work-product-vs-description) — defines observable outputs |
-| role vs person | [D.002](01-distinctions.md#d002-role-vs-person) — structures responsibilities |
+| method vs tool | [D.001](01-domain-contract/01B-distinctions.md#d001-method-vs-tool) — fundamental to all methods |
+| work product | [D.005](01-domain-contract/01B-distinctions.md#d005-work-product-vs-description) — defines observable outputs |
+| role vs person | [D.002](01-domain-contract/01B-distinctions.md#d002-role-vs-person) — structures responsibilities |
 | system vs process | Avoid "personal development as a system" conflation |
 
 ### Other SPF Packs
@@ -87,8 +87,8 @@ This pack captures knowledge about **characteristics and states of creator** as 
 
 | File | Description |
 |------|-------------|
-| [01-bounded-context.md](01-bounded-context.md) | Domain scope and boundaries |
-| [01-distinctions.md](01-distinctions.md) | 12 core distinctions |
+| [01A-bounded-context.md](01-domain-contract/01A-bounded-context.md) | Domain scope and boundaries |
+| [01B-distinctions.md](01-domain-contract/01B-distinctions.md) | 12 core distinctions |
 | [02A-roles.md](02-domain-entities/02A-roles.md) | Agent, Analyst, Mentor, Architect |
 | [02B-objects-of-attention.md](02-domain-entities/02B-objects-of-attention.md) | 6 objects |
 | [02C-methods-index.md](02-domain-entities/02C-methods-index.md) | Methods navigation |
@@ -107,3 +107,4 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | 2025-02-04 | Initial scaffold creation | AISYSTANT |
 | 2025-02-04 | MVP content: 1 method, 1 WP, 6 FMs, 12 distinctions, 4 roles, 6 OAs, 1 SoTA | AISYSTANT |
 | 2025-02-05 | Domain name updated to "Характеристики и состояния созидателя"; bounded context added | AISYSTANT |
+| 2025-02-05 | Restructure: create 01-domain-contract/ folder with 01A-bounded-context.md and 01B-distinctions.md | AISYSTANT |

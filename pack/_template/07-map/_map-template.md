@@ -56,7 +56,7 @@ _ASCII or mermaid diagram showing relationships._
 
 | ID | Distinction | Notes |
 |----|-------------|-------|
-| [D.001](../01-distinctions.md#d-001) | _Name_ | _Brief note_ |
+| [D.001](../01-domain-contract/01B-distinctions.md#d-001) | _Name_ | _Brief note_ |
 
 ### 2. Roles
 

@@ -101,10 +101,10 @@ Essential distinctions for correct application of this method:
 
 | Distinction | Link | Why It Matters |
 |-------------|------|----------------|
-| Method vs. Tool | [D.001](../01-distinctions.md#d001-method-vs-tool) | Spreadsheet is tool; accounting is method |
-| Accounting vs. Planning | [D.003](../01-distinctions.md#d003-accounting-vs-planning) | Confusing them produces invalid data |
-| Work product vs. Description | [D.005](../01-distinctions.md#d005-work-product-vs-description) | Time budget is artifact, not prose about it |
-| Registration vs. Intervention | [D.009](../01-distinctions.md#d009-registration-vs-intervention) | Accounting does not change behavior directly |
+| Method vs. Tool | [D.001](../01-domain-contract/01B-distinctions.md#d001-method-vs-tool) | Spreadsheet is tool; accounting is method |
+| Accounting vs. Planning | [D.003](../01-domain-contract/01B-distinctions.md#d003-accounting-vs-planning) | Confusing them produces invalid data |
+| Work product vs. Description | [D.005](../01-domain-contract/01B-distinctions.md#d005-work-product-vs-description) | Time budget is artifact, not prose about it |
+| Registration vs. Intervention | [D.009](../01-domain-contract/01B-distinctions.md#d009-registration-vs-intervention) | Accounting does not change behavior directly |
 
 ---
 
