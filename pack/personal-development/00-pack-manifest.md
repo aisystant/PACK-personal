@@ -1,44 +1,51 @@
-# Pack Manifest: Personal Development
+# Pack Manifest: Характеристики и состояния созидателя
 
 ## Metadata
 
 ```yaml
 pack_id: PD
-pack_name: Personal Development
-version: 0.2.0
+pack_name: Характеристики и состояния созидателя
+pack_name_en: Characteristics and States of Creator
+folder_name: personal-development  # Historical name, do not change
+version: 0.3.0
 fpf_edition: v1.0
 status: active
 maintainers:
   - name: AISYSTANT Team
     contact: TBD
 created: 2025-02-04
-last_updated: 2025-02-04
+last_updated: 2025-02-05
 ```
 
 ---
 
 ## Scope
 
+**Bounded context**: [01-bounded-context.md](01-bounded-context.md)
+
 ### What This Pack Covers
 
-This pack captures knowledge about personal development as a domain:
+This pack captures knowledge about **characteristics and states of creator** as an engineering description:
 
-- Methods for developing oneself (skills, capabilities, character)
-- Roles involved in personal development (agent, mentor, analyst, architect)
-- Work products that evidence development
-- Failure modes in personal development practice
+- Characteristics of creator (agency, personality caliber, etc.)
+- States (temporary modes of functioning)
+- Roles (positions in activity: agent, mentor, analyst, architect)
+- Indicators (observable signs of characteristics/states)
+- Assessment/testing methods
+- Work products of assessment
+- Failure modes in interpretation
 - Distinctions that structure the domain
 
 ### What This Pack Does NOT Cover
 
 | Out of Scope | Where It Belongs |
 |--------------|------------------|
-| Specific skill curricula | Downstream learning materials |
-| "30-day challenges" | Downstream programs |
+| Learning curricula, courses | Downstream learning materials |
+| Development trajectories | Downstream programs |
+| Transition scenarios | Downstream guides |
+| Therapy/clinical practice | Different domain (mental health) |
 | Motivation/inspiration content | Downstream engagement |
-| Psychological therapy | Different domain (mental health) |
-| Organizational development | Different SPF pack (management) |
-| Step-by-step instructions | Downstream guides |
+| AI embeddings as source of truth | AI implementations |
 
 ---
 
@@ -80,6 +87,7 @@ This pack captures knowledge about personal development as a domain:
 
 | File | Description |
 |------|-------------|
+| [01-bounded-context.md](01-bounded-context.md) | Domain scope and boundaries |
 | [01-distinctions.md](01-distinctions.md) | 12 core distinctions |
 | [02A-roles.md](02-domain-entities/02A-roles.md) | Agent, Analyst, Mentor, Architect |
 | [02B-objects-of-attention.md](02-domain-entities/02B-objects-of-attention.md) | 6 objects |
@@ -98,3 +106,4 @@ This pack captures knowledge about personal development as a domain:
 |------|--------|--------|
 | 2025-02-04 | Initial scaffold creation | AISYSTANT |
 | 2025-02-04 | MVP content: 1 method, 1 WP, 6 FMs, 12 distinctions, 4 roles, 6 OAs, 1 SoTA | AISYSTANT |
+| 2025-02-05 | Domain name updated to "Характеристики и состояния созидателя"; bounded context added | AISYSTANT |
