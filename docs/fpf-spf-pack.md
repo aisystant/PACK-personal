@@ -1,287 +1,247 @@
-# FPF, SPF, and Pack: Conceptual Architecture
+# FPF, SPF и Pack: уровни, универсальность и роли
 
-This document provides normative definitions and clarifies relationships between three foundational concepts in the knowledge architecture: **FPF**, **SPF**, and **Pack**.
-
----
-
-## 1. Definitions
-
-### 1.1 FPF (First Principles Framework)
-
-**FPF** = meta-ontology; the language of distinctions.
-
-| Aspect | Description |
-|--------|-------------|
-| **What it IS** | A framework providing foundational concepts and distinctions that apply across all domains |
-| **Level** | Level 1 — the most abstract layer |
-| **Content** | Core ontological distinctions (system, process, method, tool, work product, role, etc.) |
-| **Universality** | Universal by **type** — applies to any domain without modification |
-| **Location** | External repository: https://github.com/ailev/FPF |
-
-**What FPF is NOT**:
-- NOT domain-specific knowledge
-- NOT a content generator
-- NOT a collection of packs
-- NOT modifiable by downstream systems
-
-### 1.2 SPF (Second Principles Framework)
-
-**SPF** = framework for producing and maintaining domain knowledge packs.
-
-| Aspect | Description |
-|--------|-------------|
-| **What it IS** | A set of norms, structures, processes, and gates for creating domain packs |
-| **Level** | Level 2 — the domain knowledge layer |
-| **Content** | Templates, process stages, lint rules, hard gates, specifications |
-| **Universality** | Universal by **form** — the same structure and process applies to any domain pack |
-| **Location in this repo** | `/pack/_template/`, `/process/`, `/spec/`, `CLAUDE.md` |
-
-**What SPF is NOT**:
-- NOT the domain knowledge itself (that's the pack)
-- NOT FPF (SPF depends on FPF)
-- NOT a single pack
-- NOT didactic content
-
-**Key insight**: SPF is the "factory" that produces packs; it defines how knowledge is structured, validated, and maintained, but contains no domain-specific facts.
-
-### 1.3 Pack
-
-**Pack** = domain-specific source-of-truth; a structured container of formalized knowledge.
-
-| Aspect | Description |
-|--------|-------------|
-| **What it IS** | A structured collection of distinctions, methods, work products, failure modes, and SoTA annotations for a specific domain |
-| **Level** | Level 2 content — instantiation of SPF structure with domain knowledge |
-| **Content** | Domain-specific: "Personal Development" knows time accounting, "Medicine" knows diagnoses |
-| **Universality** | NOT universal — each pack is domain-specific by definition |
-| **Location in this repo** | `/pack/personal-development/` |
-
-**What a Pack is NOT**:
-- NOT a course or training material
-- NOT a scenario collection
-- NOT an embedding/vector index
-- NOT SPF itself (pack is produced using SPF)
-
-**Key insight**: Pack is like an anatomy reference — it describes what exists and what is known, not how to learn or teach it.
-
-### 1.4 Framework (in this architecture)
-
-**Framework** = a set of norms, structures, and processes — not content.
-
-In this context:
-- **FPF** is a framework (provides meta-language norms)
-- **SPF** is a framework (provides pack production norms)
-- **Pack** is NOT a framework — it is content produced by applying SPF
+Этот документ фиксирует различия и связи между **FPF**, **SPF** и **pack**, используемые в данном репозитории.
+Он является **нормативным**: определения и разграничения ниже обязательны для интерпретации структуры репозитория, процесса работы и роли downstream-артефактов.
 
 ---
 
-## 2. Universality
+## 1. Базовые определения
 
-### 2.1 FPF Universality (by type)
+### 1.1 FPF — First Principles Framework
 
-FPF is universal because its distinctions apply to **any domain** without modification:
+**FPF** — это фреймворк первых принципов, задающий:
 
-| FPF Distinction | Applies To |
-|-----------------|-----------|
-| method vs. tool | Medicine, engineering, personal development, law, etc. |
-| work product vs. description | Any domain that produces outputs |
-| role vs. person | Any collaborative activity |
-| system vs. process | Any domain modeling |
+* универсальные типы сущностей (роль, метод, рабочий продукт, процесс, описание, носитель и т.д.),
+* допустимые и недопустимые различения,
+* правила работы с контекстами (bounded context),
+* строгие разграничения:
 
-**Universality claim**: FPF distinctions do not change when you switch domains. "Method vs. tool" means the same thing whether you are building software or treating patients.
+  * объект / описание / носитель,
+  * знание / представление / публикация,
+  * метод / сценарий,
+  * система / процесс,
+* принципы многовидового описания (multi-view),
+* требования к проверяемости, SoTA и доверительности.
 
-### 2.2 SPF Universality (by form)
+**FPF не содержит предметного знания.**
+Он не описывает ни одну область (личное развитие, медицину, строительство и т.д.).
 
-SPF is universal in a different sense — it defines a **uniform structure and process** for any domain pack:
-
-| SPF Element | Universal Aspect |
-|-------------|-----------------|
-| Pack structure | `00-manifest`, `01-distinctions`, `02-entities`, `03-methods`, `04-work-products`, `05-failure-modes`, `06-sota`, `07-map` |
-| Process stages | 01-11 stages apply to any domain |
-| Lint rules | Same gates for all packs (no didactics, scenarios, etc.) |
-| ID conventions | `<DOMAIN>.METHOD.<NNN>` pattern for any domain |
-
-**Universality claim**: If you create a pack for medicine, law, or engineering, you follow the same structure and process defined by SPF. The content differs; the form is identical.
-
-### 2.3 Pack Specificity (not universal)
-
-Unlike FPF and SPF, packs are **necessarily domain-specific**:
-
-| Pack | Domain-Specific Content |
-|------|------------------------|
-| Personal Development (PD) | Time accounting, self-investment, skill development |
-| Medicine (hypothetical) | Diagnosis, treatment protocols, patient outcomes |
-| Engineering (hypothetical) | Requirements, design artifacts, validation methods |
-
-**Non-universality claim**: You cannot apply PD methods directly to medicine. The pack content is meaningful only within its bounded context.
+FPF отвечает на вопрос:
+**«Как в принципе допустимо описывать знание и мышление?»**
 
 ---
 
-## 3. Relationships (Hierarchy)
+### 1.2 SPF — Second Principles Framework
+
+**SPF** — это фреймворк вторых принципов, построенный *поверх FPF*.
+
+SPF задаёт:
+
+* каноническую форму предметного знания второго уровня,
+* обязательные структурные элементы pack'а,
+* нормативный процесс создания и развития знания,
+* process lint (guardrails и гейты качества),
+* контракты между source-of-truth и downstream,
+* правила работы ИИ-агентов с знанием.
+
+**SPF не содержит предметного знания.**
+Он определяет *как должно выглядеть* и *как должно создаваться* предметное знание второго уровня, но не *что именно* в нём содержится.
+
+SPF отвечает на вопрос:
+**«Как по правилам FPF производить и поддерживать вторые принципы?»**
+
+---
+
+### 1.3 Pack — предметная эпистема (Second Principles Pack)
+
+**Pack** — это конкретная реализация SPF для одной предметной области.
+
+Pack включает:
+
+* зафиксированный bounded context,
+* различения предметной области,
+* доменные сущности (роли, объекты внимания, ограничения),
+* методы (как способы действия, не сценарии),
+* рабочие продукты (проверяемые результаты),
+* failure modes (типовые ошибки интерпретации),
+* SoTA-аннотации,
+* карту связей между элементами.
+
+**Pack является source-of-truth** для данной области.
+
+Pack отвечает на вопрос:
+**«Как выглядит стабилизированное знание этой конкретной области?»**
+
+---
+
+## 2. Универсальность: в каком смысле и на каком уровне
+
+### 2.1 Универсальность FPF
+
+FPF **универсален по содержанию**.
+
+Это означает:
+
+* он одинаково применим к любой области знаний;
+* его типы и различения не зависят от предмета;
+* он задаёт мета-онтологию и язык описания.
+
+FPF универсален так же, как:
+
+* логика,
+* теория типов,
+* базовая онтология.
+
+---
+
+### 2.2 Универсальность SPF
+
+SPF **универсален по форме и процессу**, но **не по содержанию**.
+
+Это означает:
+
+* структура pack'а одинакова для любых областей;
+* процесс создания знания одинаков;
+* lint и гейты одинаковы;
+* но наполнение pack'а всегда доменно-специфично.
+
+SPF универсален как:
+
+* инженерный стандарт,
+* производственный фреймворк,
+* нормативная методология.
+
+---
+
+### 2.3 Неуниверсальность pack'ов
+
+Каждый pack:
+
+* привязан к одной предметной области;
+* содержит доменные различения и методы;
+* не переносится напрямую в другую область.
+
+Универсальность достигается **не содержанием pack'а**, а тем, что *все pack'и построены по одному SPF и поверх одного FPF*.
+
+---
+
+## 3. Иерархия уровней
+
+Каноническая иерархия выглядит так:
 
 ```
-Level 0: Meta-Framework
-┌──────────────────────────────────────────────────────────┐
-│  FPF (First Principles Framework)                        │
-│  - Universal distinctions (method, tool, role, etc.)     │
-│  - External dependency: github.com/ailev/FPF             │
-└────────────────────────┬─────────────────────────────────┘
-                         │ provides meta-language to
-                         ▼
-Level 1: Framework for Knowledge Production
-┌──────────────────────────────────────────────────────────┐
-│  SPF (Second Principles Framework)                       │
-│  - Pack template: /pack/_template/                       │
-│  - Process: /process/                                    │
-│  - Lint & gates: /process/process-lint.md, CLAUDE.md    │
-│  - Downstream specs: /spec/                              │
-└────────────────────────┬─────────────────────────────────┘
-                         │ produces instances of
-                         ▼
-Level 2: Domain Knowledge Container
-┌──────────────────────────────────────────────────────────┐
-│  Pack (Domain-Specific)                                  │
-│  - Example: /pack/personal-development/                  │
-│  - Contains: distinctions, methods, WPs, FMs, SoTA      │
-│  - Source-of-truth for the domain                       │
-└────────────────────────┬─────────────────────────────────┘
-                         │ consumed by (not stored here)
-                         ▼
-Level 3+: Downstream Applications
-┌──────────────────────────────────────────────────────────┐
-│  Downstream (NOT in this repository)                     │
-│  - Courses, learning paths                               │
-│  - AI agents, chatbots                                   │
-│  - Guides, tutorials                                     │
-│  - Applications, tools                                   │
-└──────────────────────────────────────────────────────────┘
+FPF
+ ↓
+SPF
+ ↓
+Pack (domain-specific)
+ ↓
+Downstream views (обучение, руководства, AI-представления)
 ```
 
-### Key Relationships
-
-| From | To | Relationship |
-|------|----|--------------|
-| FPF | SPF | SPF uses FPF distinctions as meta-language |
-| SPF | Pack | SPF defines structure/process; pack is an instance |
-| Pack | Downstream | Downstream consumes pack but does not modify it |
-| SPF | Downstream | `/spec/` defines interfaces for downstream |
-
-**Critical**: Downstream is **not source-of-truth**. Changes flow from pack to downstream, never backward.
+* **FPF** — мета-уровень (онтология и различения).
+* **SPF** — уровень формы, процесса и guardrails.
+* **Pack** — предметное знание второго уровня.
+* **Downstream** — производные представления (не source-of-truth).
 
 ---
 
-## 4. Repository Mapping
+## 4. Что такое «фреймворк» в этой архитектуре
 
-This repository contains both **SPF (framework)** and **one Pack (content)**.
+В данном контексте **фреймворк** — это **не набор контента** и **не библиотека знаний**.
 
-### 4.1 FPF Interface
+Фреймворк — это:
 
-| Path | Purpose |
-|------|---------|
-| `/fpf/README.md` | Dependency declaration and version pinning |
+* набор обязательных различений,
+* каноническая структура,
+* нормативный процесс,
+* правила проверки корректности,
+* контракты между уровнями.
 
-FPF itself is an **external dependency** (https://github.com/ailev/FPF), not embedded in this repo.
+Именно в этом смысле:
 
-### 4.2 SPF Framework Components
-
-These elements constitute SPF — they define **how** packs are produced:
-
-| Component | Path | Purpose |
-|-----------|------|---------|
-| **Pack template** | `/pack/_template/` | Universal structure for any domain pack |
-| **Knowledge-creation process** | `/process/` | 11-stage process for producing pack content |
-| **Process lint** | `/process/process-lint.md` | Verification rules and hard gates |
-| **Constitution** | `CLAUDE.md` | Normative rules for working on packs |
-| **Downstream specs** | `/spec/` | Interface contracts for downstream consumers |
-
-### 4.3 Pack: Personal Development
-
-This is the **domain knowledge** produced using SPF:
-
-| Path | Content |
-|------|---------|
-| `/pack/personal-development/00-pack-manifest.md` | Pack metadata and scope |
-| `/pack/personal-development/01-distinctions.md` | 12 domain-specific distinctions |
-| `/pack/personal-development/02-domain-entities/` | Roles, objects of attention, indexes |
-| `/pack/personal-development/03-methods/` | Method cards (e.g., PD.METHOD.001) |
-| `/pack/personal-development/04-work-products/` | Work product cards (e.g., PD.WP.001) |
-| `/pack/personal-development/05-failure-modes/` | Failure mode cards (e.g., PD.FAIL.001-006) |
-| `/pack/personal-development/06-sota/` | SoTA annotations |
-| `/pack/personal-development/07-map/` | Navigation map |
+* FPF — фреймворк первых принципов,
+* SPF — фреймворк вторых принципов.
 
 ---
 
-## 5. Anti-Patterns
+## 5. Mapping на структуру этого репозитория
 
-### 5.1 SPF ≠ Pack
+В этом репозитории уровни разведены следующим образом.
 
-| Mistake | Why Wrong | Correction |
-|---------|-----------|------------|
-| "SPF Personal is this repository" | Repository contains both SPF and a pack | "This repo contains SPF framework + PD pack" |
-| "SPF is the personal development knowledge" | SPF is structure/process, pack is content | "PD pack contains personal development knowledge" |
-| "Updating SPF when adding a method" | Adding methods updates the pack, not SPF | "Adding methods is pack modification using SPF rules" |
+### FPF (интерфейс к первым принципам)
 
-### 5.2 Pack ≠ FPF
-
-| Mistake | Why Wrong | Correction |
-|---------|-----------|------------|
-| "Pack distinctions override FPF" | FPF has precedence; pack extends FPF | "Pack distinctions extend FPF, cannot contradict" |
-| "Creating new meta-concepts in pack" | Meta-concepts belong to FPF | "Use FPF meta-concepts; pack adds domain-specific" |
-
-### 5.3 Pack ≠ Downstream
-
-| Mistake | Why Wrong | Correction |
-|---------|-----------|------------|
-| "Adding teaching scenarios to pack" | Didactics belong downstream | "Pack describes what; downstream teaches how" |
-| "Storing user progress in pack" | Pack is reference, not application | "User progress is downstream concern" |
-| "Pack as a 30-day program" | Programs are downstream constructions | "Pack is source; program is downstream view" |
-
-### 5.4 Other Anti-Patterns
-
-| Anti-Pattern | Reason |
-|--------------|--------|
-| "Domain is a system" | Which system? Person? Organization? Practice? Specify. |
-| "SoTA as literature review" | SoTA is a status attribute with revision criterion, not a survey |
-| "Method is a scenario" | Methods describe what/why; scenarios describe step-by-step how |
-| "AI embeddings as source-of-truth" | Source is markdown; embeddings are downstream views |
-| "Tool is method" | Method is practiced by a role; tool is used within a method |
+* `/fpf/README.md`
+  Описывает, как данный репозиторий опирается на FPF и какую версию/редакцию FPF использует.
+  Сам FPF здесь не реализуется, а подключается как внешний источник норм.
 
 ---
 
-## 6. Short Glossary
+### SPF (фреймворк вторых принципов)
 
-| Term | Definition |
-|------|------------|
-| **Bounded context** | Explicit scope boundary defining what is in/out of a pack |
-| **Distinction** | A conceptual boundary that separates two things (method vs. tool) |
-| **Method** | A practice that produces a work product, described without step-by-step instructions |
-| **Work product** | An observable output of a method with existence criteria |
-| **Failure mode** | A typed error pattern with detection test and distinction link |
-| **SoTA annotation** | Status attribute (`current` / `deprecated-interpretation` / `hypothesis`) with revision criterion |
-| **Map** | Navigation artifact linking to pack elements |
-| **Hard gate** | Condition that blocks commit if violated |
-| **Process lint** | Cross-cutting verification protocol |
-| **Downstream** | Systems that consume pack content (courses, AI, guides) |
+SPF представлен следующими частями:
+
+* `/pack/_template/` — каноническая структура pack'а;
+* `/process/` — нормативный процесс создания и развития знания;
+* `/process/process-lint.md` — сквозной контроль корректности;
+* `/spec/` — контракты pack ↔ downstream;
+* `/CLAUDE.md` — правила и ограничения для ИИ-агентов.
+
+Это **универсальная часть**, не зависящая от предметной области.
 
 ---
 
-## 7. Summary Formulas
+### Pack «Личное развитие»
 
-| Concept | Formula |
-|---------|---------|
-| **FPF** | Meta-ontology; universal distinctions by type |
-| **SPF** | Framework for pack production; universal by form/process/gates |
-| **Pack** | Domain source-of-truth; domain-specific content |
-| **This repo** | SPF (framework) + PD pack (one domain instance) |
-| **Downstream** | Consumes pack; not stored here |
+Конкретный pack реализован здесь:
+
+* `/pack/personal-development/`
+
+Эта папка содержит **единственный предметный контент** данного репозитория и является source-of-truth для области личного развития.
 
 ---
 
-## 8. See Also
+## 6. Downstream-артефакты (явно не здесь)
 
-- [FPF dependency](/fpf/README.md)
-- [Pack template](/pack/_template/)
-- [Process stages](/process/README.md)
-- [Process lint](/process/process-lint.md)
-- [Downstream specs](/spec/)
-- [Constitution](/CLAUDE.md)
+Следующие вещи **не являются частью pack'а и не хранятся в этом репозитории**:
+
+* курсы,
+* руководства,
+* маршруты обучения,
+* чеклисты внедрения,
+* AI-эмбеддинги и индексы,
+* публикации (PDF, сайты).
+
+Они являются downstream-проекциями и должны жить в отдельных репозиториях или системах.
+
+---
+
+## 7. Типовые анти-паттерны (запрещено)
+
+* Смешивать SPF и pack в формулировках.
+* Считать SPF универсальным знанием по содержанию.
+* Считать pack обучающим материалом.
+* Превращать методы в сценарии.
+* Считать AI-представления источником истины.
+* Делать SoTA обзором литературы вместо статуса утверждений.
+
+---
+
+## 8. Краткий глоссарий
+
+* **Bounded context** — зафиксированная семантическая рамка области.
+* **Distinction** — различение, предотвращающее онтологическую путаницу.
+* **Method** — способ действия, не сценарий.
+* **Work product** — проверяемый результат метода.
+* **Failure mode** — типовая ошибка интерпретации.
+* **SoTA annotation** — статус актуальности утверждения.
+* **Map** — граф связей между элементами pack'а.
+* **Downstream view** — производное представление pack'а.
+
+---
+
+## 9. Короткая формула
+
+> **FPF** — универсальная мета-онтология и язык различений.
+> **SPF** — универсальный фреймворк производства вторых принципов.
+> **Pack** — доменно-специфичный source-of-truth, реализующий SPF поверх FPF.
