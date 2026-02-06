@@ -376,4 +376,4 @@ Downstream использует pack для построения **как раз
 - [Process Overview](/process/README.md)
 - [Material Ingestion Protocol](/process/material-ingestion-protocol.md)
 - [ID и References](/spec/ids-and-references.md)
-- [FPF-SPF-Pack](/docs/fpf-spf-pack.md)
+- [FPF-SPF-Pack](https://github.com/TserenTserenov/SPF/blob/main/docs/fpf-spf-pack.md) (в SPF репо)

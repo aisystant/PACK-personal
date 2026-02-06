@@ -154,7 +154,7 @@ spf-personal-pack/
 | Phase E: Expansion | Not Started |
 | Phase F: Evolution Loop | Ongoing |
 
-**Подробный план**: [docs/roadmap.md](docs/roadmap.md)
+**Подробный план**: [ROADMAP.md](ROADMAP.md)
 
 ---
 
