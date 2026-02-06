@@ -1,6 +1,18 @@
 # FPF Dependency Management
 
-This document specifies how SPF Personal depends on the First Principles Framework (FPF).
+This document specifies how this Pack depends on the First Principles Framework (FPF).
+
+---
+
+## Fallback Chain
+
+**Правило:** Если чего-то нет на текущем уровне — смотри выше.
+
+```
+1. Этот Pack (предметное знание)
+2. SPF (форма и процесс) → ~/Github/SPF/
+3. FPF (первые принципы) → ~/Github/FPF/ (только если нет в SPF)
+```
 
 ---
 
@@ -15,56 +27,28 @@ FPF provides:
 
 ---
 
-## Dependency Declaration
+## FPF Location
 
 | Field | Value |
 |-------|-------|
-| **FPF Edition** | `v1.0` (update when FPF is versioned) |
-| **FPF Repository** | https://github.com/ailev/FPF |
-| **Pinned Commit** | _TBD — pin to specific commit for stability_ |
+| **Path** | `~/Github/FPF/FPF-Spec.md` |
+| **Repository** | https://github.com/ailev/FPF |
+| **Update** | `cd ~/Github/FPF && git pull` |
 
 ---
 
-## How to Update FPF Dependency
+## When to Access FPF Directly
 
-1. Review FPF release notes for breaking changes
-2. Update the version/commit reference in this file
-3. Audit all distinctions in `/pack/*/01-domain-contract/01B-distinctions.md` for compatibility
-4. Resolve any conflicts (FPF takes precedence unless explicitly overridden with rationale)
-5. Document changes in `/CHANGELOG.md`
+**Редко.** Pack работает через SPF. К FPF обращаться только если:
+- SPF не покрывает вопрос о базовых различениях
+- Нужна точная формулировка паттерна (A.*, B.*, etc.)
 
 ---
 
 ## Conflict Resolution
 
-If a distinction in SPF Personal appears to conflict with FPF:
+If a distinction in this Pack appears to conflict with FPF:
 
-1. **Check if it's an extension**: SPF may extend FPF distinctions (add sub-types, specializations)
-2. **Check if it's a contradiction**: If SPF contradicts FPF, FPF wins by default
-3. **Document overrides**: If SPF must override FPF (rare), document rationale in the distinction file
-
----
-
-## What is NOT Embedded Here
-
-- FPF source files are **not copied** into this repo
-- FPF content is referenced, not duplicated
-- Downstream systems that need FPF should depend on FPF directly
-
----
-
-## Verification
-
-To verify compatibility with FPF:
-
-```bash
-# Placeholder for future tooling
-# fpf-lint check ./pack/
-```
-
----
-
-## Notes
-
-- This file will be updated as FPF matures and gets proper versioning
-- For now, treat FPF concepts as documented in AISYSTANT materials
+1. **Check if it's an extension**: Pack may extend FPF distinctions (add sub-types, specializations)
+2. **Check if it's a contradiction**: If Pack contradicts FPF, FPF wins by default
+3. **Document overrides**: If Pack must override FPF (rare), document rationale in the distinction file
