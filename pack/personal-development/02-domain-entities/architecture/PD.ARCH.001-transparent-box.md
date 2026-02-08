@@ -105,5 +105,5 @@ sota_methods:
 
 ## 6. Связанные документы
 
-- [PD.CHR.001 Характеристики](../characteristics/PD.CHR.001-characteristics-model.md)
-- [PD.STATE.001 Состояния](../states/PD.STATE.001-states-model.md)
+- [PD.CHR.001 Характеристики](../characteristics/PD.CHR.001-characteristics.md)
+- [PD.STATE.001 Состояния](../states/PD.STATE.001-states.md)
