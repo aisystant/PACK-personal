@@ -20,7 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 **Infrastructure & Governance**
-- ROADMAP.md with development phases (0-5) and success criteria
+- MAPSTRATEGIC.md (ex-ROADMAP.md) with development phases (0-5) and success criteria
 - Material ingestion protocol (`/process/material-ingestion-protocol.md`)
 - Claude role definition in CLAUDE.md (Section 10)
 - Process lint as cross-cutting verification (`/process/process-lint.md`)

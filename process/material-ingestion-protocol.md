@@ -215,13 +215,13 @@ I'll add this to the pack. Creating PD.METHOD.002.md...
 
 ---
 
-## Integration with ROADMAP
+## Integration with MAPSTRATEGIC
 
 This protocol is the operational core of:
 - **Phase 2**: Material Ingestion
 - **Phase 3**: Analytical Processing
 
-See [/docs/roadmap.md](/docs/roadmap.md) for phase context.
+See [MAPSTRATEGIC.md](/MAPSTRATEGIC.md) for phase context.
 
 ---
 
