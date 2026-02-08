@@ -121,4 +121,4 @@ sota_methods:
 ## 7. Связанные документы
 
 - [PD.ROLE.TRAJ.001 Траектория ролей](../roles/PD.ROLE.TRAJ.001-creator-trajectory.md)
-- [PD.MODEL.003 Ступени зрелости](../models/PD.MODEL.003-learner-maturity.md)
+- [PD.FORM.003 Ступени зрелости](../formalizations/PD.FORM.003-learner-maturity.md)

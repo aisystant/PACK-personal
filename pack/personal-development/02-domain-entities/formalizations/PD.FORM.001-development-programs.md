@@ -1,5 +1,5 @@
 ---
-id: PD.MODEL.001
+id: PD.FORM.001
 type: domain-entity
 status: active
 created: 2026-02-07
@@ -11,7 +11,7 @@ trust:
 epistemic_stage: formed
 ---
 
-# Модель: Программы развития (Development Programs)
+# Формализация: Программы развития (Development Programs)
 
 ## 1. Определение
 
@@ -103,6 +103,6 @@ epistemic_stage: formed
 
 ## 6. Связанные документы
 
-- [PD.MODEL.002 Направления развития](PD.MODEL.002-development-directions.md)
-- [PD.MODEL.003 Ступени зрелости ученика](PD.MODEL.003-learner-maturity.md)
+- [PD.FORM.002 Направления развития](PD.FORM.002-development-directions.md)
+- [PD.FORM.003 Ступени зрелости ученика](PD.FORM.003-learner-maturity.md)
 - [PD.ROLE.001 Ученик](../roles/PD.ROLE.001-learner.md)
