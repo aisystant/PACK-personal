@@ -90,6 +90,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 |------|-------------|
 | [01A-bounded-context.md](01-domain-contract/01A-bounded-context.md) | Domain scope and boundaries |
 | [01B-distinctions.md](01-domain-contract/01B-distinctions.md) | 15 core distinctions |
+| [01C-ontology.md](01-domain-contract/01C-ontology.md) | Domain ontology (SPF.SPEC.002) |
 | [02A-roles.md](02-domain-entities/02A-roles.md) | Agent, Analyst, Mentor, Architect |
 | [02B-objects-of-attention.md](02-domain-entities/02B-objects-of-attention.md) | 6 objects |
 | [02C-methods-index.md](02-domain-entities/02C-methods-index.md) | Methods navigation |
