@@ -72,12 +72,13 @@ This pack captures knowledge about **characteristics and states of creator** as 
 
 | Section | Item Count | Status |
 |---------|------------|--------|
-| Distinctions | 12 | active |
+| Distinctions | 15 | active |
 | Roles | 4 | active |
 | Objects of Attention | 6 | active |
+| Formalizations | 4 | active |
 | Methods | 1 | active |
 | Work Products | 1 | active |
-| Failure Modes | 6 | active |
+| Failure Modes | 7 | active |
 | SoTA Annotations | 1 | active |
 | Maps | 1 | active |
 
@@ -88,13 +89,13 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | File | Description |
 |------|-------------|
 | [01A-bounded-context.md](01-domain-contract/01A-bounded-context.md) | Domain scope and boundaries |
-| [01B-distinctions.md](01-domain-contract/01B-distinctions.md) | 12 core distinctions |
+| [01B-distinctions.md](01-domain-contract/01B-distinctions.md) | 15 core distinctions |
 | [02A-roles.md](02-domain-entities/02A-roles.md) | Agent, Analyst, Mentor, Architect |
 | [02B-objects-of-attention.md](02-domain-entities/02B-objects-of-attention.md) | 6 objects |
 | [02C-methods-index.md](02-domain-entities/02C-methods-index.md) | Methods navigation |
 | [PD.METHOD.001](03-methods/PD.METHOD.001-time-accounting.md) | Time Accounting |
 | [PD.WP.001](04-work-products/PD.WP.001-time-budget.md) | Time Budget |
-| [05-failure-modes/](05-failure-modes/) | 6 failure mode cards |
+| [05-failure-modes/](05-failure-modes/) | 7 failure mode cards |
 | [PD.SOTA.001](06-sota/PD.SOTA.001-time-accounting-interpretations.md) | Time Accounting interpretations |
 | [PD.MAP.001](07-map/PD.MAP.001.md) | Full navigation map |
 
@@ -108,3 +109,4 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | 2025-02-04 | MVP content: 1 method, 1 WP, 6 FMs, 12 distinctions, 4 roles, 6 OAs, 1 SoTA | AISYSTANT |
 | 2025-02-05 | Domain name updated to "Характеристики и состояния созидателя"; bounded context added | AISYSTANT |
 | 2025-02-05 | Restructure: create 01-domain-contract/ folder with 01A-bounded-context.md and 01B-distinctions.md | AISYSTANT |
+| 2026-02-10 | Added 5-entity agent ontology (FORM.004), 3 distinctions (D.013-D.015), failure mode (FAIL.007), BC clarification on Learning | AISYSTANT |

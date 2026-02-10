@@ -22,12 +22,13 @@ This map provides navigation for the entire Personal Development pack. Use it to
 
 | Section | Status | Count |
 |---------|--------|-------|
-| Distinctions | **Active** | 12 |
+| Distinctions | **Active** | 15 |
 | Roles | **Active** | 4 |
 | Objects of Attention | **Active** | 6 |
 | Methods | **Active** | 1 |
 | Work Products | **Active** | 1 |
-| Failure Modes | **Active** | 6 |
+| Formalizations | **Active** | 4 |
+| Failure Modes | **Active** | 7 |
 | SoTA Annotations | **Active** | 1 |
 
 ---
@@ -40,6 +41,7 @@ DISTINCTIONS ←─────────────────────�
    ├── D.001 Method vs Tool ──────────────────────────► FAIL.005   │
    ├── D.003 Accounting vs Planning ──────────────────► FAIL.001   │
    ├── D.005 Work Product vs Description ─────────────► FAIL.006   │
+   ├── D.013 Description vs Knowledge ───────────────► FAIL.007   │
    ├── D.008 Observation vs Judgment ─────────────────► FAIL.003   │
    ├── D.009 Registration vs Intervention ────────────► FAIL.002   │
    └── D.010 Infrastructure vs Intervention ──────────► FAIL.004   │
@@ -85,6 +87,9 @@ OBJECTS OF ATTENTION
 | [D.010](../01-domain-contract/01B-distinctions.md#d010-infrastructure-vs-intervention) | Infrastructure vs. Intervention | [FAIL.004](../05-failure-modes/PD.FAIL.004-time-accounting-is-productivity-hack.md) |
 | [D.011](../01-domain-contract/01B-distinctions.md#d011-data-vs-insight) | Data vs. Insight | — |
 | [D.012](../01-domain-contract/01B-distinctions.md#d012-artifact-vs-process) | Artifact vs. Process | — |
+| [D.013](../01-domain-contract/01B-distinctions.md#d013-description-vs-knowledge) | Description vs. Knowledge | [FAIL.007](../05-failure-modes/PD.FAIL.007-description-is-knowledge.md) |
+| [D.014](../01-domain-contract/01B-distinctions.md#d014-knowledge-vs-skill) | Knowledge vs. Skill | — |
+| [D.015](../01-domain-contract/01B-distinctions.md#d015-worldview-vs-description) | Worldview vs. Description | — |
 
 **File**: [01-distinctions.md](../01-domain-contract/01B-distinctions.md)
 
@@ -148,6 +153,7 @@ OBJECTS OF ATTENTION
 | [FAIL.004](../05-failure-modes/PD.FAIL.004-time-accounting-is-productivity-hack.md) | Time Accounting = Productivity Hack | deprecated-interpretation | METHOD.001 | D.010 |
 | [FAIL.005](../05-failure-modes/PD.FAIL.005-tool-is-method.md) | Tool = Method | ontological | All | D.001 |
 | [FAIL.006](../05-failure-modes/PD.FAIL.006-work-product-is-description.md) | Work Product = Description | ontological | All | D.005 |
+| [FAIL.007](../05-failure-modes/PD.FAIL.007-description-is-knowledge.md) | Description = Knowledge | ontological | All | D.013 |
 
 **Directory**: [05-failure-modes/](../05-failure-modes/)
 
@@ -187,6 +193,7 @@ OBJECTS OF ATTENTION
 | FAIL.004 | D.010 |
 | FAIL.005 | D.001 |
 | FAIL.006 | D.005 |
+| FAIL.007 | D.013 |
 
 ### Work Products ↔ Roles
 
@@ -212,3 +219,4 @@ OBJECTS OF ATTENTION
 |------|--------|
 | 2025-02-04 | Initial scaffold map created |
 | 2025-02-04 | MVP content added: 1 method, 1 WP, 6 failure modes, 12 distinctions, 4 roles, 6 OAs, 1 SoTA |
+| 2026-02-10 | Added: FORM.004 (5-entity ontology), D.013-D.015, FAIL.007 |

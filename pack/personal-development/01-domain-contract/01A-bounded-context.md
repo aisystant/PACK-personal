@@ -43,7 +43,7 @@
 
 | Исключено | Причина | Где должно быть |
 |-----------|---------|-----------------|
-| Обучение, курсы, уроки | Дидактика — downstream | Learning systems |
+| Обучение как курсы, уроки, программы | Дидактика — downstream | Learning systems |
 | Маршруты развития | Траектории — downstream | Development programs |
 | Сценарии переходов между состояниями | Сценарии — downstream | Guides, coaching |
 | Терапия, клиника | Другой домен | Mental health pack |
@@ -68,6 +68,20 @@
 - Утверждения без наблюдаемых индикаторов
 - Методы без рабочих продуктов
 - SoTA без revision criterion
+
+---
+
+## Scope Clarification: Learning
+
+**Обучение как процесс** (Learning as process of agent change) — входит в scope этого Pack'а. Это мета-концепт о том, КАК описания трансформируются в capabilities через практику и обратную связь. См. [PD.FORM.004](../02-domain-entities/formalizations/PD.FORM.004-agent-cognitive-layers.md).
+
+**Обучение как курсы/программы** (Learning as curricula) — НЕ входит в scope. Это downstream-реализация.
+
+| В scope | НЕ в scope |
+|---------|-----------|
+| Обучение как процесс изменения агента | Курсы, уроки, программы |
+| Онтология: описание → знание → навык | Методики преподавания |
+| Failure modes перехода | Учебные материалы |
 
 ---
 

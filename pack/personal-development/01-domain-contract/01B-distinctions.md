@@ -349,3 +349,90 @@ Core conceptual distinctions for the Personal Development domain.
 
 **SoTA**: `current`
 - Revision criterion: Would change if product/process distinction proves philosophically untenable
+
+---
+
+## [D.013] Description vs. Knowledge
+
+**Definition**: A **description** (описание) is an informational artifact in sign form (text, formula, diagram, code). **Knowledge** (знание) is the agent's capability to reliably achieve results under given conditions.
+
+**Distinction Test**:
+- Can this be copied and transferred as a file? (Yes → description; No → knowledge)
+- Is this verified by task performance, not by text quality? (Yes → knowledge; No → description)
+
+| Description | vs. | Knowledge |
+|-------------|-----|-----------|
+| Artifact | | Agent capability |
+| Copyable | | Non-transferable directly |
+| Exists in repositories | | Exists in agents |
+| Verified by reading | | Verified by task execution |
+| FPF, SPF, Pack — all descriptions | | Lives in human or AI agent |
+
+**Typical Confusion**: "I read the Pack, so I know the domain" (reading ≠ capability), "The AI produced great text, so it knows the subject" (text quality ≠ competence)
+
+**Why It Matters**: Confusing description with knowledge leads to the illusion that possession of an artifact equals possession of capability. The same description "compiles" into different capabilities depending on the agent's worldview and practice.
+
+**Related Items**:
+- Formalization: [PD.FORM.004](../02-domain-entities/formalizations/PD.FORM.004-agent-cognitive-layers.md)
+- Failure Mode: [PD.FAIL.007](../05-failure-modes/PD.FAIL.007-description-is-knowledge.md)
+- Distinction: [D.005](#d005-work-product-vs-description) — related but different: D.005 is about artifact vs. narrative, D.013 is about artifact vs. agent capability
+
+**SoTA**: `current`
+- Revision criterion: Would change if descriptions can be shown to reliably produce identical capabilities across all agents
+
+---
+
+## [D.014] Knowledge vs. Skill
+
+**Definition**: **Knowledge** (знание) is the agent's broad capability including models, criteria, strategies, and judgment. **Skill** (навык) is the procedural layer — an automated sequence of operations that executes in a situation.
+
+**Distinction Test**:
+- Does it include strategic judgment and model selection? (Yes → knowledge; No → skill)
+- Does it execute automatically in a situation? (Yes → skill; No → broader knowledge)
+
+| Knowledge | vs. | Skill |
+|-----------|-----|-------|
+| Broad capability | | Procedural layer |
+| Includes models, criteria, strategies | | Automated sequence of operations |
+| May be partially declarative | | Always procedural |
+| "Knows how to negotiate" | | "Asks probing questions automatically" |
+
+**Typical Confusion**: "He has the skill of systems thinking" (systems thinking is knowledge, not a single procedure), "She knows the method" when meaning she can execute it fluently (knowledge of method ≠ skill of execution)
+
+**Why It Matters**: Knowledge includes choosing WHICH procedure to apply. Skill is the execution of ONE procedure. Training only skills without knowledge produces rigid agents who cannot adapt to new situations.
+
+**Related Items**:
+- Distinction: [D.007](#d007-method-vs-skill) — related: method is external description, skill is internal execution
+- Formalization: [PD.FORM.004](../02-domain-entities/formalizations/PD.FORM.004-agent-cognitive-layers.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if the procedural/declarative distinction in agent cognition proves untenable
+
+---
+
+## [D.015] Worldview vs. Description
+
+**Definition**: **Worldview** (мировоззрение) is the agent's meta-level framework of interpretation and selection: ontological commitments, epistemic norms, values, and admissible methods. **Description** (описание) is an informational artifact.
+
+**Distinction Test**:
+- Does it determine HOW to read, or WHAT is written? (How → worldview; What → description)
+- Does it live in the agent or in a repository? (Agent → worldview; Repository → description)
+
+| Worldview | vs. | Description |
+|-----------|-----|-------------|
+| Meta-framework of interpretation | | Informational artifact |
+| Lives in the agent | | Lives in repository |
+| Determines what counts as evidence | | Contains claims |
+| Determines what counts as valuable | | Contains content |
+| "Compiler" for descriptions | | "Source code" |
+
+**Typical Confusion**: "FPF is a worldview" (FPF is a description; worldview is what the agent uses to interpret FPF), "Change the text to change the thinking" (changing description ≠ changing worldview)
+
+**Why It Matters**: The same description (FPF, SPF, Pack) "assembles" into different capabilities in agents with different worldviews. Worldview is the "compiler" that transforms descriptions into skills/knowledge. Worldview divergence is the primary cause of knowledge transfer failure.
+
+**Related Items**:
+- Formalization: [PD.FORM.004](../02-domain-entities/formalizations/PD.FORM.004-agent-cognitive-layers.md)
+- Failure Mode: [PD.FAIL.007](../05-failure-modes/PD.FAIL.007-description-is-knowledge.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if worldview can be shown to be fully expressible as description
