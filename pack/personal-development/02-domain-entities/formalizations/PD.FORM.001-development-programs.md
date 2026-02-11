@@ -10,6 +10,8 @@ trust:
   G: domain
   R: 0.7
 epistemic_stage: formed
+related:
+  uses: [PD.CHR.001]
 ---
 
 # Формализация: Программы развития (Development Programs)

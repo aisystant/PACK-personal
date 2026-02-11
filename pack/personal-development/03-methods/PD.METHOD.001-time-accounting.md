@@ -6,6 +6,10 @@ summary: \"Метод непрерывной регистрации и кате�
 sota: current
 created: 2025-02-04
 last_updated: 2025-02-04
+related:
+  produces: [PD.WP.001]
+  fails_with: [PD.FAIL.001, PD.FAIL.002, PD.FAIL.003, PD.FAIL.004, PD.FAIL.005]
+  requires_role: [PD.ROLE.001]
 ---
 
 # [PD.METHOD.001] Time Accounting

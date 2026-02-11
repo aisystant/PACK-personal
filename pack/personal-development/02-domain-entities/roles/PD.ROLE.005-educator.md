@@ -16,6 +16,8 @@ depends_on:
 aliases:
   - educator
   - просветитель
+related:
+  follows: [PD.ROLE.004]
 ---
 
 # Роль: Просветитель (Educator)

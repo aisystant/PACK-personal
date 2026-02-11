@@ -10,6 +10,9 @@ trust:
   G: domain
   R: 0.7
 epistemic_stage: formed
+related:
+  component_of: [PD.FORM.001]
+  uses: [PD.STATE.001, PD.CHR.001]
 ---
 
 # Формализация: 6 направлений саморазвития

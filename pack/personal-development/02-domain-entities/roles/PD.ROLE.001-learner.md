@@ -19,6 +19,9 @@ provides_evidence_for:
 aliases:
   - learner
   - обучающийся
+related:
+  uses: [PD.METHOD.002]
+  precedes: [PD.ROLE.002]
 ---
 
 # Роль: Ученик (Learner)

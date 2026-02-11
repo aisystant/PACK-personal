@@ -18,6 +18,9 @@ provides_evidence_for:
 aliases:
   - intellectual
   - мыслитель
+related:
+  follows: [PD.ROLE.001]
+  precedes: [PD.ROLE.003]
 ---
 
 # Роль: Интеллектуал (Intellectual)

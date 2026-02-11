@@ -8,6 +8,9 @@ status: active
 summary: \"Ошибка использования учёта времени как внешнего контроля вместо инструмента самонаблюдения\"
 created: 2025-02-04
 last_updated: 2025-02-04
+related:
+  violates: [D.008]
+  applies_to: [PD.METHOD.001]
 ---
 
 # [PD.FAIL.003] Time Accounting Confused with Control/Surveillance

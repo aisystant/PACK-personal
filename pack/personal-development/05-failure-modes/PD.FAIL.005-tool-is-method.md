@@ -8,6 +8,9 @@ status: active
 summary: \"Ошибка отождествления инструмента (приложение, устройство) с методом (способ действия)\"
 created: 2025-02-04
 last_updated: 2025-02-04
+related:
+  violates: [D.001]
+  applies_to: [PD.METHOD.001]
 ---
 
 # [PD.FAIL.005] Tool Confused with Method

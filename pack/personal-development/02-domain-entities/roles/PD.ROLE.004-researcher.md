@@ -18,6 +18,9 @@ provides_evidence_for:
 aliases:
   - researcher
   - учёный
+related:
+  follows: [PD.ROLE.003]
+  precedes: [PD.ROLE.005]
 ---
 
 # Роль: Исследователь (Researcher)

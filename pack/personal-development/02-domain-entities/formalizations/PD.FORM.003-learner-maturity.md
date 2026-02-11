@@ -10,6 +10,9 @@ trust:
   G: domain
   R: 0.8
 epistemic_stage: formed
+related:
+  component_of: [PD.FORM.001]
+  uses: [PD.ROLE.001]
 ---
 
 # Формализация: Ступени зрелости ученика (Learner Maturity Levels)

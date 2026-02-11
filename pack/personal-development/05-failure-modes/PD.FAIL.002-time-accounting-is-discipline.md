@@ -8,6 +8,9 @@ status: active
 summary: \"Ошибка ожидания, что учёт времени будет вводить дисциплину вместо выявления информации\"
 created: 2025-02-04
 last_updated: 2025-02-04
+related:
+  violates: [D.009]
+  applies_to: [PD.METHOD.001]
 ---
 
 # [PD.FAIL.002] Time Accounting Confused with Discipline
