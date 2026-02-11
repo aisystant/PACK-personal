@@ -20,6 +20,14 @@ Core conceptual distinctions for the Personal Development domain.
 | [D.010](#d010-infrastructure-vs-intervention) | Infrastructure vs. Intervention | current | FAIL.004 |
 | [D.011](#d011-data-vs-insight) | Data vs. Insight | current | WP.001 |
 | [D.012](#d012-artifact-vs-process) | Artifact vs. Process | current | METHOD.001, WP.001 |
+| [D.013](#d013-description-vs-knowledge) | Description vs. Knowledge | current | FORM.004, FAIL.007 |
+| [D.014](#d014-knowledge-vs-skill) | Knowledge vs. Skill | current | FORM.004 |
+| [D.015](#d015-worldview-vs-description) | Worldview vs. Description | current | FORM.004, FAIL.007 |
+| [D.016](#d016-invested-time-vs-spent-time) | Invested Time vs. Spent Time | current | METHOD.001, METHOD.003 |
+| [D.017](#d017-strategizing-vs-planning) | Strategizing vs. Planning | current | METHOD.008 |
+| [D.018](#d018-mastery-level-vs-learning-stage) | Mastery Level vs. Learning Stage | current | ROLE.001-005 |
+| [D.019](#d019-thinking-in-writing-vs-freewriting) | Thinking in Writing vs. Freewriting | current | METHOD.004 |
+| [D.020](#d020-leisure-vs-work) | Leisure vs. Work | current | METHOD.006 |
 
 ---
 
@@ -436,3 +444,141 @@ Core conceptual distinctions for the Personal Development domain.
 
 **SoTA**: `current`
 - Revision criterion: Would change if worldview can be shown to be fully expressible as description
+
+---
+
+## [D.016] Invested Time vs. Spent Time
+
+**Definition**: **Invested time** is time allocated to activities that produce future returns (capability building, learning, infrastructure). **Spent time** is time consumed on activities that produce value only in the present moment (entertainment, passive consumption).
+
+**Distinction Test**:
+- Will this activity produce returns beyond the current moment? (Yes → invested; No → spent)
+- Is this time creating future capability or consuming present resource? (Creating → invested; Consuming → spent)
+
+| Invested Time | vs. | Spent Time |
+|---------------|-----|------------|
+| Future returns | | Present-only value |
+| Capability building | | Consumption |
+| Planned, pre-selected | | Spontaneous, reactive |
+| Studying SoTA material | | Browsing social media |
+
+**Typical Confusion**: Treating all reading as investment (entertainment reading is spending), treating all work as investment (busywork without capability growth is spending)
+
+**Why It Matters**: Without this distinction, agents cannot evaluate whether their time allocation builds future capability. Time accounting reveals the ratio of invested to spent time.
+
+**Related Items**:
+- Method: [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) — reveals actual investment ratio
+- Method: [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md) — primary investment activity
+
+**SoTA**: `current`
+- Revision criterion: Would change if evidence shows no correlation between planned time investment and capability growth
+
+---
+
+## [D.017] Strategizing vs. Planning
+
+**Definition**: **Strategizing** determines what projects to pursue and why (selection of priorities based on dissatisfactions). **Planning** determines when and how to execute tasks within selected projects (scheduling and resource allocation).
+
+**Distinction Test**:
+- Does this activity choose between projects? (Yes → strategizing)
+- Does this activity schedule tasks within a chosen project? (Yes → planning)
+
+| Strategizing | vs. | Planning |
+|--------------|-----|----------|
+| Selects priorities | | Schedules execution |
+| Answers "what and why" | | Answers "when and how" |
+| Any horizon (months to life) | | Next stage only (days to weeks) |
+| Works with dissatisfactions | | Works with tasks |
+| Produces hypotheses | | Produces schedules |
+| Obsoletes in days | | More stable within horizon |
+
+**Typical Confusion**: "I'll plan my life" (life-level choices are strategizing, not planning), "My strategy is to do X this week" (weekly task scheduling is planning)
+
+**Why It Matters**: Confusing them leads to planning without strategy (executing efficiently on wrong priorities) or strategizing without planning (choosing correctly but never executing).
+
+**Related Items**:
+- Method: [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if evidence shows that strategy and planning can be unified into a single method without loss
+
+---
+
+## [D.018] Mastery Level vs. Learning Stage
+
+**Definition**: **Mastery level** (степень мастерства) is the agent's current capability to perform a method — measured by quality and reliability of outputs. **Learning stage** (стадия обучения) is the phase of the learning process the agent is currently in — explanation, skill, mastery.
+
+**Distinction Test**:
+- Is this about what the agent CAN DO now? (Yes → mastery level)
+- Is this about where the agent IS in the learning process? (Yes → learning stage)
+
+| Mastery Level | vs. | Learning Stage |
+|---------------|-----|----------------|
+| Capability (output quality) | | Process phase (input type) |
+| Measured by results | | Measured by learning activity |
+| Can regress | | Progresses sequentially |
+| "How well" | | "Where in the journey" |
+
+**Typical Confusion**: Claiming mastery based on having completed a learning stage ("I finished the course, so I'm a master"), equating learning completion with capability
+
+**Why It Matters**: A completed learning stage does not guarantee mastery. Mastery requires demonstrated capability in real situations, not just knowledge of the method.
+
+**Related Items**:
+- Roles: [02A-roles.md](../02-domain-entities/02A-roles.md) — role trajectory from Learner to Educator
+
+**SoTA**: `current`
+- Revision criterion: Would change if capability can be reliably predicted from learning stage without performance testing
+
+---
+
+## [D.019] Thinking in Writing vs. Freewriting
+
+**Definition**: **Thinking in writing** (мышление письмом) is creating thoughts through writing with deliberate focus on concepts, principles, and their connections. **Freewriting** is writing without quality criterion — putting words on paper without concept engagement.
+
+**Distinction Test**:
+- Is the writing focused on specific concepts and their relationships? (Yes → thinking in writing)
+- Is the writing mechanically putting words down without conceptual criterion? (Yes → freewriting)
+
+| Thinking in Writing | vs. | Freewriting |
+|---------------------|-----|-------------|
+| Concept-focused | | Unconstrained |
+| Engages SoTA theories | | No quality criterion |
+| Produces knowledge base | | Produces text volume |
+| Trains neural network on concepts | | Trains fluency only |
+
+**Typical Confusion**: "I write every day" (if without concept focus, this is freewriting), using "morning pages" technique as thinking in writing (morning pages have no concept criterion)
+
+**Why It Matters**: Freewriting develops writing fluency but does not develop conceptual thinking. Thinking in writing specifically trains the neural network to connect concepts, producing knowledge rather than opinion.
+
+**Related Items**:
+- Method: [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if evidence shows freewriting produces equivalent conceptual development
+
+---
+
+## [D.020] Leisure vs. Work
+
+**Definition**: **Leisure** is activity where the primary benefit occurs during the process itself (positive impressions, enjoyment). **Work** is activity where the primary benefit is the result (work product, deliverable).
+
+**Distinction Test**:
+- Is the primary attention on the process or the result? (Process → leisure; Result → work)
+- Would you do this if it produced no deliverable? (Yes → leisure; No → work)
+
+| Leisure | vs. | Work |
+|---------|-----|------|
+| Process-oriented | | Result-oriented |
+| Benefit during activity | | Benefit in deliverable |
+| Positive impressions | | Work products |
+| Recovery and enjoyment | | Production and achievement |
+
+**Typical Confusion**: "Working on my hobby" (if result matters more than process, it became work), "Relaxing at the office" (if you're there for deliverables, it's work regardless of comfort)
+
+**Why It Matters**: Confusing leisure with work corrupts both. Work disguised as leisure produces neither enjoyment nor quality output. Leisure disguised as work produces guilt without recovery.
+
+**Related Items**:
+- Method: [PD.METHOD.006](../03-methods/PD.METHOD.006-leisure-organization.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if evidence shows the process/result distinction is not meaningful for time allocation decisions
