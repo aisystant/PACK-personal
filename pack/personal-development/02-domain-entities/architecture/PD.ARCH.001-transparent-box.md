@@ -2,6 +2,7 @@
 id: PD.ARCH.001
 type: domain-entity
 status: active
+summary: "Модель внутреннего устройства созидателя как системы: подсистемы личности, организма и экзотела"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.6
 trust:

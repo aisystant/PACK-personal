@@ -2,6 +2,7 @@
 id: PD.METHOD.002
 type: method
 status: active
+summary: "Метод обучения ученика: регулярные слоты, экзокортекс, рефлексия и недельные контракты"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.2.1
 trust:

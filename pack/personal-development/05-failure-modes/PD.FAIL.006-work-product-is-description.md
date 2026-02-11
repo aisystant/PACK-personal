@@ -1,6 +1,3 @@
-# [PD.FAIL.006] Work Product Confused with Description
-
-```yaml
 ---
 id: PD.FAIL.006
 name: Work Product Confused with Description
@@ -8,10 +5,12 @@ category: distinction-confusion
 type: ontological
 severity: critical
 status: active
+summary: \"Ошибка замены рабочего продукта (наблюдаемый артефакт) его описанием (нарратив о продукте)\"
 created: 2025-02-04
 last_updated: 2025-02-04
 ---
-```
+
+# [PD.FAIL.006] Work Product Confused with Description
 
 ---
 

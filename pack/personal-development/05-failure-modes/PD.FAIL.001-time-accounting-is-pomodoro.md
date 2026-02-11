@@ -1,6 +1,3 @@
-# [PD.FAIL.001] Time Accounting Confused with Pomodoro
-
-```yaml
 ---
 id: PD.FAIL.001
 name: Time Accounting Confused with Pomodoro
@@ -8,10 +5,12 @@ category: distinction-confusion
 type: methodological
 severity: major
 status: active
+summary: \"Ошибка смешивания учёта времени (регистрация фактов) с Помодоро (планирование интервалов работы)\"
 created: 2025-02-04
 last_updated: 2025-02-04
 ---
-```
+
+# [PD.FAIL.001] Time Accounting Confused with Pomodoro
 
 ---
 

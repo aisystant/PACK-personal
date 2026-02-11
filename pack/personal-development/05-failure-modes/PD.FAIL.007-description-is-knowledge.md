@@ -1,6 +1,3 @@
-# [PD.FAIL.007] Description Confused with Knowledge
-
-```yaml
 ---
 id: PD.FAIL.007
 name: Description Confused with Knowledge
@@ -8,10 +5,12 @@ category: distinction-confusion
 type: ontological
 severity: critical
 status: active
+summary: \"Ошибка принятия описания (текст, документ) за знание (способность агента достигать результатов)\"
 created: 2026-02-10
 last_updated: 2026-02-10
 ---
-```
+
+# [PD.FAIL.007] Description Confused with Knowledge
 
 ---
 

@@ -2,6 +2,7 @@
 id: PD.ROLE.TRAJ.001
 type: role-trajectory
 status: active
+summary: "Траектория развития созидателя через пять ключевых ролей: от Ученика к Просветителю"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.2
 trust:

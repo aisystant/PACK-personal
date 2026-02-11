@@ -1,6 +1,3 @@
-# [PD.FAIL.005] Tool Confused with Method
-
-```yaml
 ---
 id: PD.FAIL.005
 name: Tool Confused with Method
@@ -8,10 +5,12 @@ category: distinction-confusion
 type: ontological
 severity: critical
 status: active
+summary: \"Ошибка отождествления инструмента (приложение, устройство) с методом (способ действия)\"
 created: 2025-02-04
 last_updated: 2025-02-04
 ---
-```
+
+# [PD.FAIL.005] Tool Confused with Method
 
 ---
 

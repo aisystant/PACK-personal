@@ -2,6 +2,7 @@
 id: PD.FORM.001
 type: domain-entity
 status: active
+summary: "Формализация трёх уровней систематического развития: личного, рабочего и исследовательского"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.1
 trust:

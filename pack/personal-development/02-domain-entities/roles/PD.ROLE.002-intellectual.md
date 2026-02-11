@@ -2,6 +2,7 @@
 id: PD.ROLE.002
 type: role
 status: active
+summary: "Роль человека, применяющего знания в проектах, работающего с понятиями и методами"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.2.2
 trust:

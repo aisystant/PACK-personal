@@ -2,6 +2,7 @@
 id: PD.ROLE.005
 type: role
 status: active
+summary: "Роль человека, масштабирующего культуру, формирующего смыслы и влияющего на общественное сознание"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.2.5
 trust:

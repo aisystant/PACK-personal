@@ -2,6 +2,7 @@
 id: PD.WP.002
 type: work-product
 status: active
+summary: "Артефакты ученика: контракты, заметки экзокортекса, рефлексии и записи мировоззренческих поворотов"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.2.1
 trust:

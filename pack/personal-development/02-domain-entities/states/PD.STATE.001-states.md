@@ -2,6 +2,7 @@
 id: PD.STATE.001
 type: domain-entity
 status: active
+summary: "Категории состояний созидателя: продуктивное, эмоциональное, ролевое, неудовлетворённости и физическое"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.5
 trust:

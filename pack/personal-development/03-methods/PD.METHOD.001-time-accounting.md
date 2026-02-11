@@ -1,15 +1,14 @@
-# [PD.METHOD.001] Time Accounting
-
-```yaml
 ---
 id: PD.METHOD.001
 name: Time Accounting
 status: active
+summary: \"Метод непрерывной регистрации и категоризации трат времени для получения эмпирических данных о распределении ресурса\"
 sota: current
 created: 2025-02-04
 last_updated: 2025-02-04
 ---
-```
+
+# [PD.METHOD.001] Time Accounting
 
 ---
 

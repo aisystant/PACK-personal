@@ -2,6 +2,7 @@
 id: PD.ROLE.001
 type: role
 status: active
+summary: "Роль человека, осваивающего новое знание, выстраивающего дисциплину и формирующего мировоззрение"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.2.1
 trust:

@@ -1,6 +1,3 @@
-# [PD.FAIL.004] Time Accounting Confused with Productivity Hack
-
-```yaml
 ---
 id: PD.FAIL.004
 name: Time Accounting Confused with Productivity Hack
@@ -8,10 +5,12 @@ category: distinction-confusion
 type: deprecated-interpretation
 severity: major
 status: active
+summary: \"Ошибка восприятия учёта времени как лайфхака для повышения производительности вместо инфраструктуры\"
 created: 2025-02-04
 last_updated: 2025-02-04
 ---
-```
+
+# [PD.FAIL.004] Time Accounting Confused with Productivity Hack
 
 ---
 

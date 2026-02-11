@@ -2,6 +2,7 @@
 id: PD.FORM.002
 type: domain-entity
 status: active
+summary: "Шесть направлений развития: мировоззрение, мастерство, ограничения, экзокортекс, культура, организм"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.1
 trust:

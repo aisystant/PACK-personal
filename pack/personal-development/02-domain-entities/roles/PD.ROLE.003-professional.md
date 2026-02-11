@@ -2,6 +2,7 @@
 id: PD.ROLE.003
 type: role
 status: active
+summary: "Роль человека, создающего системы и рабочие продукты, обеспечивающего качество и скорость"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.2.3
 trust:

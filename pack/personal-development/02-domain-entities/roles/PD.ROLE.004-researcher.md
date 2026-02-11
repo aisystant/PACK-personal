@@ -2,6 +2,7 @@
 id: PD.ROLE.004
 type: role
 status: active
+summary: "Роль человека, расширяющего границы знания, создающего новые методы и проводящего эксперименты"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.2.4
 trust:

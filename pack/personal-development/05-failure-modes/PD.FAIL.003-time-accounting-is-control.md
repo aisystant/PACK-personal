@@ -1,6 +1,3 @@
-# [PD.FAIL.003] Time Accounting Confused with Control/Surveillance
-
-```yaml
 ---
 id: PD.FAIL.003
 name: Time Accounting Confused with Control
@@ -8,10 +5,12 @@ category: distinction-confusion
 type: methodological
 severity: major
 status: active
+summary: \"Ошибка использования учёта времени как внешнего контроля вместо инструмента самонаблюдения\"
 created: 2025-02-04
 last_updated: 2025-02-04
 ---
-```
+
+# [PD.FAIL.003] Time Accounting Confused with Control/Surveillance
 
 ---
 

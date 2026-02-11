@@ -1,14 +1,13 @@
-# [PD.SOTA.001] SoTA: Time Accounting Interpretations
-
-```yaml
 ---
 id: PD.SOTA.001
 target_type: method
 target_id: PD.METHOD.001
 created: 2025-02-04
 last_reviewed: 2025-02-04
+summary: "Состояние искусства: шесть интерпретаций учёта времени с оценкой актуальности каждой"
 ---
-```
+
+# [PD.SOTA.001] SoTA: Time Accounting Interpretations
 
 ---
 

@@ -1,6 +1,3 @@
-# [PD.FAIL.002] Time Accounting Confused with Discipline
-
-```yaml
 ---
 id: PD.FAIL.002
 name: Time Accounting Confused with Discipline
@@ -8,10 +5,12 @@ category: distinction-confusion
 type: methodological
 severity: major
 status: active
+summary: \"Ошибка ожидания, что учёт времени будет вводить дисциплину вместо выявления информации\"
 created: 2025-02-04
 last_updated: 2025-02-04
 ---
-```
+
+# [PD.FAIL.002] Time Accounting Confused with Discipline
 
 ---
 

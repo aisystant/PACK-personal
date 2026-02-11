@@ -1,14 +1,13 @@
-# [PD.WP.001] Time Budget
-
-```yaml
 ---
 id: PD.WP.001
 name: Time Budget
 status: active
+summary: \"Структурированная запись распределения времени по категориям за определённый период, основа для анализа\"
 created: 2025-02-04
 last_updated: 2025-02-04
 ---
-```
+
+# [PD.WP.001] Time Budget
 
 ---
 

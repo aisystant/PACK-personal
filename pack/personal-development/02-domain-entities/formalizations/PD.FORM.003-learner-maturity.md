@@ -2,6 +2,7 @@
 id: PD.FORM.003
 type: domain-entity
 status: active
+summary: "Пять ступеней зрелости ученика: от случайного к проактивному саморазвитию с полной систематизацией"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.1
 trust:

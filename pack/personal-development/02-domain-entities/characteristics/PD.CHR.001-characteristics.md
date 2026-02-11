@@ -2,6 +2,7 @@
 id: PD.CHR.001
 type: domain-entity
 status: active
+summary: "Система измеримых характеристик созидателя: киберхарактеристики, физические, когнитивные, социальные и волевые"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.4
 trust:

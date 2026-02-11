@@ -3,6 +3,7 @@ id: PD.FORM.004
 type: domain-entity
 subtype: formalization
 status: active
+summary: "Онтология пяти сущностей агента: описание, знание, навык, мировоззрение и обучение как процесс"
 created: 2026-02-10
 trust:
   F: 3
