@@ -1,4 +1,4 @@
-# spf-personal-pack
+# PACK-personal
 
 > **Тип репозитория:** `Pack`
 
@@ -65,7 +65,7 @@ Pack содержит формализованное инженерное зна
 ## Структура репозитория
 
 ```
-spf-personal-pack/
+PACK-personal/
 ├── README.md
 ├── REPO-TYPE.md
 ├── CLAUDE.md                 # Инструкции для AI
@@ -101,15 +101,15 @@ spf-personal-pack/
 
 | Репозиторий | Тип | Назначение |
 |-------------|-----|------------|
-| [digital-twin-mcp](https://github.com/aisystant/digital-twin-mcp) | instrument | MCP-сервис цифрового двойника |
-| [aist_bot](https://github.com/aisystant/aist_bot) | instrument | Telegram-бот марафона |
-| [docs](https://github.com/aisystant/docs) | surface | Курсы и документация |
+| [DS-twin](https://github.com/aisystant/DS-twin) | instrument | MCP-сервис цифрового двойника |
+| [DS-aist-bot](https://github.com/aisystant/DS-aist-bot) | instrument | Telegram-бот марафона |
+| [DS-docs](https://github.com/aisystant/DS-docs) | surface | Курсы и документация |
 
 ---
 
-## Связь с digital-twin-mcp
+## Связь с DS-twin
 
-**digital-twin-mcp** выступает как внешний «измерительный контур»:
+**DS-twin** выступает как внешний «измерительный контур»:
 - индикаторы и их типы
 - расчёт производных оценок (stage/mastery/agency/risk)
 - генеративные тексты/интерпретации **не являются source-of-truth**

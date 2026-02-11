@@ -17,8 +17,8 @@
 
 ## Downstream outputs
 
-- [aisystant/digital-twin-mcp](https://github.com/aisystant/digital-twin-mcp) — использует индикаторы из этого pack
-- [aisystant/aist_bot](https://github.com/aisystant/aist_bot) — реализует марафон на основе этого pack
+- [aisystant/DS-twin](https://github.com/aisystant/DS-twin) — использует индикаторы из этого pack
+- [aisystant/DS-aist-bot](https://github.com/aisystant/DS-aist-bot) — реализует марафон на основе этого pack
 - Курсы и руководства по личному развитию (surface)
 
 ## Non-goals
