@@ -20,6 +20,8 @@ provides_evidence_for:
 aliases:
   - артефакты ученика
   - результаты работы ученика
+related:
+  produced_by: [PD.METHOD.002]
 ---
 
 # Work Products: Работы ученика (Learner Works)

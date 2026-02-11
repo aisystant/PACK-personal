@@ -8,6 +8,9 @@ status: active
 summary: \"Ошибка смешивания учёта времени (регистрация фактов) с Помодоро (планирование интервалов работы)\"
 created: 2025-02-04
 last_updated: 2025-02-04
+related:
+  violates: [D.003, D.009]
+  applies_to: [PD.METHOD.001]
 ---
 
 # [PD.FAIL.001] Time Accounting Confused with Pomodoro

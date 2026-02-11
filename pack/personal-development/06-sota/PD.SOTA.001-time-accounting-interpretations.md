@@ -5,6 +5,8 @@ target_id: PD.METHOD.001
 created: 2025-02-04
 last_reviewed: 2025-02-04
 summary: "Состояние искусства: шесть интерпретаций учёта времени с оценкой актуальности каждой"
+related:
+  annotates: [PD.METHOD.001]
 ---
 
 # [PD.SOTA.001] SoTA: Time Accounting Interpretations

@@ -13,6 +13,8 @@ epistemic_stage: evidence
 sota_methods:
   - European Qualification Framework (EQF)
   - Competency Architecture
+related:
+  uses: [PD.ROLE.TRAJ.001, PD.FORM.003]
 ---
 
 # Система квалификации созидателя

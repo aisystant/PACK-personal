@@ -19,6 +19,9 @@ provides_evidence_for:
 aliases:
   - метод ученика
   - как учиться
+related:
+  produces: [PD.WP.002]
+  requires_role: [PD.ROLE.001]
 ---
 
 # Метод: Обучение ученика (Learner Method)

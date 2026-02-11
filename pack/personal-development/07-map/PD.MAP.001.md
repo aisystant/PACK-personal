@@ -41,7 +41,7 @@ generated: true
 
 | ID | Name | Summary | Status |
 |----|------|---------|--------|
-| PD.SOTA.001 | Registration Method {#i1-registration-method} | — | — |
+| PD.SOTA.001 | Registration Method {#i1-registration-method} | Состояние искусства: шесть интерпретаций учёта времени с оценкой актуальности каждой | — |
 
 ## Maps
 
@@ -110,7 +110,6 @@ generated: true
 
 ## Warnings
 
-- Missing `summary`: PD.SOTA.001 (PD.SOTA.001-time-accounting-interpretations.md)
 - Missing `summary`: PD.MAP.001 (PD.MAP.001.md)
 
 ## Staleness Warnings (>90 days since update)

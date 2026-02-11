@@ -8,6 +8,9 @@ status: active
 summary: \"Ошибка замены рабочего продукта (наблюдаемый артефакт) его описанием (нарратив о продукте)\"
 created: 2025-02-04
 last_updated: 2025-02-04
+related:
+  violates: [D.005]
+  applies_to: [PD.WP.001]
 ---
 
 # [PD.FAIL.006] Work Product Confused with Description

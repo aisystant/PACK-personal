@@ -16,6 +16,8 @@ depends_on:
 provides_evidence_for:
   - personal-development-methods
   - competency-assessment
+related:
+  uses: [PD.ROLE.001, PD.ROLE.002, PD.ROLE.003, PD.ROLE.004, PD.ROLE.005]
 ---
 
 # Ролевая траектория созидателя

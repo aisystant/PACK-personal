@@ -14,6 +14,8 @@ fpf_patterns:
   - "A.7 Strict Distinction"
   - "C.2 KD-CAL"
   - "C.2.1 U.Episteme"
+related:
+  uses: [PD.FORM.003]
 ---
 
 # 5-сущностная онтология агента (Agent Cognitive Layers)

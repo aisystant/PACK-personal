@@ -8,6 +8,9 @@ status: active
 summary: \"Ошибка принятия описания (текст, документ) за знание (способность агента достигать результатов)\"
 created: 2026-02-10
 last_updated: 2026-02-10
+related:
+  violates: [D.013, D.015]
+  applies_to: [PD.FORM.004]
 ---
 
 # [PD.FAIL.007] Description Confused with Knowledge
