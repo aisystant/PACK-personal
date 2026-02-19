@@ -2023,3 +2023,194 @@ Core conceptual distinctions for the Personal Development domain.
 
 **SoTA**: `current`
 - Revision criterion: Would change if total emotional compartmentalization proves harmful to wellbeing
+
+---
+
+## [D.073] Logical Time (Stages) vs. Physical Time (Milestones)
+
+**Definition**: **Logical time** orders methods and activities conceptually — what must come after what in the method's logic. **Physical time** orders activities on a calendar — what happens when in real days and weeks.
+
+**Distinction Test**:
+- Is this about the conceptual sequence of a method? (Yes → logical time / stages)
+- Is this about calendar dates and deadlines? (Yes → physical time / milestones)
+
+| Logical Time (Stages) | vs. | Physical Time (Milestones) |
+|----------------------|-----|---------------------------|
+| Conceptual ordering | | Calendar ordering |
+| Method sequence | | Week schedule |
+| "What follows what" | | "What happens when" |
+| Stages of a practice | | Deadlines and events |
+
+**Typical Confusion**: Planning a learning path by calendar alone without understanding method sequence, or designing a perfect logical path without ever scheduling it
+
+**Why It Matters**: Personal learning stages (method sequence) are distinct from calendar plans (week schedule). Confusing them leads to either executing without method logic or planning without calendar commitment.
+
+**Related Items**:
+- Method: [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md)
+- Distinction: [D.017](#d017-strategizing-vs-planning)
+
+**SoTA**: `current`
+- Revision criterion: Would change if logical and physical time always align in personal development
+
+---
+
+## [D.074] Task vs. Work
+
+**Definition**: A **task** (задача) is what needs to be done — identified through analysis or strategizing. A **work** (работа) is a task assigned to a specific performer, with all 6 components specified: (1) who/performer, (2) deadline, (3) role, (4) method, (5) resources, (6) expected work product.
+
+**Distinction Test**:
+- Is this "what needs doing" without specifying who, when, how? (Yes → task)
+- Are all 6 components (who, when, role, method, resources, WP) assigned? (Yes → work)
+
+| Task | vs. | Work |
+|------|-----|------|
+| What needs doing | | Task + all 6 components |
+| Output of analysis | | Output of planning |
+| "We need to improve onboarding" | | "Alice, by Friday, as UX designer, using prototyping method, with Figma, producing wireframes" |
+
+**Typical Confusion**: Having a dissatisfaction list (tasks) and expecting results without converting tasks to work (assigning performer, deadline, method)
+
+**Why It Matters**: A task becomes work only when the 6 components are known. Without this conversion, tasks accumulate without execution. The planning method (METHOD.009) performs this conversion.
+
+**Related Items**:
+- Formalization: [PD.FORM.014](../02-domain-entities/formalizations/PD.FORM.014-work-formulation.md)
+- Method: [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if tasks can be executed without explicit component assignment
+
+---
+
+## [D.075] Iteration vs. Increment
+
+**Definition**: **Iteration** is repetition of a cycle for hypothesis testing and approximation — going around the loop again. **Increment** is the tangible improvement added to the system (or the agent's capability) in each iteration.
+
+**Distinction Test**:
+- Is this about repeating the practice cycle? (Yes → iteration)
+- Is this about the measurable capability gain from that cycle? (Yes → increment)
+
+| Iteration | vs. | Increment |
+|-----------|-----|-----------|
+| Repetition of cycle | | Tangible improvement |
+| Process (going around) | | Product (capability gained) |
+| "Another week of practice" | | "Can now do X that I couldn't before" |
+
+**Typical Confusion**: "Spinning wheels" — iterating on a skill (repeating practice cycles) without tracking measurable capability increments
+
+**Why It Matters**: Mastery development requires both: iterations (practice cycles) AND tracked increments (measurable improvements). Iteration without increment tracking is mere repetition. Iteration/increment applies not just to products but to the creator's mastery itself.
+
+**Related Items**:
+- Qualification: [PD.QUAL.001](../02-domain-entities/characteristics/PD.QUAL.001-qualification-system.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if mastery develops without iterative cycles
+
+---
+
+## [D.076] Conscious Role Execution vs. Automatic Behavior
+
+**Definition**: **Conscious role execution** is acting through an identified role + known method + tracked work product — S2-driven, deliberate. **Automatic behavior** is acting from ingrained habits without role/method awareness — S1-driven, energy-efficient but unimprovable.
+
+**Distinction Test**:
+- Can you name which role you are in, which method you are using, and what work product you are creating? (Yes → conscious role execution)
+- Are you acting on autopilot from habit? (Yes → automatic behavior)
+
+| Conscious Role Execution | vs. | Automatic Behavior |
+|-------------------------|-----|--------------------|
+| Role + method identified | | Role/method invisible |
+| S2-driven, deliberate | | S1-driven, habitual |
+| Improvable | | Frozen until made visible |
+| Costs cognitive energy | | Energy-efficient |
+
+**Typical Confusion**: Believing one is "working hard" while on autopilot — the agent feels productive but cannot name the method being used
+
+**Why It Matters**: Switch to conscious mode is needed ONLY when the agent wants to change behavior. Otherwise automatisms conserve attention. The stop-moment (D.069) is the micro-mechanism that enables the switch.
+
+**Related Items**:
+- Distinction: [D.069](#d069-stop-moment-vs-automatic-action)
+- Distinction: [D.061](#d061-automatic-attention-s1-vs-conceptual-attention-s2)
+
+**SoTA**: `current`
+- Revision criterion: Would change if automatic behavior can be improved without conscious interruption
+
+---
+
+## [D.077] Analytical Work vs. Engineering Work (Agent's Daily Split)
+
+**Definition**: **Analytical work** produces internal work products — plans, analyses, models for oneself. **Engineering work** produces external work products — artifacts that change the physical world or are handed to others.
+
+**Distinction Test**:
+- Does this work product stay with me for my use? (Yes → analytical work)
+- Does this work product go to someone else or change something external? (Yes → engineering work)
+
+| Analytical Work | vs. | Engineering Work |
+|----------------|-----|-----------------|
+| Internal WPs (plans, analyses) | | External WPs (deliverables) |
+| For self-orientation | | For world-change |
+| Reading, planning, modeling | | Writing, building, delivering |
+
+**Typical Confusion**: "I was productive today" when the entire day was analytical work with zero external deliverables — the productivity illusion
+
+**Why It Matters**: A daily reflective split reveals the actual balance. Days that are 100% analytical feel productive but deliver nothing to others. The remedy is a daily evening check: list external WPs created today.
+
+**Related Items**:
+- Failure Mode: [PD.FAIL.033](../05-failure-modes/PD.FAIL.033-no-external-work-products.md)
+- Method: [PD.METHOD.010](../03-methods/PD.METHOD.010-daily-reflective-review.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if purely analytical days prove equally productive for long-term outcomes
+
+---
+
+## [D.078] Intention (Agent) vs. Preference (Role)
+
+**Definition**: **Intention** (намерение) belongs to the agent-as-person — driven by dissatisfaction, choosing which role to enter and what to pursue. **Preference** (предпочтение) belongs to the role — what the role structurally wants from the system, regardless of who fills it.
+
+**Distinction Test**:
+- Is this driven by the person's life situation and choices? (Yes → intention)
+- Would ANY person in this role have this interest? (Yes → preference)
+
+| Intention (Agent) | vs. | Preference (Role) |
+|------------------|-----|-------------------|
+| Belongs to the person | | Belongs to the role |
+| "I want to grow as engineer" | | "Engineering role requires quality" |
+| Driven by dissatisfaction | | Structural to the activity |
+| Personal characteristic | | Role characteristic |
+
+**Typical Confusion**: Expecting a role to "want" things (roles have preferences, not wants) or expecting a person to have purely role-based motives (persons have intentions)
+
+**Why It Matters**: The agent's intention to act is personal; the role's preference is structural. Confusing them leads to using role authority for personal goals or expecting personal commitment from role definitions.
+
+**Related Items**:
+- Distinction: [D.049](#d049-role-interest-vs-personal-dissatisfaction)
+- Distinction: [D.002](#d002-role-vs-person)
+
+**SoTA**: `current`
+- Revision criterion: Would change if agent-level and role-level motivations prove inseparable
+
+---
+
+## [D.079] Position (Должность) vs. Role
+
+**Definition**: **Position** (должность) is an assigned organizational slot with obligations, rights, and resource authority (money, people, time). **Role** is a functional behavior pattern requiring method mastery — what the person actually does.
+
+**Distinction Test**:
+- Does this come with formal authority over resources? (Yes → position)
+- Does this describe a behavior pattern with specific methods? (Yes → role)
+
+| Position (Должность) | vs. | Role |
+|---------------------|-----|------|
+| Assigned slot | | Behavior pattern |
+| Obligations + rights | | Methods + work products |
+| Grants resource control | | Requires method mastery |
+| "CTO" | | "Architect", "People Manager", "Strategist" |
+
+**Typical Confusion**: Equating promotion (positional growth) with competence growth (professional mastery in new roles). A boss who plays ALL roles prevents subordinates from exercising their role mastery.
+
+**Why It Matters**: Positional growth gives authority to play more roles + resource control. Professional growth gives mastery to play roles well. One without the other is insufficient.
+
+**Related Items**:
+- Distinction: [D.071](#d071-professional-growth-vs-positional-growth)
+
+**SoTA**: `current`
+- Revision criterion: Would change if positions and roles converge in flat organizations

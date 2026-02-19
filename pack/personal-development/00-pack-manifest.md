@@ -72,16 +72,16 @@ This pack captures knowledge about **characteristics and states of creator** as 
 
 | Section | Item Count | Status |
 |---------|------------|--------|
-| Distinctions | 72 | active |
+| Distinctions | 79 | active |
 | Principles | 29 | active |
 | Roles | 5 | active |
 | Objects of Attention | 6 | active |
 | Formalizations | 32 | active |
 | Characteristics | 2 | active |
 | States | 3 | active |
-| Methods | 9 | active |
+| Methods | 10 | active |
 | Work Products | 16 | active |
-| Failure Modes | 32 | active |
+| Failure Modes | 34 | active |
 | SoTA Annotations | 1 | active |
 | Maps | 1 | active |
 
@@ -92,7 +92,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | File | Description |
 |------|-------------|
 | [01A-bounded-context.md](01-domain-contract/01A-bounded-context.md) | Domain scope and boundaries |
-| [01B-distinctions.md](01-domain-contract/01B-distinctions.md) | 72 core distinctions |
+| [01B-distinctions.md](01-domain-contract/01B-distinctions.md) | 79 core distinctions |
 | [01C-principles.md](01-domain-contract/01C-principles.md) | 29 domain principles |
 | [ontology.md](../../ontology.md) | Domain ontology (SPF.SPEC.002) |
 | [02A-roles.md](02-domain-entities/02A-roles.md) | Agent, Analyst, Mentor, Architect |
@@ -100,7 +100,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | [02C-methods-index.md](02-domain-entities/02C-methods-index.md) | Methods navigation |
 | [PD.METHOD.001](03-methods/PD.METHOD.001-time-accounting.md) | Time Accounting |
 | [PD.WP.001](04-work-products/PD.WP.001-time-budget.md) | Time Budget |
-| [05-failure-modes/](05-failure-modes/) | 32 failure mode cards |
+| [05-failure-modes/](05-failure-modes/) | 34 failure mode cards |
 | [PD.SOTA.001](06-sota/PD.SOTA.001-time-accounting-interpretations.md) | Time Accounting interpretations |
 | [PD.MAP.001](07-map/PD.MAP.001.md) | Full navigation map |
 
@@ -117,6 +117,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | 2026-02-10 | Added 5-entity agent ontology (FORM.004), 3 distinctions (D.013-D.015), failure mode (FAIL.007), BC clarification on Learning | AISYSTANT |
 | 2026-02-19 | Bulk enrichment from Guide 1-2 «Практики саморазвития»: +23 distinctions (D.021-D.043), +20 principles (PRINC.001-020), +1 method (METHOD.009), +11 formalizations (FORM.005-015), +15 failure modes (FAIL.008-022), +9 work products (WP.008-016). Total: 38→131 entities | KE bulk extraction |
 | 2026-02-19 | Bulk enrichment from Guide 1-1 «Системное саморазвитие» (ch 1-5, 8-9): +29 distinctions (D.044-D.072), +9 principles (PRINC.021-029), +17 formalizations (FORM.016-032), +2 states (STATE.002-003), +1 characteristic (CHR.002), +10 failure modes (FAIL.023-032). Total: 131→199 entities | KE bulk extraction |
+| 2026-02-19 | Bulk enrichment from Guide 1-3 «Введение в системное мышление» (ch 3, 7): +7 distinctions (D.073-D.079), +1 method (METHOD.010), +2 failure modes (FAIL.033-034). Total: 199→209 entities | KE bulk extraction |
 
 ## Entity Index
 
@@ -157,6 +158,8 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FAIL.030 | Excessive Composure / Hyper-Focus | FAIL | Чрезмерное применение собранности: микроменеджмент каждой минуты, паралич от избыточных стоп-моментов, ригидность — любое отклонение от плана воспринимается как провал | active |
 | PD.FAIL.031 | Uncontrolled Self-Reflection (Rumination) | FAIL | Внутренний монолог, пожирающий внимание: прокручивание прошлого, циклическая самокритика — маскируется под 'глубокие размышления', но не производит рабочего продукта | active |
 | PD.FAIL.032 | Careerist Trap (Ловушка карьериста) | FAIL | Фокус на позиционных средствах — влиянии, признании, должностях (прямом устранении неудовлетворённости) — вместо создания систем; ведёт к стагнации при достижении потолка должностей | active |
+| PD.FAIL.033 | No External Work Products (Productivity Illusion) | FAIL | Агент заполняет день аналитической работой, но не создаёт ни одного внешнего рабочего продукта — иллюзия продуктивности | active |
+| PD.FAIL.034 | Acting Without Role Awareness (Unconscious Method) | FAIL | Агент действует, не осознавая текущую роль, используемый метод и создаваемый рабочий продукт — невидимое поведение невозможно улучшить | active |
 | PD.FORM.001 | Development Programs | FORM | Формализация трёх уровней систематического развития: личного, рабочего и исследовательского | active |
 | PD.FORM.002 | Development Directions | FORM | Шесть направлений развития: мировоззрение, мастерство, ограничения, экзокортекс, культура, организм | active |
 | PD.FORM.003 | Learner Maturity | FORM | Пять ступеней зрелости ученика: от случайного к проактивному саморазвитию с полной систематизацией | active |
@@ -199,6 +202,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.METHOD.007 | Environment Formation | METHOD | Метод осознанного долгосрочного развития физической и социальной среды для обеспечения условий продуктивной деятельности и саморазвития | active |
 | PD.METHOD.008 | Strategizing | METHOD | Метод непрерывной разработки и реализации личной стратегии: выявление неудовлетворённостей, выбор приоритетных проектов и тестирование гипотез | active |
 | PD.METHOD.009 | Planning | METHOD | Метод преобразования задач в формулировки работ и размещения их в физическом времени с учётом ресурсов и дедлайнов | active |
+| PD.METHOD.010 | Daily Reflective Role-Product Review | METHOD | Вечерняя микро-практика: перечисление ролей дня, внешних и внутренних рабочих продуктов — предотвращение иллюзии продуктивности | active |
 | PD.QUAL.001 | Qualification System | QUAL | Система квалификации с восемью уровнями (EQF), основанная на демонстрации применения методов | active |
 | PD.ROLE.001 | Learner | ROLE | Роль человека, осваивающего новое знание, выстраивающего дисциплину и формирующего мировоззрение | active |
 | PD.ROLE.002 | Intellectual | ROLE | Роль человека, применяющего знания в проектах, работающего с понятиями и методами | active |
