@@ -1587,3 +1587,439 @@ Core conceptual distinctions for the Personal Development domain.
 
 **SoTA**: `current`
 - Revision criterion: Would change if the three-part classification proves unhelpful for learning decisions
+
+---
+
+## [D.056] Physical World vs. Mental Space
+
+**Definition**: The **physical world** is material reality governed by natural laws (physics, chemistry, biology). **Mental space** is the realm of concepts, theories, models, and descriptions that agents construct to understand and change the physical world.
+
+**Distinction Test**:
+- Can this be measured with instruments? (Yes → physical world)
+- Does this exist only as a concept/model in someone's mind or text? (Yes → mental space)
+
+| Physical World | vs. | Mental Space |
+|---------------|-----|-------------|
+| Material reality | | Concepts, models, theories |
+| Governed by natural laws | | Governed by logic and agreements |
+| Changed by physical action | | Changed by thinking and communication |
+
+**Typical Confusion**: Treating mental models as physical reality ("the strategy exists" — no, the document exists; the strategy is a mental construct)
+
+**Why It Matters**: All self-development methods produce changes in mental space (new knowledge, new models) that then guide physical actions. Confusing the two leads to treating descriptions as achievements.
+
+**SoTA**: `current`
+- Revision criterion: Would change if the dualism proves unhelpful for self-development practice
+
+---
+
+## [D.057] Creator vs. Consumer
+
+**Definition**: **Creator** is a behavioral mode of producing new systems, artifacts, or knowledge for the world. **Consumer** is a mode of passively using others' creations. The same person switches between modes throughout the day.
+
+**Distinction Test**:
+- Is something new being produced for others? (Yes → creator mode)
+- Is something being used/consumed without producing? (Yes → consumer mode)
+
+| Creator Mode | vs. | Consumer Mode |
+|-------------|-----|--------------|
+| Produces systems/artifacts | | Uses others' creations |
+| Invests time | | Spends time |
+| Generates value for others | | Receives value from others |
+| Active, S2-driven | | Passive, S1-driven |
+
+**Typical Confusion**: "I read a lot, therefore I create" (consumption of information is not creation unless it produces a work product)
+
+**Why It Matters**: Self-development aims to increase the proportion of creator-mode time. Time accounting distinguishes invested time (creator mode) from spent time (consumer mode).
+
+**Related Items**:
+- Distinction: [D.016](#d016-invested-time-vs-spent-time)
+
+**SoTA**: `current`
+- Revision criterion: Would change if the binary split proves too simplistic (e.g., "prosumer" mode is necessary)
+
+---
+
+## [D.058] Heredity vs. Mastery vs. Luck
+
+**Definition**: Three factors determining life outcomes. **Heredity** (genes, family) is the starting point — fixed and uncontrollable. **Luck** (chance encounters, timing) is random — uncontrollable by definition. **Mastery** (developed competencies) is the only controllable factor.
+
+**Distinction Test**:
+- Was this determined at birth? (Yes → heredity)
+- Was this a random event? (Yes → luck)
+- Was this developed through deliberate practice? (Yes → mastery)
+
+| Heredity | vs. | Mastery | vs. | Luck |
+|----------|-----|---------|-----|------|
+| Fixed at birth | | Developed through practice | | Random events |
+| Uncontrollable | | Controllable | | Uncontrollable |
+| Genes, family, country | | Skills, knowledge, worldview | | Chance meetings, timing |
+
+**Typical Confusion**: Attributing success to luck or heredity when mastery was the key factor, or vice versa
+
+**Why It Matters**: Self-development focuses exclusively on the mastery factor. Overattributing outcomes to heredity or luck ("I'm not talented enough" / "I was just lucky") undermines agency.
+
+**SoTA**: `current`
+- Revision criterion: Would change if evidence shows heredity/luck factors dominate mastery for most outcomes
+
+---
+
+## [D.059] Life Mastery vs. Applied Mastery
+
+**Definition**: **Life mastery** is the meta-competence of managing one's own development — choosing what to learn, how to allocate time, how to strategize. **Applied mastery** is domain-specific expertise used to produce work products in a specific field.
+
+**Distinction Test**:
+- Does this help me decide WHAT to do next in life? (Yes → life mastery)
+- Does this help me do a specific task BETTER? (Yes → applied mastery)
+
+| Life Mastery | vs. | Applied Mastery |
+|-------------|-----|----------------|
+| Platform (meta-level) | | Application (domain-level) |
+| Self-development practices | | Professional skills |
+| Transferable across domains | | Domain-specific |
+| Develops slowly, compounds | | Can be acquired faster |
+
+**Typical Confusion**: "I'll focus on professional skills and life will sort itself out" (applied mastery without life mastery leads to random career trajectory)
+
+**Why It Matters**: This Pack describes life mastery characteristics. Applied mastery is described in domain-specific Packs. Investing only in applied mastery is like building applications without an operating system.
+
+**Related Items**:
+- Distinction: [D.033](#d033-individual-practice-mastery-vs-self-development-mastery-aggregate)
+
+**SoTA**: `current`
+- Revision criterion: Would change if life mastery proves unnecessary when AI handles meta-decisions
+
+---
+
+## [D.060] Problem (задача) vs. Concern (проблема/затруднение)
+
+**Definition**: A **problem** (задача) is a situation where the agent knows the solution method and can estimate the effort. A **concern** (проблема/затруднение) is a situation where the agent lacks the mastery to even formulate an approach.
+
+**Distinction Test**:
+- Can you name the method and estimate hours to solve this? (Yes → problem/задача)
+- Do you feel stuck without knowing where to start? (Yes → concern/проблема)
+
+| Problem (задача) | vs. | Concern (проблема) |
+|-----------------|-----|-------------------|
+| Known method exists | | No known method |
+| Effort is estimable | | Effort is unknown |
+| Requires execution | | Requires learning first |
+| Solved by applied mastery | | Resolved by life mastery |
+
+**Typical Confusion**: Treating concerns as problems and trying to brute-force them without first acquiring the necessary knowledge
+
+**Why It Matters**: When a creator faces a concern (not a problem), the correct action is to study, not to execute. This determines whether time should be invested (learning) or spent (executing).
+
+**Related Items**:
+- Distinction: [D.016](#d016-invested-time-vs-spent-time)
+
+**SoTA**: `current`
+- Revision criterion: Would change if all life situations become solvable with AI assistance (no more concerns)
+
+---
+
+## [D.061] Automatic Attention (S1) vs. Conceptual Attention (S2)
+
+**Definition**: **Automatic attention** is fast-thinking (System 1) attention directed by salience, emotion, and habit — the default mode. **Conceptual attention** is slow-thinking (System 2) attention deliberately directed by chosen concepts (role, method, work product).
+
+**Distinction Test**:
+- Am I attending to what grabbed my attention? (Yes → S1 automatic)
+- Am I attending to what I deliberately chose to focus on using a concept? (Yes → S2 conceptual)
+
+| Automatic Attention (S1) | vs. | Conceptual Attention (S2) |
+|-------------------------|-----|--------------------------|
+| Default, effortless | | Deliberate, effortful |
+| Directed by salience/emotion | | Directed by chosen concepts |
+| Unlimited endurance | | Limited by cognitive resources |
+| Produces habitual behavior | | Produces conscious choices |
+
+**Typical Confusion**: "I'm paying attention" when actually on autopilot — the feeling of focus without conceptual direction
+
+**Why It Matters**: Composure is specifically the ability to engage S2 conceptual attention at critical moments (stop-moments). The entry ritual (PRINC.020) is a mechanism for switching from S1 to S2.
+
+**Related Items**:
+- Distinction: [D.054](#d054-composure-собранность-vs-concentration)
+- Principle: PRINC.020 (Entry Ritual)
+
+**SoTA**: `current`
+- Revision criterion: Would change if dual-process theory is superseded
+
+---
+
+## [D.062] Conscious vs. Unconscious Dissatisfaction
+
+**Definition**: **Unconscious dissatisfaction** manifests as emotions (anxiety, apathy, irritation) signaling an unarticulated deficit — the agent feels bad but cannot name why. **Conscious dissatisfaction** has been articulated through thinking in writing into a testable hypothesis about the gap between current and desired state.
+
+**Distinction Test**:
+- Can you write down what exactly is wrong and what would fix it? (Yes → conscious; No → unconscious)
+
+| Unconscious Dissatisfaction | vs. | Conscious Dissatisfaction |
+|---------------------------|-----|--------------------------|
+| Felt as diffuse emotion | | Articulated as specific gap |
+| Cannot be acted upon | | Can be turned into project |
+| Produces anxiety/apathy | | Produces motivation |
+| Requires TIW to process | | Ready for strategizing |
+
+**Typical Confusion**: Trying to solve an unconscious dissatisfaction through action (but you cannot solve what you cannot name)
+
+**Why It Matters**: The strategizing method (METHOD.008) requires conscious dissatisfactions as input. Unconscious dissatisfactions first need processing through thinking in writing (METHOD.004) to become actionable.
+
+**Related Items**:
+- Method: [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md)
+- Method: [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if all dissatisfactions prove to be always at least partially conscious
+
+---
+
+## [D.063] Dissatisfaction vs. Need (Maslow)
+
+**Definition**: **Dissatisfaction** is a gap-sensing ability of the agent — the psychic state that something is wrong, functionally independent of hierarchy. **Need** (in Maslow's hierarchy sense) is a ranked requirement in a fixed pyramid. This domain uses "dissatisfaction" to avoid collision with systems thinking "need" (stakeholder requirement).
+
+**Distinction Test**:
+- Is this framed as a ranked level in a hierarchy? (Yes → Maslow's need)
+- Is this framed as a gap between current and desired state, regardless of hierarchy? (Yes → dissatisfaction)
+
+| Dissatisfaction | vs. | Need (Maslow) |
+|----------------|-----|--------------|
+| Gap-sensing (any level) | | Ranked in hierarchy |
+| Processable through strategizing | | Sequential (lower first) |
+| Agent characteristic | | Universal human model |
+
+**Typical Confusion**: "I need to satisfy basic needs before pursuing self-development" (dissatisfactions at any level can be processed simultaneously)
+
+**Why It Matters**: Using "dissatisfaction" instead of "need" avoids the hierarchical assumption and the terminological collision with systems engineering stakeholder needs.
+
+**Related Items**:
+- Work Product: [PD.WP.005](../04-work-products/PD.WP.005-dissatisfaction-list.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if Maslow's hierarchy is proven correct and sequential
+
+---
+
+## [D.064] Emotion vs. Feeling vs. Sensation
+
+**Definition**: Three levels of affective experience differing by nature, timescale, and awareness. **Sensation** is physiological (instant, low awareness — e.g., cold, hunger). **Emotion** is psychophysiological (short-term, partial awareness — e.g., anger, joy). **Feeling** is psychological (long-term, fully conscious — e.g., love, guilt, chronic anxiety).
+
+**Distinction Test**:
+- Is this purely bodily? (Yes → sensation)
+- Is this brief and reactive? (Yes → emotion)
+- Is this persistent and reflectable? (Yes → feeling)
+
+| Sensation | vs. | Emotion | vs. | Feeling |
+|-----------|-----|---------|-----|---------|
+| Physiological | | Psychophysiological | | Psychological |
+| Instant | | Minutes-hours | | Days-years |
+| Low awareness | | Partial awareness | | Full consciousness |
+
+**Typical Confusion**: "I feel angry" (anger is an emotion, not a feeling — the feeling might be chronic frustration)
+
+**Why It Matters**: Emotional stability (CHR.002) operates differently at each level. Sensations require physical regulation (sleep, food). Emotions require composure (stop-moments). Feelings require strategic processing (TIW, strategizing).
+
+**SoTA**: `current`
+- Revision criterion: Would change if neuroscience collapses these three into one mechanism
+
+---
+
+## [D.065] Motivation vs. Intention
+
+**Definition**: **Motivation** is a general drive rooted in dissatisfactions — the feeling of wanting something to change. **Intention** is its refined form with a clear goal direction, action plan, and resource allocation.
+
+**Distinction Test**:
+- Is there a plan with specific actions and deadlines? (Yes → intention; No → just motivation)
+
+| Motivation | vs. | Intention |
+|-----------|-----|----------|
+| General drive | | Specific plan |
+| "I want to change" | | "I will do X by Y" |
+| Dissatisfaction-based | | Strategy-based |
+| Necessary but insufficient | | Sufficient for action |
+
+**Typical Confusion**: "I'm very motivated!" without any concrete plan (motivation without intention produces no results)
+
+**Why It Matters**: Strategizing (METHOD.008) transforms motivations into intentions. Planning (METHOD.009) makes intentions executable. Without this chain, motivation dissipates.
+
+**SoTA**: `current`
+- Revision criterion: Would change if motivation alone proves sufficient for sustained action
+
+---
+
+## [D.066] Direct Pleasure vs. Pleasure Through System Creation
+
+**Definition**: Two pathways to satisfaction. **Direct pleasure** is immediate personal gratification (food, entertainment, recognition). **Pleasure through system creation** requires mastery investment but produces deeper, more sustainable satisfaction from seeing systems work for others.
+
+**Distinction Test**:
+- Does this satisfy me directly? (Yes → direct pleasure)
+- Does this satisfy me through seeing a created system serve others? (Yes → system creation pleasure)
+
+| Direct Pleasure | vs. | Pleasure Through System Creation |
+|----------------|-----|--------------------------------|
+| Immediate | | Delayed (requires mastery) |
+| Low effort | | High effort |
+| Diminishing returns | | Compounding returns |
+| Consumer mode | | Creator mode |
+
+**Typical Confusion**: Optimizing life for direct pleasure and wondering why it feels empty (hedonic treadmill vs. eudaimonic path)
+
+**Why It Matters**: Creator trajectory (ROLE.TRAJ.001) progressively shifts from direct pleasure toward system creation pleasure. This shift is an indicator of development stage.
+
+**SoTA**: `current`
+- Revision criterion: Would change if direct and system-creation pleasures prove neurologically identical
+
+---
+
+## [D.067] Brain Computational Power vs. Computation Speed
+
+**Definition**: **Computational power** is the brain's hardware capacity (largely genetic, slightly improvable). **Computation speed** depends on loaded algorithms — theories, methods, mental models — and is dramatically increased by training and exocortex use.
+
+**Distinction Test**:
+- Is this about the raw capacity of the brain? (Yes → power)
+- Is this about how fast the brain solves a specific class of problems? (Yes → speed, depends on algorithms)
+
+| Computational Power | vs. | Computation Speed |
+|--------------------|-----|-------------------|
+| Hardware (largely genetic) | | Software (trained algorithms) |
+| Slightly improvable | | Dramatically improvable |
+| "Mental barbell" raises it | | Loading right theories raises it |
+| General capacity | | Domain-specific throughput |
+
+**Typical Confusion**: "I'm not smart enough" (confusing low speed on unfamiliar problems with low power — just need to load the right algorithms)
+
+**Why It Matters**: Self-development primarily improves computation speed by loading transdisciplinary theories. Studying complex disciplines also slightly improves power ("mental barbell" effect).
+
+**SoTA**: `current`
+- Revision criterion: Would change if neuroscience shows power and speed are the same mechanism
+
+---
+
+## [D.068] Role Mastery vs. Applied Mastery
+
+**Definition**: **Role mastery** is the transferable ability to identify, enter, switch between, and reach flow in any role — part of general intellect. **Applied mastery** is the domain-specific skill that determines work product quality within a particular role.
+
+**Distinction Test**:
+- Does this help me switch between roles effectively? (Yes → role mastery)
+- Does this help me produce better work in a specific domain? (Yes → applied mastery)
+
+| Role Mastery | vs. | Applied Mastery |
+|-------------|-----|----------------|
+| Transferable across domains | | Domain-specific |
+| Part of intellect-stack | | Part of professional skill |
+| Developed through self-development | | Developed through practice |
+| Enables role identification & entry | | Enables work product quality |
+
+**Typical Confusion**: "I'm a great engineer but terrible at meetings" (high applied mastery, low role mastery — cannot switch from engineer to communicator role)
+
+**Why It Matters**: Role mastery is meta-level (like life mastery, D.059), while applied mastery is object-level. Self-development practices primarily develop role mastery; domain practice develops applied mastery.
+
+**Related Items**:
+- Distinction: [D.059](#d059-life-mastery-vs-applied-mastery)
+- Distinction: [D.002](#d002-role-vs-person)
+
+**SoTA**: `current`
+- Revision criterion: Would change if role fluidity becomes automatic through AI augmentation
+
+---
+
+## [D.069] Stop-Moment vs. Automatic Action
+
+**Definition**: **Automatic action** is habit-driven fast-thinking (S1) behavior. **Stop-moment** is a conscious pause engaging slow thinking (S2) to analyze the situation, choose a role, and select a method — the fundamental unit of composure.
+
+**Distinction Test**:
+- Am I acting on autopilot? (Yes → automatic action)
+- Did I consciously pause to check: right role? right method? right priority? (Yes → stop-moment)
+
+| Stop-Moment | vs. | Automatic Action |
+|------------|-----|-----------------|
+| Deliberate S2 pause | | Default S1 flow |
+| Requires cognitive energy | | Energy-efficient |
+| Enables conscious choice | | Follows established patterns |
+| Limited per day | | Unlimited |
+
+**Typical Confusion**: Any S1→S2 transition is a stop-moment (no — stop-moment requires conceptual attention direction, not just noticing something)
+
+**Why It Matters**: Stop-moments are the micro-mechanism of all self-development. Without them, new practices cannot be installed. The entry ritual (PRINC.020) creates a structured stop-moment.
+
+**Related Items**:
+- Distinction: [D.061](#d061-automatic-attention-s1-vs-conceptual-attention-s2)
+- Principle: PRINC.020 (Entry Ritual)
+
+**SoTA**: `current`
+- Revision criterion: Would change if composure can be developed without conscious stop-moments
+
+---
+
+## [D.070] Activity Outlook vs. Professional Mastery
+
+**Definition**: **Activity outlook** (деятельностный кругозор) is knowledge of how a domain is structured: roles, methods, systems, stakeholders — breadth. **Professional mastery** is skill in specific methods within that domain — depth.
+
+**Distinction Test**:
+- Can I name the roles, methods, and work products in this domain? (Yes → activity outlook)
+- Can I produce quality work products using specific methods? (Yes → professional mastery)
+
+| Activity Outlook | vs. | Professional Mastery |
+|-----------------|-----|---------------------|
+| Breadth (domain map) | | Depth (method execution) |
+| "I know who does what" | | "I can do this well" |
+| Enables role identification | | Enables work product creation |
+| Grows through study | | Grows through practice |
+
+**Typical Confusion**: "I know a lot about this field" (activity outlook without professional mastery — can describe but cannot produce)
+
+**Why It Matters**: Career development requires both. Activity outlook enables strategic career decisions (which roles to develop). Professional mastery enables tactical execution within chosen roles.
+
+**SoTA**: `current`
+- Revision criterion: Would change if AI makes domain knowledge instantly accessible (no need to build outlook)
+
+---
+
+## [D.071] Professional Growth vs. Positional Growth
+
+**Definition**: **Professional growth** is deepening mastery in the same role — handling more complex tasks. **Positional growth** is promotion to new positions requiring new roles and broader authority.
+
+**Distinction Test**:
+- Am I doing the same role but handling harder problems? (Yes → professional growth)
+- Am I taking on new roles with new responsibilities? (Yes → positional growth)
+
+| Professional Growth | vs. | Positional Growth |
+|--------------------|-----|------------------|
+| Same role, harder tasks | | New roles, new authority |
+| Depth of mastery | | Breadth of roles |
+| Specialist track | | Management/leadership track |
+| Measured by task complexity | | Measured by scope of responsibility |
+
+**Typical Confusion**: Confusing promotion with growth ("I got promoted, so I grew" — positional growth without professional growth in the new role leads to the careerist trap)
+
+**Why It Matters**: Optimal development combines both dimensions. Professional growth without positional growth leads to stagnation. Positional growth without professional growth leads to the Peter Principle.
+
+**SoTA**: `current`
+- Revision criterion: Would change if organizational hierarchies are eliminated by flat structures
+
+---
+
+## [D.072] Person's Emotions vs. Emotions from Role Execution
+
+**Definition**: Two sources of emotion during role play. **Person's emotions** are pre-existing internal states (anxiety from personal problems, fatigue) that should not contaminate role behavior. **Emotions from role execution** arise from the role itself (satisfaction from quality work, frustration from a blocker).
+
+**Distinction Test**:
+- Would I feel this way regardless of what role I'm playing? (Yes → person's emotions)
+- Does this feeling arise specifically from this role's work? (Yes → role execution emotions)
+
+| Person's Emotions | vs. | Emotions from Role Execution |
+|------------------|-----|------------------------------|
+| Pre-existing state | | Arises from work |
+| Independent of role | | Specific to current role |
+| Should not contaminate role | | Valid feedback signal |
+| Managed by leisure/composure | | Managed by role mastery |
+
+**Typical Confusion**: Being irritable in a meeting and blaming the meeting (actually brought personal irritation into the role)
+
+**Why It Matters**: Good role mastery means separating personal emotions from role behavior — like an actor who does not bring personal problems onto stage. This is trainable through stop-moments and conceptual attention.
+
+**Related Items**:
+- Distinction: [D.068](#d068-role-mastery-vs-applied-mastery)
+- Distinction: [D.069](#d069-stop-moment-vs-automatic-action)
+
+**SoTA**: `current`
+- Revision criterion: Would change if total emotional compartmentalization proves harmful to wellbeing

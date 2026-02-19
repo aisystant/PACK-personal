@@ -513,3 +513,86 @@ Each iteration is a cycle of hypothesis, test, result, correction. Each incremen
 ### Source Practice
 
 Guide 1-1, Chapter 9.5 (Непрерывное и бесконечное развитие)
+
+---
+
+## PRINC.026: Freedom of Choice — Close the Fewest Doors {#princ026-freedom-of-choice}
+
+### Statement
+
+Prefer decisions that maximize future option space — more mastery and education equals more freedom, not less.
+
+### Explanation
+
+Every decision closes some doors and opens others. The principle of freedom of choice counsels selecting the path that preserves the widest range of future options. Education and mastery are the primary mechanisms for expanding option space: a person with more knowledge has more possible career paths, more ways to resolve dissatisfactions, and more strategies available. Conversely, narrow specialization without breadth, or decisions made under pressure without strategizing, tend to close doors prematurely.
+
+### Related Methods
+
+- [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) — strategic decisions should maximize option space
+- [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md) — reading broadens available options
+
+### Source Practice
+
+Guide 1-1, Chapter 2.6 (Профориентация)
+
+---
+
+## PRINC.027: Success Is Not Absence of Problems — It Is Their New Form {#princ027-success-new-problems}
+
+### Statement
+
+Each transition to a higher system level brings new, more complex challenges — the illusion that success equals comfort leads to burnout and stagnation.
+
+### Explanation
+
+A common failure mode is expecting that reaching a goal will eliminate problems. In reality, solving problems at one level opens problems at the next level. Emotional stability is the characteristic enabling a creator to accept this as natural rather than as failure. The creator who expects comfort after success is vulnerable to burnout when new challenges inevitably appear.
+
+### Related Methods
+
+- [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) — reframing dissatisfactions as growth indicators
+
+### Source Practice
+
+Guide 1-1, Chapter 4.7 (Эмоциональная стабильность)
+
+---
+
+## PRINC.028: Complex Theory as Mental Barbell {#princ028-mental-barbell}
+
+### Statement
+
+Studying complex transdisciplinary theories develops brain computational power even if the specific knowledge is later forgotten — full intellect requires all transdisciplines, not just one.
+
+### Explanation
+
+Just as a physical barbell develops muscles even though the barbell itself is not the goal, studying complex theories (ontology, physics, systems thinking, management) develops the brain's computational power beyond its genetic baseline. This effect is cumulative and cannot be achieved by studying only one discipline. A person who studied only mathematics has developed one cognitive muscle group; full development requires the complete intelligence stack.
+
+### Related Methods
+
+- [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md) — reading transdisciplinary material is the exercise
+- [PD.METHOD.002](../03-methods/PD.METHOD.002-learner-method.md) — structured learning maximizes the effect
+
+### Source Practice
+
+Guide 1-1, Chapter 4.10 (Вычислительная мощность мозга)
+
+---
+
+## PRINC.029: Dissatisfactions Are Resolved Through Role Action, Not Introspection {#princ029-resolve-through-action}
+
+### Statement
+
+Dissatisfactions are more effectively resolved by consciously entering a role and acting than by introspection alone — good role performance changes the world and satisfies the underlying need via feedback.
+
+### Explanation
+
+When facing a dissatisfaction, the natural impulse is to think about it. But introspection without action produces rumination, not resolution. The systems approach prescribes: identify which role addresses this dissatisfaction, enter that role (stop-moment, entry ritual), apply the corresponding method, and produce a work product. The work product changes the physical world, which generates feedback, which resolves or updates the dissatisfaction.
+
+### Related Methods
+
+- [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) — maps dissatisfactions to projects and roles
+- [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md) — first step: make dissatisfaction conscious
+
+### Source Practice
+
+Guide 1-1, Chapter 5.1-5.3 (Роль, ролевые интересы, удовлетворение неудовлетворённостей)

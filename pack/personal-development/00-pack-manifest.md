@@ -72,14 +72,16 @@ This pack captures knowledge about **characteristics and states of creator** as 
 
 | Section | Item Count | Status |
 |---------|------------|--------|
-| Distinctions | 55 | active |
-| Principles | 25 | active |
+| Distinctions | 72 | active |
+| Principles | 29 | active |
 | Roles | 5 | active |
 | Objects of Attention | 6 | active |
-| Formalizations | 22 | active |
+| Formalizations | 32 | active |
+| Characteristics | 2 | active |
+| States | 3 | active |
 | Methods | 9 | active |
 | Work Products | 16 | active |
-| Failure Modes | 27 | active |
+| Failure Modes | 32 | active |
 | SoTA Annotations | 1 | active |
 | Maps | 1 | active |
 
@@ -90,15 +92,15 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | File | Description |
 |------|-------------|
 | [01A-bounded-context.md](01-domain-contract/01A-bounded-context.md) | Domain scope and boundaries |
-| [01B-distinctions.md](01-domain-contract/01B-distinctions.md) | 55 core distinctions |
-| [01C-principles.md](01-domain-contract/01C-principles.md) | 25 domain principles |
+| [01B-distinctions.md](01-domain-contract/01B-distinctions.md) | 72 core distinctions |
+| [01C-principles.md](01-domain-contract/01C-principles.md) | 29 domain principles |
 | [ontology.md](../../ontology.md) | Domain ontology (SPF.SPEC.002) |
 | [02A-roles.md](02-domain-entities/02A-roles.md) | Agent, Analyst, Mentor, Architect |
 | [02B-objects-of-attention.md](02-domain-entities/02B-objects-of-attention.md) | 6 objects |
 | [02C-methods-index.md](02-domain-entities/02C-methods-index.md) | Methods navigation |
 | [PD.METHOD.001](03-methods/PD.METHOD.001-time-accounting.md) | Time Accounting |
 | [PD.WP.001](04-work-products/PD.WP.001-time-budget.md) | Time Budget |
-| [05-failure-modes/](05-failure-modes/) | 27 failure mode cards |
+| [05-failure-modes/](05-failure-modes/) | 32 failure mode cards |
 | [PD.SOTA.001](06-sota/PD.SOTA.001-time-accounting-interpretations.md) | Time Accounting interpretations |
 | [PD.MAP.001](07-map/PD.MAP.001.md) | Full navigation map |
 
@@ -114,7 +116,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | 2025-02-05 | Restructure: create 01-domain-contract/ folder with 01A-bounded-context.md and 01B-distinctions.md | AISYSTANT |
 | 2026-02-10 | Added 5-entity agent ontology (FORM.004), 3 distinctions (D.013-D.015), failure mode (FAIL.007), BC clarification on Learning | AISYSTANT |
 | 2026-02-19 | Bulk enrichment from Guide 1-2 «Практики саморазвития»: +23 distinctions (D.021-D.043), +20 principles (PRINC.001-020), +1 method (METHOD.009), +11 formalizations (FORM.005-015), +15 failure modes (FAIL.008-022), +9 work products (WP.008-016). Total: 38→131 entities | KE bulk extraction |
-| 2026-02-19 | Bulk enrichment from Guide 1-1 «Системное саморазвитие» (ch 1-5, 8-9): +12 distinctions (D.044-D.055), +5 principles (PRINC.021-025), +7 formalizations (FORM.016-022), +5 failure modes (FAIL.023-027). Total: 131→160 entities | KE bulk extraction |
+| 2026-02-19 | Bulk enrichment from Guide 1-1 «Системное саморазвитие» (ch 1-5, 8-9): +29 distinctions (D.044-D.072), +9 principles (PRINC.021-029), +17 formalizations (FORM.016-032), +2 states (STATE.002-003), +1 characteristic (CHR.002), +10 failure modes (FAIL.023-032). Total: 131→199 entities | KE bulk extraction |
 
 ## Entity Index
 
@@ -122,6 +124,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 |----|------|------|---------|--------|
 | PD.ARCH.001 | Transparent Box | ARCH | Модель внутреннего устройства созидателя как системы: подсистемы личности, организма и экзотела | active |
 | PD.CHR.001 | Characteristics | CHR | Система измеримых характеристик созидателя: киберхарактеристики, физические, когнитивные, социальные и волевые | active |
+| PD.CHR.002 | Emotional Stability | CHR | Характеристика эмоциональной стабильности: способность возвращаться в равновесие после сбоя; модель неваляшки; развивается через собранность, TIW, привычки | active |
 | PD.FAIL.001 | Time Accounting Confused with Pomodoro | FAIL | \"Ошибка смешивания учёта времени (регистрация фактов) с Помодоро (планирование интервалов работы)\" | active |
 | PD.FAIL.002 | Time Accounting Confused with Discipline | FAIL | \"Ошибка ожидания, что учёт времени будет вводить дисциплину вместо выявления информации\" | active |
 | PD.FAIL.003 | Time Accounting Confused with Control | FAIL | \"Ошибка использования учёта времени как внешнего контроля вместо инструмента самонаблюдения\" | active |
@@ -149,6 +152,11 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FAIL.025 | Indoctrination Default / Unexamined Beliefs | FAIL | Действие из непроверенных убеждений (мемов), усвоенных от окружения, вместо SoTA-знаний — личность является продуктом индоктринации, а не осознанного выбора | active |
 | PD.FAIL.026 | Role-Person Conflation in Conflict | FAIL | Отождествление человека с его ролью — критика роли воспринимается как личная атака, конфликт ролевых интересов превращается в межличностный конфликт | active |
 | PD.FAIL.027 | Non-Integral Success / Success in One Sphere at Cost of Others | FAIL | Успех в одной сфере жизни ценой провала в других — выдающийся бизнесмен без семьи, блестящий учёный без здоровья и т.п. | active |
+| PD.FAIL.028 | Social Environment Dependency Cycle | FAIL | Траектория развития агента полностью определяется социальным окружением без осознания того, что окружение можно менять — пассивное впитывание чужих целей, поведений и ограничивающих убеждений | active |
+| PD.FAIL.029 | Discomposure Cycle (Цикл разобранности) | FAIL | Самоподдерживающийся цикл: потеря внимания → реактивный режим → незавершённые дела → стресс → дальнейшая потеря внимания — стабилен без внешнего вмешательства | active |
+| PD.FAIL.030 | Excessive Composure / Hyper-Focus | FAIL | Чрезмерное применение собранности: микроменеджмент каждой минуты, паралич от избыточных стоп-моментов, ригидность — любое отклонение от плана воспринимается как провал | active |
+| PD.FAIL.031 | Uncontrolled Self-Reflection (Rumination) | FAIL | Внутренний монолог, пожирающий внимание: прокручивание прошлого, циклическая самокритика — маскируется под 'глубокие размышления', но не производит рабочего продукта | active |
+| PD.FAIL.032 | Careerist Trap (Ловушка карьериста) | FAIL | Фокус на позиционных средствах — влиянии, признании, должностях (прямом устранении неудовлетворённости) — вместо создания систем; ведёт к стагнации при достижении потолка должностей | active |
 | PD.FORM.001 | Development Programs | FORM | Формализация трёх уровней систематического развития: личного, рабочего и исследовательского | active |
 | PD.FORM.002 | Development Directions | FORM | Шесть направлений развития: мировоззрение, мастерство, ограничения, экзокортекс, культура, организм | active |
 | PD.FORM.003 | Learner Maturity | FORM | Пять ступеней зрелости ученика: от случайного к проактивному саморазвитию с полной систематизацией | active |
@@ -171,6 +179,16 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FORM.020 | Dissatisfaction Levels | FORM | Формализация уровней неудовлетворенности по системным уровням: от организма до человечества | active |
 | PD.FORM.021 | Integral Success Model | FORM | Формализация модели интегрального успеха: успех в одной сфере + удовлетворительный уровень во всех остальных | active |
 | PD.FORM.022 | Worldview Structure | FORM | Формализация структуры мировоззрения: факты + знания + убеждения; связь с мышлением и кругозором | active |
+| PD.FORM.023 | Competence Quadrant | FORM | Формализация квадранта компетенций: 2x2 модель осознанность/неосознанность x компетентность/некомпетентность | active |
+| PD.FORM.024 | Composure Actions | FORM | Формализация пяти наблюдаемых действий собранного человека: различение важного, рациональная работа, многомасштабность, коррекция внимания, концептуальное управление | active |
+| PD.FORM.025 | Attention Loss Types | FORM | Формализация шести типов потери внимания: пассивный дрейф, отвлечение на уведомления, руминация, потеря масштаба, реактивный режим, переключение без завершения | active |
+| PD.FORM.026 | Attention Time Scales | FORM | Формализация трёх одновременных масштабов внимания: краткосрочный (задача), среднесрочный (проект/неделя), долгосрочный (стратегия/жизнь) | active |
+| PD.FORM.027 | System Levels | FORM | Формализация 10-уровневой иерархии систем: от вещества до метавселенной, с неудовлетворённостями и калибром на каждом уровне | active |
+| PD.FORM.028 | Impression Memory Belief | FORM | Формализация трёхстадийной обработки опыта: впечатления -> воспоминания -> убеждения; каждая стадия -- точка вмешательства для саморазвития | active |
+| PD.FORM.029 | Priority Characteristics | FORM | Формализация пяти приоритетных характеристик созидателя в порядке ранга: агентность, степень мастерства, ресурсность, эмоциональная стабильность, баланс | active |
+| PD.FORM.030 | Life Activity Stages | FORM | Формализация шести стадий жизнедеятельности созидателя: потребление информации, рефлексия, стратегирование, планирование, исполнение, досуг | active |
+| PD.FORM.031 | Role Mastery Methods | FORM | Формализация трёх методов ролевого мастерства: идентификация ролей, вход/выход из роли, самоконтроль | active |
+| PD.FORM.032 | Flow Conditions | FORM | Формализация трёх групп условий потока по Чиксентмихайи, управляемых через ролевое мастерство: баланс сложности, концентрация, обратная связь | active |
 | PD.MAP.001 | Pack Navigation Map | MAP | — | — |
 | PD.METHOD.001 | Time Accounting | METHOD | \"Метод непрерывной регистрации и категоризации трат времени для получения эмпирических данных о распределении ресурса\" | active |
 | PD.METHOD.002 | Learner Method | METHOD | Метод обучения ученика: регулярные слоты, экзокортекс, рефлексия и недельные контракты | active |
@@ -190,6 +208,8 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.ROLE.TRAJ.001 | Pd.Role.Traj.001 Creator Trajectory | ROLE | Траектория развития созидателя через пять ключевых ролей: от Ученика к Просветителю | active |
 | PD.SOTA.001 | Registration Method {#i1-registration-method} | SOTA | Состояние искусства: шесть интерпретаций учёта времени с оценкой актуальности каждой | — |
 | PD.STATE.001 | States | STATE | Категории состояний созидателя: продуктивное, эмоциональное, ролевое, неудовлетворённости и физическое | active |
+| PD.STATE.002 | Discomposure | STATE | Состояние разобранности: самоподдерживающееся анти-состояние с петлёй потери фокуса -> ошибки -> потеря ресурсов -> ещё больше потери фокуса | active |
+| PD.STATE.003 | Stop Moment | STATE | Микро-состояние осознанной паузы: проверка выровненности задачи, роли и приоритета; фундаментальная единица собранности | active |
 | PD.WP.001 | Time Budget | WP | \"Структурированная запись распределения времени по категориям за определённый период, основа для анализа\" | active |
 | PD.WP.002 | Learner Works | WP | Артефакты ученика: контракты, заметки экзокортекса, рефлексии и записи мировоззренческих поворотов | active |
 | PD.WP.003 | Educational Notes | WP | Заметки, созданные при когнитивном резонансе: столкновение новой информации с существующими картинами мира во время чтения или проговаривания | active |
