@@ -582,3 +582,652 @@ Core conceptual distinctions for the Personal Development domain.
 
 **SoTA**: `current`
 - Revision criterion: Would change if evidence shows the process/result distinction is not meaningful for time allocation decisions
+
+---
+
+## [D.021] Professional Learner vs. Intuitive Learner
+
+**Definition**: A **professional learner** knows and consciously applies best learning practices (systematic slow reading, thinking in writing, etc.), analogous to a professional swimmer mastering crawl technique. An **intuitive learner** learns without awareness of methods, relying on habits like memorization, note-copying, or speed reading.
+
+**Distinction Test**:
+- Can the agent name the method they are using to learn right now? (Yes → professional; No → intuitive)
+- Can the agent extract concepts, principles, and work products from any theoretical material? (Yes → professional; No → intuitive)
+
+| Professional Learner | vs. | Intuitive Learner |
+|----------------------|-----|-------------------|
+| Consciously applies learning methods | | Learns by habit |
+| Extracts concepts, principles, WPs | | Memorizes or copies |
+| Treats learning as skill to develop | | Treats learning as natural ability |
+| Produces educational notes | | Produces highlights or nothing |
+
+**Typical Confusion**: "I've been learning my whole life, so I know how to learn" (experience ≠ mastery of method; swimming by dog paddle ≠ professional crawl)
+
+**Why It Matters**: Intuitive learning produces unpredictable results and cannot be scaled or improved systematically. Professional learning is a meta-skill that accelerates all other learning.
+
+**Related Items**:
+- Role: [PD.ROLE.001](../02-domain-entities/02A-roles.md#learner)
+- Formalization: PD.FORM.003 (Learner Maturity)
+
+**SoTA**: `current`
+- Revision criterion: Would change if intuitive learning is shown to produce equivalent mastery outcomes
+
+---
+
+## [D.022] Learning as Training vs. Learning as Cinema
+
+**Definition**: **Learning as training** is an active process requiring effort, discipline, following a plan, and trusting a mentor — like a gym workout. **Learning as cinema** is passive consumption of content with expectation of comfort and entertainment — like watching a movie.
+
+**Distinction Test**:
+- Does the agent expect effort and discomfort as part of the process? (Yes → training; No → cinema)
+- Is the agent following structured instructions or browsing freely? (Following → training; Browsing → cinema)
+
+| Training | vs. | Cinema |
+|----------|-----|--------|
+| Active effort required | | Passive consumption |
+| Structured by instructor | | Self-directed browsing |
+| Discomfort expected | | Comfort expected |
+| New neural pathways formed | | Entertainment consumed |
+| Trust in mentor required | | Personal preference drives |
+
+**Typical Confusion**: "Make learning fun and easy" (comfort-optimized learning cannot produce complex skill), "I'm paying for this course, so serve me" (client role ≠ learner role)
+
+**Why It Matters**: Confusing roles of learner and client leads to demands for comfort that are incompatible with mastering complex knowledge. The agent who treats learning as cinema cannot develop beyond surface familiarity.
+
+**Related Items**:
+- Failure Mode: [PD.FAIL.008](../05-failure-modes/PD.FAIL.008-learner-client-role-confusion.md)
+- Role: [PD.ROLE.001](../02-domain-entities/02A-roles.md#learner)
+
+**SoTA**: `current`
+- Revision criterion: Would change if evidence shows passive consumption produces equivalent mastery
+
+---
+
+## [D.023] Information Consumption vs. Systematic Slow Reading
+
+**Definition**: **Information consumption** is any intake of information (scrolling social media, watching videos, casual reading). **Systematic slow reading (SSR)** is planned, daily, deliberate reading of quality material with stops for educational note-taking.
+
+**Distinction Test**:
+- Is the reading planned in advance and connected to a priority project? (Yes → SSR; No → consumption)
+- Are notes being created at points of cognitive resonance? (Yes → SSR; No → consumption)
+
+| Information Consumption | vs. | Systematic Slow Reading |
+|------------------------|-----|------------------------|
+| Any information intake | | Planned quality material |
+| Environment-driven selection | | Strategy-driven selection |
+| No mandatory notes | | Notes at resonance points |
+| Variable quality sources | | Curated sources |
+| Passive absorption | | Active engagement with stops |
+
+**Typical Confusion**: "I read a lot, so I'm doing SSR" (quantity ≠ method; reading without notes and plan is consumption)
+
+**Why It Matters**: Consumption creates an illusion of learning. SSR produces educational notes and actual knowledge integration. Without the distinction, an agent may believe they are developing while actually consuming entertainment.
+
+**Related Items**:
+- Method: [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md)
+- Failure Mode: [PD.FAIL.012](../05-failure-modes/PD.FAIL.012-environment-driven-reading.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if passive consumption is shown to produce equivalent educational notes
+
+---
+
+## [D.024] Cognitive Resonance vs. Reading Comprehension
+
+**Definition**: **Cognitive resonance** is the moment when new information collides with existing mental models, creating a productive tension that generates insight. **Reading comprehension** is understanding the literal meaning of text without this collision.
+
+**Distinction Test**:
+- Did the reader stop and want to write something down? (Yes → resonance; No → comprehension)
+- Was there a feeling of "this changes how I see things"? (Yes → resonance; No → comprehension)
+
+| Cognitive Resonance | vs. | Reading Comprehension |
+|--------------------|-----|----------------------|
+| Collision of new with existing | | Processing of new information |
+| Generates notes spontaneously | | Information understood and moved on |
+| Learning moment | | Information acquisition |
+| Signals deep processing | | May be surface processing |
+
+**Typical Confusion**: "I understood everything, so I learned it" (comprehension without resonance means the information did not integrate with existing knowledge)
+
+**Why It Matters**: Educational notes should be created at moments of cognitive resonance, not at arbitrary intervals. Without this distinction, note-taking becomes mechanical rather than capturing genuine learning moments.
+
+**Related Items**:
+- Work Product: [PD.WP.003](../04-work-products/PD.WP.003-educational-notes.md)
+- Method: [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if research shows random-interval note-taking produces equivalent learning
+
+---
+
+## [D.025] Thinker-in-Writing vs. Writer/Journalist
+
+**Definition**: A **thinker-in-writing** writes for themselves (first reader), producing drafts to develop understanding. A **writer/journalist** writes for a target audience, producing publications optimized for reader value.
+
+**Distinction Test**:
+- Is the primary reader the author? (Yes → thinker-in-writing; No → writer/journalist)
+- Is the primary goal personal insight or audience engagement? (Insight → thinker; Engagement → writer)
+
+| Thinker-in-Writing | vs. | Writer/Journalist |
+|--------------------|-----|-------------------|
+| Writes for self | | Writes for audience |
+| Product: draft (заготовка) | | Product: article, publication |
+| Concept-focused | | Style/narrative-focused |
+| Creative pipeline stages 1-4 | | Creative pipeline stages 5-7 |
+| No external quality criterion | | Audience value criterion |
+
+**Typical Confusion**: "My draft isn't good enough to publish" (applying writer standards to thinker output), "I write a blog, so I'm thinking in writing" (if audience matters more than personal insight, it's writing, not TIW)
+
+**Why It Matters**: The thinker-in-writing must be free from audience expectations to explore concepts authentically. Applying writer standards to drafts creates perfectionism paralysis (FAIL.014).
+
+**Related Items**:
+- Method: [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md)
+- Failure Mode: [PD.FAIL.014](../05-failure-modes/PD.FAIL.014-perfectionism-paralysis.md)
+- Distinction: [D.019](01B-distinctions.md#d019-tiw-vs-freewriting) (complementary pair)
+
+**SoTA**: `current`
+- Revision criterion: Would change if evidence shows that audience-aware writing produces equivalent personal insight
+
+---
+
+## [D.026] Draft (Заготовка) vs. Publication
+
+**Definition**: A **draft** is a text produced for self and peers during thinking in writing — it tests hypotheses and develops understanding. A **publication** is a text produced for a target audience using applied writing practices (infostyle, storytelling).
+
+**Distinction Test**:
+- Does the text require audience-specific formatting? (No → draft; Yes → publication)
+- Is "better than yesterday's draft" a sufficient quality criterion? (Yes → draft; No → publication)
+
+| Draft (Заготовка) | vs. | Publication |
+|--------------------|-----|-------------|
+| For self and peers | | For target audience |
+| No external quality criterion | | Requires applied practices |
+| Result of pipeline stages 1-4 | | Result of pipeline stages 5-7 |
+| Tests hypotheses | | Disseminates knowledge |
+| "Today better than yesterday" | | Must meet audience value standard |
+
+**Typical Confusion**: "My draft isn't publication-quality" (correct — it shouldn't be), "I'll publish when it's perfect" (drafts are shared imperfect; publications are polished)
+
+**Why It Matters**: Confusing draft with publication creates an impossible standard for beginners (FAIL.014) and blocks the creative pipeline at stage 4.
+
+**Related Items**:
+- Work Product: [PD.WP.004](../04-work-products/PD.WP.004-draft.md)
+- Formalization: PD.FORM.005 (Creative Pipeline)
+
+**SoTA**: `current`
+- Revision criterion: Would change if the draft/publication boundary proves meaningless for learning outcomes
+
+---
+
+## [D.027] Thinking by Speaking vs. Rhetoric
+
+**Definition**: **Thinking by speaking** is articulating concepts for the first time to integrate knowledge — the primary beneficiary is the speaker. **Rhetoric** is constructing persuasive arguments for an audience — the primary beneficiary is the listener.
+
+**Distinction Test**:
+- Is the primary beneficiary the speaker (learning) or the audience (persuasion)? (Speaker → TbS; Audience → rhetoric)
+- Are the concepts being used for the first time? (Yes → TbS; No → rhetoric)
+
+| Thinking by Speaking | vs. | Rhetoric |
+|---------------------|-----|----------|
+| For self (knowledge integration) | | For audience (persuasion) |
+| Learning new material | | Transmitting known material |
+| Concept articulation | | Argument construction |
+| Slow thinking (System 2) | | Prepared arguments (System 1) |
+
+**Typical Confusion**: "I explained it well, so I understand it" (rhetoric can use concepts fluently without deep understanding), "We had a great discussion" (pleasant conversation ≠ concept practice)
+
+**Why It Matters**: Thinking by speaking requires deliberate slow thinking and concept focus. Rhetoric can be performed on autopilot. Using rhetoric mode during learning creates an illusion of understanding.
+
+**Related Items**:
+- Method: [PD.METHOD.005](../03-methods/PD.METHOD.005-thinking-by-speaking.md)
+- Failure Mode: [PD.FAIL.016](../05-failure-modes/PD.FAIL.016-conversation-mistaken-for-practice.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if rhetorical practice produces equivalent concept integration
+
+---
+
+## [D.028] Thinking by Speaking vs. Brainstorming
+
+**Definition**: **Thinking by speaking** produces insights new to the individual — it is a learning practice. **Brainstorming** produces ideas new to the group — it is a creative ideation practice using concepts the participants already command.
+
+**Distinction Test**:
+- Are the concepts being used for the first time (learning) or fluently (generating)? (First time → TbS; Fluently → brainstorming)
+- Is the goal to understand existing knowledge or to generate new ideas? (Understand → TbS; Generate → brainstorming)
+
+| Thinking by Speaking | vs. | Brainstorming |
+|---------------------|-----|---------------|
+| New for the individual | | New for the group |
+| Learning concepts | | Generating solutions |
+| Concepts being studied | | Concepts already fluent |
+| Individual learning | | Collective ideation |
+
+**Typical Confusion**: "We brainstormed about systems thinking" (if participants are learning the concepts, it's TbS, not brainstorming)
+
+**Why It Matters**: In TbS, the speaker must slow down and verify concept meanings. In brainstorming, speed and volume of ideas matter. Confusing them leads to either slow brainstorming or superficial concept practice.
+
+**Related Items**:
+- Method: [PD.METHOD.005](../03-methods/PD.METHOD.005-thinking-by-speaking.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if brainstorming is shown to produce equivalent concept integration for learners
+
+---
+
+## [D.029] Form vs. Content in Communication
+
+**Definition**: **Form** is how information is presented (tone, style, emotional coloring). **Content** is what information is communicated (concepts, principles, relationships). Default attention allocation: 80% form, 20% content.
+
+**Distinction Test**:
+- Can the agent extract useful concepts from a poorly-presented source? (Yes → content-focused; No → form-captured)
+- Is the agent evaluating the speaker or the concepts? (Speaker → form; Concepts → content)
+
+| Form | vs. | Content |
+|------|-----|---------|
+| How it's said | | What is said |
+| Emotional/aesthetic aspect | | Conceptual/informational aspect |
+| Default 80% attention | | Default 20% attention |
+| "Fight or flight" evaluation | | Concept extraction |
+| Natural mode | | Requires trained attention |
+
+**Typical Confusion**: "The instructor is boring, so the material is bad" (form evaluation applied to content), "Great presentation!" (form appreciation without content extraction)
+
+**Why It Matters**: Untrained attention defaults to form evaluation (80/20 ratio). Trained attention can invert this to focus on concepts, roles, and work products in any message. This is a meta-skill for all three information-processing methods (SSR, TIW, TbS).
+
+**Related Items**:
+- Method: [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md)
+- Method: [PD.METHOD.005](../03-methods/PD.METHOD.005-thinking-by-speaking.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if research disproves the 80/20 default allocation
+
+---
+
+## [D.030] Slow Reading vs. Speed Reading
+
+**Definition**: **Slow reading** is deep processing with pauses for note-taking, used for learning new material. **Speed reading** is throughput-optimized reading for orientation and familiarization.
+
+**Distinction Test**:
+- Are notes being created during reading? (Yes → slow reading; No → speed reading)
+- Is the goal deep understanding or quick orientation? (Understanding → slow; Orientation → speed)
+
+| Slow Reading | vs. | Speed Reading |
+|-------------|-----|---------------|
+| Deep processing with pauses | | Quick overview |
+| For learning new material | | For familiarization |
+| Produces notes | | Produces familiarity |
+| 25-120 min focused sessions | | Variable duration |
+
+**Typical Confusion**: "I can speed-read and take notes" (speed reading with stops loses its speed advantage and produces lower-quality notes than deliberate slow reading)
+
+**Why It Matters**: Each method has its context. Speed reading for orientation before selecting material for slow reading is valid. But using speed reading as a substitute for slow reading during learning produces surface familiarity without knowledge integration.
+
+**Related Items**:
+- Method: [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if speed reading with notes produces equivalent learning outcomes
+
+---
+
+## [D.031] Master vs. Doer (Деятель)
+
+**Definition**: A **master** has excellent command of a practice and has resolved their own problems. A **doer** (деятель) is a master with public recognition, contribution to popularizing the practice, and willingness to work at higher system levels (teaching hundreds/thousands).
+
+**Distinction Test**:
+- Does the agent teach others and seek public recognition? (Yes → doer; No → master)
+- Is the agent willing to "put skin in the game" publicly? (Yes → doer; No → master)
+
+| Master | vs. | Doer (Деятель) |
+|--------|-----|----------------|
+| Solved own problems | | Helps others solve theirs |
+| Personal mastery | | Public recognition |
+| Comfort zone reached | | "Cannot not do" teaching |
+| Works on own level | | Works at higher system levels |
+
+**Typical Confusion**: "I'm good at this, so I'm done" (mastery without transition to doer is stagnation — FAIL.011)
+
+**Why It Matters**: The transition from master to doer is the path to strong impressions, professional recognition, and contribution to techno-evolution. Stopping at mastery leaves significant potential unrealized.
+
+**Related Items**:
+- Role: [PD.ROLE.005](../02-domain-entities/02A-roles.md#educator)
+- Failure Mode: [PD.FAIL.011](../05-failure-modes/PD.FAIL.011-master-stagnation.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if evidence shows mastery without public contribution produces equivalent life satisfaction
+
+---
+
+## [D.032] Extended Pomodoro (Time Investment) vs. Classic Pomodoro
+
+**Definition**: **Extended Pomodoro (time investment and accounting)** uses the pomodoro timer as a ritual for conscious role entry (role → method → work product). **Classic Pomodoro** uses the timer solely for concentration and productivity.
+
+**Distinction Test**:
+- Does the agent name their role, method, and expected WP when starting the timer? (Yes → extended; No → classic)
+- Is the timer used for awareness or just for concentration? (Awareness → extended; Concentration → classic)
+
+| Extended Pomodoro | vs. | Classic Pomodoro |
+|-------------------|-----|------------------|
+| Entry ritual: role → method → WP | | Timer starts, work begins |
+| Investment tracking (new mastery) | | Productivity tracking |
+| Motivational function | | Concentration function |
+| Includes leisure organization | | Focus on work intervals only |
+| Budgeting for strategizing | | Session counting |
+
+**Typical Confusion**: "I use Pomodoro, so I'm accounting for time" (classic Pomodoro without the role-entry ritual is not time investment practice)
+
+**Why It Matters**: The entry ritual transforms a simple timer into a tool for conceptual awareness. Without it, time is counted but not invested — the creator works without understanding their role or method.
+
+**Related Items**:
+- Method: [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md)
+- Failure Mode: [PD.FAIL.001](../05-failure-modes/PD.FAIL.001-time-accounting-is-pomodoro.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if classic Pomodoro produces equivalent awareness outcomes
+
+---
+
+## [D.033] Individual Practice Mastery vs. Self-Development Mastery (Aggregate)
+
+**Definition**: **Individual practice mastery** is command of a specific method (e.g., thinking in writing). **Self-development mastery** is the aggregate capability of applying all practices simultaneously as an integrated system.
+
+**Distinction Test**:
+- Is the assessment about one method or all methods together? (One → individual; All → aggregate)
+- At low degrees, is the sum of parts sufficient? (Yes → individual focus; No → aggregate needed)
+
+| Individual Practice Mastery | vs. | Self-Development Mastery |
+|----------------------------|-----|--------------------------|
+| One method | | All 8 methods together |
+| Can be assessed independently | | Emergent property |
+| Sum at low degrees (Explanation, Skill) | | Qualitatively new at high degrees |
+| "I can do X" | | "I live this way" |
+
+**Typical Confusion**: "I'm good at time accounting, so my self-development is going well" (one practice ≠ the whole system)
+
+**Why It Matters**: At low mastery degrees (Explanation, Skill), aggregate mastery equals the sum of individual masteries. At high degrees (Habit, Mastery), aggregate mastery is a qualitatively new property — the automatic integration of all practices into a lifestyle. Assessing only individual practices misses this emergence.
+
+**Related Items**:
+- Formalization: PD.FORM.006 (Mastery Degrees)
+- Distinction: [D.018](01B-distinctions.md#d018-mastery-level-vs-learning-stage)
+
+**SoTA**: `current`
+- Revision criterion: Would change if aggregate mastery proves to be merely additive at all levels
+
+---
+
+## [D.034] Accounted Time vs. Unaccounted Time
+
+**Definition**: **Accounted time** is consciously started activity where the entry ritual was performed (role, method, work product named). **Unaccounted time** is activity without this conscious awareness.
+
+**Distinction Test**:
+- Was the entry ritual performed when starting? (Yes → accounted; No → unaccounted)
+- Can the agent name the role and method for the current activity? (Yes → accounted; No → unaccounted)
+
+| Accounted Time | vs. | Unaccounted Time |
+|----------------|-----|------------------|
+| Entry ritual performed | | No conscious start |
+| Role/method/WP named | | Activity on autopilot |
+| Can be invested or spent | | Cannot be categorized |
+| Visible to strategizing | | Invisible |
+
+**Typical Confusion**: "I worked 8 hours today" (clock time ≠ accounted time; without the ritual, the hours are unaccounted)
+
+**Why It Matters**: Only accounted time provides data for strategizing and planning. Unaccounted time is invisible to the agent's decision-making system. The first step is not to increase hours but to account for them.
+
+**Related Items**:
+- Method: [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md)
+- Distinction: [D.016](01B-distinctions.md#d016-invested-time-vs-spent-time) (complementary — invested/spent is a subclassification of accounted)
+
+**SoTA**: `current`
+- Revision criterion: Would change if passive time tracking produces equivalent awareness outcomes
+
+---
+
+## [D.035] Leisure Organization vs. Leisure Practice
+
+**Definition**: **Leisure organization** is the meta-practice of selecting, scheduling, and monitoring leisure across time horizons. A **leisure practice** is a specific leisure activity (hiking, reading fiction, theater).
+
+**Distinction Test**:
+- Is the activity selecting/scheduling leisure or performing leisure? (Selecting → organization; Performing → practice)
+
+| Leisure Organization | vs. | Leisure Practice |
+|---------------------|-----|-----------------|
+| Meta-practice | | Specific activity |
+| Selects which practices | | Is selected by organization |
+| Monitors all time horizons | | Occurs at one horizon |
+| One per person | | Many per person |
+
+**Typical Confusion**: "I hike on weekends, so my leisure is organized" (having one practice ≠ organizing across all horizons)
+
+**Why It Matters**: A person may have leisure practices but no organization — leaving gaps in time horizons that lead to burnout. Organization ensures no horizon is empty (PRINC.011).
+
+**Related Items**:
+- Method: [PD.METHOD.006](../03-methods/PD.METHOD.006-leisure-organization.md)
+- Principle: PD.PRINC.011 (Echeloned Leisure)
+
+**SoTA**: `current`
+- Revision criterion: Would change if ad-hoc leisure proves equivalent to organized leisure for burnout prevention
+
+---
+
+## [D.036] Physical Environment vs. Social Environment
+
+**Definition**: **Physical environment** consists of tangible objects that affect the agent (workspace, tools, home, city). **Social environment** consists of people and communities that influence the agent (colleagues, mentors, peers, family).
+
+**Distinction Test**:
+- Is the element a physical object or a person/community? (Object → physical; Person → social)
+
+| Physical Environment | vs. | Social Environment |
+|---------------------|-----|-------------------|
+| Workspace, tools, home | | Colleagues, mentors, peers |
+| Changed by design/purchase | | Changed by relationship |
+| Characteristics: functional, aesthetic | | Characteristics: supportive, challenging |
+| Directly controllable | | Indirectly influenceable |
+
+**Typical Confusion**: "I need to change my environment" (which one? physical and social require different methods)
+
+**Why It Matters**: Each type requires different applied mastery for improvement (interior design vs. networking). Environment formation (METHOD.007) addresses both but through different sub-methods.
+
+**Related Items**:
+- Method: [PD.METHOD.007](../03-methods/PD.METHOD.007-environment-formation.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if the physical/social split proves unhelpful for environment improvement
+
+---
+
+## [D.037] Strategizing (Process) vs. Strategy (Document)
+
+**Definition**: **Strategizing** is the continuous process of developing, testing, and adapting hypotheses about how to achieve goals. A **strategy** is the document that captures the current state of those hypotheses — it becomes obsolete within days.
+
+**Distinction Test**:
+- Is this the ongoing process or its snapshot? (Process → strategizing; Snapshot → strategy document)
+
+| Strategizing (Process) | vs. | Strategy (Document) |
+|------------------------|-----|---------------------|
+| Continuous adaptation | | Snapshot of hypotheses |
+| Never complete | | Obsolete within days |
+| Weekly sessions | | Updated at sessions |
+| The valuable thing | | The perishable artifact |
+
+**Typical Confusion**: "I wrote my strategy, so I'm done" (the document is immediately obsolete; what matters is the continuous process)
+
+**Why It Matters**: Treating strategy-as-document as complete leads to rigid adherence to outdated assumptions. "Strategy is nothing, strategizing is everything" (PRINC.014).
+
+**Related Items**:
+- Method: [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md)
+- Principle: PD.PRINC.014 (Strategy Is Nothing, Strategizing Is Everything)
+
+**SoTA**: `current`
+- Revision criterion: Would change if static strategy documents prove as effective as continuous strategizing
+
+---
+
+## [D.038] Task vs. Work Formulation vs. Work
+
+**Definition**: A **task** is a logical unit of what needs to be done. A **work formulation** enriches a task with: who (executor), when (deadline), in what role, by what method, with what resources, producing what work product. **Work** is the actual physical action performed at a real time.
+
+**Distinction Test**:
+- Does it have all 6 components (who, when, role, method, resources, WP)? (No → task; Yes → work formulation)
+- Has it been physically performed? (No → formulation; Yes → work)
+
+| Task | vs. | Work Formulation | vs. | Work |
+|------|-----|-----------------|-----|------|
+| What to do | | Who/when/how to do it | | Actually doing it |
+| Logical | | Organizational | | Physical |
+| From strategizing | | From planning | | From execution |
+| No deadline required | | Deadline required | | Happened at real time |
+
+**Typical Confusion**: "I have a plan" (a list of tasks ≠ a plan; work formulations with 6 components = a plan)
+
+**Why It Matters**: Procrastination often signals that a task has not been converted to a work formulation (FAIL.019). The brain resists unclear tasks. Providing all 6 components makes work executable.
+
+**Related Items**:
+- Method: PD.METHOD.009 (Planning)
+- Formalization: PD.FORM.014 (Work Formulation — 6 components)
+- Failure Mode: [PD.FAIL.019](../05-failure-modes/PD.FAIL.019-procrastination-unclear-task.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if incomplete task descriptions produce equivalent execution rates
+
+---
+
+## [D.039] Important vs. Current (Routine)
+
+**Definition**: **Important** work advances long-term goals, involves developing new mastery, and qualifies as invested time. **Current (routine)** work is operational, everyday activity using already-known methods.
+
+**Distinction Test**:
+- Does this work develop new mastery? (Yes → important; No → current)
+- Would the agent do this work even without external pressure? (Yes → important; No → likely current)
+
+| Important | vs. | Current (Routine) |
+|-----------|-----|-------------------|
+| Advances long-term goals | | Maintains operations |
+| Involves new methods/mastery | | Uses known methods |
+| Invested time | | Spent time |
+| Requires protected schedule | | Fills remaining time |
+
+**Typical Confusion**: "Everything is important" (if everything is important, nothing is — apply the invested/spent time test)
+
+**Why It Matters**: A large amount of urgent current work is usually a direct result of too little attention to important work (FAIL.018). Important work must be scheduled on protected morning time (PRINC.019).
+
+**Related Items**:
+- Method: PD.METHOD.009 (Planning)
+- Failure Mode: [PD.FAIL.018](../05-failure-modes/PD.FAIL.018-urgent-displaces-important.md)
+- Distinction: [D.016](01B-distinctions.md#d016-invested-time-vs-spent-time) (invested ≈ important; spent ≈ current)
+
+**SoTA**: `current`
+- Revision criterion: Would change if the important/current split proves unhelpful for time allocation
+
+---
+
+## [D.040] Planned vs. Urgent
+
+**Definition**: **Planned** work is determined at the strategizing session and recorded in the task list and work plan. **Urgent** work requires immediate unscheduled attention that appeared between sessions.
+
+**Distinction Test**:
+- Was this work in the plan before it appeared? (Yes → planned; No → urgent)
+- Is it needed before the next strategizing session? (No → not urgent, write as fleeting note; Yes → urgent)
+
+| Planned | vs. | Urgent |
+|---------|-----|--------|
+| From strategizing session | | Appeared between sessions |
+| In the work plan | | Injected ad-hoc |
+| Predictable | | Unpredictable |
+| Controlled by agent | | Imposed by environment |
+
+**Typical Confusion**: "Everything feels urgent" (if it's not needed before the next strategizing session, it's not urgent — write it as a fleeting note)
+
+**Why It Matters**: Urgent work displaces planned work. Without the distinction, the agent lives in reactive mode, never completing strategic priorities.
+
+**Related Items**:
+- Method: PD.METHOD.009 (Planning)
+- Method: [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if reactive scheduling proves as effective as proactive planning
+
+---
+
+## [D.041] Permanent vs. Temporary Tasks
+
+**Definition**: **Permanent tasks** have no defined end date and recur indefinitely (learning, regular meetings, strategizing sessions). **Temporary tasks** have deadlines or known finite duration.
+
+**Distinction Test**:
+- Does this task have a foreseeable end? (Yes → temporary; No → permanent)
+
+| Permanent | vs. | Temporary |
+|-----------|-----|-----------|
+| No end date | | Has deadline |
+| Only time review needed weekly | | Needs reformulation each cycle |
+| Rhythm-based | | Project-based |
+| Examples: learning, meetings | | Examples: deliverables, projects |
+
+**Typical Confusion**: "I'll learn this topic for 3 months" (learning the topic may be temporary, but the practice of learning itself is permanent)
+
+**Why It Matters**: Permanent tasks only need time budget review each week, not full reformulation. This simplifies weekly planning significantly.
+
+**Related Items**:
+- Method: PD.METHOD.009 (Planning)
+- Formalization: PD.FORM.010 (Task Classification 3×2)
+
+**SoTA**: `current`
+- Revision criterion: Would change if the permanent/temporary split proves unhelpful for weekly planning
+
+---
+
+## [D.042] Strategizing Horizon vs. Planning Horizon
+
+**Definition**: The **strategizing horizon** can be any duration (months, years, lifetime) and covers all dissatisfactions and projects. The **planning horizon** concerns only priority projects and is detailed only for the next stage (typically 1 week).
+
+**Distinction Test**:
+- Does this cover ALL projects or only priority ones? (All → strategizing horizon; Priority only → planning horizon)
+- Is the detail level high (specific work formulations) or conceptual? (High → planning; Conceptual → strategizing)
+
+| Strategizing Horizon | vs. | Planning Horizon |
+|---------------------|-----|-----------------|
+| Months to lifetime | | Typically 1 week |
+| All projects and dissatisfactions | | Only priority projects |
+| Conceptual/hypothesis level | | Specific work formulations |
+| Shifts at each session | | Detailed for next cycle only |
+
+**Typical Confusion**: "I need a detailed 5-year plan" (detailed plans beyond 1 week belong to strategizing level, not planning level)
+
+**Why It Matters**: Detailed long-horizon plans waste effort because circumstances change. Keep long horizons at the strategizing (hypothesis) level; detail only the next planning cycle.
+
+**Related Items**:
+- Method: [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) — strategizing horizon
+- Method: PD.METHOD.009 (Planning) — planning horizon
+
+**SoTA**: `current`
+- Revision criterion: Would change if detailed long-term plans prove as effective as rolling short-term plans
+
+---
+
+## [D.043] Goal-Setting vs. Strategizing vs. Planning vs. Execution
+
+**Definition**: Four distinct stages of project realization: **Goal-setting** identifies problems and dissatisfactions (what to pursue). **Strategizing** selects methods and priority projects (how to approach). **Planning** converts tasks into work formulations in physical time (when and by whom). **Execution** performs the work using applied mastery.
+
+**Distinction Test**:
+- Is the problem WHAT to do? → Goal-setting
+- Is the problem WHICH approach to take? → Strategizing
+- Is the problem WHEN and BY WHOM to do it? → Planning
+- Is the problem DOING it? → Execution
+
+| Goal-Setting | Strategizing | Planning | Execution |
+|-------------|-------------|----------|-----------|
+| What to pursue | Which approach | When/who/how | Doing it |
+| Dissatisfaction list | Strategy document | Work plan | Work products |
+| Problems identified | Hypotheses chosen | Work formulated | Results produced |
+
+**Typical Confusion**: "My plans never work" (most planning complaints are actually failures at prior stages — goal-setting or strategizing)
+
+**Why It Matters**: Diagnosing failure at the wrong stage leads to endlessly improving plans when the real problem is upstream (unclear goals or wrong strategy). Each stage has its own methods and failure modes.
+
+**Related Items**:
+- Method: [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) — stages 1-2
+- Method: PD.METHOD.009 (Planning) — stage 3
+- Failure Mode: [PD.FAIL.017](../05-failure-modes/PD.FAIL.017-blaming-everything-on-planning.md)
+- Formalization: PD.FORM.012 (Project Realization Stages)
+
+**SoTA**: `current`
+- Revision criterion: Would change if the 4-stage model proves too granular for personal use

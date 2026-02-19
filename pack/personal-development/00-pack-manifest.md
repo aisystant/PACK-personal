@@ -72,13 +72,14 @@ This pack captures knowledge about **characteristics and states of creator** as 
 
 | Section | Item Count | Status |
 |---------|------------|--------|
-| Distinctions | 20 | active |
+| Distinctions | 43 | active |
+| Principles | 20 | active |
 | Roles | 5 | active |
 | Objects of Attention | 6 | active |
-| Formalizations | 4 | active |
-| Methods | 8 | active |
-| Work Products | 7 | active |
-| Failure Modes | 7 | active |
+| Formalizations | 15 | active |
+| Methods | 9 | active |
+| Work Products | 16 | active |
+| Failure Modes | 22 | active |
 | SoTA Annotations | 1 | active |
 | Maps | 1 | active |
 
@@ -89,14 +90,15 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | File | Description |
 |------|-------------|
 | [01A-bounded-context.md](01-domain-contract/01A-bounded-context.md) | Domain scope and boundaries |
-| [01B-distinctions.md](01-domain-contract/01B-distinctions.md) | 20 core distinctions |
+| [01B-distinctions.md](01-domain-contract/01B-distinctions.md) | 43 core distinctions |
+| [01C-principles.md](01-domain-contract/01C-principles.md) | 20 domain principles |
 | [ontology.md](../../ontology.md) | Domain ontology (SPF.SPEC.002) |
 | [02A-roles.md](02-domain-entities/02A-roles.md) | Agent, Analyst, Mentor, Architect |
 | [02B-objects-of-attention.md](02-domain-entities/02B-objects-of-attention.md) | 6 objects |
 | [02C-methods-index.md](02-domain-entities/02C-methods-index.md) | Methods navigation |
 | [PD.METHOD.001](03-methods/PD.METHOD.001-time-accounting.md) | Time Accounting |
 | [PD.WP.001](04-work-products/PD.WP.001-time-budget.md) | Time Budget |
-| [05-failure-modes/](05-failure-modes/) | 7 failure mode cards |
+| [05-failure-modes/](05-failure-modes/) | 22 failure mode cards |
 | [PD.SOTA.001](06-sota/PD.SOTA.001-time-accounting-interpretations.md) | Time Accounting interpretations |
 | [PD.MAP.001](07-map/PD.MAP.001.md) | Full navigation map |
 
@@ -111,6 +113,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | 2025-02-05 | Domain name updated to "Характеристики и состояния созидателя"; bounded context added | AISYSTANT |
 | 2025-02-05 | Restructure: create 01-domain-contract/ folder with 01A-bounded-context.md and 01B-distinctions.md | AISYSTANT |
 | 2026-02-10 | Added 5-entity agent ontology (FORM.004), 3 distinctions (D.013-D.015), failure mode (FAIL.007), BC clarification on Learning | AISYSTANT |
+| 2026-02-19 | Bulk enrichment from Guide 1-2 «Практики саморазвития»: +23 distinctions (D.021-D.043), +20 principles (PRINC.001-020), +1 method (METHOD.009), +11 formalizations (FORM.005-015), +15 failure modes (FAIL.008-022), +9 work products (WP.008-016). Total: 38→131 entities | KE bulk extraction |
 
 ## Entity Index
 
@@ -125,10 +128,36 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FAIL.005 | Tool Confused with Method | FAIL | \"Ошибка отождествления инструмента (приложение, устройство) с методом (способ действия)\" | active |
 | PD.FAIL.006 | Work Product Confused with Description | FAIL | \"Ошибка замены рабочего продукта (наблюдаемый артефакт) его описанием (нарратив о продукте)\" | active |
 | PD.FAIL.007 | Description Confused with Knowledge | FAIL | \"Ошибка принятия описания (текст, документ) за знание (способность агента достигать результатов)\" | active |
+| PD.FAIL.008 | Learner-Client Role Confusion | FAIL | Агент в роли ученика применяет ожидания клиента: требует комфорта, приятного тона, отсутствия слов «должен/обязан» от преподавателя | active |
+| PD.FAIL.009 | Inability to Sustain Long-Term Learning | FAIL | Взрослый ученик имеет интеллектуальные способности, но не имеет привычки к длительному обучению на протяжении месяцев | active |
+| PD.FAIL.010 | High Time Accounting Without Echeloned Leisure | FAIL | Попытка выйти на 30-50 часов/неделю учтённого времени без освоения организации досуга хотя бы на уровне «Умение» | active |
+| PD.FAIL.011 | Master Stagnation Without Transition to Educator | FAIL | После достижения мастерства и решения личных проблем агент перестаёт расти — не переходит к обучению других и просвещению | active |
+| PD.FAIL.012 | Environment-Driven Reading | FAIL | Выбор чтения определяется окружением (рекомендации соцсетей, бестселлеры, советы друзей), а не стратегическими приоритетами из списка задач | active |
+| PD.FAIL.013 | Writing from Blank Page | FAIL | Попытка писать черновик или публикацию без накопленных заметок, минуя стадии творческого конвейера | active |
+| PD.FAIL.014 | Perfectionism Paralysis | FAIL | Применение стандартов публикации к тому, что должно быть черновиком (заготовкой) — невозможность поделиться из-за 'недостаточного качества' | active |
+| PD.FAIL.015 | Unsorted Notes Accumulation | FAIL | Заметки накапливаются без сортировки в заготовки — агент фиксирует, но не обрабатывает; конвейер застаивается на стадии 1 | active |
+| PD.FAIL.016 | Pleasant Conversation Mistaken for Practice | FAIL | Приятный социальный разговор принимается за практику мышления речью — понятия не артикулируются целенаправленно | active |
+| PD.FAIL.017 | Blaming Everything on Planning | FAIL | Все провалы исполнения приписываются 'плохому планированию', когда реальная причина — плохое целеполагание (стратегирование) или плохая формулировка задач (моделирование) | active |
+| PD.FAIL.018 | Too Much Urgent Displacing Important | FAIL | Тушение пожаров занимает весь день — недостаточное внимание к важным (развивающим) работам, как конвейер ломается без профилактики | active |
+| PD.FAIL.019 | Procrastination as Refusal of Unclear Task | FAIL | Прокрастинация как отказ мозга от плохо сформулированной задачи — задача без исполнителя, дедлайна, метода, ресурсов и ожидаемого РП отвергается | active |
+| PD.FAIL.020 | Passive Leisure Default | FAIL | Дефолт на пассивный отдых (ТВ, соцсети, игры) вместо активных практик досуга — снижает ментальную нагрузку, но не даёт сильных впечатлений | active |
+| PD.FAIL.021 | Ignoring Sleep and Daily Routine | FAIL | Переход к продвинутым практикам саморазвития при сломанном сне и отсутствии распорядка дня — главная фундаментальная ошибка | active |
+| PD.FAIL.022 | Fatal Strategic Error | FAIL | Стратегическая ставка настолько крупная, что провал устраняет возможность продолжать проверку гипотез — например, банкротство, требующее всё время на выживание | active |
 | PD.FORM.001 | Development Programs | FORM | Формализация трёх уровней систематического развития: личного, рабочего и исследовательского | active |
 | PD.FORM.002 | Development Directions | FORM | Шесть направлений развития: мировоззрение, мастерство, ограничения, экзокортекс, культура, организм | active |
 | PD.FORM.003 | Learner Maturity | FORM | Пять ступеней зрелости ученика: от случайного к проактивному саморазвитию с полной систематизацией | active |
 | PD.FORM.004 | Agent Cognitive Layers | FORM | Онтология пяти сущностей агента: описание, знание, навык, мировоззрение и обучение как процесс | active |
+| PD.FORM.005 | Creative Pipeline | FORM | Формализация творческого конвейера: 4+3 стадии от заметки до публичного текста | active |
+| PD.FORM.006 | Mastery Degrees | FORM | Формализация четырёх степеней мастерства: объяснение, умение, навык, мастерство | active |
+| PD.FORM.007 | Learning Stages | FORM | Формализация четырёх стадий учебной деятельности: от погружения в теорию до обучения других | active |
+| PD.FORM.008 | Four Basic Activities | FORM | Формализация четырёх базовых видов деятельности человека для классификации практик саморазвития | active |
+| PD.FORM.009 | Leisure Classification | FORM | Формализация пяти классов досуговых практик для организации отдыха | active |
+| PD.FORM.010 | Task Classification | FORM | Формализация классификации задач по трём бинарным измерениям: важное/текущее, постоянное/временное, плановое/срочное | active |
+| PD.FORM.011 | Order Of Strategizing | FORM | Формализация шести стадий цикла стратегирования: от мониторинга состояния до анализа гипотез | active |
+| PD.FORM.012 | Project Realization Stages | FORM | Формализация пяти стадий реализации проектов: от целеполагания через стратегирование до анализа обратной связи | active |
+| PD.FORM.013 | Planning Resources | FORM | Формализация шести типов ресурсов планирования: время, финансы, состояние, квалификация, технологии, прочее | active |
+| PD.FORM.014 | Work Formulation | FORM | Формализация шести компонентов формулировки работы: исполнитель, дедлайн, роль, метод, ресурсы, ожидаемый РП | active |
+| PD.FORM.015 | Practice Usage Across Mastery | FORM | Матрица использования практик на разных степенях мастерства: TbS, TIW, SSR | active |
 | PD.MAP.001 | Pack Navigation Map | MAP | — | — |
 | PD.METHOD.001 | Time Accounting | METHOD | \"Метод непрерывной регистрации и категоризации трат времени для получения эмпирических данных о распределении ресурса\" | active |
 | PD.METHOD.002 | Learner Method | METHOD | Метод обучения ученика: регулярные слоты, экзокортекс, рефлексия и недельные контракты | active |
@@ -138,6 +167,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.METHOD.006 | Leisure Organization | METHOD | Метод систематического управления практиками досуга: выбор, планирование и контроль на всех временных горизонтах для восстановления и качества жизни | active |
 | PD.METHOD.007 | Environment Formation | METHOD | Метод осознанного долгосрочного развития физической и социальной среды для обеспечения условий продуктивной деятельности и саморазвития | active |
 | PD.METHOD.008 | Strategizing | METHOD | Метод непрерывной разработки и реализации личной стратегии: выявление неудовлетворённостей, выбор приоритетных проектов и тестирование гипотез | active |
+| PD.METHOD.009 | Planning | METHOD | Метод преобразования задач в формулировки работ и размещения их в физическом времени с учётом ресурсов и дедлайнов | active |
 | PD.QUAL.001 | Qualification System | QUAL | Система квалификации с восемью уровнями (EQF), основанная на демонстрации применения методов | active |
 | PD.ROLE.001 | Learner | ROLE | Роль человека, осваивающего новое знание, выстраивающего дисциплину и формирующего мировоззрение | active |
 | PD.ROLE.002 | Intellectual | ROLE | Роль человека, применяющего знания в проектах, работающего с понятиями и методами | active |
@@ -154,5 +184,14 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.WP.005 | Dissatisfaction List | WP | Структурированный перечень неудовлетворённостей с описанием проблем, эмоций и связей с потребностями — вход для стратегирования | active |
 | PD.WP.006 | Strategy (Document) | WP | Документ-гипотеза о методах достижения целей и устранения неудовлетворённостей — быстро устаревает и требует еженедельного пересмотра | active |
 | PD.WP.007 | Priority Projects List | WP | Отобранный список из 1-7 приоритетных проектов с бюджетом времени на горизонт стратегирования — результат применения критериев выбора | active |
+| PD.WP.008 | Self-Development Mastery Progress | WP | Чек-лист для отслеживания прогресса мастерства саморазвития по 8 практикам и 4 степеням | active |
+| PD.WP.009 | Information Resources List | WP | Курируемый список информационных ресурсов для систематического медленного чтения, привязанный к приоритетным проектам | active |
+| PD.WP.010 | Fleeting Notes | WP | Мимолётные заметки — сырой захват мыслей и резонансов, подлежащий обязательному разбору и удалению | active |
+| PD.WP.011 | Draft List | WP | Навигируемая коллекция всех черновиков с приоритетным подмножеством для текущего периода | active |
+| PD.WP.012 | Communication Errors List | WP | Список ошибок коммуникации, обнаруженных при проговаривании: неправильное использование понятий, связей и рассуждений | active |
+| PD.WP.013 | My Leisure Practices | WP | Таблица личных практик досуга, организованных по временным горизонтам: от минут до лет | active |
+| PD.WP.014 | Daily Routine | WP | Шаблон дня: примерное время подъёма и отбоя, общие принципы распределения работы и отдыха | active |
+| PD.WP.015 | Task List | WP | Постоянно ведущийся перечень задач по приоритетным проектам, классифицированных по типам | active |
+| PD.WP.016 | Selection Criteria | WP | Персональные критерии для стратегического выбора приоритетных проектов, отражающие ценности и ресурсы | active |
 
-> *Auto-generated by `generate-map.py` on 2026-02-11*
+> *Auto-generated by `generate-map.py` on 2026-02-19*

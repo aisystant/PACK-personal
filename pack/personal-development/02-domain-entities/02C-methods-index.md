@@ -31,6 +31,7 @@ Methods that determine priorities and resource allocation.
 | ID | Method Name | Produces | Status | SoTA |
 |----|-------------|----------|--------|------|
 | [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) | Strategizing | [WP.005](../04-work-products/PD.WP.005-dissatisfaction-list.md), [WP.006](../04-work-products/PD.WP.006-strategy.md), [WP.007](../04-work-products/PD.WP.007-priority-projects-list.md) | active | current |
+| [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md) | Planning | [WP.001](../04-work-products/PD.WP.001-time-budget.md), [WP.014](../04-work-products/PD.WP.014-daily-routine.md), [WP.015](../04-work-products/PD.WP.015-task-list.md) | active | current |
 
 ### Learning Methods
 
@@ -62,6 +63,7 @@ Methods that build conditions and environment for productive activity.
 | [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md) | Systematic Slow Reading | Information Processing | [WP.003](../04-work-products/PD.WP.003-educational-notes.md) | current |
 | [PD.METHOD.005](../03-methods/PD.METHOD.005-thinking-by-speaking.md) | Thinking by Speaking | Information Processing | [WP.003](../04-work-products/PD.WP.003-educational-notes.md) | current |
 | [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md) | Thinking in Writing | Information Processing | [WP.004](../04-work-products/PD.WP.004-draft.md) | current |
+| [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md) | Planning | Strategic | [WP.001](../04-work-products/PD.WP.001-time-budget.md), [WP.014](../04-work-products/PD.WP.014-daily-routine.md), [WP.015](../04-work-products/PD.WP.015-task-list.md) | current |
 | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) | Time Accounting | Registration | [WP.001](../04-work-products/PD.WP.001-time-budget.md) | current |
 
 ---
@@ -77,6 +79,15 @@ Methods that build conditions and environment for productive activity.
 | [PD.WP.005 Dissatisfaction List](../04-work-products/PD.WP.005-dissatisfaction-list.md) | [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) |
 | [PD.WP.006 Strategy](../04-work-products/PD.WP.006-strategy.md) | [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) |
 | [PD.WP.007 Priority Projects List](../04-work-products/PD.WP.007-priority-projects-list.md) | [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) |
+| [PD.WP.008 Mastery Progress](../04-work-products/PD.WP.008-mastery-progress.md) | [PD.METHOD.002](../03-methods/PD.METHOD.002-learner-method.md) |
+| [PD.WP.009 Information Resources List](../04-work-products/PD.WP.009-information-resources-list.md) | [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md), [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) |
+| [PD.WP.010 Fleeting Notes](../04-work-products/PD.WP.010-fleeting-notes.md) | [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md), [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md) |
+| [PD.WP.011 Draft List](../04-work-products/PD.WP.011-draft-list.md) | [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md), [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) |
+| [PD.WP.012 Communication Errors List](../04-work-products/PD.WP.012-communication-errors-list.md) | [PD.METHOD.005](../03-methods/PD.METHOD.005-thinking-by-speaking.md) |
+| [PD.WP.013 My Leisure Practices](../04-work-products/PD.WP.013-my-leisure-practices.md) | [PD.METHOD.006](../03-methods/PD.METHOD.006-leisure-organization.md) |
+| [PD.WP.014 Daily Routine](../04-work-products/PD.WP.014-daily-routine.md) | [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md) |
+| [PD.WP.015 Task List](../04-work-products/PD.WP.015-task-list.md) | [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md), [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md) |
+| [PD.WP.016 Selection Criteria](../04-work-products/PD.WP.016-selection-criteria.md) | [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) |
 
 ---
 
@@ -84,7 +95,7 @@ Methods that build conditions and environment for productive activity.
 
 | Role | Methods Performed |
 |------|-------------------|
-| [Learner](02A-roles.md#learner) | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md), [PD.METHOD.002](../03-methods/PD.METHOD.002-learner-method.md), [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md), [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md), [PD.METHOD.005](../03-methods/PD.METHOD.005-thinking-by-speaking.md), [PD.METHOD.006](../03-methods/PD.METHOD.006-leisure-organization.md), [PD.METHOD.007](../03-methods/PD.METHOD.007-environment-formation.md), [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) |
+| [Learner](02A-roles.md#learner) | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md), [PD.METHOD.002](../03-methods/PD.METHOD.002-learner-method.md), [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md), [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md), [PD.METHOD.005](../03-methods/PD.METHOD.005-thinking-by-speaking.md), [PD.METHOD.006](../03-methods/PD.METHOD.006-leisure-organization.md), [PD.METHOD.007](../03-methods/PD.METHOD.007-environment-formation.md), [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md), [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md) |
 | [Analyst](02A-roles.md#analyst) | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) |
 
 ---
@@ -100,6 +111,7 @@ Methods that build conditions and environment for productive activity.
 | [PD.METHOD.006](../03-methods/PD.METHOD.006-leisure-organization.md) | Passive "rest", no routine, sleep neglect |
 | [PD.METHOD.007](../03-methods/PD.METHOD.007-environment-formation.md) | Environment as given, stagnant environment |
 | [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) | Strategizing in the head, multitasking, no regular session |
+| [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md) | [FAIL.017](../05-failure-modes/PD.FAIL.017-blaming-everything-on-planning.md), [FAIL.018](../05-failure-modes/PD.FAIL.018-urgent-displaces-important.md), [FAIL.019](../05-failure-modes/PD.FAIL.019-procrastination-unclear-task.md) |
 
 ---
 
