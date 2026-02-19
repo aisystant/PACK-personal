@@ -7,7 +7,7 @@ pack_id: PD
 pack_name: Характеристики и состояния созидателя
 pack_name_en: Characteristics and States of Creator
 folder_name: personal-development  # Historical name, do not change
-version: 0.4.0
+version: 0.5.0
 fpf_edition: v1.0
 status: active
 maintainers:
@@ -72,14 +72,14 @@ This pack captures knowledge about **characteristics and states of creator** as 
 
 | Section | Item Count | Status |
 |---------|------------|--------|
-| Distinctions | 43 | active |
-| Principles | 20 | active |
+| Distinctions | 55 | active |
+| Principles | 25 | active |
 | Roles | 5 | active |
 | Objects of Attention | 6 | active |
-| Formalizations | 15 | active |
+| Formalizations | 22 | active |
 | Methods | 9 | active |
 | Work Products | 16 | active |
-| Failure Modes | 22 | active |
+| Failure Modes | 27 | active |
 | SoTA Annotations | 1 | active |
 | Maps | 1 | active |
 
@@ -90,15 +90,15 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | File | Description |
 |------|-------------|
 | [01A-bounded-context.md](01-domain-contract/01A-bounded-context.md) | Domain scope and boundaries |
-| [01B-distinctions.md](01-domain-contract/01B-distinctions.md) | 43 core distinctions |
-| [01C-principles.md](01-domain-contract/01C-principles.md) | 20 domain principles |
+| [01B-distinctions.md](01-domain-contract/01B-distinctions.md) | 55 core distinctions |
+| [01C-principles.md](01-domain-contract/01C-principles.md) | 25 domain principles |
 | [ontology.md](../../ontology.md) | Domain ontology (SPF.SPEC.002) |
 | [02A-roles.md](02-domain-entities/02A-roles.md) | Agent, Analyst, Mentor, Architect |
 | [02B-objects-of-attention.md](02-domain-entities/02B-objects-of-attention.md) | 6 objects |
 | [02C-methods-index.md](02-domain-entities/02C-methods-index.md) | Methods navigation |
 | [PD.METHOD.001](03-methods/PD.METHOD.001-time-accounting.md) | Time Accounting |
 | [PD.WP.001](04-work-products/PD.WP.001-time-budget.md) | Time Budget |
-| [05-failure-modes/](05-failure-modes/) | 22 failure mode cards |
+| [05-failure-modes/](05-failure-modes/) | 27 failure mode cards |
 | [PD.SOTA.001](06-sota/PD.SOTA.001-time-accounting-interpretations.md) | Time Accounting interpretations |
 | [PD.MAP.001](07-map/PD.MAP.001.md) | Full navigation map |
 
@@ -114,6 +114,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | 2025-02-05 | Restructure: create 01-domain-contract/ folder with 01A-bounded-context.md and 01B-distinctions.md | AISYSTANT |
 | 2026-02-10 | Added 5-entity agent ontology (FORM.004), 3 distinctions (D.013-D.015), failure mode (FAIL.007), BC clarification on Learning | AISYSTANT |
 | 2026-02-19 | Bulk enrichment from Guide 1-2 «Практики саморазвития»: +23 distinctions (D.021-D.043), +20 principles (PRINC.001-020), +1 method (METHOD.009), +11 formalizations (FORM.005-015), +15 failure modes (FAIL.008-022), +9 work products (WP.008-016). Total: 38→131 entities | KE bulk extraction |
+| 2026-02-19 | Bulk enrichment from Guide 1-1 «Системное саморазвитие» (ch 1-5, 8-9): +12 distinctions (D.044-D.055), +5 principles (PRINC.021-025), +7 formalizations (FORM.016-022), +5 failure modes (FAIL.023-027). Total: 131→160 entities | KE bulk extraction |
 
 ## Entity Index
 
@@ -143,6 +144,11 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FAIL.020 | Passive Leisure Default | FAIL | Дефолт на пассивный отдых (ТВ, соцсети, игры) вместо активных практик досуга — снижает ментальную нагрузку, но не даёт сильных впечатлений | active |
 | PD.FAIL.021 | Ignoring Sleep and Daily Routine | FAIL | Переход к продвинутым практикам саморазвития при сломанном сне и отсутствии распорядка дня — главная фундаментальная ошибка | active |
 | PD.FAIL.022 | Fatal Strategic Error | FAIL | Стратегическая ставка настолько крупная, что провал устраняет возможность продолжать проверку гипотез — например, банкротство, требующее всё время на выживание | active |
+| PD.FAIL.023 | High Agency Without Mastery | FAIL | Высокая агентность (большие желания, амбиции) при отсутствии достаточного жизненного мастерства — повышает вероятность выгорания и тревожности | active |
+| PD.FAIL.024 | Mental Aging / Knowledge Decay Without Learning | FAIL | Ментальная старость — прекращение потока нового знания ведёт к устареванию мастерства, снижению желаний и стагнации личности | active |
+| PD.FAIL.025 | Indoctrination Default / Unexamined Beliefs | FAIL | Действие из непроверенных убеждений (мемов), усвоенных от окружения, вместо SoTA-знаний — личность является продуктом индоктринации, а не осознанного выбора | active |
+| PD.FAIL.026 | Role-Person Conflation in Conflict | FAIL | Отождествление человека с его ролью — критика роли воспринимается как личная атака, конфликт ролевых интересов превращается в межличностный конфликт | active |
+| PD.FAIL.027 | Non-Integral Success / Success in One Sphere at Cost of Others | FAIL | Успех в одной сфере жизни ценой провала в других — выдающийся бизнесмен без семьи, блестящий учёный без здоровья и т.п. | active |
 | PD.FORM.001 | Development Programs | FORM | Формализация трёх уровней систематического развития: личного, рабочего и исследовательского | active |
 | PD.FORM.002 | Development Directions | FORM | Шесть направлений развития: мировоззрение, мастерство, ограничения, экзокортекс, культура, организм | active |
 | PD.FORM.003 | Learner Maturity | FORM | Пять ступеней зрелости ученика: от случайного к проактивному саморазвитию с полной систематизацией | active |
@@ -158,6 +164,13 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FORM.013 | Planning Resources | FORM | Формализация шести типов ресурсов планирования: время, финансы, состояние, квалификация, технологии, прочее | active |
 | PD.FORM.014 | Work Formulation | FORM | Формализация шести компонентов формулировки работы: исполнитель, дедлайн, роль, метод, ресурсы, ожидаемый РП | active |
 | PD.FORM.015 | Practice Usage Across Mastery | FORM | Матрица использования практик на разных степенях мастерства: TbS, TIW, SSR | active |
+| PD.FORM.016 | Desires Abilities Resources Balance | FORM | Формализация баланса желаний, способностей и ресурсов — модель причин тревожности, депрессии и выгорания | active |
+| PD.FORM.017 | Two Keys For Action | FORM | Формализация двух ключей для действия человека: окружение (внешний контекст) + внутреннее состояние (неудовлетворенности, мотивация, намерения) | active |
+| PD.FORM.018 | Agent Model | FORM | Формализация модели агента: функциональная декомпозиция (личность + организм) и модульная декомпозиция (биологическое тело + экзотело) | active |
+| PD.FORM.019 | Intelligence Stack | FORM | Формализация интеллект-стека: 16 трансдисциплин, развивающих мыслительное мастерство, и их отличие от прикладных дисциплин | active |
+| PD.FORM.020 | Dissatisfaction Levels | FORM | Формализация уровней неудовлетворенности по системным уровням: от организма до человечества | active |
+| PD.FORM.021 | Integral Success Model | FORM | Формализация модели интегрального успеха: успех в одной сфере + удовлетворительный уровень во всех остальных | active |
+| PD.FORM.022 | Worldview Structure | FORM | Формализация структуры мировоззрения: факты + знания + убеждения; связь с мышлением и кругозором | active |
 | PD.MAP.001 | Pack Navigation Map | MAP | — | — |
 | PD.METHOD.001 | Time Accounting | METHOD | \"Метод непрерывной регистрации и категоризации трат времени для получения эмпирических данных о распределении ресурса\" | active |
 | PD.METHOD.002 | Learner Method | METHOD | Метод обучения ученика: регулярные слоты, экзокортекс, рефлексия и недельные контракты | active |

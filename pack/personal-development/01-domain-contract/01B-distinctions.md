@@ -28,6 +28,41 @@ Core conceptual distinctions for the Personal Development domain.
 | [D.018](#d018-mastery-level-vs-learning-stage) | Mastery Level vs. Learning Stage | current | ROLE.001-005 |
 | [D.019](#d019-thinking-in-writing-vs-freewriting) | Thinking in Writing vs. Freewriting | current | METHOD.004 |
 | [D.020](#d020-leisure-vs-work) | Leisure vs. Work | current | METHOD.006 |
+| [D.021](#d021-professional-learner-vs-intuitive-learner) | Professional Learner vs. Intuitive Learner | current | ROLE.001, METHOD.002 |
+| [D.022](#d022-learning-as-training-vs-learning-as-cinema) | Learning as Training vs. Learning as Cinema | current | METHOD.002, FAIL.009 |
+| [D.023](#d023-information-consumption-vs-systematic-slow-reading) | Information Consumption vs. Systematic Slow Reading | current | METHOD.003 |
+| [D.024](#d024-cognitive-resonance-vs-reading-comprehension) | Cognitive Resonance vs. Reading Comprehension | current | METHOD.003, WP.003 |
+| [D.025](#d025-thinker-in-writing-vs-writer-journalist) | Thinker-in-Writing vs. Writer/Journalist | current | METHOD.004 |
+| [D.026](#d026-draft-vs-publication) | Draft (Заготовка) vs. Publication | current | WP.004, FAIL.014 |
+| [D.027](#d027-thinking-by-speaking-vs-rhetoric) | Thinking by Speaking vs. Rhetoric | current | METHOD.005 |
+| [D.028](#d028-thinking-by-speaking-vs-brainstorming) | Thinking by Speaking vs. Brainstorming | current | METHOD.005 |
+| [D.029](#d029-form-vs-content-in-communication) | Form vs. Content in Communication | current | METHOD.005 |
+| [D.030](#d030-slow-reading-vs-speed-reading) | Slow Reading vs. Speed Reading | current | METHOD.003 |
+| [D.031](#d031-master-vs-doer) | Master vs. Doer (Деятель) | current | FORM.006, ROLE.003 |
+| [D.032](#d032-extended-pomodoro-vs-classic-pomodoro) | Extended Pomodoro (Time Investment) vs. Classic Pomodoro | current | METHOD.001 |
+| [D.033](#d033-individual-practice-mastery-vs-self-development-mastery) | Individual Practice Mastery vs. Self-Development Mastery (Aggregate) | current | WP.008 |
+| [D.034](#d034-accounted-time-vs-unaccounted-time) | Accounted Time vs. Unaccounted Time | current | METHOD.001 |
+| [D.035](#d035-leisure-organization-vs-leisure-practice) | Leisure Organization vs. Leisure Practice | current | METHOD.006 |
+| [D.036](#d036-physical-environment-vs-social-environment) | Physical Environment vs. Social Environment | current | METHOD.007 |
+| [D.037](#d037-strategizing-process-vs-strategy-document) | Strategizing (Process) vs. Strategy (Document) | current | METHOD.008, WP.006 |
+| [D.038](#d038-task-vs-work-formulation-vs-work) | Task vs. Work Formulation vs. Work | current | METHOD.009, FORM.014 |
+| [D.039](#d039-important-vs-current) | Important vs. Current (Routine) | current | FORM.010, FAIL.018 |
+| [D.040](#d040-planned-vs-urgent) | Planned vs. Urgent | current | FORM.010, FAIL.018 |
+| [D.041](#d041-permanent-vs-temporary-tasks) | Permanent vs. Temporary Tasks | current | FORM.010, WP.015 |
+| [D.042](#d042-strategizing-horizon-vs-planning-horizon) | Strategizing Horizon vs. Planning Horizon | current | METHOD.008, METHOD.009 |
+| [D.043](#d043-goal-setting-vs-strategizing-vs-planning-vs-execution) | Goal-Setting vs. Strategizing vs. Planning vs. Execution | current | FORM.012, FAIL.017 |
+| [D.044](#d044-agent-vs-personality) | Agent vs. Personality | current | FORM.018, CHR.001 |
+| [D.045](#d045-conscious-vs-unconscious-learning) | Conscious vs. Unconscious Learning | current | ROLE.001, METHOD.002 |
+| [D.046](#d046-transdiscipline-vs-discipline) | Transdiscipline vs. Discipline | current | FORM.019 |
+| [D.047](#d047-education-vs-professionalism) | Education (Образованность) vs. Professionalism | current | CHR.001 |
+| [D.048](#d048-characteristic-vs-state) | Characteristic vs. State | current | CHR.001, STATE.001 |
+| [D.049](#d049-role-interest-vs-personal-dissatisfaction) | Role Interest vs. Personal Dissatisfaction | current | D.002 |
+| [D.050](#d050-biological-body-vs-exobody) | Biological Body vs. Exobody | current | ARCH.001 |
+| [D.051](#d051-genes-vs-memes) | Genes vs. Memes | current | — |
+| [D.052](#d052-finite-game-vs-infinite-game) | Finite Game vs. Infinite Game | current | PRINC.022 |
+| [D.053](#d053-success-vs-happiness) | Success vs. Happiness | current | FORM.021 |
+| [D.054](#d054-composure-vs-concentration) | Composure (Собранность) vs. Concentration | current | — |
+| [D.055](#d055-facts-vs-knowledge-vs-beliefs) | Facts vs. Knowledge vs. Beliefs | current | FORM.022 |
 
 ---
 
@@ -1231,3 +1266,324 @@ Core conceptual distinctions for the Personal Development domain.
 
 **SoTA**: `current`
 - Revision criterion: Would change if the 4-stage model proves too granular for personal use
+
+---
+
+## [D.044] Agent vs. Personality
+
+**Definition**: An **agent** is the whole human as an autonomous system that acts, decides and has dissatisfactions. **Personality** (личность) is a functional subsystem of the agent — the totality of all abilities (life mastery), analogous to software running on hardware (organism).
+
+**Distinction Test**:
+- Does this describe the whole acting entity or only its abilities? (Whole → agent; Abilities → personality)
+- Does this include the organism and exobody? (Yes → agent; No → personality)
+
+| Agent | vs. | Personality |
+|-------|-----|-------------|
+| Whole acting system | | Functional subsystem (abilities) |
+| Includes organism + exobody | | Only cognitive/mastery capabilities |
+| Has dissatisfactions and intentions | | Has mastery and worldview |
+| Analogy: computer (hardware + software) | | Analogy: software / firmware |
+
+**Typical Confusion**: "She has a strong personality" (often means strong agency), treating personality traits as the complete agent
+
+**Why It Matters**: Developing the agent requires working on both personality (mastery, worldview) AND organism (body, exobody, resources). Focusing only on personality misses half the system.
+
+**Related Items**:
+- Formalization: PD.FORM.018 (Agent Model)
+- Characteristic: [PD.CHR.001](../02-domain-entities/characteristics/PD.CHR.001-characteristics.md)
+
+**SoTA**: `current` — SystemThinking 3.0 distinction
+- Revision criterion: Would change if agent and personality prove inseparable in practice
+
+---
+
+## [D.045] Conscious vs. Unconscious Learning
+
+**Definition**: **Conscious learning** is learning where the agent deliberately stands in the role of a learner, uses specific learning methods (SSR, TIW, TBS), and focuses attention on concepts and principles. **Unconscious learning** is learning where the agent absorbs models of the world from the environment without deliberately entering the learner role.
+
+**Distinction Test**:
+- Does the agent deliberately use learning methods? (Yes → conscious; No → unconscious)
+- Is attention directed at concepts and principles? (Yes → conscious; No → unconscious)
+
+| Conscious Learning | vs. | Unconscious Learning |
+|--------------------|-----|----------------------|
+| Deliberate role of learner | | Passive absorption |
+| Uses specific methods | | No learning methods |
+| Targets concepts, principles | | Absorbs whatever environment provides |
+| Agent controls content | | Environment controls content |
+
+**Typical Confusion**: "I learn from experience" (may be unconscious unless reflection is deliberate), "Gamification teaches you" (form without conscious method)
+
+**Why It Matters**: Without consciousness in learning, the environment programs the agent. The agent who does not consciously learn is being indoctrinated by whoever controls the information flow.
+
+**Related Items**:
+- Role: [PD.ROLE.001](../02-domain-entities/roles/PD.ROLE.001-learner.md) — learner role
+- Method: [PD.METHOD.002](../03-methods/PD.METHOD.002-learner-method.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if unconscious learning methods prove equally effective for complex knowledge
+
+---
+
+## [D.046] Transdiscipline vs. Discipline
+
+**Definition**: A **transdiscipline** provides general concepts and principles that are used across multiple disciplines. A **discipline** is a specific area of knowledge covering a particular subject domain. Transdisciplines develop the intellect (thinking mastery); disciplines develop professional mastery.
+
+**Distinction Test**:
+- Are these concepts usable in ANY project domain? (Yes → transdiscipline; No → discipline)
+- Does learning this primarily strengthen general thinking or specific skill? (Thinking → transdiscipline; Skill → discipline)
+
+| Transdiscipline | vs. | Discipline |
+|-----------------|-----|------------|
+| General / universal concepts | | Domain-specific concepts |
+| Develops intellect | | Develops professional mastery |
+| Applicable across all projects | | Applicable in specific domain |
+| Examples: systems thinking, ethics, ontology | | Examples: surgery, accounting, programming |
+
+**Typical Confusion**: "I just need to learn React" (discipline only, no transdisciplinary foundation), "Philosophy is impractical" (misunderstanding transdisciplinary value)
+
+**Why It Matters**: Investing only in disciplines creates fragile mastery — inability to handle new, unfamiliar situations. Transdisciplines provide the scaffolding for rapid learning of any new discipline.
+
+**Related Items**:
+- Formalization: PD.FORM.019 (Intelligence Stack)
+
+**SoTA**: `current`
+- Revision criterion: Would change if the trans/discipline boundary proves meaningless for learning speed
+
+---
+
+## [D.047] Education (Образованность) vs. Professionalism
+
+**Definition**: **Education** (образованность) is a characteristic of the intellect — the level of mastery in transdisciplines of the intelligence stack. **Professionalism** is a characteristic of applied mastery — the level of skill in a specific professional method.
+
+**Distinction Test**:
+- Can this person give good explanations for unexpected situations in ANY domain? (Yes → educated)
+- Can this person produce high-quality outputs in a SPECIFIC domain? (Yes → professional)
+
+| Education (Образованность) | vs. | Professionalism |
+|-----------------------------|-----|-----------------|
+| Characteristic of intellect | | Characteristic of applied mastery |
+| Based on transdisciplines | | Based on specific discipline |
+| Good explanations in any field | | Good results in one field |
+| Messi's football ≠ his education | | Messi's football = his professionalism |
+
+**Typical Confusion**: "He's highly educated" (often means he has a diploma, not that he can explain diverse phenomena), treating professional success as evidence of general education
+
+**Why It Matters**: Together, education and professionalism compose life mastery. Investing only in professionalism without education creates a specialist unable to adapt to new challenges.
+
+**Related Items**:
+- Characteristic: [PD.CHR.001](../02-domain-entities/characteristics/PD.CHR.001-characteristics.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if education and professionalism prove indistinguishable for career outcomes
+
+---
+
+## [D.048] Characteristic vs. State
+
+**Definition**: A **characteristic** is a relatively stable parameter of the agent that changes slowly through deliberate work (e.g., agency, mastery level, emotional stability). A **state** is a temporary mode of being that can change quickly in response to circumstances (e.g., fatigue, anger, role-in-the-moment).
+
+**Distinction Test**:
+- Does this change within hours or days? (Yes → state; No → characteristic)
+- Is this a persistent property or a temporary mode? (Persistent → characteristic; Temporary → state)
+
+| Characteristic | vs. | State |
+|---------------|-----|-------|
+| Relatively stable | | Temporary |
+| Changes through deliberate work | | Changes from circumstances |
+| Examples: agency, mastery, resilience | | Examples: fatigue, anger, flow, role-in-the-moment |
+| Measured over weeks/months | | Measured in hours/days |
+
+**Typical Confusion**: "I'm not an agency person" (treating temporary low-agency state as permanent characteristic), "I'm always stressed" (treating persistent state as characteristic without addressing root cause)
+
+**Why It Matters**: Confusing the two leads to either giving up on changeable states (believing them permanent) or expecting instant change in deep characteristics. Development strategy differs: states are managed, characteristics are developed.
+
+**Related Items**:
+- Characteristic: [PD.CHR.001](../02-domain-entities/characteristics/PD.CHR.001-characteristics.md)
+- States: [PD.STATE.001](../02-domain-entities/states/PD.STATE.001-states.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if the boundary between characteristic and state proves illusory
+
+---
+
+## [D.049] Role Interest vs. Personal Dissatisfaction
+
+**Definition**: A **role interest** is what matters to a role regardless of who fills it (e.g., a CFO cares about financial health). A **personal dissatisfaction** is what bothers the specific agent filling the role (e.g., career growth, family issues).
+
+**Distinction Test**:
+- Would ANY person in this role have this interest? (Yes → role interest)
+- Is this specific to this individual's life situation? (Yes → personal dissatisfaction)
+
+| Role Interest | vs. | Personal Dissatisfaction |
+|--------------|-----|--------------------------|
+| Tied to role | | Tied to agent |
+| Same for all occupants | | Unique to individual |
+| Part of the activity | | Part of the person |
+| Addressed by role method | | Addressed by life strategy |
+
+**Typical Confusion**: Discussing personal grievances in role meetings, using role authority to address personal dissatisfactions
+
+**Why It Matters**: Mixing role interests with personal dissatisfactions pollutes decision-making. A leader must connect the two (show how good role performance addresses personal dissatisfactions) without confusing them.
+
+**Related Items**:
+- Distinction: [D.002](#d002-role-vs-person)
+
+**SoTA**: `current`
+- Revision criterion: Would change if role and personal interests prove inseparable for effective action
+
+---
+
+## [D.050] Biological Body vs. Exobody
+
+**Definition**: The **biological body** is the organism of the agent — hardware that evolved biologically. The **exobody** is the totality of technological and material extensions of the agent: from tools and clothing to financial assets and the exocortex.
+
+**Distinction Test**:
+- Was this part of the agent at birth? (Yes → biological body; No → exobody)
+- Can this be transferred to another agent? (No → biological body; Yes → exobody)
+
+| Biological Body | vs. | Exobody |
+|----------------|-----|---------|
+| Evolved biologically | | Created by technoevolution |
+| Cannot be transferred | | Can be given, bought, sold |
+| Fixed hardware | | Continuously extensible |
+| Includes brain (cortex) | | Includes exocortex (second brain) |
+
+**Typical Confusion**: Ignoring exobody development (focusing only on education/mastery), treating tools as unrelated to the agent
+
+**Why It Matters**: Modern creator development requires attention to both bio-body (health, sleep, fitness) and exobody (exocortex, resources, technologies). Neglecting either half limits the whole agent.
+
+**Related Items**:
+- Architecture: [PD.ARCH.001](../02-domain-entities/architecture/PD.ARCH.001-transparent-box.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if bio-tech integration erases the boundary (e.g., brain-computer interfaces)
+
+---
+
+## [D.051] Genes vs. Memes
+
+**Definition**: **Genes** are biological replicators that transmit physical characteristics through reproduction. **Memes** are cultural replicators — ideas, models, theories, knowledge, cultural norms — that transmit between minds and shape personality, exobody, and technoevolution.
+
+**Distinction Test**:
+- Is this transmitted biologically through reproduction? (Yes → gene)
+- Is this transmitted socially through communication/education? (Yes → meme)
+
+| Genes | vs. | Memes |
+|-------|-----|-------|
+| Biological inheritance | | Cultural inheritance |
+| Shape organism | | Shape personality and exobody |
+| Evolution (millions of years) | | Technoevolution (centuries/decades) |
+| Change by mutation + selection | | Change by creation + adoption |
+
+**Typical Confusion**: "Intelligence is genetic" (confusing computational capacity from genes with thinking mastery from memes), believing personality is fully determined by nature
+
+**Why It Matters**: Self-development is primarily about upgrading memes (worldview, mastery, methods). Genes set hardware constraints; memes determine what software runs. The agent who understands this can deliberately choose which memes to adopt.
+
+**SoTA**: `current`
+- Revision criterion: Would change if epigenetics proves memes can reprogram genes on relevant timescales
+
+---
+
+## [D.052] Finite Game vs. Infinite Game
+
+**Definition**: A **finite game** has defined players, fixed rules, and a definite endpoint — someone wins and the game ends. An **infinite game** has no defined endpoint — the goal is to keep playing, expand possibilities, and involve new participants.
+
+**Distinction Test**:
+- Is there a clear endpoint and winner? (Yes → finite game)
+- Is the goal to continue playing and expanding? (Yes → infinite game)
+
+| Finite Game | vs. | Infinite Game |
+|-------------|-----|---------------|
+| Has endpoint and winner | | No endpoint, no winner |
+| Goal: win | | Goal: keep playing |
+| Fixed rules | | Rules evolve |
+| Victory, power, control | | Continuation, expansion, inclusion |
+
+**Typical Confusion**: Treating career as finite (one promotion = win), treating education as finite (diploma = endpoint)
+
+**Why It Matters**: Self-development is an infinite game. Treating it as finite (reaching a goal and stopping) leads to stagnation. The principle of continuous and infinite development requires infinite-game thinking.
+
+**Related Items**:
+- Principle: PD.PRINC.022 (Continuous and Infinite Development)
+
+**SoTA**: `current` — James Carse, adapted for self-development
+- Revision criterion: Would change if the infinite/finite framing proves unhelpful for planning
+
+---
+
+## [D.053] Success vs. Happiness
+
+**Definition**: **Success** is an external assessment — recognition by others of the agent's achievements in creating successful systems. **Happiness** is an internal state — the agent's subjective experience of satisfaction, fulfillment, and resolution of dissatisfactions.
+
+**Distinction Test**:
+- Is this determined by other people's evaluation? (Yes → success)
+- Is this determined by the agent's own inner experience? (Yes → happiness)
+
+| Success | vs. | Happiness |
+|---------|-----|-----------|
+| External assessment | | Internal state |
+| Defined by others' recognition | | Defined by own experience |
+| Related to created systems | | Related to dissatisfaction resolution |
+| Can exist without happiness | | Can exist without success |
+
+**Typical Confusion**: "If I'm successful, I'll be happy" (success does not guarantee happiness), "I don't need success" (ignoring the social recognition dimension of motivation)
+
+**Why It Matters**: Pursuing only success without happiness leads to burnout. Pursuing only happiness without success leads to disconnection from the world. Integral success requires both: at least one outstanding system AND no critical failures in other life spheres.
+
+**Related Items**:
+- Formalization: PD.FORM.021 (Integral Success Model)
+
+**SoTA**: `current`
+- Revision criterion: Would change if success and happiness prove empirically inseparable
+
+---
+
+## [D.054] Composure (Собранность) vs. Concentration
+
+**Definition**: **Composure** (собранность) is a broad mastery of attention management across ALL time scales — from the present moment to life trajectory — including preparation, error detection, resource management, and rhythm control. **Concentration** is a narrow aspect of composure — the ability to deeply focus on a single task while minimizing distractions.
+
+**Distinction Test**:
+- Does this apply only to a single work session? (Yes → concentration)
+- Does this span attention management at all time horizons? (Yes → composure)
+
+| Composure (Собранность) | vs. | Concentration |
+|--------------------------|-----|---------------|
+| All time scales | | Single session |
+| Includes preparation, error detection, rhythm | | Only focused attention |
+| Transdiscipline of intelligence stack | | One capability within composure |
+| Prevents burnout + ensures long-term productivity | | Enables short-term deep work |
+
+**Typical Confusion**: "I just need to focus better" (reducing composure to concentration), "Pomodoro = composure" (reducing composure to one time management technique)
+
+**Why It Matters**: Working only on concentration without the full composure apparatus leads to bursts of productivity followed by burnout. Composure includes echeloned leisure, attention management, and full kitting.
+
+**SoTA**: `current`
+- Revision criterion: Would change if composure subsumes concentration entirely (no useful distinction)
+
+---
+
+## [D.055] Facts vs. Knowledge vs. Beliefs
+
+**Definition**: **Facts** are specific data about events or measurements — raw material without interpretation. **Knowledge** is information based on theories that can be applied across different projects and situations. **Beliefs** are convictions formed from experience or faith that carry the highest subjective weight in decision-making.
+
+**Distinction Test**:
+- Is this a specific datum about a specific event? (Yes → fact)
+- Can this be applied across different projects? (Yes → knowledge)
+- Does this have the highest subjective weight regardless of evidence? (Yes → belief)
+
+| Facts | vs. | Knowledge | vs. | Beliefs |
+|-------|-----|-----------|-----|---------|
+| Specific data | | Transferable theories | | High-weight convictions |
+| "Revenue was $1M" | | "Double-entry accounting" | | "Hard work always pays off" |
+| No interpretation | | Scientific basis | | Experience or faith basis |
+
+**Typical Confusion**: Treating beliefs as knowledge (unexamined convictions presented as facts), treating facts as knowledge (data without theoretical framework)
+
+**Why It Matters**: Together these compose worldview. The goal of self-development is to replace untested beliefs with SoTA-transdisciplinary knowledge verified through personal experience. Understanding this hierarchy enables conscious worldview engineering.
+
+**Related Items**:
+- Formalization: PD.FORM.022 (Worldview Structure)
+
+**SoTA**: `current`
+- Revision criterion: Would change if the three-part classification proves unhelpful for learning decisions

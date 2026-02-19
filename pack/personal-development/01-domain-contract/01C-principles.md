@@ -410,4 +410,106 @@ The entry ritual transforms the pomodoro tracker from a simple timer into a tool
 
 ### Source Practice
 
-Time Investment and Accounting (Chapter 2)
+Time Investment and Accounting (Chapter 2, Guide 1-2)
+
+---
+
+## PRINC.021: Optimism Principle (Every Problem Is Solvable with the Right Knowledge) {#princ021-optimism-principle}
+
+### Statement
+
+Every problem that is not forbidden by the laws of physics is solvable — the only obstacle is the lack of the right knowledge.
+
+### Explanation
+
+David Deutsch's principle of optimism states that all evils are caused by insufficient knowledge. This is not naive optimism ("everything will be fine") but a rational stance: if something is physically possible, then the only barrier to achieving it is lack of the right theory, method or technology. For the creator, this means that any dissatisfaction that is not physically impossible to resolve can be resolved through learning and mastery development. The principle underpins the commitment to continuous education and the rejection of learned helplessness.
+
+### Related Methods
+
+- [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) — hypothesis testing embodies this principle
+
+### Source Practice
+
+Guide 1-1, Chapter 8.2 (Неожиданности и принцип оптимизма)
+
+---
+
+## PRINC.022: Continuous and Infinite Development {#princ022-continuous-and-infinite-development}
+
+### Statement
+
+Self-development is a continuous (daily) and infinite (no endpoint) process — not a one-time event or a finite game to win.
+
+### Explanation
+
+Continuous development means daily incremental improvements that compound over time. Infinite development means there is no graduation, no final mastery, no point where learning stops. The creator operates in infinite-game mode: keep playing, expand possibilities, involve others. This principle rejects both "I already know enough" and "I'll learn when I need to" — both are finite-game stances that guarantee mental aging and stagnation.
+
+### Related Methods
+
+- [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) — daily time investment tracks continuity
+- [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) — weekly review ensures direction
+
+### Source Practice
+
+Guide 1-1, Chapter 9.5 (Непрерывное и бесконечное развитие)
+
+---
+
+## PRINC.023: Ethics as Decision Filter {#princ023-ethics-as-decision-filter}
+
+### Statement
+
+When choosing systems to create, roles to play, and methods to use, the creator applies ethical reasoning as a filter — not as a separate moral calculation performed after the decision.
+
+### Explanation
+
+Ethics is not an add-on to decision-making but an integral part of it. Every choice of target system, role, and method passes through the ethical filter: does this create genuine value, does it avoid harm, does it pass the skin-in-the-game test? The creator who separates ethics from engineering decisions risks creating technically successful but harmful systems. This principle connects to compassion (feeling others' suffering as motivation) and systemic leadership (using agency to reduce suffering at scale).
+
+### Related Methods
+
+- [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) — strategy selection must pass ethical filter
+
+### Source Practice
+
+Guide 1-1, Chapters 8.7-8.8 (Этика, мораль и системное мышление)
+
+---
+
+## PRINC.024: Self-Development as the Primary Skill of Modern Humans {#princ024-self-development-primary-skill}
+
+### Statement
+
+The most important skill of a modern human is self-development — the ability to independently direct one's own learning and personality formation.
+
+### Explanation
+
+The key word in "self-development" is "self" (само). It means independent formation of one's own personality using the best available methods and knowledge (SoTA). Without this skill, the agent's learning is controlled by whoever provides information. With it, the agent becomes the author of their own worldview. This principle underpins all other self-development practices.
+
+### Related Methods
+
+- [PD.METHOD.002](../03-methods/PD.METHOD.002-learner-method.md) — the learner method operationalizes this principle
+
+### Source Practice
+
+Guide 1-1, Chapter 1.3 (Техноэволюция) and Chapter 2.1 (Обучение)
+
+---
+
+## PRINC.025: Iteration and Increment over One-Shot Change {#princ025-iteration-and-increment}
+
+### Statement
+
+Both systems and personal mastery develop through small iterative improvements (increments), not through one-time transformations.
+
+### Explanation
+
+Each iteration is a cycle of hypothesis, test, result, correction. Each increment is a small but meaningful improvement obtained in one iteration. The principle rejects "big bang" approaches to self-improvement in favor of daily incremental practice. Each iteration must avoid fatal errors — mistakes so large they eliminate the possibility of further iterations.
+
+### Related Methods
+
+- [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) — hypothesis testing is iteration
+- [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) — daily tracking enables incremental visibility
+
+### Source Practice
+
+Guide 1-1, Chapter 9.5 (Непрерывное и бесконечное развитие)
