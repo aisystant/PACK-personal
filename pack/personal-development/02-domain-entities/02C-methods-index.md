@@ -41,6 +41,14 @@ Methods that structure the learning process.
 |----|-------------|----------|--------|------|
 | [PD.METHOD.002](../03-methods/PD.METHOD.002-learner-method.md) | Learner Method | [WP.002](../04-work-products/PD.WP.002-learner-works.md) | active | current |
 
+### Reflective Methods
+
+Methods that build self-awareness and feedback loops.
+
+| ID | Method Name | Produces | Status | SoTA |
+|----|-------------|----------|--------|------|
+| [PD.METHOD.010](../03-methods/PD.METHOD.010-daily-reflective-review.md) | Daily Reflective Role-Product Review | — | active | current |
+
 ### Infrastructure Methods
 
 Methods that build conditions and environment for productive activity.
@@ -64,6 +72,7 @@ Methods that build conditions and environment for productive activity.
 | [PD.METHOD.005](../03-methods/PD.METHOD.005-thinking-by-speaking.md) | Thinking by Speaking | Information Processing | [WP.003](../04-work-products/PD.WP.003-educational-notes.md) | current |
 | [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md) | Thinking in Writing | Information Processing | [WP.004](../04-work-products/PD.WP.004-draft.md) | current |
 | [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md) | Planning | Strategic | [WP.001](../04-work-products/PD.WP.001-time-budget.md), [WP.014](../04-work-products/PD.WP.014-daily-routine.md), [WP.015](../04-work-products/PD.WP.015-task-list.md) | current |
+| [PD.METHOD.010](../03-methods/PD.METHOD.010-daily-reflective-review.md) | Daily Reflective Role-Product Review | Reflective | — | current |
 | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) | Time Accounting | Registration | [WP.001](../04-work-products/PD.WP.001-time-budget.md) | current |
 
 ---
