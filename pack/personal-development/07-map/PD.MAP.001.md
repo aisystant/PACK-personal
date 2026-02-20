@@ -19,7 +19,7 @@ generated: true
 |------|-------|
 | ARCH (ARCH) | 1 |
 | Characteristics (CHR) | 4 |
-| FAIL (FAIL) | 43 |
+| FAIL (FAIL) | 44 |
 | FORM (FORM) | 46 |
 | Maps (MAP) | 1 |
 | METHOD (METHOD) | 11 |
@@ -29,7 +29,7 @@ generated: true
 | SoTA Annotations (SOTA) | 1 |
 | STATE (STATE) | 7 |
 | Work Products (WP) | 16 |
-| **Total** | **140** |
+| **Total** | **141** |
 
 ## Work Products
 
@@ -119,6 +119,7 @@ generated: true
 | PD.FAIL.041 | Quick Pleasure Displacement Cycle | Цикл вытеснения быстрыми удовольствиями: меньше созидания → меньше вкуса → сильнее тяга к простому → хуже внимание → труднее вернуться к глубине | active |
 | PD.FAIL.042 | Unclosed Loops Accumulation | Накопление незакрытых петель: незавершённые обязательства создают внутренний шум, ощущение «двигаюсь, но ничего не собирается», подрывают доверие к себе | active |
 | PD.FAIL.043 | Wealth As Escape | Богатство как побег от проблем: преследование богатства с целью избежать проблем — деньги меняют класс проблем, не устраняют их | active |
+| PD.FAIL.044 | Development-as-Sacrifice Framing | Фрейминг развития как жертвы и отказа от удовольствия — неправильный мем, отпугивающий от начала развития и создающий ложное ожидание страдания | active |
 
 ### FORM
 

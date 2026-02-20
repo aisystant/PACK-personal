@@ -63,6 +63,22 @@ Core conceptual distinctions for the Personal Development domain.
 | [D.053](#d053-success-vs-happiness) | Success vs. Happiness | current | FORM.021 |
 | [D.054](#d054-composure-vs-concentration) | Composure (Собранность) vs. Concentration | current | — |
 | [D.055](#d055-facts-vs-knowledge-vs-beliefs) | Facts vs. Knowledge vs. Beliefs | current | FORM.022 |
+| [D.084](#d084-productive-state-vs-characteristic) | Productive State vs. Characteristic | current | CHR.001, STATE.001 |
+| [D.085](#d085-system-vs-agent-by-function-source) | System vs. Agent (by function source) | current | FORM.018 |
+| [D.086](#d086-psychological-language-vs-engineering-language) | Psychological Language vs. Engineering Language | current | FAIL.037 |
+| [D.087](#d087-resonance-attraction-vs-resonance-repulsion) | Resonance Attraction vs. Resonance Repulsion | current | METHOD.003, WP.003 |
+| [D.088](#d088-dopamine-novelty-vs-structural-novelty) | Dopamine Novelty vs. Structural Novelty | current | D.087 |
+| [D.089](#d089-resilience-mastery-vs-problem-solving) | Resilience Mastery vs. Problem Solving | current | — |
+| [D.090](#d090-selfflow-vs-reflash) | Selfflow vs. Reflash | current | PRINC.030 |
+| [D.091](#d091-anti-entropy-practice-vs-willpower) | Anti-Entropy Practice vs. Willpower | current | D.010 |
+| [D.092](#d092-meme-productive-vs-meme-unproductive) | Meme (Productive) vs. Meme (Unproductive) | current | METHOD.011 |
+| [D.093](#d093-lifestyle-as-architecture-vs-lifestyle-as-habits) | Lifestyle as Architecture vs. Lifestyle as Habits | current | D.090, FORM.002 |
+| [D.094](#d094-knowledge-base-vs-creative-process) | Knowledge Base vs. Creative Process | current | D.012 |
+| [D.095](#d095-creators-norm-vs-ideal-conditions) | Creator's Norm vs. Ideal Conditions | current | CHR.001 |
+| [D.096](#d096-quick-pleasure-vs-creative-pleasure) | Quick Pleasure vs. Creative Pleasure | current | D.066, FAIL.041 |
+| [D.097](#d097-role-as-expectation-frame-vs-role-relevant-state-parameters) | Role as Expectation Frame vs. Role-Relevant State Parameters | current | D.002, STATE.007 |
+| [D.098](#d098-self-declared-vs-recognized-vs-formally-assigned-role) | Self-Declared vs. Recognized vs. Formally Assigned Role | current | D.002, FAIL.026 |
+| [D.099](#d099-boring-life-low-entropy-vs-boredom-absence-of-meaning) | "Boring Life" (Low Entropy) vs. Boredom (Absence of Meaning) | current | FORM.024 |
 
 ---
 
@@ -2327,3 +2343,510 @@ Core conceptual distinctions for the Personal Development domain.
 
 **SoTA**: `current`
 - Revision criterion: Would change if abstract sensation descriptions prove equally effective for developing self-regulation
+
+---
+
+## [D.084] Productive State vs. Characteristic
+
+**Definition**: A **productive state** (продуктивное состояние) is the agent's current configuration — changes rapidly (within a day), measured by current values. A **characteristic** (характеристика) is a stable property — changes slowly (over months), defines the potential envelope.
+
+**Distinction Test**:
+- Does it change within a single day? (Yes → state)
+- Does it change only with sustained development? (Yes → characteristic)
+
+| Productive State | vs. | Characteristic |
+|-----------------|-----|----------------|
+| Current configuration | | Stable property |
+| Changes rapidly (hours) | | Changes slowly (months) |
+| Measured by current values | | Defines potential envelope |
+| "Today I'm at level 3" | | "My baseline is level 4" |
+
+**Typical Confusion**: "I'm always at level 5" (confusing peak state with baseline characteristic), "My productivity is low" (unclear whether describing state or characteristic)
+
+**Why It Matters**: State management and characteristic development require completely different methods. State: monitoring, prevention, recovery. Characteristic: systematic training over months. Treating state as characteristic leads to despair; treating characteristic as state leads to unrealistic expectations.
+
+**Related Items**:
+- Distinction: [D.048](#d048-characteristic-vs-state) — general version; D.084 specifies for productive context
+- Characteristic: [PD.CHR.001](../02-domain-entities/characteristics/PD.CHR.001-characteristics.md)
+- State: [PD.STATE.001](../02-domain-entities/states/PD.STATE.001-states.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if state and characteristic prove inseparable in productive context
+
+---
+
+## [D.085] System vs. Agent (by function source)
+
+**Definition**: A **system**'s function is assigned externally (by a supersystem or designer). An **agent**'s function is self-determined (through internal mechanism of goal-setting and strategizing).
+
+**Distinction Test**:
+- Who defined the purpose? (External role → system; Internal mechanism → agent)
+- Can it refuse its assigned function? (No → system; Yes → agent)
+
+| System | vs. | Agent |
+|--------|-----|-------|
+| Function assigned externally | | Function self-determined |
+| Cannot refuse role | | Can refuse or accept voluntarily |
+| Purpose from supersystem | | Purpose from internal strategizing |
+| Thermostat, organization | | Creator, AI with goals |
+
+**Typical Confusion**: "The company decided" (companies don't decide — agents within roles decide), "I have to" (agents always have choice, even if consequences differ)
+
+**Why It Matters**: The creator is fundamentally an agent, not a system. Self-development is the engineering of an agent's characteristics, not the optimization of a system. Treating yourself as a system ("I must do X because my role demands it") blocks self-determination; treating a system as an agent ("the organization wants") creates phantom decision-makers.
+
+**Related Items**:
+- Formalization: [PD.FORM.018](../02-domain-entities/formalizations/PD.FORM.018-agent-model.md)
+- Distinction: [D.044](#d044-agent-vs-personality)
+
+**SoTA**: `current`
+- Revision criterion: Would change if the internal/external function source distinction proves untenable for biological agents
+
+---
+
+## [D.086] Psychological Language vs. Engineering Language
+
+**Definition**: **Psychological language** describes problems in terms of traits, trauma, and character ("I'm lazy," "I have low self-esteem"). **Engineering language** describes them in terms of functions, processes, and systems ("I lack task decomposition practice," "I have no strategy review cycle").
+
+**Distinction Test**:
+- Can I build a concrete intervention from this description? (No → psychological; Yes → engineering)
+- Does this description assign a trait or identify a missing function? (Trait → psychological; Function → engineering)
+
+| Psychological Language | vs. | Engineering Language |
+|----------------------|-----|---------------------|
+| Traits and character | | Functions and processes |
+| "I'm lazy" | | "I lack task decomposition" |
+| Leads to self-analysis | | Leads to system design |
+| Comfort-oriented | | Result-oriented |
+
+**Typical Confusion**: "I need to work on my motivation" (psychological framing of what may be a missing planning method), "I'm not disciplined enough" (psychological framing of missing infrastructure)
+
+**Why It Matters**: Switching from psychological to engineering language is a prerequisite for self-development as engineering. Psychological language creates endless loops of self-analysis; engineering language produces actionable interventions. The same problem described in engineering terms becomes solvable: "I'm lazy" → "I have no protected daily slot for this project."
+
+**Related Items**:
+- Failure Mode: [PD.FAIL.037](../05-failure-modes/PD.FAIL.037-treating-engineering-as-psychological.md)
+- Formalization: [PD.FORM.041](../02-domain-entities/formalizations/PD.FORM.041-three-levels-of-problem-origin.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if psychological framing proves equally actionable for self-development
+
+---
+
+## [D.087] Resonance Attraction vs. Resonance Repulsion
+
+**Definition**: **Resonance attraction** (резонанс-притяжение) occurs when a new formulation fits and extends the agent's existing model — "yes, this is exactly what I meant!" **Resonance repulsion** (резонанс-отталкивание) occurs when a new idea contradicts the agent's assumptions — "this can't be right, but I can't dismiss it."
+
+**Distinction Test**:
+- Does it extend my model or challenge it? (Extend → attraction; Challenge → repulsion)
+- Do I feel comfort or discomfort? (Comfort → attraction; Discomfort → repulsion)
+
+| Resonance Attraction | vs. | Resonance Repulsion |
+|---------------------|-----|---------------------|
+| Extends existing model | | Challenges existing model |
+| Increases coherence | | Requires model restructuring |
+| Comfortable "click" | | Uncomfortable "buzz" |
+| Easy to integrate | | Requires effort to process |
+
+**Typical Confusion**: Treating only attraction as productive ("if it feels right, it's true"), dismissing repulsion as "author's error" when it signals a growth point
+
+**Why It Matters**: Both forms of resonance are equally productive. Ignoring repulsion signals leads to confirmation bias (FAIL.038) — only "comfortable" knowledge gets integrated. The creator must treat repulsion with the same attention as attraction and test both with the echo-test (does it persist after 24 hours?).
+
+**Related Items**:
+- Method: [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md)
+- Work Product: [PD.WP.003](../04-work-products/PD.WP.003-educational-notes.md)
+- Failure Mode: [PD.FAIL.038](../05-failure-modes/PD.FAIL.038-ignoring-resonance-repulsion.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if evidence shows one resonance type is significantly more productive than the other
+
+---
+
+## [D.088] Dopamine Novelty vs. Structural Novelty
+
+**Definition**: **Dopamine novelty** is a clickbait "wow" that fades quickly and leads to no model refinement. **Structural novelty** generates clarifying questions and desire to integrate the idea into existing processes.
+
+**Distinction Test** (Echo-test): Does the thought persist after 24 hours and point to a specific place in your work? Yes → structural novelty. No → dopamine novelty.
+
+| Dopamine Novelty | vs. | Structural Novelty |
+|-----------------|-----|-------------------|
+| Fades within hours | | Persists and grows |
+| "Wow, cool!" | | "Wait, this changes how I think about X" |
+| No follow-up questions | | Generates clarifying questions |
+| Entertainment value | | Integration value |
+
+**Typical Confusion**: Treating all "interesting" content as valuable (dopamine novelty dominates social media), ignoring quiet structural signals because they lack emotional punch
+
+**Why It Matters**: Without this distinction, the agent's information diet is dominated by dopamine novelty, starving the creative pipeline. Structural novelty is the actual fuel for worldview development and creative work. The echo-test is a practical filter.
+
+**Related Items**:
+- Distinction: [D.087](#d087-resonance-attraction-vs-resonance-repulsion)
+- Method: [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if dopamine novelty proves equally generative for model development
+
+---
+
+## [D.089] Resilience Mastery vs. Problem Solving
+
+**Definition**: **Resilience mastery** (мастерство устойчивости) is the ability to quickly recover from failures and return to a productive state. **Problem solving** (решение проблем) is eliminating a specific current problem.
+
+**Distinction Test**:
+- Am I reducing future failure probability? (Yes → resilience mastery)
+- Am I fixing today's specific issue? (Yes → problem solving)
+
+| Resilience Mastery | vs. | Problem Solving |
+|-------------------|-----|-----------------|
+| Future-oriented | | Present-oriented |
+| Builds recovery capacity | | Eliminates specific problem |
+| "Tumbler" (неваляшка) metaphor | | "Fix and forget" |
+| Lifestyle-level | | Task-level |
+
+**Typical Confusion**: "I solved the problem, so I'm resilient" (solving one problem ≠ building recovery capacity), focusing only on current fires without building resilience infrastructure
+
+**Why It Matters**: The goal is not to solve each problem individually but to build a lifestyle with fewer future failures and faster recovery from unavoidable ones. Resilience mastery is a characteristic (develops slowly); problem solving is a skill (applied immediately).
+
+**Related Items**:
+- Characteristic: [PD.CHR.002](../02-domain-entities/characteristics/PD.CHR.002-cyber-characteristics.md) — Stress resistance (CHR.K.003)
+
+**SoTA**: `current`
+- Revision criterion: Would change if resilience cannot be separated from domain-specific problem-solving ability
+
+---
+
+## [D.090] Selfflow vs. Reflash
+
+**Definition**: **Selfflow** (самотёк) is the mode where lifestyle patterns accumulate without conscious design — from childhood, parents, random influences, marketing. **Reflash** (перепрошивка) is the mode where the agent deliberately identifies outdated patterns and replaces them through incremental daily corrections.
+
+**Distinction Test**:
+- Is the pattern origin traceable to a conscious engineering decision? (Yes → reflash; No → selfflow)
+- Is there a feedback loop with evaluation? (Yes → reflash; No → selfflow)
+
+| Selfflow | vs. | Reflash |
+|----------|-----|---------|
+| Unconscious accumulation | | Deliberate engineering |
+| External sources (parents, media) | | Internal decision + method |
+| No feedback loop | | Weekly/daily evaluation cycle |
+| "Phone on factory firmware" | | "Phone with continuous OTA updates" |
+
+**Typical Confusion**: "I chose this lifestyle" (most lifestyle patterns were inherited, not chosen), "I can change anytime" (without reflash infrastructure, change is impossible)
+
+**Why It Matters**: Most creators operate in selfflow mode without realizing it. The distinction makes the invisible visible: your current lifestyle is either designed or inherited. Recognizing selfflow is the precondition for reflash.
+
+**Related Items**:
+- Principle: [PD.PRINC.030](../02-domain-entities/principles/PD.PRINC.030-continuous-reflash.md)
+- Distinction: [D.093](#d093-lifestyle-as-architecture-vs-lifestyle-as-habits)
+
+**SoTA**: `current`
+- Revision criterion: Would change if lifestyle patterns prove equally effective whether consciously designed or inherited
+
+---
+
+## [D.091] Anti-Entropy Practice vs. Willpower
+
+**Definition**: An **anti-entropy practice** is a method embedded in architecture (rhythms, standards, rituals) that systematically reduces disorder. **Willpower** is a finite cognitive resource used to override impulses in the moment.
+
+**Distinction Test**:
+- Does this work on bad days? (Yes → anti-entropy practice; No → willpower-dependent)
+- Does this require a decision each time? (Yes → willpower; No → anti-entropy practice)
+
+| Anti-Entropy Practice | vs. | Willpower |
+|----------------------|-----|-----------|
+| Architectural (built into schedule) | | Momentary (requires activation) |
+| Works on bad days | | Fails under fatigue |
+| Preventive | | Reactive |
+| "Bed is made every morning by default" | | "Today I'll force myself" |
+
+**Typical Confusion**: "I need more discipline" (framing as willpower deficit when the real problem is lack of architecture), "I just need to try harder" (applying willpower solution to an architecture problem)
+
+**Why It Matters**: Creators who rely on willpower burn out. Those who build anti-entropy architecture sustain order without heroism. This operationalizes the move from "discipline as character trait" to "discipline as infrastructure" (D.010).
+
+**Related Items**:
+- Distinction: [D.010](#d010-infrastructure-vs-intervention)
+- Formalization: [PD.FORM.043](../02-domain-entities/formalizations/PD.FORM.043-entropy-fronts-model.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if willpower proves sustainable as primary self-management resource
+
+---
+
+## [D.092] Meme (Productive) vs. Meme (Unproductive)
+
+**Definition**: A **productive meme** is a short formula in the agent's head that has been consciously adopted, tested against reality, and serves the agent's goals. An **unproductive meme** is inherited from culture, childhood, or environment, operates automatically, and may conflict with the agent's goals.
+
+**Distinction Test**:
+- Can you name this formula explicitly? (No → unproductive by default)
+- Have you tested it against reality? (No → unproductive)
+- Does it serve YOUR goals or someone else's? (Someone else's → unproductive)
+
+| Productive Meme | vs. | Unproductive Meme |
+|-----------------|-----|-------------------|
+| Consciously adopted | | Unconsciously inherited |
+| Tested against reality | | Never verified |
+| Serves agent's goals | | Serves external interests |
+| Editable | | Invisible until caught |
+
+**Typical Confusion**: "That's just how things are" (invisible meme operating as assumed truth), "Everyone knows that..." (unexamined meme propagating through social proof)
+
+**Why It Matters**: The agent IS the totality of their memes. Self-development is fundamentally the cycle of detecting unproductive memes and replacing them with productive ones. In the AI era, memes spread faster, and generative AI may collapse personal diversity into average templates.
+
+**Related Items**:
+- Method: [PD.METHOD.011](../03-methods/PD.METHOD.011-meme-audit.md)
+- Distinction: [D.015](#d015-worldview-vs-description) — memes are components of worldview
+
+**SoTA**: `current`
+- Revision criterion: Would change if meme-level analysis proves unreliable for worldview engineering
+
+---
+
+## [D.093] Lifestyle as Architecture vs. Lifestyle as Habits
+
+**Definition**: **Lifestyle as architecture** is a consciously designed collection of methods across life domains (work, rest, nutrition, communication, learning, fitness) with regular evaluation and update cycles. **Lifestyle as habits** is a collection of repeated behaviors without awareness of their structure, origin, or interconnection.
+
+**Distinction Test**:
+- Can you enumerate the methods in your lifestyle? (Yes → architecture; No → habits)
+- Do you have a review cycle for your lifestyle? (Yes → architecture; No → habits)
+
+| Architecture | vs. | Habits |
+|-------------|-----|--------|
+| Designed | | Accumulated |
+| Methods are named | | Behaviors are unnamed |
+| Reviewed periodically | | Never evaluated |
+| Inter-domain connections visible | | Domains invisible |
+
+**Typical Confusion**: "My lifestyle is fine" (unevaluated = selfflow), "I have good habits" (unnamed habits ≠ architecture)
+
+**Why It Matters**: Lifestyle is not "a set of habits" but "an engineering totality of methods realized across spheres." This reframing enables engineering-grade management of life.
+
+**Related Items**:
+- Distinction: [D.090](#d090-selfflow-vs-reflash)
+- Formalization: [PD.FORM.002](../02-domain-entities/formalizations/PD.FORM.002-development-directions.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if habit-based lifestyle management proves equally effective as architecture-based
+
+---
+
+## [D.094] Knowledge Base vs. Creative Process
+
+**Definition**: A **knowledge base** is a static repository of accumulated information. A **creative process** (conveyor) is a dynamic flow of idea transformation toward embodied output.
+
+**Distinction Test**:
+- Is the primary metric "how much is stored" or "how much is produced per unit time"? (Stored → knowledge base; Produced → creative process)
+
+| Knowledge Base | vs. | Creative Process |
+|---------------|-----|------------------|
+| Repository (result) | | Flow (activity) |
+| Accumulation-oriented | | Output-oriented |
+| Tends to become dead weight | | Inherently alive |
+| "What I have" | | "What I produce" |
+
+**Typical Confusion**: Building elaborate note systems as substitute for actual thinking ("I'm organizing my knowledge" when no output is produced)
+
+**Why It Matters**: In the age of AI, search and retrieval are solved; the bottleneck shifted from storage to the quality and constancy of the cognitive process itself. The knowledge base is a side-effect of the creative process, not the goal.
+
+**Related Items**:
+- Distinction: [D.012](#d012-artifact-vs-process)
+- Method: [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if AI-augmented knowledge bases prove equally productive as active creative processes
+
+---
+
+## [D.095] Creator's Norm vs. Ideal Conditions
+
+**Definition**: For a **creator**, working in imperfect conditions and transforming the environment IS the normal operating mode. Working in already-ideal conditions IS the deviation from norm.
+
+**Distinction Test**:
+- Does the agent wait for ideal conditions to act, or act to create conditions? (Wait → consumer expectation; Act → creator's norm)
+
+| Creator's Norm | vs. | Consumer Expectation |
+|---------------|-----|---------------------|
+| Working in imperfect conditions | | Seeking ideal conditions first |
+| Creating the ideal environment | | Consuming the created environment |
+| Self-configured operating mode | | Externally-provided operating mode |
+
+**Typical Confusion**: "I can't work without the right tools/space/team" (applying consumer expectation in creator context)
+
+**Why It Matters**: The creator can work in non-ideal conditions and creates the ideal place. Deriving satisfaction from transformation rather than comfort is the distinguishing characteristic of agency. Waiting for ideal conditions is the consumer's default, not the creator's.
+
+**Related Items**:
+- Characteristic: [PD.CHR.001](../02-domain-entities/characteristics/PD.CHR.001-characteristics.md) — Agency (CHR.K.001)
+
+**SoTA**: `current`
+- Revision criterion: Would change if ideal conditions prove necessary for creative work across domains
+
+---
+
+## [D.096] Quick Pleasure vs. Creative Pleasure
+
+**Definition**: **Quick pleasures** are simple, available, instant dopamine rewards requiring no effort. **Creative pleasures** arise from depth, mastery growth, complex tasks, and completing creative cycles — they require time, effort, stress-tolerance, and patience with uncertainty.
+
+**Distinction Test**:
+- Does the pleasure require sustained effort and produce a work product? (Yes → creative; No → quick)
+
+| Quick Pleasure | vs. | Creative Pleasure |
+|---------------|-----|-------------------|
+| Instant dopamine | | Delayed deep satisfaction |
+| No effort required | | Requires sustained effort |
+| No work product | | Produces work product |
+| Fades quickly | | Grows over time |
+
+**Typical Confusion**: Treating quick pleasures as "rest" (they consume attention without recovery), believing creative work can't be pleasurable (creative pleasure is deeper and more sustainable)
+
+**Why It Matters**: Quick pleasures crowd out creative ones in a self-reinforcing cycle (FAIL.041): less creation → less taste for creation → more pull toward simple stimuli → worse attention → harder to return to creation. This is the fundamental mechanism of degradation.
+
+**Related Items**:
+- Distinction: [D.066](#d066-direct-pleasure-vs-pleasure-through-system-creation)
+- Failure Mode: [PD.FAIL.041](../05-failure-modes/PD.FAIL.041-quick-pleasure-displacement-cycle.md)
+- Failure Mode: [PD.FAIL.020](../05-failure-modes/PD.FAIL.020-passive-leisure-default.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if quick and creative pleasures prove non-competing
+
+---
+
+## [D.097] Role as Expectation Frame vs. Role-Relevant State Parameters
+
+**Definition**: A **role as expectation frame** answers: what method is expected, what work product, by when, and why it is binding. **Role-relevant state parameters** answer: can the agent actually perform the expected method given their current physical, cognitive, emotional, and resource state?
+
+**Distinction Test**:
+- Is the question "what is expected?" (→ expectation frame)
+- Is the question "can this be performed?" (→ state parameters)
+
+| Expectation Frame | vs. | State Parameters |
+|------------------|-----|------------------|
+| What method, WP, deadline | | Can the agent perform? |
+| External agreement | | Internal capacity |
+| Defined by role contract | | Defined by agent's current state |
+| "What should happen" | | "What can actually happen" |
+
+**Typical Confusion**: Blaming role failure on wrong expectations when the real issue is agent state (or vice versa). Conflicts about roles confuse these two layers.
+
+**Why It Matters**: When someone fails in a role, the diagnosis must distinguish: is the expectation frame broken (no agreement on method/product/authority), or is the agent's state insufficient (health, competence, resources)? Different root causes require different interventions.
+
+**Related Items**:
+- Distinction: [D.002](#d002-role-vs-person)
+- State: [PD.STATE.007](../02-domain-entities/states/PD.STATE.007-role-relevant-state.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if role expectations and agent state prove inseparable in practice
+
+---
+
+## [D.098] Self-Declared vs. Recognized vs. Formally Assigned Role
+
+**Definition**: Three sources of role legitimacy: (1) **Self-declaration** — agent considers themselves in the role. (2) **Recognition** — others accept and follow. (3) **Formal assignment** — documented in agreements/contracts. These three may coincide or diverge.
+
+**Distinction Test**:
+- Who says the agent is in this role? Self / others / document? Each answer is independent.
+
+| Self-Declared | vs. | Recognized | vs. | Formally Assigned |
+|--------------|-----|-----------|-----|-------------------|
+| Agent's self-perception | | Others' acceptance | | Documented authority |
+| Internal only | | Social validation | | Institutional backing |
+| Can be delusional | | Can be fragile | | Can be empty |
+
+**Typical Confusion**: Self-declared without recognition ("I'm the leader" but nobody follows), formally assigned without recognition ("I have the title but no one listens")
+
+**Why It Matters**: When all three diverge, management breaks down. Self-declared without recognition = chaos. Formally assigned but not accepted = empty authority. Recognized without formal basis = fragile until first conflict. Effective role requires at least two of three to align.
+
+**Related Items**:
+- Distinction: [D.002](#d002-role-vs-person)
+- Failure Mode: [PD.FAIL.026](../05-failure-modes/PD.FAIL.026-role-person-conflation.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if role legitimacy proves derivable from a single source
+
+---
+
+## [D.099] "Boring Life" (Low Entropy) vs. Boredom (Absence of Meaning)
+
+**Definition**: **"Boring life"** (скучная жизнь) is low daily entropy — repeatable practices, rhythms, protected attention, deliberately limited chaos. **Boredom** (скука) is a psychological signal of failure to maintain meaningful cognitive engagement. These are independent dimensions: you can live "boringly" and feel deep engagement, or live "excitingly" and feel empty.
+
+**Distinction Test**:
+- Is the person unable to sustain meaningful engagement? (→ boredom, regardless of entropy level)
+- Is their day predictable with low variance? (→ low entropy, regardless of meaning level)
+
+| "Boring Life" (Low Entropy) | vs. | Boredom (No Meaning) |
+|-----------------------------|-----|---------------------|
+| Predictable practices | | Absence of engagement |
+| Protective contour | | Psychological signal |
+| Deliberately limited chaos | | Failure of meaning-attention |
+| Independent of meaning level | | Independent of entropy level |
+
+**Typical Confusion**: "A disciplined life is boring" (confusing low entropy with low meaning), "Exciting life is meaningful" (confusing high entropy with high engagement)
+
+**Why It Matters**: The myth that a disciplined creator's life is "boring" confuses external entropy with internal meaning. Low entropy is the creator's protective contour — it enables depth. Boredom signals meaning-attention failure regardless of external stimulation.
+
+**Related Items**:
+- Formalization: [PD.FORM.024](../02-domain-entities/formalizations/PD.FORM.024-composure-actions.md)
+- Method: [PD.METHOD.006](../03-methods/PD.METHOD.006-leisure-organization.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if low entropy and boredom prove correlated in practice
+
+---
+
+## [D.100] Development as Lifestyle vs. Course (Развитие как стиль жизни ≠ Курс)
+
+**Definition**: **Development as lifestyle** is a continuous, never-ending practice of daily attention to growth — ~10 hours per week across all 7 days, integrated into daily rhythm like eating or hygiene. **A course** is a bounded, time-limited learning event with a start, end, and diploma.
+
+**Distinction Test**:
+- Is there an end date after which the person "finishes"? (Yes → course; No → lifestyle)
+- Does the person maintain attention on development every day, including weekends? (Yes → lifestyle; No → course mentality)
+
+| Development as Lifestyle | vs. | Course |
+|--------------------------|-----|--------|
+| No end date — infinite game | | Has start and end — finite game |
+| ~10 h/week, 7 days | | Fixed schedule, 5-day week |
+| Integrated into daily rhythm | | Added on top of existing life |
+| Results: 1-2 years, fundamental, irreversible | | Results: weeks-months, often shallow |
+| 700-2100 hours total investment | | 40-200 hours typical |
+| Like hygiene — not a sacrifice | | Like a project — temporary effort |
+
+**Typical Confusion**: "I'll take a course on systems thinking and then I'll know it" (course mentality applied to lifestyle-level development). Also: framing 7-day development as "giving up weekends" — wrong meme. Development is not the opposite of pleasure (see D.096). Maintaining attention daily is a lifestyle, not a sacrifice.
+
+**Why It Matters**: Course mentality creates the expectation of "finishing" development. When the course ends and the person hasn't "finished," they feel disappointed. Lifestyle framing removes this false expectation: development never finishes, like physical fitness.
+
+**Related Items**:
+- Distinction: [D.096](#d096-quick-pleasure-vs-creative-pleasure)
+- Distinction: [D.099](#d099-boring-life-low-entropy-vs-boredom-absence-of-meaning)
+- Formalization: [PD.FORM.001](../02-domain-entities/formalizations/PD.FORM.001-development-programs.md)
+- Failure Mode: [PD.FAIL.044](../05-failure-modes/PD.FAIL.044-development-as-sacrifice-framing.md)
+- Cross-pack: MIM.PRG.001 (Personal Development Program)
+
+**SoTA**: `current`
+- Basis: МИМ experience: 700-2100 hours for fundamental results; systemsworld.club "Что потребуется для МИМ" (2026-02-20)
+- Revision criterion: Would change if bounded courses prove equally effective as continuous lifestyle development
+
+---
+
+## [D.101] Development Time ⊂ Work Time vs. Development Time as Extra
+
+**Definition**: **Development time as part of work time** means the agent takes 1.5-2 hours daily FROM their existing schedule — replacing low-value activities, not adding hours. **Development time as extra** means the agent tries to add development ON TOP of an already full schedule.
+
+**Distinction Test**:
+- Did the agent replace existing activity with development? (Yes → part of work time)
+- Did the agent extend their day to fit development? (Yes → extra — unsustainable)
+
+| Development ⊂ Work Time | vs. | Development as Extra |
+|--------------------------|-----|---------------------|
+| Replaces low-value activities | | Added on top of existing load |
+| Sustainable long-term | | Burns out in weeks |
+| Investment = reallocation | | Investment = more hours |
+| "Development is my work" | | "Development is homework" |
+| Like breakfast — built into the day | | Like overtime — temporary burden |
+
+**Typical Confusion**: "I don't have time for development" (assuming development requires ADDITIONAL time, when it requires REPLACING less valuable activities)
+
+**Why It Matters**: The "extra time" framing is the #1 reason people don't start or quit development. Reframing as reallocation (FROM work time, not IN ADDITION TO) removes the perceived barrier. Development IS work — the most important kind.
+
+**Related Items**:
+- Distinction: [D.016](#d016-invested-time-vs-spent-time)
+- Distinction: [D.039](#d039-important-vs-current-routine)
+- Method: [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md)
+
+**SoTA**: `current`
+- Basis: systemsworld.club "Что потребуется для МИМ" (2026-02-20): "время берётся из рабочего времени, не дополнительно к нему"
+- Revision criterion: Would change if adding extra hours proves sustainable for development
