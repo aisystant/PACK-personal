@@ -2214,3 +2214,116 @@ Core conceptual distinctions for the Personal Development domain.
 
 **SoTA**: `current`
 - Revision criterion: Would change if positions and roles converge in flat organizations
+
+---
+
+## [D.080] Voluntary Regulation vs. Involuntary Regulation (Body)
+
+**Definition**: **Voluntary regulation** (произвольная регуляция) is conscious, even control of bodily effort with measurable quality parameters (uniformity, continuity, equi-strength). **Involuntary regulation** (непроизвольная регуляция) is the nervous system's automatic patterns (chains) that respond to context without conscious control — they fade, lag, and can become stuck.
+
+**Distinction Test**:
+- Am I consciously choosing the effort level and distribution? (Yes → voluntary regulation)
+- Is my body reacting automatically based on habit/training? (Yes → involuntary regulation)
+
+| Voluntary Regulation | vs. | Involuntary Regulation |
+|---------------------|-----|----------------------|
+| Conscious control | | Automatic patterns |
+| Measurable by 5 uniformity parameters | | Measured only by outcome |
+| Improvable through practice | | Changes slowly through repetition |
+| Costs attention | | Saves attention |
+
+**Typical Confusion**: Believing that good posture = voluntary effort (sustainable posture is built on involuntary regulation trained through voluntary practice)
+
+**Why It Matters**: The creator operates on two control loops: what they consciously manage and what their nervous system manages by habit. Bodily self-regulation (CHR.003, CHR.004) requires transitioning voluntary regulation into reliable involuntary patterns. Parallels D.076 (Conscious Role Execution vs. Automatic Behavior) in the somatic domain.
+
+**Related Items**:
+- Distinction: [D.076](#d076-conscious-role-execution-vs-automatic-behavior)
+- Characteristic: [PD.CHR.003](../02-domain-entities/characteristics/PD.CHR.003-bodily-sensitivity.md)
+- Characteristic: [PD.CHR.004](../02-domain-entities/characteristics/PD.CHR.004-bodily-self-regulation.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if voluntary and involuntary regulation prove inseparable in somatic practice
+
+---
+
+## [D.081] Habitual Effort vs. Sufficient Effort vs. Necessary Effort
+
+**Definition**: Three levels of effort: **habitual effort** (привычное усилие) is what the agent defaults to, often excessive. **Sufficient effort** (достаточное усилие) is the minimum to maintain function. **Necessary effort** (необходимое усилие) is the absolute minimum before loss of control.
+
+**Distinction Test**:
+- Am I using the effort level I always use? (Yes → habitual, likely excessive)
+- Am I using only what is needed for this specific task? (Yes → sufficient)
+- Is this the bare minimum before I lose control? (Yes → necessary)
+
+| Habitual Effort | vs. | Sufficient Effort | vs. | Necessary Effort |
+|----------------|-----|-------------------|-----|-----------------|
+| Default, automatic | | Consciously calibrated | | Absolute minimum |
+| Often excessive | | Just enough | | Edge of control |
+| Leads to chronic fatigue | | Sustainable | | Diagnostic tool |
+
+**Typical Confusion**: Equating effort with quality — "working harder" when the task requires less effort but better regulation
+
+**Why It Matters**: Overuse of habitual effort leads to chronic fatigue and tissue tension (somatic) and cognitive overexertion (mental). The ability to distinguish and choose effort levels is a foundational regulation skill applicable across all domains — physical work, cognitive tasks, social interactions.
+
+**Related Items**:
+- State: [PD.STATE.004](../02-domain-entities/states/PD.STATE.004-overexertion.md)
+- Failure Mode: [PD.FAIL.035](../05-failure-modes/PD.FAIL.035-force-through-instead-of-regulation.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if evidence shows habitual effort levels are optimal for most tasks
+
+---
+
+## [D.082] Exploratory Step vs. Habitual Step
+
+**Definition**: The **exploratory step** (поисковый шаг) is the minimal increment of effort from which the nervous system gives a relaxation response. The **habitual step** (привычный шаг) is the default jump in effort the person is used to making.
+
+**Distinction Test**:
+- Am I making the smallest possible increment to test the response? (Yes → exploratory)
+- Am I jumping to my usual effort level? (Yes → habitual)
+
+| Exploratory Step | vs. | Habitual Step |
+|-----------------|-----|---------------|
+| Minimal increment | | Default jump |
+| Tests for response | | Skips to outcome |
+| Builds fine regulation | | Reinforces coarse patterns |
+| Slow, deliberate | | Fast, automatic |
+
+**Typical Confusion**: Making large effort changes and expecting fine-grained feedback — like adjusting a thermostat by 10 degrees instead of 1
+
+**Why It Matters**: The creator who can reduce their step size gains finer regulation — in body, in learning intensity, in attention management. This is the micro-mechanism of developing sensitivity (CHR.003) and self-regulation (CHR.004). Applicable beyond body: in learning, the exploratory step is the smallest testable hypothesis about one's understanding.
+
+**Related Items**:
+- Characteristic: [PD.CHR.003](../02-domain-entities/characteristics/PD.CHR.003-bodily-sensitivity.md)
+- Characteristic: [PD.CHR.004](../02-domain-entities/characteristics/PD.CHR.004-bodily-self-regulation.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if coarse effort steps prove equally effective for regulation development
+
+---
+
+## [D.083] Tissue Sensation (Mechanical Modality) vs. Abstract Sensation Description
+
+**Definition**: **Tissue sensation** (тканевое чувство) is the perception of specific mechanical changes — pressure, tension, push, pull — at identifiable skeletal addresses. **Abstract sensation description** (абстрактное описание) is a vague or metaphorical account — "tension," "heaviness," "energy flow" — without mechanical specificity.
+
+**Distinction Test**:
+- Can I point to the exact skeletal level and describe the direction of force? (Yes → tissue sensation)
+- Am I using general/metaphorical terms without precise location? (Yes → abstract description)
+
+| Tissue Sensation | vs. | Abstract Description |
+|-----------------|-----|---------------------|
+| Specific location + direction | | Vague area + metaphor |
+| "Push outward at L3 level" | | "Tension in lower back" |
+| Actionable (can regulate) | | Not actionable (can only endure) |
+| Develops through practice | | Default untrained mode |
+
+**Typical Confusion**: Describing sensation as "energy" or "warmth" when the actual signal is mechanical pressure — metaphors block access to the regulatory mechanism
+
+**Why It Matters**: Precise operational description enables regulation; metaphorical description blocks it. In the creator context: the ability to perceive body state through specific mechanical sensations rather than vague feelings is the foundation of bodily sensitivity (CHR.003) and self-regulation (CHR.004). The same principle applies to cognitive work — precise problem description enables solutions, vague descriptions perpetuate confusion.
+
+**Related Items**:
+- Distinction: [D.064](#d064-emotion-vs-feeling-vs-sensation)
+- Characteristic: [PD.CHR.003](../02-domain-entities/characteristics/PD.CHR.003-bodily-sensitivity.md)
+
+**SoTA**: `current`
+- Revision criterion: Would change if abstract sensation descriptions prove equally effective for developing self-regulation

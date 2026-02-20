@@ -72,16 +72,16 @@ This pack captures knowledge about **characteristics and states of creator** as 
 
 | Section | Item Count | Status |
 |---------|------------|--------|
-| Distinctions | 79 | active |
+| Distinctions | 83 | active |
 | Principles | 29 | active |
 | Roles | 5 | active |
 | Objects of Attention | 6 | active |
-| Formalizations | 32 | active |
-| Characteristics | 2 | active |
-| States | 3 | active |
+| Formalizations | 37 | active |
+| Characteristics | 4 | active |
+| States | 5 | active |
 | Methods | 10 | active |
 | Work Products | 16 | active |
-| Failure Modes | 34 | active |
+| Failure Modes | 36 | active |
 | SoTA Annotations | 1 | active |
 | Maps | 1 | active |
 
@@ -92,7 +92,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | File | Description |
 |------|-------------|
 | [01A-bounded-context.md](01-domain-contract/01A-bounded-context.md) | Domain scope and boundaries |
-| [01B-distinctions.md](01-domain-contract/01B-distinctions.md) | 79 core distinctions |
+| [01B-distinctions.md](01-domain-contract/01B-distinctions.md) | 83 core distinctions |
 | [01C-principles.md](01-domain-contract/01C-principles.md) | 29 domain principles |
 | [ontology.md](../../ontology.md) | Domain ontology (SPF.SPEC.002) |
 | [02A-roles.md](02-domain-entities/02A-roles.md) | Agent, Analyst, Mentor, Architect |
@@ -100,7 +100,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | [02C-methods-index.md](02-domain-entities/02C-methods-index.md) | Methods navigation |
 | [PD.METHOD.001](03-methods/PD.METHOD.001-time-accounting.md) | Time Accounting |
 | [PD.WP.001](04-work-products/PD.WP.001-time-budget.md) | Time Budget |
-| [05-failure-modes/](05-failure-modes/) | 34 failure mode cards |
+| [05-failure-modes/](05-failure-modes/) | 36 failure mode cards |
 | [PD.SOTA.001](06-sota/PD.SOTA.001-time-accounting-interpretations.md) | Time Accounting interpretations |
 | [PD.MAP.001](07-map/PD.MAP.001.md) | Full navigation map |
 
@@ -118,6 +118,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | 2026-02-19 | Bulk enrichment from Guide 1-2 «Практики саморазвития»: +23 distinctions (D.021-D.043), +20 principles (PRINC.001-020), +1 method (METHOD.009), +11 formalizations (FORM.005-015), +15 failure modes (FAIL.008-022), +9 work products (WP.008-016). Total: 38→131 entities | KE bulk extraction |
 | 2026-02-19 | Bulk enrichment from Guide 1-1 «Системное саморазвитие» (ch 1-5, 8-9): +29 distinctions (D.044-D.072), +9 principles (PRINC.021-029), +17 formalizations (FORM.016-032), +2 states (STATE.002-003), +1 characteristic (CHR.002), +10 failure modes (FAIL.023-032). Total: 131→199 entities | KE bulk extraction |
 | 2026-02-19 | Bulk enrichment from Guide 1-3 «Введение в системное мышление» (ch 3, 7): +7 distinctions (D.073-D.079), +1 method (METHOD.010), +2 failure modes (FAIL.033-034). Total: 199→209 entities | KE bulk extraction |
+| 2026-02-19 | Bulk enrichment from Guide 4 «Системный фитнес»: +4 distinctions (D.080-D.083), +5 formalizations (FORM.033-037), +2 characteristics (CHR.003-004), +2 states (STATE.004-005), +2 failure modes (FAIL.035-036). Total: 209→224 entities | KE bulk extraction |
 
 ## Entity Index
 
@@ -126,6 +127,8 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.ARCH.001 | Transparent Box | ARCH | Модель внутреннего устройства созидателя как системы: подсистемы личности, организма и экзотела | active |
 | PD.CHR.001 | Characteristics | CHR | Система измеримых характеристик созидателя: киберхарактеристики, физические, когнитивные, социальные и волевые | active |
 | PD.CHR.002 | Emotional Stability | CHR | Характеристика эмоциональной стабильности: способность возвращаться в равновесие после сбоя; модель неваляшки; развивается через собранность, TIW, привычки | active |
+| PD.CHR.003 | Bodily Sensitivity | CHR | Телесная чувствительность: способность воспринимать и дифференцировать механические изменения в тканях; от 3-словного словаря до 8 направлений на каждом костном этаже | active |
+| PD.CHR.004 | Bodily Self Regulation | CHR | Телесная саморегуляция: способность произвольно регулировать усилие в теле от локальных объёмов до лент; измеряется диапазоном, шагом и количеством уровней | active |
 | PD.FAIL.001 | Time Accounting Confused with Pomodoro | FAIL | \"Ошибка смешивания учёта времени (регистрация фактов) с Помодоро (планирование интервалов работы)\" | active |
 | PD.FAIL.002 | Time Accounting Confused with Discipline | FAIL | \"Ошибка ожидания, что учёт времени будет вводить дисциплину вместо выявления информации\" | active |
 | PD.FAIL.003 | Time Accounting Confused with Control | FAIL | \"Ошибка использования учёта времени как внешнего контроля вместо инструмента самонаблюдения\" | active |
@@ -160,6 +163,8 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FAIL.032 | Careerist Trap (Ловушка карьериста) | FAIL | Фокус на позиционных средствах — влиянии, признании, должностях (прямом устранении неудовлетворённости) — вместо создания систем; ведёт к стагнации при достижении потолка должностей | active |
 | PD.FAIL.033 | No External Work Products (Productivity Illusion) | FAIL | Агент заполняет день аналитической работой, но не создаёт ни одного внешнего рабочего продукта — иллюзия продуктивности | active |
 | PD.FAIL.034 | Acting Without Role Awareness (Unconscious Method) | FAIL | Агент действует, не осознавая текущую роль, используемый метод и создаваемый рабочий продукт — невидимое поведение невозможно улучшить | active |
+| PD.FAIL.035 | Force-Through Instead of Regulation | FAIL | Стратегия по умолчанию: при встрече с сопротивлением увеличить усилие вместо перераспределения; ведёт к хроническому напряжению и когнитивному выгоранию | active |
+| PD.FAIL.036 | Overtraining Without Recovery | FAIL | Перетренированность: избыточная стимуляция без адекватного восстановления; нарушен баланс симпатической/парасимпатической системы; обобщается на когнитивную перетренированность | active |
 | PD.FORM.001 | Development Programs | FORM | Формализация трёх уровней систематического развития: личного, рабочего и исследовательского | active |
 | PD.FORM.002 | Development Directions | FORM | Шесть направлений развития: мировоззрение, мастерство, ограничения, экзокортекс, культура, организм | active |
 | PD.FORM.003 | Learner Maturity | FORM | Пять ступеней зрелости ученика: от случайного к проактивному саморазвитию с полной систематизацией | active |
@@ -192,6 +197,11 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FORM.030 | Life Activity Stages | FORM | Формализация шести стадий жизнедеятельности созидателя: потребление информации, рефлексия, стратегирование, планирование, исполнение, досуг | active |
 | PD.FORM.031 | Role Mastery Methods | FORM | Формализация трёх методов ролевого мастерства: идентификация ролей, вход/выход из роли, самоконтроль | active |
 | PD.FORM.032 | Flow Conditions | FORM | Формализация трёх групп условий потока по Чиксентмихайи, управляемых через ролевое мастерство: баланс сложности, концентрация, обратная связь | active |
+| PD.FORM.033 | Regulation Hierarchy | FORM | Иерархия регуляции: 5 уровней управления телом от локального объёма до ленты-фона; инженерная модель телесной саморегуляции | active |
+| PD.FORM.034 | Supportiveness States | FORM | Пять состояний опорности: стояние, баланс, развитие падения, торможение, приземление; каждое с фоновыми реакциями | active |
+| PD.FORM.035 | Uniformity Parameters | FORM | 5 параметров равномерности: сплошность, равносильность, одновременность входа и выхода, равнонаправленность; критерии качества произвольной регуляции | active |
+| PD.FORM.036 | Adequate Control Cycle | FORM | Цикл адекватного управления: восприятие → мышление/интерпретация → действие; работает только в замкнутом цикле, не по частям | active |
+| PD.FORM.037 | Phases Of Muscular Action | FORM | 5 фаз мышечного действия: координация, усилие до движения кости, усилие во время движения, усилие после движения, цель; регуляция работает только в фазах 1-3 | active |
 | PD.MAP.001 | Pack Navigation Map | MAP | — | — |
 | PD.METHOD.001 | Time Accounting | METHOD | \"Метод непрерывной регистрации и категоризации трат времени для получения эмпирических данных о распределении ресурса\" | active |
 | PD.METHOD.002 | Learner Method | METHOD | Метод обучения ученика: регулярные слоты, экзокортекс, рефлексия и недельные контракты | active |
@@ -214,6 +224,8 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.STATE.001 | States | STATE | Категории состояний созидателя: продуктивное, эмоциональное, ролевое, неудовлетворённости и физическое | active |
 | PD.STATE.002 | Discomposure | STATE | Состояние разобранности: самоподдерживающееся анти-состояние с петлёй потери фокуса -> ошибки -> потеря ресурсов -> ещё больше потери фокуса | active |
 | PD.STATE.003 | Stop Moment | STATE | Микро-состояние осознанной паузы: проверка выровненности задачи, роли и приоритета; фундаментальная единица собранности | active |
+| PD.STATE.004 | Overexertion | STATE | Состояние перевозбуждения: усилие превышает порог регуляции, нервная система не выдаёт расслабление, каждое последующее усилие наслаивается на остаточное напряжение | active |
+| PD.STATE.005 | Somatic Blind Zone | STATE | Слепая зона: тканевый объём, где регуляция отсутствует — человек не чувствует, не контролирует, или ткань допускает только бинарное усилие | active |
 | PD.WP.001 | Time Budget | WP | \"Структурированная запись распределения времени по категориям за определённый период, основа для анализа\" | active |
 | PD.WP.002 | Learner Works | WP | Артефакты ученика: контракты, заметки экзокортекса, рефлексии и записи мировоззренческих поворотов | active |
 | PD.WP.003 | Educational Notes | WP | Заметки, созданные при когнитивном резонансе: столкновение новой информации с существующими картинами мира во время чтения или проговаривания | active |
@@ -231,4 +243,4 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.WP.015 | Task List | WP | Постоянно ведущийся перечень задач по приоритетным проектам, классифицированных по типам | active |
 | PD.WP.016 | Selection Criteria | WP | Персональные критерии для стратегического выбора приоритетных проектов, отражающие ценности и ресурсы | active |
 
-> *Auto-generated by `generate-map.py` on 2026-02-19*
+> *Auto-generated by `generate-map.py` on 2026-02-20*
