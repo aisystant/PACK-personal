@@ -2850,3 +2850,35 @@ Core conceptual distinctions for the Personal Development domain.
 **SoTA**: `current`
 - Basis: systemsworld.club "Что потребуется для МИМ" (2026-02-20): "время берётся из рабочего времени, не дополнительно к нему"
 - Revision criterion: Would change if adding extra hours proves sustainable for development
+
+---
+
+## [D.102] Project vs. System
+
+**Definition**: A **project** is a temporal endeavor (activity) with a beginning and end, aimed at creating or changing a system. A **system** is a physical thing (4D extent) that performs a function and exists in the real world. The project creates/modifies the system but is not itself a system.
+
+**Distinction Test**:
+- Can you point to it in physical space after the project is finished? (Yes → system. No → project)
+- Does it have elements that perform a function together? (Yes → system)
+- Does it have a start date and end date after which it ceases to exist? (Yes → project)
+
+| Project (activity) | vs. | System (thing) |
+|--------------------|-----|----------------|
+| Temporal: has start and end | | 4D extent: exists after project ends |
+| Creates or changes a system | | Performs a function |
+| "Construction project" | | "Building" |
+| "Software development project" | | "Software platform" |
+| Has budget, team, deadlines | | Has elements, roles, boundaries |
+
+**Typical Confusion**: "Your project is a system" — conflating the activity of creation with the thing being created. The building has walls and floors; the project does not. The project has deadlines and a budget; the building does not.
+
+**Why It Matters**: Confusing project with system leads to wrong modeling: project stakeholders ≠ system stakeholders, project lifecycle ≠ system lifecycle. A project ends; the system continues operating. Systems thinking applies to the SYSTEM (target system), not to the project managing its creation.
+
+**Related Items**:
+- Distinction: [D.043](#d043-goal-setting-vs-strategizing-vs-planning-vs-execution)
+- Formalization: [PD.FORM.012](../02-domain-entities/formalizations/PD.FORM.012-project-realization-stages.md)
+- Cross-pack: FPF A.15 (Role–Method–Work Alignment)
+
+**SoTA**: `current`
+- Basis: Systems thinking fundamentals — system as 4D physical thing vs. project as temporal endeavor; bot error observed 2026-02-27 calling "project" a "system"
+- Revision criterion: Would change if project-as-system framing proves useful in some pedagogical context
