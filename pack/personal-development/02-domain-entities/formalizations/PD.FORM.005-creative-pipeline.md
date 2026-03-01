@@ -39,7 +39,7 @@ inbox/           drafts/            status: draft        status: published
 
 | Индекс | Где | Что отслеживает |
 |--------|-----|-----------------|
-| **Draft List** | `DS-strategy/current/draft-list.md` | Все черновики (стадия 2) + приоритетное подмножество |
+| **Draft List** | `DS-strategy/drafts/draft-list.md` | Все черновики (стадия 2) + приоритетное подмножество |
 | **Knowledge Index README** | `DS-Knowledge-Index/docs/README.md` | Все заготовки и посты (стадии 3-4) |
 
 ## 3. Ключевое различение: Черновик ≠ Заготовка
@@ -163,7 +163,7 @@ inbox/           drafts/            status: draft        status: published
 |-----------|------|------|
 | Заметки (inbox) | `DS-strategy/inbox/fleeting-notes.md` | Вход конвейера |
 | Черновики | `DS-strategy/drafts/*.md` | Личные тексты |
-| Индекс черновиков | `DS-strategy/current/draft-list.md` | Навигация + приоритеты |
+| Индекс черновиков | `DS-strategy/drafts/draft-list.md` | Навигация + приоритеты |
 | Заготовки | `DS-Knowledge-Index/docs/YYYY/*.md` (status: draft) | Публичные драфты |
 | Посты | `DS-Knowledge-Index/docs/YYYY/*.md` (status: published) | Опубликованные |
 | Протокол сортировки | `roles/strategist/prompts/note-review.md` | Категория #4 «Черновик» |
