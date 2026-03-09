@@ -2882,3 +2882,186 @@ Core conceptual distinctions for the Personal Development domain.
 **SoTA**: `current`
 - Basis: Systems thinking fundamentals — system as 4D physical thing vs. project as temporal endeavor; bot error observed 2026-02-27 calling "project" a "system"
 - Revision criterion: Would change if project-as-system framing proves useful in some pedagogical context
+
+---
+
+### D.103: Execution Skill vs. Self-Regulation Skill {#d103-execution-skill-vs-self-regulation-skill}
+
+| Execution Skill (Умение доводить до результата) | | Self-Regulation Skill (Умение обращаться с собой) |
+|---|---|---|
+| Planning, decomposition, delivery | | Sleep, tension management, anxiety regulation |
+| "How to GET things done" | ≠ | "How to STAY capable of doing things" |
+| Trained through projects and deadlines | | Trained through body awareness and recovery methods |
+
+**Typical Confusion**: Treating low productivity as laziness (execution deficit) when the actual problem is depleted self-regulation (poor sleep, chronic tension, unmanaged anxiety). Both skills are needed; they are trained differently.
+
+**Why It Matters**: An agent with strong execution but weak self-regulation burns out; an agent with strong self-regulation but weak execution feels good but produces nothing. Productivity = both skills combined in a sustainable loop [PD.FORM.048].
+
+**Related Items**:
+- Formalization: [PD.FORM.048](../02-domain-entities/formalizations/PD.FORM.048-sustainable-productivity-loop.md) — the loop connecting both skills
+- Formalization: [PD.FORM.017](../02-domain-entities/formalizations/PD.FORM.017-two-keys-for-action.md) — Two Keys (desire + ability)
+- Characteristic: [PD.CHR.004](../02-domain-entities/characteristics/PD.CHR.004-bodily-self-regulation.md)
+
+**SoTA**: `current`
+- Basis: Post "Продуктивность, умение и желание" (2026-02-21), PD.D.065, PD.CHR.004
+- Revision criterion: Would change if a unified productivity skill model is validated
+
+---
+
+### D.104: Skill vs. Role {#d104-skill-vs-role}
+
+| Skill (Скилл) | | Role (Роль) |
+|---|---|---|
+| Atomic capability: input → output | | Functional position with obligations |
+| Context-free: "what I CAN do" | ≠ | Context-bound: "what is EXPECTED of me" |
+| Trained by repetition | | Taken on by agreement |
+
+**Typical Confusion**: "I have skills X, Y, Z" ≠ "I play this role." A person may possess skills without ever taking the corresponding role (and vice versa — occupying a role without required skills).
+
+**Why It Matters**: Self-development planning that targets skills only misses the role context: who expects what work product, by when, to what quality. Role awareness drives which skills to develop.
+
+**Related Items**:
+- Distinction: [D.007](#d007-method-vs-skill) — Method vs. Skill
+- Distinction: [D.079](#d079-position-vs-role) — Position vs. Role
+- Distinction: [D.068](#d068-role-mastery-vs-applied-mastery)
+
+**SoTA**: `current`
+- Basis: Post "Роль — это не кто ты" (2026-01-10), PD.FORM.004
+- Revision criterion: Would change if skill and role converge in some formal framework
+
+---
+
+### D.105: Abstraction (up) vs. Distinction (down) {#d105-abstraction-vs-distinction}
+
+| Abstraction (Абстрагирование) | | Distinction (Различение) |
+|---|---|---|
+| Remove the particular, find the common | | See how similar-looking things differ |
+| "What do these share?" | ≠ | "How do these differ?" |
+| Movement up the hierarchy | | Movement down the hierarchy |
+
+**Typical Confusion**: Treating intelligence as only abstraction ("find the pattern") while ignoring the equally important skill of distinction ("see the boundary"). Intelligence = the ability to switch between both movements.
+
+**Why It Matters**: A person who only abstracts overgeneralizes; a person who only distinguishes gets lost in details. The creator's intellectual caliber [CHR.K.002] depends on fluency in both operations. Chi, Feltovich, Glaser: experts group by principles (abstraction), novices by surface features (failed abstraction).
+
+**Related Items**:
+- Formalization: [PD.FORM.019](../02-domain-entities/formalizations/PD.FORM.019-intelligence-stack.md)
+- Distinction: [D.046](#d046-transdiscipline-vs-discipline)
+
+**SoTA**: `current`
+- Basis: Post "Слон и муха" (2026-02-22), Hofstadter on analogy, Chi et al. on expert/novice grouping
+- Revision criterion: Would change if cognitive science invalidates the two-movement model
+
+---
+
+### D.106: Expert Grouping vs. Novice Grouping {#d106-expert-grouping-vs-novice-grouping}
+
+| Expert Grouping | | Novice Grouping |
+|---|---|---|
+| Groups by deep principles | | Groups by surface features |
+| "This is a Newton's law problem" | ≠ | "This is a spring problem" |
+| Sees structure under concrete details | | Sees visible similarities |
+
+**Typical Confusion**: Believing that expertise = more information. In fact, expertise = reorganized perception: seeing principles where novices see objects (Chi, Feltovich, Glaser 1981).
+
+**Why It Matters**: Measurable attribute of the creator's cognitive development. Transition from novice to expert grouping = qualitative shift in intelligence stack [PD.FORM.019]. Training distinctions accelerates this transition.
+
+**Related Items**:
+- Distinction: [D.105](#d105-abstraction-vs-distinction)
+- Formalization: [PD.FORM.019](../02-domain-entities/formalizations/PD.FORM.019-intelligence-stack.md)
+- Formalization: [PD.FORM.023](../02-domain-entities/formalizations/PD.FORM.023-competence-quadrant.md)
+
+**SoTA**: `current`
+- Basis: Chi, Feltovich, Glaser (1981); post "Слон и муха" (2026-02-22)
+- Revision criterion: Would change if the expert/novice grouping model is superseded
+
+---
+
+### D.107: Prosthesis vs. Exoskeleton (AI usage pattern) {#d107-prosthesis-vs-exoskeleton}
+
+| Prosthesis (Протез) | | Exoskeleton (Экзоскелет) |
+|---|---|---|
+| Replaces the agent's function | | Amplifies the agent's function |
+| Agent degrades over time | ≠ | Agent develops over time |
+| "What should I do?" | | "Here's what I think — what am I missing?" |
+
+**Typical Confusion**: Treating all AI assistance as equally beneficial. The difference is NOT in the technology but in the interaction pattern. The same tool can be a prosthesis or an exoskeleton depending on HOW the agent uses it.
+
+**Why It Matters**: This is a measurable characteristic of the creator's agency [CHR.K.001]: the ratio of exoskeleton-pattern to prosthesis-pattern interactions predicts development trajectory. Scaffolding should decay over time — more support initially, less as the agent grows.
+
+**Related Items**:
+- Distinction: [D.108](#d108-affordances-vs-method)
+- Failure mode: [PD.FAIL.045](../05-failure-modes/PD.FAIL.045-affordance-delegation-to-ai.md)
+- Cross-pack: DP.ARCH.001 #21 (Exoskeleton Principle)
+
+**SoTA**: `current`
+- Basis: Post "Протез или экзоскелет" (2026-03-06), DP.ARCH.001 #21, IWE §5.1
+- Revision criterion: Would change if research shows prosthesis-pattern doesn't cause degradation
+
+---
+
+### D.108: Affordances vs. Method {#d108-affordances-vs-method}
+
+| Affordances ("Что тут возможно?") | | Method ("Что мне делать?") |
+|---|---|---|
+| Seeing possibilities in a situation | | Following a procedure |
+| Requires situation awareness | ≠ | Requires procedure knowledge |
+| Opens options before choosing | | Prescribes action directly |
+
+**Typical Confusion**: Jumping to "what should I do?" without first understanding "what is possible here?" Skipping affordance-seeing leads to wrong method choice — the agent applies a known procedure to a situation that needs a different one.
+
+**Why It Matters**: Affordance-seeing is a trainable cognitive skill [D.105, FORM.019]. Delegating it to AI [FAIL.045] atrophies this skill. A creator who sees affordances chooses better methods; one who doesn't becomes dependent on external prescription.
+
+**Related Items**:
+- Distinction: [D.107](#d107-prosthesis-vs-exoskeleton)
+- Failure mode: [PD.FAIL.045](../05-failure-modes/PD.FAIL.045-affordance-delegation-to-ai.md)
+- Formalization: [PD.FORM.019](../02-domain-entities/formalizations/PD.FORM.019-intelligence-stack.md)
+
+**SoTA**: `current`
+- Basis: Gibson's affordance theory; post "Протез или экзоскелет" (2026-03-06)
+- Revision criterion: Would change if affordance theory is superseded in cognitive science
+
+---
+
+### D.109: Life Evaluation vs. Experienced Well-Being {#d109-life-evaluation-vs-experienced-well-being}
+
+| Life Evaluation (Оценка жизни) | | Experienced Well-Being (Эмоциональное благополучие) |
+|---|---|---|
+| Reflective judgment: "How is my life going?" | | Moment-to-moment emotional quality |
+| Strongly correlated with income | ≠ | Complex relationship with income (Kahneman-Killingsworth) |
+| Can be high while feeling bad | | Can be low while "doing well on paper" |
+
+**Typical Confusion**: Using life evaluation as a proxy for emotional well-being. An agent can report high life satisfaction while experiencing chronic stress, anxiety, or emptiness. Self-diagnosis requires distinguishing the two.
+
+**Why It Matters**: For self-development: an agent who confuses the two may not recognize the need for self-regulation [D.103, CHR.004] because their life evaluation is "fine." Diagnostic tool: ask separately about each.
+
+**Related Items**:
+- Distinction: [D.053](#d053-success-vs-happiness)
+- Distinction: [D.064](#d064-emotion-vs-feeling-vs-sensation)
+- State: [PD.STATE.001](../02-domain-entities/states/PD.STATE.001-states.md)
+
+**SoTA**: `current`
+- Basis: Kahneman & Deaton (2010), Killingsworth (2021); post "Миф о праздной жизни" (2026-01-18)
+- Revision criterion: Would change if the two-construct model is unified
+
+---
+
+### D.110: Economic Value of Time vs. Subjective Time Freedom {#d110-economic-value-of-time-vs-subjective-time-freedom}
+
+| Economic Value of Time | | Subjective Time Freedom |
+|---|---|---|
+| Income per hour: higher = more "expensive" time | | Feeling of having enough time |
+| Increases with productivity and income | ≠ | Often DECREASES with productivity and income |
+| Objective measure | | Subjective experience |
+
+**Typical Confusion**: Expecting that higher productivity → more free time. The time pressure paradox: the more economically valuable your time, the more pressured you feel about "wasting" it (Whillans et al.). Becoming more productive can increase, not decrease, the sense of time scarcity.
+
+**Why It Matters**: Directly relevant to METHOD.001 (Time Accounting): the goal is not just to "produce more per hour" but to create a sustainable relationship with time. Without awareness of this paradox, the creator optimizes for productivity but degrades well-being.
+
+**Related Items**:
+- Distinction: [D.016](#d016-invested-time-vs-spent-time)
+- Method: [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md)
+- Failure mode: [PD.FAIL.036](../05-failure-modes/PD.FAIL.036-overtraining-without-recovery.md)
+
+**SoTA**: `current`
+- Basis: Whillans, Dunn, Smeets, Stoinescu, Norton (2017); post "Миф о праздной жизни" (2026-01-18)
+- Revision criterion: Would change if the time pressure paradox is debunked
