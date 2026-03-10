@@ -10,8 +10,8 @@ This document specifies how this Pack depends on the First Principles Framework 
 
 ```
 1. Этот Pack (предметное знание)
-2. SPF (форма и процесс) → ~/Github/SPF/
-3. FPF (первые принципы) → ~/Github/FPF/ (только если нет в SPF)
+2. SPF (форма и процесс) → ~/IWE/SPF/
+3. FPF (первые принципы) → ~/IWE/FPF/ (только если нет в SPF)
 ```
 
 ---
@@ -31,9 +31,9 @@ FPF provides:
 
 | Field | Value |
 |-------|-------|
-| **Path** | `~/Github/FPF/FPF-Spec.md` |
+| **Path** | `~/IWE/FPF/FPF-Spec.md` |
 | **Repository** | https://github.com/ailev/FPF |
-| **Update** | `cd ~/Github/FPF && git pull` |
+| **Update** | `cd ~/IWE/FPF && git pull` |
 
 ---
 
