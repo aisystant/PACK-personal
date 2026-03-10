@@ -1,6 +1,6 @@
 # CLAUDE.md — SPF Personal Pack
 
-> **Общие инструкции:** см. `/Users/tserentserenov/Github/CLAUDE.md`
+> **Общие инструкции:** см. `/Users/tserentserenov/IWE/CLAUDE.md`
 >
 > Этот файл содержит только специфику данного репозитория.
 
