@@ -79,6 +79,31 @@ Core conceptual distinctions for the Personal Development domain.
 | [D.097](#d097-role-as-expectation-frame-vs-role-relevant-state-parameters) | Role as Expectation Frame vs. Role-Relevant State Parameters | current | D.002, STATE.007 |
 | [D.098](#d098-self-declared-vs-recognized-vs-formally-assigned-role) | Self-Declared vs. Recognized vs. Formally Assigned Role | current | D.002, FAIL.026 |
 | [D.099](#d099-boring-life-low-entropy-vs-boredom-absence-of-meaning) | "Boring Life" (Low Entropy) vs. Boredom (Absence of Meaning) | current | FORM.024 |
+| [D.111](#d111-stop-moment-vs-s1-s2-transition) | Stop-Moment vs. S1-S2 Transition | current | STATE.003 |
+| [D.112](#d112-generalized-role-vs-specialized-role) | Generalized Role vs. Specialized Role | current | D.002 |
+| [D.113](#d113-readiness-vs-having-resources) | Readiness for Resources vs. Having Resources | current | PRINC.035, CHR.007 |
+| [D.114](#d114-dissatisfaction-vs-intention) | Dissatisfaction State vs. Intention State | current | FORM.020 |
+| [D.115](#d115-finding-vs-creating-meaning) | Finding Meaning vs. Creating Meaning | current | D.052 |
+| [D.116](#d116-blogger-vs-thinker-in-writing) | Blogger vs. Thinker-in-Writing | current | D.025, METHOD.004 |
+| [D.117](#d117-compilation-vs-memorization) | Compilation vs. Memorization | current | FORM.042, D.013 |
+| [D.118](#d118-intellect-vs-applied-mastery-mode) | Intellect Development Mode vs. Applied Mastery Mode | current | D.046, FORM.019 |
+| [D.119](#d119-high-vs-low-time-preference) | High vs. Low Time Preference | current | CHR.005, D.016 |
+| [D.120](#d120-creativity-vs-creation) | Creativity vs. Creation (Sozidanie) | current | D.031, METHOD.010 |
+| [D.121](#d121-activity-parity) | Activity Parity (Labor = Leisure) | current | D.020, PRINC.038 |
+| [D.122](#d122-flight-hours-vs-checkmark) | Flight Hours vs. Completion Checkmark | current | METHOD.001, D.016 |
+| [D.123](#d123-fundamental-vs-applied-role) | Fundamental Role vs. Applied Role | current | ROLE.001, D.002 |
+| [D.124](#d124-rhythm-speed-value) | Rhythm vs. Speed vs. Value (Development Layers) | current | ROLE.TRAJ.001, PRINC.041 |
+| [D.125](#d125-wanting-liking-joy) | Wanting vs. Liking vs. Joy (Three Pleasure Types) | current | D.096, D.088 |
+| [D.126](#d126-problem-level-worldview-mastery-systems) | Problem Level: Worldview / Mastery / Systems | current | FORM.041 |
+| [D.127](#d127-creative-debt-vs-technical-debt) | Creative Debt vs. Technical Debt | current | D.099, METHOD.010 |
+| [D.128](#d128-click-resonance-vibration) | Click / Resonance / Vibration (Development Signals) | current | D.087, METHOD.003 |
+| [D.129](#d129-biological-vs-cyberhuman) | Biological Human vs. Cyberhuman | current | D.050, ARCH.001, CHR.006 |
+| [D.130](#d130-character-vs-cybercharacteristic) | Character (Psychology) vs. Cybercharacteristic (Engineering) | current | D.086, D.129, CHR.001 |
+| [D.131](#d131-collapse-human-vs-llm) | Collapse in Human vs. Collapse in LLM | hypothesis | D.088, METHOD.003 |
+| [D.132](#d132-coherence-purpose-significance) | Coherence / Purpose / Significance (Three Dimensions of Meaning) | current | D.115, D.053 |
+| [D.133](#d133-disappointment-telemetry-vs-dead-end) | Disappointment-as-Telemetry vs. Disappointment-as-Dead-End | current | D.008, STATE.006 |
+| [D.134](#d134-chaos-dead-end-pivot) | Chaos / Dead-End / Pivot (Diagnostic States) | current | STATE.006, FORM.020 |
+| [D.135](#d135-approval-vs-reality-orientation) | Approval Orientation vs. Reality Orientation | current | PRINC.045, D.021 |
 
 ---
 
@@ -3065,3 +3090,568 @@ Core conceptual distinctions for the Personal Development domain.
 **SoTA**: `current`
 - Basis: Whillans, Dunn, Smeets, Stoinescu, Norton (2017); post "Миф о праздной жизни" (2026-01-18)
 - Revision criterion: Would change if the time pressure paradox is debunked
+
+---
+
+### D.111: Stop-Moment vs. S1-S2 Transition {#d111-stop-moment-vs-s1-s2-transition}
+
+| Stop-Moment (Стоп-момент) | | Generic S1→S2 Transition |
+|---|---|---|
+| Conceptual focusing on Role-Method-WP | ≠ | Any switch from automatic to deliberate mode |
+| Requires naming current role and method | | May happen without reflection |
+| Produces conscious reorientation | | May produce mere interruption |
+
+**Typical Confusion**: Using a Pomodoro timer and calling it a "stop-moment." A timer triggers an S1→S2 switch, but without conceptual focusing (Role? Method? Work Product?) it is not a stop-moment.
+
+**Why It Matters**: Stop-moments are the operational unit of composure (собранность). Without the conceptual layer, transitions remain mechanical and do not build awareness.
+
+**Related Items**:
+- State: [PD.STATE.003](../02-domain-entities/states/PD.STATE.003-stop-moment.md)
+- Distinction: [D.054](#d054-composure-vs-concentration)
+
+**SoTA**: `current`
+- Basis: Post "Внимание в моменте" (2025-01-10)
+- Revision criterion: Would change if conceptual focusing is shown to be unnecessary for composure
+
+---
+
+### D.112: Generalized Role vs. Specialized Role {#d112-generalized-role-vs-specialized-role}
+
+| Generalized Role (Обобщённая роль) | | Specialized Role (Специализированная роль) |
+|---|---|---|
+| "Entrepreneur", "Engineer", "Doctor" | ≠ | "Product Owner", "DevOps Engineer", "Cardiologist" |
+| Polysemous — multiple interpretations | | Unambiguous in project context |
+| Useful for external communication | | Required for responsibility assignment |
+
+**Typical Confusion**: "I'm an entrepreneur" — which role exactly? In a project context, generalized role names obscure accountability. Taboo generalized names within a project; use specialized ones.
+
+**Why It Matters**: Role clarity (D.002) requires specialization. Generalized names create illusion of understanding while masking undefined responsibilities.
+
+**Related Items**:
+- Distinction: [D.002](#d002-role-vs-person)
+- Distinction: [D.104](#d104-skill-vs-role)
+
+**SoTA**: `current`
+- Basis: Post "Многозначность понятия предприниматель" (2025-01-17)
+- Revision criterion: Would change if a formal mapping from generalized to specialized roles is established
+
+---
+
+### D.113: Readiness for Resources vs. Having Resources {#d113-readiness-vs-having-resources}
+
+| Readiness (Готовность к ресурсам) | | Possession (Обладание ресурсами) |
+|---|---|---|
+| Worldview caliber, agentness, capacity to deploy | ≠ | Actual money, connections, infrastructure |
+| Must be built BEFORE resources arrive | | Can be acquired externally |
+| Internal characteristic | | External circumstance |
+
+**Typical Confusion**: "First I need money, then I'll develop." Readiness precedes and enables resource acquisition — not the other way around.
+
+**Why It Matters**: Without readiness, resources dissipate. A creator with high caliber but few resources grows faster than one with many resources but low readiness.
+
+**Related Items**:
+- Principle: [PD.PRINC.035](../02-domain-entities/principles/PD.PRINC.035-readiness-precedes-resources.md)
+- Characteristic: [PD.CHR.007](../02-domain-entities/characteristics/PD.CHR.007-personality-caliber.md)
+
+**SoTA**: `current`
+- Basis: Post "Приготовиться быть богатым" (2025-02-15)
+- Revision criterion: Would change if evidence shows resource acquisition does not depend on readiness
+
+---
+
+### D.114: Dissatisfaction State vs. Intention State {#d114-dissatisfaction-vs-intention}
+
+| Dissatisfaction State (Неудовлетворённость) | | Intention State (Намерение) |
+|---|---|---|
+| Agent recognizes a problem | ≠ | Agent knows what to do |
+| "Something is wrong" | | "Here is my plan" |
+| Passive awareness of gap | | Active readiness to act |
+| Can persist indefinitely | | Drives toward action |
+
+**Typical Confusion**: Treating dissatisfaction as intention: "I'm unhappy with my fitness" ≠ "I will run 3x/week." Dissatisfaction without a concrete plan is not yet intention.
+
+**Why It Matters**: The transition dissatisfaction→intention is a critical gate in the motivation cycle. Many creators remain stuck in chronic dissatisfaction without converting it to actionable intention.
+
+**Related Items**:
+- Formalization: [PD.FORM.020](../02-domain-entities/formalizations/PD.FORM.020-dissatisfaction-levels.md)
+- State: [PD.STATE.001](../02-domain-entities/states/PD.STATE.001-states.md)
+
+**SoTA**: `current`
+- Basis: Post "Неудовлетворённости и намерения как состояния" (2025-03-14)
+- Revision criterion: Would change if dissatisfaction and intention are shown to be a single continuum
+
+---
+
+### D.115: Finding Meaning vs. Creating Meaning {#d115-finding-vs-creating-meaning}
+
+| Finding Meaning (Обнаружение смысла) | | Creating Meaning (Создание смысла) |
+|---|---|---|
+| Meaning is pre-given, waiting to be discovered | ≠ | Meaning is constructed by the agent |
+| Implies fixed purpose | | Allows purpose revision |
+| "What am I meant to do?" | | "What do I choose to do?" |
+
+**Typical Confusion**: "I haven't found my purpose yet" — as if purpose is hidden somewhere. Purpose is not found but chosen and iteratively refined through action.
+
+**Why It Matters**: The "finding" frame creates passivity. The "creating" frame enables the agent to act without waiting for revelation.
+
+**Related Items**:
+- Distinction: [D.052](#d052-finite-game-vs-infinite-game)
+
+**SoTA**: `current`
+- Basis: Post "Системный подход к смыслу жизни" (2025-04-06)
+- Revision criterion: Would change if a robust theory of intrinsic purpose is validated
+
+---
+
+### D.116: Blogger vs. Thinker-in-Writing {#d116-blogger-vs-thinker-in-writing}
+
+| Blogger (Блогер) | | Thinker-in-Writing (Мыслитель письмом) |
+|---|---|---|
+| Writes for audience | ≠ | Writes for own thinking |
+| Goal: engagement, reach | | Goal: clarity, compilation |
+| Optional for creator | | Necessary for systematic development |
+
+**Typical Confusion**: "I'm not a blogger, so I don't write" — conflating public writing (blogging) with thinking in writing (internal practice). Thinker-in-writing is a required role for creators; blogger is optional.
+
+**Why It Matters**: Without thinking in writing, the creative conveyor (METHOD.004) breaks. The distinction removes the blogging barrier from the writing practice.
+
+**Related Items**:
+- Distinction: [D.025](#d025-thinker-in-writing-vs-writer-journalist)
+- Method: [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md)
+
+**SoTA**: `current`
+- Basis: Post "Почему студенты не пишут" (2025-03-05)
+- Revision criterion: Would change if blogging is shown to be equivalent to thinking in writing for cognitive development
+
+---
+
+### D.117: Compilation vs. Memorization {#d117-compilation-vs-memorization}
+
+| Compilation (Компиляция) | | Memorization (Запоминание) |
+|---|---|---|
+| Cognitive processing: source code → executable worldview | ≠ | Storage: information → memory buffer |
+| Produces operational knowledge | | Produces recallable facts |
+| Requires practices (writing, speaking, slow reading) | | Requires repetition |
+| Output: changed behavior, new distinctions | | Output: ability to quote |
+
+**Typical Confusion**: "I read the book, so I know it." Reading stores source code; only compilation (via practices) builds executable worldview. Most learners load but never compile.
+
+**Why It Matters**: The compilation gap explains why learners consume much content yet change little behavior. Practices (METHOD.003, METHOD.004, METHOD.005) are the compiler.
+
+**Related Items**:
+- Formalization: [PD.FORM.042](../02-domain-entities/formalizations/PD.FORM.042-compilation-as-neural-route-building.md)
+- Distinction: [D.013](#d013-description-vs-knowledge)
+- Distinction: [D.014](#d014-knowledge-vs-skill)
+
+**SoTA**: `current`
+- Basis: Post "Компиляция: в чём различие знаний и мировоззрения" (2025-05-08)
+- Revision criterion: Would change if passive reading is shown to produce the same depth of understanding as active processing
+
+---
+
+### D.118: Intellect Development Mode vs. Applied Mastery Mode {#d118-intellect-vs-applied-mastery-mode}
+
+| Intellect Development (Развитие интеллекта) | | Applied Mastery (Прикладное мастерство) |
+|---|---|---|
+| Like OS upgrade | ≠ | Like app installation |
+| Continuous, lifelong | | Situational, project-bound |
+| Transdisciplinary | | Domain-specific |
+| Changes how you THINK | | Changes what you CAN DO |
+
+**Typical Confusion**: "I'll learn Python and that's development." Applied mastery is project-mode; intellect development is lifestyle-mode. Both needed, but they are different operating regimes.
+
+**Why It Matters**: Without this distinction, creators invest only in applied skills and neglect the underlying intellectual infrastructure that enables learning anything faster.
+
+**Related Items**:
+- Distinction: [D.046](#d046-transdiscipline-vs-discipline)
+- Formalization: [PD.FORM.019](../02-domain-entities/formalizations/PD.FORM.019-intelligence-stack.md)
+
+**SoTA**: `current`
+- Basis: Post "Два режима обучения" (2025-05-13)
+- Revision criterion: Would change if a unified learning mode is shown to be more effective
+
+---
+
+### D.119: High Time Preference vs. Low Time Preference {#d119-high-vs-low-time-preference}
+
+| High Time Preference (Высокое) | | Low Time Preference (Низкое) |
+|---|---|---|
+| Prefers current reward | ≠ | Prefers future reward |
+| Correlates with procrastination, quick pleasures | | Correlates with investment in education, health |
+| Short planning horizon | | Long planning horizon |
+| Culturally formed, not innate | | Culturally formed, not innate |
+
+**Typical Confusion**: Treating time preference as personality trait ("I'm just impatient"). It is a culturally formed belief, trainable through practices (time accounting, strategizing).
+
+**Why It Matters**: Time preference is a meta-characteristic that shapes all investment decisions — in learning, health, relationships. Lowering it is one of the highest-leverage interventions.
+
+**Related Items**:
+- Characteristic: [PD.CHR.005](../02-domain-entities/characteristics/PD.CHR.005-time-preference.md)
+- Distinction: [D.016](#d016-invested-time-vs-spent-time)
+
+**SoTA**: `current`
+- Basis: Post "Временное предпочтение" (2025-05-28); Austrian economics (Mises, Hoppe)
+- Revision criterion: Would change if time preference is shown to be primarily genetic
+
+---
+
+### D.120: Creativity vs. Creation (Sozidanie) {#d120-creativity-vs-creation}
+
+| Creativity (Творчество) | | Creation (Созидание) |
+|---|---|---|
+| Generating novel ideas | ≠ | Full pipeline: idea → embodiment |
+| First phase only | | All phases: ideation + design + implementation + delivery |
+| Can remain internal | | Must produce external results |
+
+**Typical Confusion**: "I'm creative" = "I'm a creator." Creativity without delivery is only the start. Creation includes the entire chain from idea to impact.
+
+**Why It Matters**: Many agents identify as "creative" but never produce work products. The distinction separates ideation ability from the full engineering of value delivery.
+
+**Related Items**:
+- Distinction: [D.031](#d031-master-vs-doer)
+- Method: [PD.METHOD.010](../03-methods/PD.METHOD.010-creative-conveyor.md)
+
+**SoTA**: `current`
+- Basis: Post "Творчество" (2025-06-09)
+- Revision criterion: Would change if creativity alone is shown to produce sustainable value
+
+---
+
+### D.121: Activity Parity (Labor = Leisure) {#d121-activity-parity}
+
+| Traditional View | | Activity Parity |
+|---|---|---|
+| Labor is hard, leisure is reward | ≠ | Both are engineered activities |
+| Labor has methods, leisure is "just rest" | | Both require methods and design |
+| Well-being from leisure only | | Well-being = f(quality labor) + f(quality leisure) |
+
+**Typical Confusion**: "I'll rest AFTER I finish work" — leisure as leftover, not engineered. Both labor and leisure are activities requiring equal engineering attention.
+
+**Why It Matters**: Unengineered leisure (scrolling, passive consumption) degrades state. Engineered leisure (echeloned rest, creative hobbies) regenerates and develops.
+
+**Related Items**:
+- Distinction: [D.020](#d020-leisure-vs-work)
+- Principle: [PD.PRINC.038](../02-domain-entities/principles/PD.PRINC.038-activity-parity.md)
+- Method: [PD.METHOD.006](../03-methods/PD.METHOD.006-leisure-organization.md)
+
+**SoTA**: `current`
+- Basis: Post "Отрицательная полезность труда" (2025-06-12)
+- Revision criterion: Would change if evidence shows labor and leisure require fundamentally different engineering approaches
+
+---
+
+### D.122: Flight Hours vs. Completion Checkmark {#d122-flight-hours-vs-checkmark}
+
+| Flight Hours (Налёт часов) | | Completion Checkmark (Галочка «пройдено») |
+|---|---|---|
+| Total invested time in deliberate practice | ≠ | Binary: "completed the course" |
+| Continuous measure | | One-time event |
+| Correlates with actual skill change | | May not correlate with learning |
+| Culture of development | | Culture of credentialing |
+
+**Typical Confusion**: "I finished the course" = "I've developed." A completed course with 10 hours may produce less change than 100 hours of deliberate practice without any course.
+
+**Why It Matters**: Development of intellect is measured in flight hours, not certificates. This reframes the metric from completion to cumulative investment.
+
+**Related Items**:
+- Method: [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md)
+- Distinction: [D.016](#d016-invested-time-vs-spent-time)
+
+**SoTA**: `current`
+- Basis: Post "Налёт часов важнее чем галочка пройдено" (2025-06-04)
+- Revision criterion: Would change if course completion is shown to be a reliable proxy for actual learning
+
+---
+
+### D.123: Fundamental Role vs. Applied Role {#d123-fundamental-vs-applied-role}
+
+| Fundamental Role (Фундаментальная) | | Applied Role (Прикладная) |
+|---|---|---|
+| Context-independent | ≠ | Domain-bound |
+| "Learner", "Creator" | | "DevOps Engineer", "Product Manager" |
+| Applicable at any system level | | Applicable within specific domain |
+| Develops transdisciplinary skills | | Develops domain-specific skills |
+
+**Typical Confusion**: Developing only applied roles and ignoring fundamental ones. "I need to be a better engineer" without investing in the fundamental role of "Learner" that enables all applied mastery.
+
+**Why It Matters**: Fundamental roles (Learner → Intellectual → Professional) form the backbone of the development trajectory. Without them, applied roles lack the meta-skills for continuous adaptation.
+
+**Related Items**:
+- Role: [PD.ROLE.001](../02-domain-entities/roles/PD.ROLE.001-learner.md)
+- Distinction: [D.002](#d002-role-vs-person)
+- Distinction: [D.112](#d112-generalized-role-vs-specialized-role)
+
+**SoTA**: `current`
+- Basis: Post "Ученик — фундаментальная роль" (2025-06-15)
+- Revision criterion: Would change if fundamental roles are shown to be reducible to a set of applied skills
+
+---
+
+### D.124: Rhythm vs. Speed vs. Value (Development Layers) {#d124-rhythm-speed-value}
+
+| Rhythm (Ритм) | Speed (Скорость) | Value (Ценность) |
+|---|---|---|
+| Base layer: regularity | Middle layer: throughput | Top layer: impact |
+| Learner focus | Intellectual focus | Professional focus |
+| "Do it every day" | "Do it faster and better" | "Do the right things" |
+| Requires discipline | Requires methods | Requires strategy |
+
+**Typical Confusion**: Jumping to "value" without establishing rhythm. Speed without rhythm produces burnout. Value without speed produces irrelevance.
+
+**Why It Matters**: Each layer builds on the previous. Attempting higher layers without solid lower ones collapses the development stack.
+
+**Related Items**:
+- Role trajectory: [PD.ROLE.TRAJ.001](../02-domain-entities/roles/PD.ROLE.TRAJ.001-creator-trajectory.md)
+- Principle: [PD.PRINC.041](../02-domain-entities/principles/PD.PRINC.041-rhythm-over-confidence.md)
+
+**SoTA**: `current`
+- Basis: Post "Ритм, скорость, ценность" (2025-08-12)
+- Revision criterion: Would change if the layering order is shown to be context-dependent
+
+---
+
+### D.125: Wanting vs. Liking vs. Joy (Three Pleasure Types) {#d125-wanting-liking-joy}
+
+| Wanting (Желание) | Liking (Удовольствие) | Joy (Радость) |
+|---|---|---|
+| Anticipation, dopamine | Process enjoyment | Satisfaction from mastery result |
+| "I want to start" | "I enjoy doing it" | "I'm glad I did it" |
+| Can exist without doing | Requires engagement | Requires completion |
+| Drives initiation | Drives continuation | Drives repetition |
+
+**Typical Confusion**: Chasing "wanting" (dopamine novelty) and mistaking it for meaningful engagement. Wanting without liking or joy produces addiction cycles.
+
+**Why It Matters**: Sustainable practice requires all three types aligned. Over-reliance on wanting leads to the pleasure vicious cycle. Joy from mastery is the most sustainable motivator.
+
+**Related Items**:
+- Distinction: [D.096](#d096-quick-pleasure-vs-creative-pleasure)
+- Distinction: [D.088](#d088-dopamine-novelty-vs-structural-novelty)
+
+**SoTA**: `current`
+- Basis: Post "Удовольствие" (2025-07-27); Berridge & Robinson dopamine/liking research
+- Revision criterion: Would change if the tripartite model is superseded by a more nuanced pleasure taxonomy
+
+---
+
+### D.126: Problem Level: Worldview / Mastery / Systems {#d126-problem-level-worldview-mastery-systems}
+
+| Worldview Problem | Mastery Problem | Systems Problem |
+|---|---|---|
+| Wrong model of reality | Missing skills | Dysfunctional environment |
+| Fix: new distinctions, reframing | Fix: practice, training | Fix: redesign system |
+| "I don't understand WHY" | "I don't know HOW" | "The system blocks me" |
+
+**Typical Confusion**: Treating all problems as mastery problems ("I just need to try harder") when the root cause is at the worldview level (wrong model) or systems level (toxic environment).
+
+**Why It Matters**: Correct diagnosis of problem level determines the intervention type. Wrong level = wasted effort. Three levels require three different response strategies.
+
+**Related Items**:
+- Formalization: [PD.FORM.041](../02-domain-entities/formalizations/PD.FORM.041-three-levels-of-problem-origin.md)
+
+**SoTA**: `current`
+- Basis: Post "Мы лечим не то место" (2025-08-18)
+- Revision criterion: Would change if a more granular problem taxonomy is validated
+
+---
+
+### D.127: Creative Debt vs. Technical Debt {#d127-creative-debt-vs-technical-debt}
+
+| Creative Debt (Творческий долг) | | Technical Debt (Технический долг) |
+|---|---|---|
+| Accumulated from NOT creating/developing | ≠ | Accumulated from shortcuts in code/systems |
+| Invisible: manifests as boredom, irritation, stagnation | | Visible: manifests as bugs, slowdowns |
+| Repaid by practices: writing, reading, creating | | Repaid by refactoring |
+| Personal, existential | | Professional, systemic |
+
+**Typical Confusion**: Attributing creative debt symptoms (boredom, irritation at useful knowledge, stagnation) to external circumstances instead of recognizing accumulated deficit of creative practice.
+
+**Why It Matters**: Creative debt compounds silently. The longer it accumulates, the higher the resistance to re-entering creative practice — a vicious cycle.
+
+**Related Items**:
+- Distinction: [D.099](#d099-boring-life-low-entropy-vs-boredom-absence-of-meaning)
+- Method: [PD.METHOD.010](../03-methods/PD.METHOD.010-creative-conveyor.md)
+
+**SoTA**: `current`
+- Basis: Post "Творческий долг" (2025-09-12)
+- Revision criterion: Would change if creative stagnation is shown to have purely neurological (non-practice-related) causes
+
+---
+
+### D.128: Click / Resonance / Vibration (Development Signals) {#d128-click-resonance-vibration}
+
+| Click (Щелчок) | Resonance (Резонанс) | Vibration (Дребезг) |
+|---|---|---|
+| Sudden insight | Alignment with existing model | Discomfort from model mismatch |
+| "Aha!" — new distinction formed | "Yes, this fits!" — confirmation | "Something is wrong" — contradiction |
+| Rare, high value | Common, reinforcing | Uncomfortable but diagnostic |
+
+**Typical Confusion**: Pursuing only "clicks" and avoiding "vibration." Vibration is the most diagnostically valuable signal — it indicates where the worldview needs updating.
+
+**Why It Matters**: All three signals are essential feedback channels during learning. Ignoring vibration means ignoring the most important growth opportunities.
+
+**Related Items**:
+- Distinction: [D.087](#d087-resonance-attraction-vs-resonance-repulsion)
+- Method: [PD.METHOD.003](../03-methods/PD.METHOD.003-slow-reading.md)
+
+**SoTA**: `current`
+- Basis: Post "Сигналы развития" (2025-09-15)
+- Revision criterion: Would change if a richer cognitive signal taxonomy is validated
+
+---
+
+### D.129: Biological Human vs. Cyberhuman {#d129-biological-vs-cyberhuman}
+
+| Biological Human | | Cyberhuman (Киберчеловек) |
+|---|---|---|
+| Organism only | ≠ | Organism + exocortex + exobody |
+| Fixed cognitive capacity | | Augmented by external systems |
+| Classical psychology subject | | Engineering subject |
+| Big Five personality | | Cybercharacteristics |
+
+**Typical Confusion**: Modeling the creator as a purely biological entity. Modern creator operates as a cyberhuman: integrated with digital tools, AI agents, knowledge management systems.
+
+**Why It Matters**: Self-development programs that ignore the cyber-layer (exocortex, digital twin, AI) are incomplete. Cybercharacteristics extend and redefine classical personality models.
+
+**Related Items**:
+- Distinction: [D.050](#d050-biological-body-vs-exobody)
+- Architecture: [PD.ARCH.001](../02-domain-entities/architecture/PD.ARCH.001-transparent-box.md)
+- Characteristic: [PD.CHR.006](../02-domain-entities/characteristics/PD.CHR.006-technointegration.md)
+
+**SoTA**: `current`
+- Basis: Post "Характер человека: от психологии к инженерному взгляду" (2025-09-17)
+- Revision criterion: Would change if human-technology integration is shown to be superficial and non-constitutive
+
+---
+
+### D.130: Character (Psychology) vs. Cybercharacteristic (Engineering) {#d130-character-vs-cybercharacteristic}
+
+| Character / Big Five (Психология) | | Cybercharacteristic (Инженерия) |
+|---|---|---|
+| Describes "what the person IS" | ≠ | Describes "how to engineer development" |
+| Trait-based, relatively stable | | Measurable, improvable, designable |
+| 5 dimensions (OCEAN) | | 6 dimensions (agentness, intellect, stress resistance, resourcefulness, technointegration, caliber) |
+| Descriptive | | Prescriptive (target values, methods, risks) |
+
+**Typical Confusion**: Using Big Five personality traits to plan self-development. Traits describe; cybercharacteristics engineer. Different tools for different purposes.
+
+**Why It Matters**: Cybercharacteristics provide actionable engineering handles that psychological traits do not. Each has indicators, methods for improvement, and risks — unlike fixed personality dimensions.
+
+**Related Items**:
+- Distinction: [D.086](#d086-psychological-language-vs-engineering-language)
+- Distinction: [D.129](#d129-biological-vs-cyberhuman)
+- Characteristic: [PD.CHR.001](../02-domain-entities/characteristics/PD.CHR.001-characteristics.md)
+
+**SoTA**: `current`
+- Basis: Post "Характер человека" (2025-09-17)
+- Revision criterion: Would change if Big Five is extended to include engineering handles equivalent to cybercharacteristics
+
+---
+
+### D.131: Collapse in Human vs. Collapse in LLM {#d131-collapse-human-vs-llm}
+
+| Human Collapse (Схлопывание человека) | | LLM Collapse (Схлопывание LLM) |
+|---|---|---|
+| Experience replaces novelty-seeking | ≠ | Training on own outputs loses distribution tails |
+| Thinking narrows to proven patterns | | Generates increasingly average responses |
+| Cure: fresh complex input, new domains | | Cure: fresh diverse training data |
+
+**Typical Confusion**: Assuming collapse only happens to AI. Humans collapse too: without fresh complex input, thinking narrows to habitual patterns. The creator who reads only familiar content degrades.
+
+**Why It Matters**: Collapse is a universal risk for any learning system (biological or artificial). Anti-collapse requires deliberate exposure to diverse, challenging input.
+
+**Related Items**:
+- Distinction: [D.088](#d088-dopamine-novelty-vs-structural-novelty)
+- Method: [PD.METHOD.003](../03-methods/PD.METHOD.003-slow-reading.md)
+
+**SoTA**: `hypothesis`
+- Basis: Post "Схлопывание" (2025-10-27); Shumailov et al. "Model Collapse" (2023)
+- Revision criterion: Would change if human cognitive narrowing and LLM model collapse are shown to follow different mechanisms
+
+---
+
+### D.132: Coherence / Purpose / Significance (Three Dimensions of Meaning) {#d132-coherence-purpose-significance}
+
+| Coherence (Когерентность) | Purpose (Целенаправленность) | Significance (Значимость) |
+|---|---|---|
+| "The world makes sense" | "I have goals worth pursuing" | "My life matters" |
+| Understanding | Direction | Worth |
+| Cognitive | Motivational | Evaluative |
+
+**Typical Confusion**: Treating meaning as unidimensional: "I have purpose, so life is meaningful." Missing coherence or significance dimensions. A creator may have purpose but feel life is incoherent or insignificant.
+
+**Why It Matters**: Three-dimensional diagnosis of meaning allows targeted intervention: build understanding (coherence), set goals (purpose), or connect to larger systems (significance).
+
+**Related Items**:
+- Distinction: [D.115](#d115-finding-vs-creating-meaning)
+- Distinction: [D.053](#d053-success-vs-happiness)
+
+**SoTA**: `current`
+- Basis: Post "Смысл жизни как инженерная практика" (2025-11-07); Martela & Steger (2016) three-dimensional meaning model
+- Revision criterion: Would change if a more parsimonious or richer meaning taxonomy is validated
+
+---
+
+### D.133: Disappointment-as-Telemetry vs. Disappointment-as-Dead-End {#d133-disappointment-telemetry-vs-dead-end}
+
+| Disappointment-as-Telemetry | | Disappointment-as-Dead-End |
+|---|---|---|
+| Signal that model needs updating | ≠ | Evidence that effort was wasted |
+| Prompts recalibration | | Prompts withdrawal |
+| "My expectations were wrong — update them" | | "Nothing works — give up" |
+
+**Typical Confusion**: Experiencing disappointment and concluding "it's pointless." Disappointment is telemetry: the model of expectations was incorrect. Update the model, not the conclusion about the domain.
+
+**Why It Matters**: Disappointment is the most common trigger for abandoning self-development. Reframing it as telemetry converts a threat into diagnostic data.
+
+**Related Items**:
+- Distinction: [D.008](#d008-observation-vs-judgment)
+- State: [PD.STATE.006](../02-domain-entities/states/PD.STATE.006-pivot-state.md)
+
+**SoTA**: `current`
+- Basis: Post "Разочарование" (2025-11-26)
+- Revision criterion: Would change if disappointment is shown to be primarily emotional (non-cognitive)
+
+---
+
+### D.134: Chaos / Dead-End / Pivot (Diagnostic States of Adult Learner) {#d134-chaos-dead-end-pivot}
+
+| Chaos (Хаос) | Dead-End (Тупик) | Pivot (Поворот) |
+|---|---|---|
+| Maximum disorder | External stability, no growth | Deliberate trajectory change |
+| No rhythm, no methods, no plan | Has methods, but they stopped working | Redefining goals and methods |
+| Needs: basic infrastructure | Needs: new input, reframing | Needs: strategy, courage |
+
+**Typical Confusion**: Treating all stuck states the same. Chaos needs structure; dead-end needs fresh perspective; pivot needs strategic decision. Different interventions for different states.
+
+**Why It Matters**: Correct diagnosis of the stuck state determines the correct intervention. Applying "more discipline" to a dead-end or "fresh ideas" to chaos makes things worse.
+
+**Related Items**:
+- State: [PD.STATE.006](../02-domain-entities/states/PD.STATE.006-pivot-state.md)
+- Formalization: [PD.FORM.020](../02-domain-entities/formalizations/PD.FORM.020-dissatisfaction-levels.md)
+
+**SoTA**: `current`
+- Basis: Post "Почему взрослый человек хочет развиваться но всё стоит" (2025-11-29)
+- Revision criterion: Would change if additional stuck states are identified
+
+---
+
+### D.135: Approval Orientation vs. Reality Orientation {#d135-approval-vs-reality-orientation}
+
+| Approval Orientation (На одобрение) | | Reality Orientation (На реальность) |
+|---|---|---|
+| Wants to feel right HERE and NOW | ≠ | Wants to be accurate about REALITY |
+| Seeks confirmation | | Seeks calibration |
+| Avoids discomfort of being wrong | | Embraces error-as-signal |
+| "Am I doing it right?" | | "Is my model accurate?" |
+
+**Typical Confusion**: Mistaking approval-seeking for learning. A learner oriented on approval asks for validation; one oriented on reality asks for correction.
+
+**Why It Matters**: The shift from approval to reality orientation is the key transition from "disciplined learner" to "proactive creator." Without it, learning stays superficial.
+
+**Related Items**:
+- Principle: [PD.PRINC.045](../02-domain-entities/principles/PD.PRINC.045-error-as-signal.md)
+- Distinction: [D.021](#d021-professional-learner-vs-intuitive-learner)
+
+**SoTA**: `current`
+- Basis: Post "Создатель — ученик который перестал учиться ради лайков" (2025-12-05)
+- Revision criterion: Would change if approval orientation is shown to be effective for advanced learning
