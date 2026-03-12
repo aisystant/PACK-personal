@@ -145,7 +145,7 @@ related:
 - Передаёт культуру саморазвития другим
 - Готов к программе «Рабочее развитие»
 
-> Детальная реализация: `DS-principles-curriculum/programs/personal-development-v2.md`
+> **Implementation Note.** Детальная реализация программы: `DS-principles-curriculum/programs/personal-development-v2.md` (downstream).
 
 ## 6. Связь программ
 
@@ -165,4 +165,4 @@ related:
 - [PD.FORM.003 Ступени зрелости ученика](PD.FORM.003-learner-maturity.md)
 - [PD.ROLE.001 Ученик](../roles/PD.ROLE.001-learner.md)
 - [PD.ROLE.TRAJ.001 Ролевая траектория](../roles/PD.ROLE.TRAJ.001-creator-trajectory.md)
-- Реализация: DS-principles-curriculum/programs/personal-development-v2.md
+- Реализация (implementation): DS-principles-curriculum/programs/personal-development-v2.md
