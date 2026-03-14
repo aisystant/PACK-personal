@@ -48,6 +48,7 @@ Methods that build self-awareness and feedback loops.
 | ID | Method Name | Produces | Status | SoTA |
 |----|-------------|----------|--------|------|
 | [PD.METHOD.010](../03-methods/PD.METHOD.010-daily-reflective-review.md) | Daily Reflective Role-Product Review | — | active | current |
+| [PD.METHOD.012](../03-methods/PD.METHOD.012-day-rhythm.md) | Day Rhythm (OWC Fractal) | [WP.014](../04-work-products/PD.WP.014-daily-routine.md) | active | current |
 
 ### Infrastructure Methods
 
@@ -74,6 +75,7 @@ Methods that build conditions and environment for productive activity.
 | [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md) | Planning | Strategic | [WP.001](../04-work-products/PD.WP.001-time-budget.md), [WP.014](../04-work-products/PD.WP.014-daily-routine.md), [WP.015](../04-work-products/PD.WP.015-task-list.md) | current |
 | [PD.METHOD.010](../03-methods/PD.METHOD.010-daily-reflective-review.md) | Daily Reflective Role-Product Review | Reflective | — | current |
 | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) | Time Accounting | Registration | [WP.001](../04-work-products/PD.WP.001-time-budget.md) | current |
+| [PD.METHOD.012](../03-methods/PD.METHOD.012-day-rhythm.md) | Day Rhythm (OWC Fractal) | Reflective | [WP.014](../04-work-products/PD.WP.014-daily-routine.md) | current |
 
 ---
 
