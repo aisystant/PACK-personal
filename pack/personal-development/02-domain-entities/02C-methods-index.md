@@ -40,6 +40,7 @@ Methods that structure the learning process.
 | ID | Method Name | Produces | Status | SoTA |
 |----|-------------|----------|--------|------|
 | [PD.METHOD.002](../03-methods/PD.METHOD.002-learner-method.md) | Learner Method | [WP.002](../04-work-products/PD.WP.002-learner-works.md) | active | current |
+| [PD.METHOD.015](../03-methods/PD.METHOD.015-first-development-slot.md) | First Development Slot | [WP.014](../04-work-products/PD.WP.014-daily-routine.md) | active | current |
 
 ### Reflective Methods
 
@@ -49,6 +50,7 @@ Methods that build self-awareness and feedback loops.
 |----|-------------|----------|--------|------|
 | [PD.METHOD.010](../03-methods/PD.METHOD.010-daily-reflective-review.md) | Daily Reflective Role-Product Review | — | active | current |
 | [PD.METHOD.012](../03-methods/PD.METHOD.012-day-rhythm.md) | Day Rhythm (OWC Fractal) | [WP.014](../04-work-products/PD.WP.014-daily-routine.md) | active | current |
+| [PD.METHOD.016](../03-methods/PD.METHOD.016-self-diagnostics.md) | Self-Diagnostics | [WP.017](../04-work-products/PD.WP.017-learner-diagnostic-map.md) | active | current |
 
 ### Infrastructure Methods
 
@@ -76,6 +78,8 @@ Methods that build conditions and environment for productive activity.
 | [PD.METHOD.010](../03-methods/PD.METHOD.010-daily-reflective-review.md) | Daily Reflective Role-Product Review | Reflective | — | current |
 | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) | Time Accounting | Registration | [WP.001](../04-work-products/PD.WP.001-time-budget.md) | current |
 | [PD.METHOD.012](../03-methods/PD.METHOD.012-day-rhythm.md) | Day Rhythm (OWC Fractal) | Reflective | [WP.014](../04-work-products/PD.WP.014-daily-routine.md) | current |
+| [PD.METHOD.015](../03-methods/PD.METHOD.015-first-development-slot.md) | First Development Slot | Learning | [WP.014](../04-work-products/PD.WP.014-daily-routine.md) | current |
+| [PD.METHOD.016](../03-methods/PD.METHOD.016-self-diagnostics.md) | Self-Diagnostics | Reflective | [WP.017](../04-work-products/PD.WP.017-learner-diagnostic-map.md) | current |
 
 ---
 

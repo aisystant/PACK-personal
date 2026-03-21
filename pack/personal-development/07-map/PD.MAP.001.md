@@ -2,14 +2,14 @@
 id: PD.MAP.001
 name: Pack Navigation Map
 scope: full-pack
-created: 2026-03-14
-last_updated: 2026-03-14
+created: 2026-03-21
+last_updated: 2026-03-21
 generated: true
 ---
 
 # [PD.MAP.001] Pack Navigation Map
 
-> Auto-generated from frontmatter on 2026-03-14. Do not edit manually.
+> Auto-generated from frontmatter on 2026-03-21. Do not edit manually.
 
 ---
 
@@ -19,17 +19,17 @@ generated: true
 |------|-------|
 | ARCH (ARCH) | 1 |
 | Characteristics (CHR) | 9 |
-| FAIL (FAIL) | 60 |
-| FORM (FORM) | 67 |
+| FAIL (FAIL) | 62 |
+| FORM (FORM) | 72 |
 | Maps (MAP) | 1 |
-| METHOD (METHOD) | 14 |
+| METHOD (METHOD) | 16 |
 | PRINC (PRINC) | 14 |
 | QUAL (QUAL) | 1 |
 | ROLE (ROLE) | 6 |
 | SoTA Annotations (SOTA) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 18 |
-| **Total** | **200** |
+| **Total** | **209** |
 
 ## Work Products
 
@@ -138,6 +138,8 @@ generated: true
 | PD.FAIL.062 | Entropy Capitulation | Капитуляция перед энтропией — 3 паттерна: (1) «само рассосётся» — пассивность, (2) разовое героическое усилие без поддержки, (3) цикл перфекционизм-паралич. Агент отказывается поддерживать порядок, потому что энтропия всегда побеждает | active |
 | PD.FAIL.063 | Disappearing Notes Spiral | Спираль исчезающих заметок — 5-стадийный процесс: (1) захват без разбора, (2) заметки накапливаются, (3) поиск занимает больше времени чем запись, (4) агент перестаёт записывать, (5) возврат к писанию с нуля. Отличие от FAIL.015: описывает полный цикл коллапса, где система рушится и агент полностью бросает ведение заметок | active |
 | PD.FAIL.064 | Five Breakpoints of Adult Learning | 5 точек разрыва в обучении взрослых: (1) «я это уже знаю» — преждевременная компетентность, (2) «теория бесполезна» — анти-интеллектуализм, (3) «мой опыт достаточен» — ловушка опыта, (4) «сделаю потом» — бессрочная отсрочка, (5) «это ко мне не применимо» — иллюзия непереносимости. Отличие от FORM.050: FORM.050 — почему бросают, FAIL.064 — где именно в процессе обучения происходит разрыв | active |
+| PD.FAIL.065 | Easy Life Trap | Ловушка «жизни полегче»: выбор удобства сейчас ценой сложностей потом. Лёгкость ≠ отсутствие проблем, лёгкость = ясность в действиях | active |
+| PD.FAIL.066 | Evening Trap | Вечерняя ловушка: автоматизмы берут верх над намерениями в вечерние часы, когда волевой ресурс истощён | active |
 
 ### FORM
 
@@ -210,6 +212,11 @@ generated: true
 | PD.FORM.068 | State Dependent Task Allocation | Распределение задач по состоянию: маппинг шкалы 0-5 продуктивного состояния на допустимые типы задач | active |
 | PD.FORM.069 | Meaning Canvas | Канва смысла: матрица 4 уровня (Я/Мы/Мир/Вселенная) × 3 измерения (Когерентность/Целенаправленность/Значимость) | active |
 | PD.FORM.070 | Three Fates Of Note | Три судьбы заметки (в работу / в архив / в корзину) + уровни качества от сырого сигнала до хорошей заметки | active |
+| PD.FORM.071 | Marathoner Vs Sprinter | Марафонец vs Стайер в развитии: бесконечная игра требует полюбить процесс, а не терпеть до финиша | active |
+| PD.FORM.072 | Active Vs Passive Impression | Активное vs Пассивное впечатление: инициатива агента определяет качество опыта и его влияние на развитие | active |
+| PD.FORM.073 | Chronotype Synchrony Effect | Хронотип и synchrony effect: когнитивные функции на 9-40% лучше в часы, соответствующие хронотипу (Nowack & Van Der Meer 2023) | active |
+| PD.FORM.074 | No Lazy People Wp As Dopamine | «Нет ленивых людей» — лень = симптом неправильной настройки петель обратной связи. РП (когда получается) активирует дофамин → хочется продолжать | active |
+| PD.FORM.075 | Slot Tracker | Трекер слотов: система записи впечатлений, опытов и знаний для отслеживания пробелов в развитии. Отличие от системы публикации контента | active |
 
 ### METHOD
 
@@ -229,6 +236,8 @@ generated: true
 | PD.METHOD.012 | Day Rhythm (OWC Fractal) | Fractal Open-Work-Close pattern at Day and Session scales — structuring entry, work rules, and reflective closure for each day | active |
 | PD.METHOD.013 | Resonance Launch Protocol | Протокол запуска мыслительного резонанса: 6-компонентный метод входа в состояние продуктивного интеллектуального погружения, при котором чтение становится производством мыслей | active |
 | PD.METHOD.014 | Meme Editing Practice | Практика редактуры мемов: 3-компонентный метод изменения уже обнаруженных непродуктивных мемов через обнаружение по эмоциональным сигналам, письменную переформулировку и отслеживание в реальном времени | active |
+| PD.METHOD.015 | First Development Slot | Первый слот саморазвития: минимальное конкретное действие + время + рефлексия как точка входа в систему развития | active |
+| PD.METHOD.016 | Self Diagnostics | Самодиагностика: честный разговор с собой о текущем состоянии как основа для решений в бизнесе и жизни | active |
 
 ### PRINC
 
@@ -287,15 +296,15 @@ generated: true
 
 | ID | Days Since Update |
 |----|-------------------|
-| PD.METHOD.001 | 403 |
-| PD.WP.001 | 403 |
-| PD.FAIL.001 | 403 |
-| PD.FAIL.002 | 403 |
-| PD.FAIL.003 | 403 |
-| PD.FAIL.004 | 403 |
-| PD.FAIL.005 | 403 |
-| PD.FAIL.006 | 403 |
+| PD.METHOD.001 | 410 |
+| PD.WP.001 | 410 |
+| PD.FAIL.001 | 410 |
+| PD.FAIL.002 | 410 |
+| PD.FAIL.003 | 410 |
+| PD.FAIL.004 | 410 |
+| PD.FAIL.005 | 410 |
+| PD.FAIL.006 | 410 |
 
 ---
 
-*Generated by `scripts/generate-map.py` on 2026-03-14*
+*Generated by `scripts/generate-map.py` on 2026-03-21*
