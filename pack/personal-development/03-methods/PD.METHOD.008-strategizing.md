@@ -5,7 +5,7 @@ status: active
 summary: "Метод непрерывной разработки и реализации личной стратегии: выявление неудовлетворённостей, выбор приоритетных проектов и тестирование гипотез"
 sota: current
 created: 2026-02-11
-last_updated: 2026-02-11
+last_updated: 2026-03-21
 related:
   produces: [PD.WP.005, PD.WP.006, PD.WP.007]
   uses: [PD.D.017, PD.D.016]
@@ -95,18 +95,66 @@ Additional outputs: list of all projects, list of methods (practices), selection
 
 ---
 
+## Dissatisfaction Structure
+
+Each dissatisfaction (НЭП) has three components:
+
+| Component | Description | Example |
+|-----------|-------------|---------|
+| **Need** | Underlying human need (safety, recognition, socialization, cognition) | Safety |
+| **Dissatisfaction** | Gap between current and desired state | "Unrealized potential due to lack of growth for 10 years" |
+| **Emotion** | Psychic expression of the gap | Frustration, anxiety, excitement |
+
+Capturing the emotion is not optional — it serves as a signal of priority and urgency. Dissatisfactions without named emotions tend to be intellectualized and deprioritized.
+
+## States of Strategic Position
+
+At any given period, the strategist operates in one of four states:
+
+| State | Signal | Action |
+|-------|--------|--------|
+| **Development** | Completion rate growing, projects advancing, pipeline healthy | Continue current strategy, optimize execution |
+| **Chaos** | Completion rate collapsed, too many urgent items, no focus | Reduce scope drastically, stabilize 1-3 projects |
+| **Ceiling** | Completion rate high but no growth, same results | Change strategy, seek new leverage (new method, tool, partner) |
+| **Pivot** | Fundamental assumption invalidated | Reassess dissatisfactions, may need new strategy entirely |
+
+The state is declared at the beginning of each monthly focus and reassessed weekly.
+
+## Theory of Constraints (ТОС) in Strategizing
+
+Each month has 1-2 **constraints** (bottlenecks) that limit throughput of the entire system. Identifying and focusing on the constraint is more effective than optimizing non-constraints.
+
+**Monthly cycle:** Identify constraint → Focus resources → Measure progress → Reassess.
+**Weekly cycle:** ТОС-week = which constraint gets attention this week?
+
+The constraint links to specific monthly results and РП — it answers "what blocks everything else?"
+
 ## Weekly Session
 
 The core practice is a weekly strategizing session (recommended: same day and time each week):
 
 | Phase | Activity |
 |-------|----------|
-| 1 | Review dissatisfaction list — add new, update existing |
-| 2 | Review project list — assess progress, add new projects |
-| 3 | Apply selection criteria — choose priority projects (1-7) |
+| 0 | Review dissatisfaction list — add new, update emotions, check priorities |
+| 1 | Review last week — completion rate, коммиты vs plan |
+| 2 | Review monthly focus — update results table, check ТОС, reassess state |
+| 3 | Apply selection criteria — choose priority projects (1-7) linked to monthly results |
 | 4 | Allocate time budget — set hours for each priority project |
-| 5 | Create priority drafts list — topics for thinking in writing this week |
+| 5 | Determine ТОС-week — which constraint gets focus |
 | 6 | Test hypotheses — review results from previous period |
+
+## Monthly Session (first strategy session of the month)
+
+| Phase | Activity |
+|-------|----------|
+| 1 | Retro: compare monthly results with actual |
+| 2 | Archive current monthly focus |
+| 3 | Declare state (Development / Chaos / Ceiling / Pivot) |
+| 4 | Identify ТОС for new month (1-2 constraints) |
+| 5 | Formulate hypothesis (what will unblock progress) |
+| 6 | Define monthly results (R1-RN) with done criteria and budgets |
+| 7 | Map РП → Results |
+| 8 | Update quarterly goals (progress check) |
 
 ---
 
