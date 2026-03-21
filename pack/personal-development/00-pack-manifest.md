@@ -272,6 +272,8 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FORM.073 | Chronotype Synchrony Effect | FORM | Хронотип и synchrony effect: когнитивные функции на 9-40% лучше в часы, соответствующие хронотипу (Nowack & Van Der Meer 2023) | active |
 | PD.FORM.074 | No Lazy People Wp As Dopamine | FORM | «Нет ленивых людей» — лень = симптом неправильной настройки петель обратной связи. РП (когда получается) активирует дофамин → хочется продолжать | active |
 | PD.FORM.075 | Slot Tracker | FORM | Трекер слотов: система записи впечатлений, опытов и знаний для отслеживания пробелов в развитии. Отличие от системы публикации контента | active |
+| PD.FORM.076 | Cognitive Uncertainty | FORM | Когнитивная неопределённость (Enke & Graeber, 2023): субъективная неопределённость о собственном мышлении, а не о мире. Антидот — явная модель ситуации | active |
+| PD.FORM.077 | Art As Method Of Perception Transformation | FORM | Искусство как метод трансформации восприятия: художник проектирует среду восприятия (рабочий продукт), чтобы изменить состояние сознания зрителя | active |
 | PD.MAP.001 | Pack Navigation Map | MAP | — | — |
 | PD.METHOD.001 | Time Accounting | METHOD | \"Метод непрерывной регистрации и категоризации трат времени для получения эмпирических данных о распределении ресурса\" | active |
 | PD.METHOD.002 | Learner Method | METHOD | Метод обучения ученика: регулярные слоты, экзокортекс, рефлексия и недельные контракты | active |

@@ -3020,6 +3020,7 @@ Core conceptual distinctions for the Personal Development domain.
 
 **SoTA**: `current`
 - Basis: Post "Протез или экзоскелет" (2026-03-06), DP.ARCH.001 #21, IWE §5.1
+- Empirical: Bastani et al. (2024) — LLM снижает ментальное усилие (cognitive offloading), но ухудшает глубину мышления. Подтверждает: prosthesis-pattern ведёт к деградации когнитивных функций
 - Revision criterion: Would change if research shows prosthesis-pattern doesn't cause degradation
 
 ---
@@ -3655,3 +3656,26 @@ Core conceptual distinctions for the Personal Development domain.
 **SoTA**: `current`
 - Basis: Post "Создатель — ученик который перестал учиться ради лайков" (2025-12-05)
 - Revision criterion: Would change if approval orientation is shown to be effective for advanced learning
+
+---
+
+### D.136: Loaded Context vs. Abstract Intelligence {#d136-loaded-context-vs-abstract-intelligence}
+
+| Loaded Context (Загруженный контекст) | | Abstract Intelligence (Абстрактный ум) |
+|---|---|---|
+| Domain-specific knowledge active in working memory | ≠ | General cognitive ability (IQ, reasoning speed) |
+| Determines outcome in specific situation | | Determines learning speed across domains |
+| "I know THIS market" | | "I'm smart in general" |
+
+**Typical Confusion**: "The professor is smarter than the seller" — but in a specific transaction the seller wins, because his domain context (market rules, prices, buyer patterns) is loaded and active. Abstract intelligence without loaded context loses to loaded context with average intelligence.
+
+**Why It Matters**: This is the reason domain mastery (applied mastery, D.070) dominates in concrete situations. It also explains why AI-as-exoskeleton works: AI loads context that the agent then uses for thinking, rather than replacing thinking (D.107). The agent who loads the right context wins — not the one with higher abstract IQ.
+
+**Related Items**:
+- Distinction: [D.070](#d070-role-mastery-vs-applied-mastery)
+- Distinction: [D.107](#d107-prosthesis-vs-exoskeleton)
+- Formalization: [PD.FORM.019](../02-domain-entities/formalizations/PD.FORM.019-intelligence-stack.md)
+
+**SoTA**: `current`
+- Basis: fleeting-notes.md, 20 мар 22:19 (аналогия профессор vs продавец)
+- Revision criterion: Would change if abstract reasoning is shown to dominate over domain context in applied settings

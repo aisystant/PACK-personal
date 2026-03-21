@@ -20,7 +20,7 @@ generated: true
 | ARCH (ARCH) | 1 |
 | Characteristics (CHR) | 9 |
 | FAIL (FAIL) | 62 |
-| FORM (FORM) | 72 |
+| FORM (FORM) | 74 |
 | Maps (MAP) | 1 |
 | METHOD (METHOD) | 16 |
 | PRINC (PRINC) | 14 |
@@ -29,7 +29,7 @@ generated: true
 | SoTA Annotations (SOTA) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 18 |
-| **Total** | **209** |
+| **Total** | **211** |
 
 ## Work Products
 
@@ -217,6 +217,8 @@ generated: true
 | PD.FORM.073 | Chronotype Synchrony Effect | Хронотип и synchrony effect: когнитивные функции на 9-40% лучше в часы, соответствующие хронотипу (Nowack & Van Der Meer 2023) | active |
 | PD.FORM.074 | No Lazy People Wp As Dopamine | «Нет ленивых людей» — лень = симптом неправильной настройки петель обратной связи. РП (когда получается) активирует дофамин → хочется продолжать | active |
 | PD.FORM.075 | Slot Tracker | Трекер слотов: система записи впечатлений, опытов и знаний для отслеживания пробелов в развитии. Отличие от системы публикации контента | active |
+| PD.FORM.076 | Cognitive Uncertainty | Когнитивная неопределённость (Enke & Graeber, 2023): субъективная неопределённость о собственном мышлении, а не о мире. Антидот — явная модель ситуации | active |
+| PD.FORM.077 | Art As Method Of Perception Transformation | Искусство как метод трансформации восприятия: художник проектирует среду восприятия (рабочий продукт), чтобы изменить состояние сознания зрителя | active |
 
 ### METHOD
 
