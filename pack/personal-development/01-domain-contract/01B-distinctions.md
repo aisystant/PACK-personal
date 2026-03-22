@@ -104,6 +104,9 @@ Core conceptual distinctions for the Personal Development domain.
 | [D.133](#d133-disappointment-telemetry-vs-dead-end) | Disappointment-as-Telemetry vs. Disappointment-as-Dead-End | current | D.008, STATE.006 |
 | [D.134](#d134-chaos-dead-end-pivot) | Chaos / Dead-End / Pivot (Diagnostic States) | current | STATE.006, FORM.020 |
 | [D.135](#d135-approval-vs-reality-orientation) | Approval Orientation vs. Reality Orientation | current | PRINC.045, D.021 |
+| [D.136](#d136-loaded-context-vs-abstract-intelligence) | Loaded Context vs. Abstract Intelligence | current | — |
+| [D.137](#d137-profile-vs-level) | Profile vs. Level (Профиль ≠ Уровень) | current | MIM.FORM.006 |
+| [D.138](#d138-thinking-skills-vs-applied-skills) | Thinking Skills vs. Applied Skills (Мыслительные vs Прикладные навыки) | current | FORM.006, ROLE.TRAJ.001, D.118 |
 
 ---
 
@@ -3708,3 +3711,39 @@ Core conceptual distinctions for the Personal Development domain.
 **SoTA**: `current`
 - Basis: Competency-Based Medical Education (AAMC, 2024); CEFR multi-skill; Hattie (2023) differential diagnosis
 - Revision criterion: Would change if scalar assessment proves equally effective for personalization as vectorial
+
+---
+
+### D.138: Thinking Skills vs. Applied Skills (Мыслительные vs Прикладные навыки) {#d138-thinking-skills-vs-applied-skills}
+
+| Thinking Skills (Мыслительные навыки) | | Applied Skills (Прикладные навыки) |
+|---|---|---|
+| Системное мышление, работа с понятиями, моделирование | ≠ | Практические умения в контексте конкретной роли |
+| Трансдисциплинарные, переносимые между доменами | | Специфичны для роли: ученические, профессиональные, исследовательские, просветительские |
+| «Как думать» | | «Как делать» |
+| Развиваются через интеллектуальные практики (чтение, письмо, различения) | | Развиваются через предметные практики (задачи, проекты, эксперименты) |
+
+**Подтипы прикладных навыков** (зависят от доминирующей роли по PD.ROLE.TRAJ.001):
+
+| Роль | Тип прикладных навыков | Примеры |
+|------|----------------------|---------|
+| Ученик | Ученические | Ритм, дисциплина, работа с текстом, ведение заметок |
+| Профессионал | Профессиональные | Доменное мастерство, качество РП, наставничество |
+| Исследователь | Исследовательские | Постановка гипотез, эксперимент, анализ данных |
+| Просветитель | Просветительские | Публичное выступление, ясность изложения, масштабирование влияния |
+
+**Distinction Test**: «Можно ли перенести этот навык в другой домен без адаптации?» Да → мыслительный. Нет → прикладной.
+
+**Typical Confusion**: «Учу системное мышление = развиваю навыки» — верно, но это мыслительные навыки. Навык проведения code review — прикладной (профессиональный). Оба живут в направлении 2 (Навыки и мастерство), но требуют разного контента и разных практик.
+
+**Why It Matters**: Портной (MIM.SOP.001) при выборе контента по направлению 2 должен знать, какой тип навыков развивать. Доминирующая роль определяет тип: Интеллектуал → мыслительные, остальные роли → прикладные соответствующего подтипа. Без этого различения Портной выдаёт контент по мастерству «в общем», не попадая в актуальную потребность.
+
+**Related Items**:
+- Distinction: [D.118](#d118-intellect-vs-applied-mastery-mode) — режимы развития (смежное, но D.118 про режимы, D.138 про типы навыков)
+- Formalization: [PD.FORM.006](../02-domain-entities/formalizations/PD.FORM.006-mastery-degrees.md) — степени мастерства (применимы к обоим типам)
+- Trajectory: [PD.ROLE.TRAJ.001](../02-domain-entities/roles/PD.ROLE.TRAJ.001-creator-trajectory.md) — ролевая траектория (определяет подтип прикладных)
+- SOP: [MIM.SOP.001](~/IWE/PACK-MIM/pack/mim/03-methods/MIM.SOP.001-tailor-assembly.md) — Портной использует это различение в шаге 5
+
+**SoTA**: `current`
+- Basis: PD.FORM.002 (направление 2 уже описывает ролевую траекторию внутри навыков), D.118 (два режима), PD.ROLE.TRAJ.001 (пять ролей с разными фокусами мастерства)
+- Revision criterion: Would change if a single skill-type model proves sufficient for personalization across all roles
