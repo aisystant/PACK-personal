@@ -12,8 +12,8 @@ related:
     - { pack: MIM, id: MIM.D.007, relation: "Принцип ≠ Inductive Bias" }
     - { pack: MIM, id: MIM.FM.001, relation: "Послушал = научился" }
     - { pack: FPF, id: "B.2.4", relation: "Bucket of skills ≠ integrated capability" }
-    - { pack: EDU, id: EDU.FORM.004, relation: "Three-Level Method Hierarchy (параллельная иерархия для методов обучения)" }
-    - { pack: EDU, id: EDU.MAP.001, relation: "Шаблон ячейки: навыки как downstream" }
+    - { pack: EDU, id: MIM.FORM.004, relation: "Three-Level Method Hierarchy (параллельная иерархия для методов обучения)" }
+    - { pack: EDU, id: MIM.MAP.001, relation: "Шаблон ячейки: навыки как downstream" }
 ---
 
 # Формализация: Генеративная иерархия — от принципов к навыкам
@@ -77,12 +77,12 @@ Fallback chain: Downstream → Pack → SPF → FPF → ZP.
 
 ## 4. Навыки как Downstream (Level 3)
 
-Навыки = downstream от Pack, как конкретный курс = downstream от методики обучения [EDU.MAP.001]:
+Навыки = downstream от Pack, как конкретный курс = downstream от методики обучения [MIM.MAP.001]:
 
 ```
 Pack EDU (абстрактное)                DS-программы (конкретное)
-  EDU.MAP.001 (шаблон ячейки)    →      cells/ZP.1@1, ZP.1@2 (заполненные ячейки)
-  EDU.FORM.007 (конструктор)     →      programs/ (конкретные программы)
+  MIM.MAP.001 (шаблон ячейки)    →      cells/ZP.1@1, ZP.1@2 (заполненные ячейки)
+  MIM.FORM.007 (конструктор)     →      programs/ (конкретные программы)
 
 Pack PD (абстрактное)                 Downstream (конкретное)
   PD.D.014 (Knowledge ≠ Skill)  →      Диагностика: в чём дефицит агента

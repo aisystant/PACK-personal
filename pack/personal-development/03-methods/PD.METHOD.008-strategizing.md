@@ -8,7 +8,7 @@ created: 2026-02-11
 last_updated: 2026-03-21
 related:
   produces: [PD.WP.005, PD.WP.006, PD.WP.007]
-  uses: [PD.D.017, PD.D.016]
+  uses: [PD.D.017, PD.D.016, PD.FORM.078, PD.CHR.007]
   fails_with: [PD.FAIL.010]
   requires_role: [PD.ROLE.001]
   precedes: [PD.METHOD.003, PD.METHOD.006, PD.METHOD.007]
@@ -92,6 +92,7 @@ Additional outputs: list of all projects, list of methods (practices), selection
 | Strategizing vs. Planning | [D.017](../01-domain-contract/01B-distinctions.md#d017-strategizing-vs-planning) | Strategizing determines WHAT to pursue; planning determines WHEN and HOW to execute |
 | Strategy (document) vs. Strategy (method) | — | Document is a snapshot of hypotheses; method is the way of achieving goals |
 | Problem vs. Dissatisfaction vs. Emotion | — | Problem is the gap; dissatisfaction is the psychic state; emotion is its expression |
+| Caliber as lens vs. Caliber as filter | [PD.CHR.007](../02-domain-entities/characteristics/PD.CHR.007-personality-caliber.md) | Caliber should expand awareness of one's current level and the horizon ahead, not block ambitious projects. When a project exceeds the current caliber, identify what's needed (skills, resources, allies) rather than refusing the project |
 
 ---
 
@@ -109,7 +110,7 @@ Capturing the emotion is not optional — it serves as a signal of priority and 
 
 ## States of Strategic Position
 
-At any given period, the strategist operates in one of four states:
+At any given period, the strategist operates in one of four states. Each state has a concrete playbook (diagnostic criteria, action recipe, traps, transition conditions) — see [PD.FORM.078](../02-domain-entities/formalizations/PD.FORM.078-strategic-position-playbooks.md) for full details.
 
 | State | Signal | Action |
 |-------|--------|--------|
@@ -138,7 +139,8 @@ The core practice is a weekly strategizing session (recommended: same day and ti
 | 0 | Review dissatisfaction list — add new, update emotions, check priorities |
 | 1 | Review last week — completion rate, коммиты vs plan |
 | 2 | Review monthly focus — update results table, check ТОС, reassess state |
-| 3 | Apply selection criteria — choose priority projects (1-7) linked to monthly results |
+| 2b | Caliber lens — declare current caliber ([PD.CHR.007](../02-domain-entities/characteristics/PD.CHR.007-personality-caliber.md)), show horizon of next level, note what's needed to get there |
+| 3 | Apply selection criteria — choose priority projects (1-7) linked to monthly results. For projects exceeding current caliber: identify required skills/resources/allies |
 | 4 | Allocate time budget — set hours for each priority project |
 | 5 | Determine ТОС-week — which constraint gets focus |
 | 6 | Test hypotheses — review results from previous period |
@@ -150,6 +152,7 @@ The core practice is a weekly strategizing session (recommended: same day and ti
 | 1 | Retro: compare monthly results with actual |
 | 2 | Archive current monthly focus |
 | 3 | Declare state (Development / Chaos / Ceiling / Pivot) |
+| 3b | Declare caliber ([PD.CHR.007](../02-domain-entities/characteristics/PD.CHR.007-personality-caliber.md)) and horizon — reassess monthly: has caliber grown? Is the horizon closer? |
 | 4 | Identify ТОС for new month (1-2 constraints) |
 | 5 | Formulate hypothesis (what will unblock progress) |
 | 6 | Define monthly results (R1-RN) with done criteria and budgets |

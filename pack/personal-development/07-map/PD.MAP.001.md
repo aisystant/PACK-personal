@@ -20,7 +20,7 @@ generated: true
 | ARCH (ARCH) | 1 |
 | Characteristics (CHR) | 9 |
 | FAIL (FAIL) | 62 |
-| FORM (FORM) | 74 |
+| FORM (FORM) | 75 |
 | Maps (MAP) | 1 |
 | METHOD (METHOD) | 16 |
 | PRINC (PRINC) | 14 |
@@ -29,7 +29,7 @@ generated: true
 | SoTA Annotations (SOTA) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 18 |
-| **Total** | **211** |
+| **Total** | **212** |
 
 ## Work Products
 
@@ -219,6 +219,7 @@ generated: true
 | PD.FORM.075 | Slot Tracker | Трекер слотов: система записи впечатлений, опытов и знаний для отслеживания пробелов в развитии. Отличие от системы публикации контента | active |
 | PD.FORM.076 | Cognitive Uncertainty | Когнитивная неопределённость (Enke & Graeber, 2023): субъективная неопределённость о собственном мышлении, а не о мире. Антидот — явная модель ситуации | active |
 | PD.FORM.077 | Art As Method Of Perception Transformation | Искусство как метод трансформации восприятия: художник проектирует среду восприятия (рабочий продукт), чтобы изменить состояние сознания зрителя | active |
+| PD.FORM.078 | Strategic Position States & Playbooks | Four states of strategic position (Development, Chaos, Ceiling, Pivot) with diagnostic criteria, playbooks (action recipes), transition conditions, and typical traps for each state | current |
 
 ### METHOD
 

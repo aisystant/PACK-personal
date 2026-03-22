@@ -274,6 +274,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FORM.075 | Slot Tracker | FORM | Трекер слотов: система записи впечатлений, опытов и знаний для отслеживания пробелов в развитии. Отличие от системы публикации контента | active |
 | PD.FORM.076 | Cognitive Uncertainty | FORM | Когнитивная неопределённость (Enke & Graeber, 2023): субъективная неопределённость о собственном мышлении, а не о мире. Антидот — явная модель ситуации | active |
 | PD.FORM.077 | Art As Method Of Perception Transformation | FORM | Искусство как метод трансформации восприятия: художник проектирует среду восприятия (рабочий продукт), чтобы изменить состояние сознания зрителя | active |
+| PD.FORM.078 | Strategic Position States & Playbooks | FORM | Four states of strategic position (Development, Chaos, Ceiling, Pivot) with diagnostic criteria, playbooks (action recipes), transition conditions, and typical traps for each state | current |
 | PD.MAP.001 | Pack Navigation Map | MAP | — | — |
 | PD.METHOD.001 | Time Accounting | METHOD | \"Метод непрерывной регистрации и категоризации трат времени для получения эмпирических данных о распределении ресурса\" | active |
 | PD.METHOD.002 | Learner Method | METHOD | Метод обучения ученика: регулярные слоты, экзокортекс, рефлексия и недельные контракты | active |
