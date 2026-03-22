@@ -3679,3 +3679,32 @@ Core conceptual distinctions for the Personal Development domain.
 **SoTA**: `current`
 - Basis: fleeting-notes.md, 20 мар 22:19 (аналогия профессор vs продавец)
 - Revision criterion: Would change if abstract reasoning is shown to dominate over domain context in applied settings
+
+---
+
+### D.137: Profile vs. Level (Профиль ≠ Уровень) {#d137-profile-vs-level}
+
+*Origin: EDU.D.012 | s2r: F4*
+
+| Profile (Профиль) | | Level (Уровень) |
+|---|---|---|
+| Vector: {ZP.1:3, ZP.2:1, ZP.3:4, ...} | ≠ | Scalar: «уровень 2.7» |
+| Preserves information per principle | | Loses information about differences |
+| Enables bottleneck identification | | Hides weak spots |
+| Personalizes learning | | "One size for level X" |
+| Like CEFR with separate skill scores | | Like a single GPA number |
+
+**Typical Confusion**: "This student is level 3" — without specifying which principles are at 3 and which at 1. Two students with "level 3" may have radically different profiles: {3,3,3,3,3,3} vs {5,1,5,1,5,1}. The first needs breadth strategy, the second needs bottleneck-first.
+
+**Why It Matters**: Profile is the foundation of personalization. Level collapses the vector into a scalar, destroying the information needed to identify bottlenecks and select the right learning strategy.
+
+**Analogy**: In CEFR, there's an overall level (B2) but also separate scores for reading, writing, listening, speaking. Our profile works the same way but with N axes.
+
+**Related Items**:
+- Formalization: [MIM.FORM.006](~/IWE/PACK-MIM/pack/mim/02-domain-entities/formalizations/MIM.FORM.006-proficiency-scale.md) — Thinking Profile Model
+- Role: [MIM.R.009](~/IWE/PACK-MIM/pack/mim/02-domain-entities/MIM.R.009-diagnostician.md) — Bottleneck Diagnostician
+- Cross-pack: MIM.WP.008 — Diagnostic Assessment (output = profile)
+
+**SoTA**: `current`
+- Basis: Competency-Based Medical Education (AAMC, 2024); CEFR multi-skill; Hattie (2023) differential diagnosis
+- Revision criterion: Would change if scalar assessment proves equally effective for personalization as vectorial
