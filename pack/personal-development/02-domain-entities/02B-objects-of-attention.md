@@ -166,6 +166,22 @@ What practitioners in Personal Development attend to.
 
 ---
 
+## Aggregation: Three Attention Objects for Beginners (PD.FORM.079)
+
+For maturity levels 0–1 (PD.FORM.003), the six objects of attention aggregate into three:
+
+| Beginner's Attention Object | Aggregated OAs | Development Directions (FORM.002) |
+|-----------------------------|----------------|-----------------------------------|
+| **Worldview & Purpose** | OA.004 | №1 Worldviews |
+| **Skills & Tools** | OA.001, OA.003, OA.006 | №2 Mastery, №4 Exocortex+AI |
+| **Resources & Environment** | OA.002, OA.005 | №3 Constraints, №5 Environment, №6 Organism |
+
+This is not a simplification but a **lens**: Level 1 UI for the Level 3 data model. Transition to the full six objects occurs when the three can no longer distinguish "where exactly the problem is."
+
+See: [PD.FORM.079 — Three Attention Objects for Beginners](formalizations/PD.FORM.079-three-attention-objects-beginner.md)
+
+---
+
 ## What Is NOT an Object of Attention (in SPF)
 
 | Not This | Why |
