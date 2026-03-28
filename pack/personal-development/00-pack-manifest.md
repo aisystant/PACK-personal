@@ -129,7 +129,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | ID | Name | Kind | Summary | Status |
 |----|------|------|---------|--------|
 | PD.ARCH.001 | Transparent Box | ARCH | Модель внутреннего устройства созидателя как системы: подсистемы личности, организма и экзотела | active |
-| PD.CAT.001 | Memes Catalog | CAT | Каталог непродуктивных мемов: 55 мемов по 5 областям × 3 контекстам с антитезисами, диагностикой и методами компиляции | draft |
+| PD.CAT.001 | Memes Catalog | CAT | Каталог непродуктивных мемов: 63 мема по 5 областям × 3 контекстам с антитезисами, диагностикой и методами компиляции. SOTA: Stebbins, Kaplan ART, Fredrickson, Csikszentmihalyi, leisure crafting | draft |
 | PD.CAT.002 | Leisure Practices | CAT | Каталог практик досуга и восстановления: 10 практик по 2 подпотокам (Энергия + Впечатления) с can-do, диагностикой засоров, привязкой к ступеням | draft |
 | PD.CAT.003 | Practice Mastery Cards | CAT | Карточки 8 практик саморазвития × 4 ст��пени мастерства: can-do, задание, assessment. Источник: Руков. 2 §2–§9 | draft |
 | PD.CHR.001 | Characteristics | CHR | Система измеримых характеристик созидателя: киберхарактеристики, физические, когнитивные, социальные и волевые | active |
