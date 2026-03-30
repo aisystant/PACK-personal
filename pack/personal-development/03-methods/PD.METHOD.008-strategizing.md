@@ -201,6 +201,16 @@ The core practice is a weekly strategizing session (recommended: same day and ti
 
 **Basis**: Personal strategizing as continuous process draws from corporate strategy practice (Eisenhower, Mintzberg) adapted to personal domain. The dissatisfaction-driven model and hypothesis-testing cycle are from Aisystant methodology. Active Inference framework supports the anxiety-reduction function.
 
+This method synthesises five SOTA approaches — see [PD.SOTA.001-strategy-hierarchy.md](../06-sota/PD.SOTA.001-strategy-hierarchy.md) for the full comparative table and mapping to IWE documents.
+
+| SOTA Method | What this method takes from it |
+|-------------|-------------------------------|
+| **RBM** (Results-Based Management) | Chain Impact→Outcomes→Outputs→Activities — the basis for 5-level hierarchy (Mission→Vision→Q-goals→R-month→WP) |
+| **OKR** | Separation: Objective (direction) ≠ Key Result (measurable outcome) ≠ Initiative (work). Q-goals = Objectives, R = Key Results, WP = Initiatives |
+| **TOC** (Theory of Constraints) | One constraint per level — ТОС-месяца identifies the bottleneck that blocks all downstream results |
+| **Shape Up** | Appetite (h budget) → Bet (R-result) → Scope (WP). Time-boxing replaces task estimation |
+| **JTBD** | S-НЭП (strategic dissatisfactions) as Jobs — the source of goals outside the planning hierarchy |
+
 **Revision criterion**: Status would change if evidence shows that intuitive decision-making produces equivalent life outcomes to systematic strategizing, or if AI-driven life optimization eliminates the need for personal strategy.
 
 ---

@@ -320,6 +320,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.ROLE.004 | Researcher | ROLE | Роль человека, расширяющего границы знания, создающего новые методы и проводящего эксперименты | active |
 | PD.ROLE.005 | Educator | ROLE | Роль человека, масштабирующего культуру, формирующего смыслы и влияющего на общественное сознание | active |
 | PD.ROLE.TRAJ.001 | Pd.Role.Traj.001 Creator Trajectory | ROLE | Траектория развития созидателя через пять ключевых ролей: от Ученика к Просветителю | active |
+| PD.SOTA.001 | Strategy Hierarchy | SOTA | SOTA-основание метода стратегирования: иерархия уровней (Mission→Vision→Q→R→WP→Day→Session), сквозные инструменты (НЭП, Калибр, ТОС, MAPSTRATEGIC) и синтез пяти методов (RBM, OKR, TOC, Shape Up, JTBD) | current |
 | PD.SOTA.001 | Registration Method {#i1-registration-method} | SOTA | Состояние искусства: шесть интерпретаций учёта времени с оценкой актуальности каждой | — |
 | PD.SPEC.001 | Контракт контекста Портного (Tailor Context Contract) | SPEC | Спецификация формата входных данных Портного (R27): какие поля читаются из ЦД, в каком формате, какое поведение при отсутствии данных. WP-149 задаёт контракт. WP-151 реализует хранение. WP-175 реализует MCP endpoint get_tailor_context(). | draft |
 | PD.STATE.001 | States | STATE | Категории состояний созидателя: продуктивное, эмоциональное, ролевое, неудовлетворённости и физическое | active |

@@ -27,11 +27,11 @@ generated: true
 | PRINC (PRINC) | 14 |
 | QUAL (QUAL) | 1 |
 | ROLE (ROLE) | 6 |
-| SoTA Annotations (SOTA) | 1 |
+| SoTA Annotations (SOTA) | 2 |
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 18 |
-| **Total** | **220** |
+| **Total** | **221** |
 
 ## Work Products
 
@@ -60,6 +60,7 @@ generated: true
 
 | ID | Name | Summary | Status |
 |----|------|---------|--------|
+| PD.SOTA.001 | Strategy Hierarchy | SOTA-основание метода стратегирования: иерархия уровней (Mission→Vision→Q→R→WP→Day→Session), сквозные инструменты (НЭП, Калибр, ТОС, MAPSTRATEGIC) и синтез пяти методов (RBM, OKR, TOC, Shape Up, JTBD) | current |
 | PD.SOTA.001 | Registration Method {#i1-registration-method} | Состояние искусства: шесть интерпретаций учёта времени с оценкой актуальности каждой | — |
 
 ## Maps
