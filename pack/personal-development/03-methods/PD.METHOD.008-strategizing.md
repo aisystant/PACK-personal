@@ -138,6 +138,7 @@ The core practice is a weekly strategizing session (recommended: same day and ti
 |-------|----------|
 | 0 | Review dissatisfaction list — add new, update emotions, check priorities |
 | 1 | Review last week — completion rate, коммиты vs plan |
+| 1b | Note-Review sweep — process accumulated fleeting-notes: classify by 7 categories ([PD.FORM.083](../02-domain-entities/formalizations/PD.FORM.083-note-categories.md)), route to Dissatisfactions / WeekPlan / captures / drafts |
 | 2 | Review monthly focus — update results table, check ТОС, reassess state |
 | 2b | Caliber lens — declare current caliber ([PD.CHR.007](../02-domain-entities/characteristics/PD.CHR.007-personality-caliber.md)), show horizon of next level, note what's needed to get there |
 | 3 | Apply selection criteria — choose priority projects (1-7) linked to monthly results. For projects exceeding current caliber: identify required skills/resources/allies |
@@ -157,7 +158,7 @@ The core practice is a weekly strategizing session (recommended: same day and ti
 | 5 | Formulate hypothesis (what will unblock progress) |
 | 6 | Define monthly results (R1-RN) with done criteria and budgets |
 | 7 | Map РП → Results |
-| 8 | Update quarterly goals (progress check) |
+| 8 | Check alignment with annual vision — does this month's R still connect to the year? |
 
 ---
 

@@ -2,9 +2,9 @@
 id: PD.WP.006
 name: Strategy (Document)
 status: active
-summary: "Документ-гипотеза о методах достижения целей и устранения неудовлетворённостей — быстро устаревает и требует еженедельного пересмотра"
+summary: "Документ-гипотеза о методах достижения целей и устранения неудовлетворённостей — быстро устаревает и требует еженедельного пересмотра. Структура: год → месяц-фокус → месяц-черновик"
 created: 2026-02-11
-last_updated: 2026-02-11
+last_updated: 2026-04-01
 related:
   produced_by: [PD.METHOD.008]
 ---
@@ -85,8 +85,33 @@ A strategy document is NOT:
 | Form | Description |
 |------|-------------|
 | **Exocortex post** | Draft or published post outlining current priorities |
-| **Structured document** | Sections: dissatisfactions, projects, methods, criteria, timeline |
+| **Structured document** | Four-section format: year → month-focus → month-draft → (mission/vision, rarely) |
 | **Table** | Columns: project, method, dissatisfaction addressed, hours budget, status |
+
+### Canonical Structure (Strategy.md)
+
+Three active horizons — no quarterly level:
+
+```markdown
+# Стратегия
+
+## Год 2026 — желания и гипотезы
+[Свободный текст: желаемые состояния + «если... то...»]
+[Каждый R месяца ссылается на строку из этого раздела]
+
+## Фокус: [месяц] [год]
+### ТОС (что блокирует всё остальное)
+### Состояние (Development / Chaos / Ceiling / Pivot)
+### Результаты месяца (R1–RN)
+| R | Описание | Критерий done | Бюджет h | НЭП | РП |
+
+## Черновик: [следующий месяц] [год]
+[Идеи без бюджетов. Пишем с ~15 числа текущего месяца]
+```
+
+**Связь год → месяц:** каждый R-результат месяца ссылается на строку из годовых желаний. Отсутствие ссылки — сигнал «зачем это делаем?»
+
+**Черновик следующего месяца:** вырастает в фокус на Monthly Session. Начинается как список идей без оценок.
 
 ---
 
