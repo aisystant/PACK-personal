@@ -19,6 +19,7 @@ aliases:
   - professional
   - мастер
 related:
+  specializes: [U.RoleAssignment]
   follows: [PD.ROLE.002]
   precedes: [PD.ROLE.004]
 ---

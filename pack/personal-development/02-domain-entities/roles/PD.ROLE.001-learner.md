@@ -20,6 +20,7 @@ aliases:
   - learner
   - обучающийся
 related:
+  specializes: [U.RoleAssignment]
   uses: [PD.METHOD.002]
   precedes: [PD.ROLE.002]
 ---

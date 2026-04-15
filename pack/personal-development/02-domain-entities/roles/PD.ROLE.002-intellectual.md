@@ -19,6 +19,7 @@ aliases:
   - intellectual
   - мыслитель
 related:
+  specializes: [U.RoleAssignment]
   follows: [PD.ROLE.001]
   precedes: [PD.ROLE.003]
 ---

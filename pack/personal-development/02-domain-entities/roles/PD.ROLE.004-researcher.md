@@ -19,6 +19,7 @@ aliases:
   - researcher
   - учёный
 related:
+  specializes: [U.RoleAssignment]
   follows: [PD.ROLE.003]
   precedes: [PD.ROLE.005]
 ---

@@ -10,6 +10,8 @@ trust:
   G: domain
   R: 0.7
 epistemic_stage: evidence
+related:
+  specializes: [U.System]
 sota_methods:
   - Model-Based Systems Engineering
   - Functional Decomposition

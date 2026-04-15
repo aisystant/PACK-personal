@@ -17,6 +17,7 @@ aliases:
   - educator
   - просветитель
 related:
+  specializes: [U.RoleAssignment]
   follows: [PD.ROLE.004]
 ---
 

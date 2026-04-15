@@ -17,6 +17,7 @@ provides_evidence_for:
   - personal-development-methods
   - competency-assessment
 related:
+  specializes: [U.RoleAssignment]
   uses: [PD.ROLE.001, PD.ROLE.002, PD.ROLE.003, PD.ROLE.004, PD.ROLE.005]
 ---
 
