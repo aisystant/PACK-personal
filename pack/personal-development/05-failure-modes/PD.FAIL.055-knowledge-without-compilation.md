@@ -1,6 +1,7 @@
 ---
 id: PD.FAIL.055
-name: Knowledge Without Compilation
+name: Накопление знания без компиляции
+name_en: Knowledge Without Compilation
 category: learning-failure
 type: methodological
 severity: critical
