@@ -2,18 +2,18 @@
 id: PD.METHOD.007
 name: Environment Formation
 status: active
-summary: "Метод осознанного долгосрочного развития физической и социальной среды для обеспечения условий продуктивной деятельности и саморазвития"
+summary: "Метод осознанного развития физической и социальной среды: типология агентов влияния (усилители/тормоза/зеркала), постановка в роль, системные уровни"
 sota: current
 created: 2026-02-11
-last_updated: 2026-02-11
+last_updated: 2026-04-16
 related:
   produces: []
-  uses: []
+  uses: [PD.FORM.087]
   fails_with: []
   requires_role: [PD.ROLE.001]
   precedes: [PD.METHOD.003, PD.METHOD.006]
   follows: [PD.METHOD.008]
-tags: [environment, physical, social, workplace, community]
+tags: [environment, physical, social, workplace, community, agents, role-positioning]
 ---
 
 # [PD.METHOD.007] Environment Formation
@@ -110,6 +110,65 @@ Environment formation operates at multiple system levels:
 
 ---
 
+## Agents of Influence (Social Environment)
+
+People in the environment act as **agents of influence** — they shape decisions, thinking, and behavior of the person, often without conscious intent from either side.
+
+### Agent Typology
+
+| Type | Effect | Example |
+|------|--------|---------|
+| **Amplifiers** | Pull upward: demonstrate that more is possible, set higher standards | Mentor, advanced colleague, community of practitioners at a higher level |
+| **Anchors** | Hold in place: reinforce existing patterns, resist change (usually not malicious — they prefer stability) | Old friends who discourage new pursuits, colleagues who normalize mediocrity |
+| **Mirrors** | Provide honest feedback: reflect actual behavior and results back | Trusted peer who says «you are procrastinating», coach, accountability partner |
+
+**Key insight:** the same person can play different agent roles in different contexts. A colleague may be an amplifier in professional domain and an anchor in personal development.
+
+### Conscious Formation of Agent Composition
+
+- **Audit**: identify which agents are currently present in each life context (work, learning, leisure, family)
+- **Frequency tuning**: increase interaction with amplifiers, reduce with anchors (not eliminate — gradual shift)
+- **Mirror deficit**: most people lack mirrors. Actively seek honest-feedback relationships.
+- **Community as amplifier**: joining a community of practitioners at the desired level is the most efficient way to shift the agent composition
+
+### Connection to Learner Stages (PD.FORM.003)
+
+| Stage | Typical agent composition | What changes |
+|-------|--------------------------|-------------|
+| Random (0) | Unexamined; anchors dominate by default | No awareness of agent influence |
+| Practicing (1) | First amplifier (teacher, mentor, course community) | Begins to notice: «these people pull me forward» |
+| Systematic (2) | Deliberate community choice; reducing anchor exposure | Environment becomes a conscious tool |
+| Disciplined (3) | Balanced composition; mirrors actively sought | First outward turn: «who am I around these people?» |
+| Proactive (4) | Agent of influence for others; builds amplifying environments | Becomes an amplifier for others |
+
+---
+
+## Role Positioning
+
+Environment formation includes not only **choosing people** but also **choosing which role you occupy** in each relationship. The same relationship can develop or stagnate depending on your role position.
+
+### Principle
+
+**Role positioning** = conscious choice of which role you take in a given social context. Not pretending — genuinely placing yourself in a position that enables growth.
+
+| Position | Effect | Risk |
+|----------|--------|------|
+| **Learner** (next to someone more skilled) | Maximum growth; access to amplifier effect | Ego resistance («I should already know this») |
+| **Peer** (equal exchange) | Mutual calibration, mirror effect | Comfort zone — can stagnate without external challenge |
+| **Teacher** (explaining to someone less skilled) | Deepens own understanding (Feynman effect); becomes amplifier for others | Can lock into «expert» identity and stop learning |
+
+**Optimal pattern:** simultaneously occupy all three positions in different contexts. Always be a learner somewhere, a peer somewhere, and a teacher somewhere.
+
+### Connection to Creator Role Trajectory (PD.FORM.087)
+
+Role positioning is the **micro-mechanism** through which the creator role trajectory operates:
+- As **Learner** (role in trajectory) — you position yourself as learner in most contexts
+- As **Intellectual** — you begin positioning as peer with thinkers
+- As **Professional** — you are a teacher in your domain, learner in adjacent ones
+- As **Enlightener** — you consciously build environments where others can grow
+
+---
+
 ## Failure Modes
 
 | Failure Mode | Description |
@@ -121,6 +180,10 @@ Environment formation operates at multiple system levels:
 | No systematic maintenance | Environment changes on its own if not maintained; relationships require scheduled communication |
 | Missing applied skills | Not learning specific skills needed (design, content curation, community building) |
 | No investment | Not allocating time and resources for environment development |
+| Anchor blindness | Not recognizing anchors because they are close friends or family; confusing loyalty with development |
+| Mirror avoidance | Avoiding honest feedback; surrounding only with people who agree |
+| Permanent learner position | Always positioning as learner, never as teacher — blocks deepening of understanding and contribution |
+| Role rigidity | Locked into one role position in all contexts (always expert, always novice) |
 
 ---
 

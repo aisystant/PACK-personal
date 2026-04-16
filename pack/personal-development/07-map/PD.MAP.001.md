@@ -2,14 +2,14 @@
 id: PD.MAP.001
 name: Pack Navigation Map
 scope: full-pack
-created: 2026-04-15
-last_updated: 2026-04-15
+created: 2026-04-16
+last_updated: 2026-04-16
 generated: true
 ---
 
 # [PD.MAP.001] Pack Navigation Map
 
-> Auto-generated from frontmatter on 2026-04-15. Do not edit manually.
+> Auto-generated from frontmatter on 2026-04-16. Do not edit manually.
 
 ---
 
@@ -21,17 +21,17 @@ generated: true
 | CAT (CAT) | 3 |
 | Characteristics (CHR) | 9 |
 | FAIL (FAIL) | 62 |
-| FORM (FORM) | 83 |
+| FORM (FORM) | 84 |
 | Maps (MAP) | 1 |
 | METHOD (METHOD) | 16 |
 | PRINC (PRINC) | 14 |
 | QUAL (QUAL) | 1 |
 | ROLE (ROLE) | 6 |
-| SoTA Annotations (SOTA) | 4 |
+| SoTA Annotations (SOTA) | 5 |
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 18 |
-| **Total** | **227** |
+| **Total** | **229** |
 
 ## Work Products
 
@@ -64,6 +64,7 @@ generated: true
 | PD.SOTA.001 | Registration Method {#i1-registration-method} | Состояние искусства: шесть интерпретаций учёта времени с оценкой актуальности каждой | — |
 | PD.SOTA.002 | Strategy Tools | Сравнительный анализ методов и инструментов личного стратегирования и планирования: GTD, PARA, Zettelkasten, OKR, Shape Up — что взять в IWE и почему | current |
 | PD.SOTA.003 | Cognitive Patterns of Multitasking and Parallel Orchestration | Когнитивные паттерны многозадачности, когнитивной разгрузки и параллельной оркестрации ИИ-агентов: различения, ограничения, условия безопасности | current |
+| PD.SOTA.004 | Landscape of Personal Development Programs and Evidence Base | Сравнительный обзор 15 программ/подходов к личному развитию (GTD, 7 Habits, Atomic Habits, Deep Work, Tiny Habits, Huberman, Flow, Dreyfus и др.) — доказательная база, что берём для обоснования программы ЛР | current |
 
 ## Maps
 
@@ -195,7 +196,7 @@ generated: true
 | PD.FORM.035 | Uniformity Parameters | 5 параметров равномерности: сплошность, равносильность, одновременность входа и выхода, равнонаправленность; критерии качества произвольной регуляции | active |
 | PD.FORM.036 | Adequate Control Cycle | Цикл адекватного управления: восприятие → мышление/интерпретация → действие; работает только в замкнутом цикле, не по частям | active |
 | PD.FORM.037 | Phases Of Muscular Action | 5 фаз мышечного действия: координация, усилие до движения кости, усилие во время движения, усилие после движения, цель; регуляция работает только в фазах 1-3 | active |
-| PD.FORM.038 | Productive State Scale | Шкала продуктивного состояния (0-5): Critical, Failure, Decline, Satisfactory, Functional, Peak — каждый уровень с предписанным классом активности | active |
+| PD.FORM.038 | Productive State Scale | Шкала продуктивного состояния (0-5): Critical→Peak — спектр состояний с предписанной активностью, управление через досуг, связь со ступенями ученика | active |
 | PD.FORM.039 | Productive State Invariants | Три инварианта продуктивного состояния: WLNK (слабое звено), MONO (монотонность), COMM (аддитивность) — инженерное следствие: всегда чини слабейшее звено | active |
 | PD.FORM.040 | Three Echelons Of State Management | Три эшелона управления состоянием: мониторинг (обнаружение), превенция (предупреждение), рост потенциала (расширение конверта) | active |
 | PD.FORM.041 | Three Levels Of Problem Origin | Три уровня возникновения проблем: мировоззрение, мастерство, системы; метод-бандл: мировоззрение → психология → мастерство → системы → обратно | active |
@@ -234,13 +235,14 @@ generated: true
 | PD.FORM.077 | Art As Method Of Perception Transformation | Искусство как метод трансформации восприятия: художник проектирует среду восприятия (рабочий продукт), чтобы изменить состояние сознания зрителя | active |
 | PD.FORM.078 | Strategic Position States & Playbooks | Four states of strategic position (Development, Chaos, Ceiling, Pivot) with diagnostic criteria, playbooks (action recipes), transition conditions, and typical traps for each state | current |
 | PD.FORM.079 | Three Attention Objects Beginner | Три объекта внимания новичка: мировоззрение+цель, навыки+инструменты, ресурсы+окружение — агрегация 6 направлений и 9 характеристик для ступеней 0-1 | active |
-| PD.FORM.080 | Stage Direction Normative Matrix | Матрица нормативных состояний: 5 ступеней зрелости × 6 направлений развития. Целевое состояние, индикаторы, ведущие/поддерживающие оси на каждой ступени | draft |
+| PD.FORM.080 | Stage Direction Normative Matrix | Матрица нормативных состояний: 5 ступеней × 6 направлений. Мировоззренческие критерии перехода Д→П (разворот внимания на мир, agency, системное мышление) | draft |
 | PD.FORM.081 | Five Development Areas | Проекция 6 направлений развития (FORM.002) в 5 областей применения программы ЛР. Области = контексты, в которых развиваются 2 объекта (мировоззрение + мастерство) | draft |
 | PD.FORM.082 | Three Lifestyle Contexts | Три контекста стиля жизни: Саморазвитие, Работа, Досуг. Замена лестницы 29 ступеней. Граф зависимостей + привязка к ступеням ученика | draft |
 | PD.FORM.083 | Note Categories | Формализация семи категорий заметок с маршрутами маршрутизации: от fleeting-notes до целевых документов | active |
 | PD.FORM.084 | Notes Pipeline | — | active |
 | PD.FORM.085 | Agent Description Meta Models | Три мета-модели описания агента: атрибутивная (качества), деятельностная (процессы), ролевая (функции в системах). Ролевая — наиболее продуктивна для саморазвития | active |
 | PD.FORM.086 | Semiosis As Metanoia Mechanism | Семиозис как механизм метанойи: переход между ступенями мастерства происходит через смену режима интерпретации знаков — не через накопление данных, а через переопределение смысла | active |
+| PD.FORM.087 | Creator Role Trajectory | Ролевая траектория созидателя: нелинейная пирамида из 5 ролей (Ученик→Интеллектуал→Профессионал→Исследователь→Просветитель) — модель смещения фокуса инвестиций по мере развития | active |
 
 ### METHOD
 
@@ -252,7 +254,7 @@ generated: true
 | PD.METHOD.004 | Thinking in Writing | Метод создания мыслей через письмо: заметки → черновики → заготовки, обучающий нейронную сеть агента через материализацию мышления | active |
 | PD.METHOD.005 | Thinking by Speaking | Метод создания и тестирования понимания через вербальное выражение: проговаривание понятий и их связей для усвоения нового знания | active |
 | PD.METHOD.006 | Leisure Organization | Метод систематического управления практиками досуга: выбор, планирование и контроль на всех временных горизонтах для восстановления и качества жизни | active |
-| PD.METHOD.007 | Environment Formation | Метод осознанного долгосрочного развития физической и социальной среды для обеспечения условий продуктивной деятельности и саморазвития | active |
+| PD.METHOD.007 | Environment Formation | Метод осознанного развития физической и социальной среды: типология агентов влияния (усилители/тормоза/зеркала), постановка в роль, системные уровни | active |
 | PD.METHOD.008 | Strategizing | Метод непрерывной разработки и реализации личной стратегии: выявление неудовлетворённостей, выбор приоритетных проектов и тестирование гипотез | active |
 | PD.METHOD.009 | Planning | Метод преобразования задач в формулировки работ и размещения их в физическом времени с учётом ресурсов и дедлайнов | active |
 | PD.METHOD.010 | Daily Reflective Role-Product Review | Вечерняя микро-практика: перечисление ролей дня, внешних и внутренних рабочих продуктов — предотвращение иллюзии продуктивности | active |
@@ -327,15 +329,15 @@ generated: true
 
 | ID | Days Since Update |
 |----|-------------------|
-| PD.METHOD.001 | 435 |
-| PD.WP.001 | 435 |
-| PD.FAIL.001 | 435 |
-| PD.FAIL.002 | 435 |
-| PD.FAIL.003 | 435 |
-| PD.FAIL.004 | 435 |
-| PD.FAIL.005 | 435 |
-| PD.FAIL.006 | 435 |
+| PD.METHOD.001 | 436 |
+| PD.WP.001 | 436 |
+| PD.FAIL.001 | 436 |
+| PD.FAIL.002 | 436 |
+| PD.FAIL.003 | 436 |
+| PD.FAIL.004 | 436 |
+| PD.FAIL.005 | 436 |
+| PD.FAIL.006 | 436 |
 
 ---
 
-*Generated by `scripts/generate-map.py` on 2026-04-15*
+*Generated by `scripts/generate-map.py` on 2026-04-16*

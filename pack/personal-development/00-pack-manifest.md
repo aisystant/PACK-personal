@@ -241,7 +241,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FORM.035 | Uniformity Parameters | FORM | 5 параметров равномерности: сплошность, равносильность, одновременность входа и выхода, равнонаправленность; критерии качества произвольной регуляции | active |
 | PD.FORM.036 | Adequate Control Cycle | FORM | Цикл адекватного управления: восприятие → мышление/интерпретация → действие; работает только в замкнутом цикле, не по частям | active |
 | PD.FORM.037 | Phases Of Muscular Action | FORM | 5 фаз мышечного действия: координация, усилие до движения кости, усилие во время движения, усилие после движения, цель; регуляция работает только в фазах 1-3 | active |
-| PD.FORM.038 | Productive State Scale | FORM | Шкала продуктивного состояния (0-5): Critical, Failure, Decline, Satisfactory, Functional, Peak — каждый уровень с предписанным классом активности | active |
+| PD.FORM.038 | Productive State Scale | FORM | Шкала продуктивного состояния (0-5): Critical→Peak — спектр состояний с предписанной активностью, управление через досуг, связь со ступенями ученика | active |
 | PD.FORM.039 | Productive State Invariants | FORM | Три инварианта продуктивного состояния: WLNK (слабое звено), MONO (монотонность), COMM (аддитивность) — инженерное следствие: всегда чини слабейшее звено | active |
 | PD.FORM.040 | Three Echelons Of State Management | FORM | Три эшелона управления состоянием: мониторинг (обнаружение), превенция (предупреждение), рост потенциала (расширение конверта) | active |
 | PD.FORM.041 | Three Levels Of Problem Origin | FORM | Три уровня возникновения проблем: мировоззрение, мастерство, системы; метод-бандл: мировоззрение → психология → мастерство → системы → обратно | active |
@@ -280,13 +280,14 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FORM.077 | Art As Method Of Perception Transformation | FORM | Искусство как метод трансформации восприятия: художник проектирует среду восприятия (рабочий продукт), чтобы изменить состояние сознания зрителя | active |
 | PD.FORM.078 | Strategic Position States & Playbooks | FORM | Four states of strategic position (Development, Chaos, Ceiling, Pivot) with diagnostic criteria, playbooks (action recipes), transition conditions, and typical traps for each state | current |
 | PD.FORM.079 | Three Attention Objects Beginner | FORM | Три объекта внимания новичка: мировоззрение+цель, навыки+инструменты, ресурсы+окружение — агрегация 6 направлений и 9 характеристик для ступеней 0-1 | active |
-| PD.FORM.080 | Stage Direction Normative Matrix | FORM | Матрица нормативных состояний: 5 ступеней зрелости × 6 направлений развития. Целевое состояние, индикаторы, ведущие/поддерживающие оси на каждой ступени | draft |
+| PD.FORM.080 | Stage Direction Normative Matrix | FORM | Матрица нормативных состояний: 5 ступеней × 6 направлений. Мировоззренческие критерии перехода Д→П (разворот внимания на мир, agency, системное мышление) | draft |
 | PD.FORM.081 | Five Development Areas | FORM | Проекция 6 направлений развития (FORM.002) в 5 областей применения программы ЛР. Области = контексты, в которых развиваются 2 объекта (мировоззрение + мастерство) | draft |
 | PD.FORM.082 | Three Lifestyle Contexts | FORM | Три контекста стиля жизни: Саморазвитие, Работа, Досуг. Замена лестницы 29 ступеней. Граф зависимостей + привязка к ступеням ученика | draft |
 | PD.FORM.083 | Note Categories | FORM | Формализация семи категорий заметок с маршрутами маршрутизации: от fleeting-notes до целевых документов | active |
 | PD.FORM.084 | Notes Pipeline | FORM | — | active |
 | PD.FORM.085 | Agent Description Meta Models | FORM | Три мета-модели описания агента: атрибутивная (качества), деятельностная (процессы), ролевая (функции в системах). Ролевая — наиболее продуктивна для саморазвития | active |
 | PD.FORM.086 | Semiosis As Metanoia Mechanism | FORM | Семиозис как механизм метанойи: переход между ступенями мастерства происходит через смену режима интерпретации знаков — не через накопление данных, а через переопределение смысла | active |
+| PD.FORM.087 | Creator Role Trajectory | FORM | Ролевая траектория созидателя: нелинейная пирамида из 5 ролей (Ученик→Интеллектуал→Профессионал→Исследователь→Просветитель) — модель смещения фокуса инвестиций по мере развития | active |
 | PD.MAP.001 | Pack Navigation Map | MAP | — | — |
 | PD.METHOD.001 | Time Accounting | METHOD | \"Метод непрерывной регистрации и категоризации трат времени для получения эмпирических данных о распределении ресурса\" | active |
 | PD.METHOD.002 | Learner Method | METHOD | Метод обучения ученика: регулярные слоты, экзокортекс, рефлексия и недельные контракты | active |
@@ -294,7 +295,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.METHOD.004 | Thinking in Writing | METHOD | Метод создания мыслей через письмо: заметки → черновики → заготовки, обучающий нейронную сеть агента через материализацию мышления | active |
 | PD.METHOD.005 | Thinking by Speaking | METHOD | Метод создания и тестирования понимания через вербальное выражение: проговаривание понятий и их связей для усвоения нового знания | active |
 | PD.METHOD.006 | Leisure Organization | METHOD | Метод систематического управления практиками досуга: выбор, планирование и контроль на всех временных горизонтах для восстановления и качества жизни | active |
-| PD.METHOD.007 | Environment Formation | METHOD | Метод осознанного долгосрочного развития физической и социальной среды для обеспечения условий продуктивной деятельности и саморазвития | active |
+| PD.METHOD.007 | Environment Formation | METHOD | Метод осознанного развития физической и социальной среды: типология агентов влияния (усилители/тормоза/зеркала), постановка в роль, системные уровни | active |
 | PD.METHOD.008 | Strategizing | METHOD | Метод непрерывной разработки и реализации личной стратегии: выявление неудовлетворённостей, выбор приоритетных проектов и тестирование гипотез | active |
 | PD.METHOD.009 | Planning | METHOD | Метод преобразования задач в формулировки работ и размещения их в физическом времени с учётом ресурсов и дедлайнов | active |
 | PD.METHOD.010 | Daily Reflective Role-Product Review | METHOD | Вечерняя микро-практика: перечисление ролей дня, внешних и внутренних рабочих продуктов — предотвращение иллюзии продуктивности | active |
@@ -329,6 +330,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.SOTA.001 | Registration Method {#i1-registration-method} | SOTA | Состояние искусства: шесть интерпретаций учёта времени с оценкой актуальности каждой | — |
 | PD.SOTA.002 | Strategy Tools | SOTA | Сравнительный анализ методов и инструментов личного стратегирования и планирования: GTD, PARA, Zettelkasten, OKR, Shape Up — что взять в IWE и почему | current |
 | PD.SOTA.003 | Cognitive Patterns of Multitasking and Parallel Orchestration | SOTA | Когнитивные паттерны многозадачности, когнитивной разгрузки и параллельной оркестрации ИИ-агентов: различения, ограничения, условия безопасности | current |
+| PD.SOTA.004 | Landscape of Personal Development Programs and Evidence Base | SOTA | Сравнительный обзор 15 программ/подходов к личному развитию (GTD, 7 Habits, Atomic Habits, Deep Work, Tiny Habits, Huberman, Flow, Dreyfus и др.) — доказательная база, что берём для обоснования программы ЛР | current |
 | PD.SPEC.001 | Контракт контекста Портного (Tailor Context Contract) | SPEC | Спецификация формата входных данных Портного (R27): какие поля читаются из ЦД, в каком формате, какое поведение при отсутствии данных. WP-149 задаёт контракт. WP-151 реализует хранение. WP-175 реализует MCP endpoint get_tailor_context(). | draft |
 | PD.STATE.001 | States | STATE | Категории состояний созидателя: продуктивное, эмоциональное, ролевое, неудовлетворённости и физическое | active |
 | PD.STATE.002 | Discomposure | STATE | Состояние разобранности: самоподдерживающееся анти-состояние с петлёй потери фокуса -> ошибки -> потеря ресурсов -> ещё больше потери фокуса | active |
@@ -357,4 +359,4 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.WP.017 | Learner Diagnostic Map | WP | Карта диагностики ученика: структурированная оценка текущей позиции агента по множеству измерений (состояния, убеждения, привычки, окружение, характеристики) с выявлением бутылочного горлышка | active |
 | PD.WP.018 | Meaning Canvas | WP | Канва смысла: одностраничный структурированный документ, фиксирующий текущее понимание агентом смысла жизни по матрице 'Я-Мы-Мир x Понимание-Цель-Значимость' | active |
 
-> *Auto-generated by `generate-map.py` on 2026-04-15*
+> *Auto-generated by `generate-map.py` on 2026-04-16*
