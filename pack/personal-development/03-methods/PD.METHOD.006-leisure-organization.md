@@ -108,6 +108,25 @@ Leisure must be present at all time scales — no horizon should be empty:
 
 ---
 
+## State-Dependent Practice Selection
+
+Leisure practice selection depends on the agent's current productive state ([PD.FORM.038 Productive State Scale](../02-domain-entities/formalizations/PD.FORM.038-productive-state-scale.md)). Not all leisure is accessible at all states — at low states, demanding or stimulating practices may worsen recovery. Matching leisure intensity to current state prevents the common failure mode of exhausting an already depleted agent with demanding "recovery" activities.
+
+| State Level | Recommended Leisure Class |
+|-------------|--------------------------|
+| 0 Critical — complete blackout, illness | Medical care, accept help; no leisure practice applicable |
+| 1 Failure — burnout, depression, cannot focus | Disconnect from work, sleep, quiet; passive rest only |
+| 2 Decline — energy exhausted, clearly conscious fatigue | Passive recovery, simple mechanical tasks, nature walks |
+| 3 Satisfactory — stable, habitual rhythm | Active leisure, sport, standard echeloned practices apply |
+| 4 Functional — clear thinking, ready for new and complex | Full echeloned leisure including intense experiences |
+| 5 Peak — invulnerable, energy overflow | Creative breakthroughs, demanding practices (travel, new skills) |
+
+Source: scale and descriptions adapted from [Шкала оценки продуктивного состояния от 0 до 5](https://systemsworld.club/t/shkala-oczenki-produktivnogo-sostoyaniya-ot-0-do-5/31341).
+
+Related: [PD.FORM.068 State-Dependent Task Allocation](../02-domain-entities/formalizations/PD.FORM.068-state-dependent-task-allocation.md) — the same principle applied to work tasks.
+
+---
+
 ## Failure Modes
 
 | Failure Mode | Description |
