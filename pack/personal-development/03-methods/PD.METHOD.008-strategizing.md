@@ -5,7 +5,7 @@ status: active
 summary: "Метод непрерывной разработки и реализации личной стратегии: выявление неудовлетворённостей, выбор приоритетных проектов и тестирование гипотез"
 sota: current
 created: 2026-02-11
-last_updated: 2026-03-21
+last_updated: 2026-04-20
 related:
   produces: [PD.WP.005, PD.WP.006, PD.WP.007]
   uses: [PD.D.017, PD.D.016, PD.FORM.078, PD.CHR.007]
@@ -16,234 +16,229 @@ related:
 tags: [strategy, planning, projects, dissatisfactions, priorities]
 ---
 
-# [PD.METHOD.008] Strategizing
+# [PD.METHOD.008] Стратегирование
 
 ---
 
-## Definition
+## Определение
 
-**Strategizing** is a continuous process of developing, testing, and implementing personal strategy. It includes identifying dissatisfactions, formulating hypotheses about how to resolve them, selecting priority projects, and systematically testing these hypotheses through action. Strategizing is a process, not a document — the strategy-as-document quickly becomes obsolete (within days), which is why the practice must be continuous.
+**Стратегирование** — непрерывный процесс разработки, тестирования и реализации личной стратегии. Включает выявление неудовлетворённостей, формулирование гипотез об их разрешении, отбор приоритетных проектов и систематическую проверку этих гипотез через действие. Стратегирование — это процесс, а не документ: стратегия-как-документ устаревает в течение дней, поэтому практика должна быть непрерывной.
 
-Strategizing is NOT:
-- Planning (planning distributes tasks in time; strategizing determines which projects to pursue)
-- Goal-setting alone (strategizing includes hypothesis testing and pivoting, not just stating goals)
-- One-time exercise (must be performed weekly as a regular session)
-- Thinking in the head (all work products are created through thinking in writing)
-
----
-
-## Purpose
-
-| Function | Description |
-|----------|-------------|
-| **Anxiety reduction** | Systematic processing of dissatisfactions reduces unstructured worry |
-| **Focus on important** | Protects attention from urgent trivia by maintaining explicit priorities |
-| **Proactive posture** | Reduces probability of unpleasant surprises through forward-looking analysis |
-| **Strategic mastery** | Develops the capability of making and revising strategic decisions |
-| **Agency** | "Either you strategize, or others plan you" — explicit strategy is an immune system against being used as a resource |
+Стратегирование — это НЕ:
+- Планирование (планирование распределяет задачи во времени; стратегирование определяет, какие проекты вести)
+- Только целеполагание (стратегирование включает проверку гипотез и пивоты, а не только декларацию целей)
+- Разовое упражнение (выполняется еженедельно как регулярная сессия)
+- Обдумывание в голове (все рабочие продукты создаются через мышление письмом)
 
 ---
 
-## Inputs
+## Назначение
 
-| Input | Description | Required? |
-|-------|-------------|-----------|
-| Dissatisfactions | Problems, opportunities, emotions, feelings about gaps between current and desired state | Yes |
-| Fleeting notes | Ideas accumulated during the week between sessions | Yes |
-| Previous strategy materials | Prior dissatisfaction lists, project lists, criteria for review | No |
-| Time budget data | From Time Accounting — how time is currently allocated | No |
-
----
-
-## Outputs (Work Products)
-
-| Output | Link | Description |
-|--------|------|-------------|
-| Dissatisfaction list | [PD.WP.005](../04-work-products/PD.WP.005-dissatisfaction-list.md) | Documented problems, opportunities, associated emotions |
-| Strategy (document) | [PD.WP.006](../04-work-products/PD.WP.006-strategy.md) | Hypotheses about methods and projects for resolving dissatisfactions |
-| Priority projects list | [PD.WP.007](../04-work-products/PD.WP.007-priority-projects-list.md) | Selected projects for the strategizing horizon (1-7 projects) |
-
-Additional outputs: list of all projects, list of methods (practices), selection criteria, list of priority drafts.
+| Функция | Описание |
+|---------|----------|
+| **Снижение тревоги** | Систематическая проработка неудовлетворённостей снижает бесструктурное беспокойство |
+| **Фокус на важном** | Защищает внимание от срочных мелочей через явные приоритеты |
+| **Проактивная позиция** | Снижает вероятность неприятных сюрпризов через прогностический анализ |
+| **Стратегическое мастерство** | Развивает способность принимать и пересматривать стратегические решения |
+| **Агентность** | «Либо ты стратегируешь, либо тебя планируют другие» — явная стратегия = иммунная система против использования как ресурс |
 
 ---
 
-## Roles Involved
+## Входы
 
-| Role | Responsibility in This Method |
-|------|------------------------------|
-| [Learner](../02-domain-entities/02A-roles.md#learner) | Performs weekly strategizing sessions |
-
----
-
-## Related Methods
-
-| Method | Relationship |
-|--------|--------------|
-| [PD.METHOD.004 Thinking in Writing](./PD.METHOD.004-thinking-in-writing.md) | Instrumental — all strategizing products are created through thinking in writing |
-| [PD.METHOD.003 Systematic Slow Reading](./PD.METHOD.003-systematic-slow-reading.md) | Follows — reading materials are selected based on strategizing priorities |
-| [PD.METHOD.001 Time Accounting](./PD.METHOD.001-time-accounting.md) | Provides data — time budget informs resource allocation decisions |
+| Вход | Описание | Обязательный? |
+|------|----------|---------------|
+| Неудовлетворённости | Проблемы, возможности, эмоции, ощущения разрыва между текущим и желаемым состоянием | Да |
+| Fleeting notes | Идеи, накопленные за неделю между сессиями | Да |
+| Предыдущие материалы стратегирования | Прошлые списки неудовлетворённостей, проектов, критерии для пересмотра | Нет |
+| Данные бюджета времени | Из Time Accounting — как распределено время сейчас | Нет |
 
 ---
 
-## Key Distinctions
+## Выходы (рабочие продукты)
 
-| Distinction | Link | Why It Matters |
-|-------------|------|----------------|
-| Strategizing vs. Planning | [D.017](../01-domain-contract/01B-distinctions.md#d017-strategizing-vs-planning) | Strategizing determines WHAT to pursue; planning determines WHEN and HOW to execute |
-| Strategy (document) vs. Strategy (method) | — | Document is a snapshot of hypotheses; method is the way of achieving goals |
-| Problem vs. Dissatisfaction vs. Emotion | — | Problem is the gap; dissatisfaction is the psychic state; emotion is its expression |
-| Caliber as lens vs. Caliber as filter | [PD.CHR.007](../02-domain-entities/characteristics/PD.CHR.007-personality-caliber.md) | Caliber should expand awareness of one's current level and the horizon ahead, not block ambitious projects. When a project exceeds the current caliber, identify what's needed (skills, resources, allies) rather than refusing the project |
+| Выход | Ссылка | Описание |
+|-------|--------|----------|
+| Список неудовлетворённостей | [PD.WP.005](../04-work-products/PD.WP.005-dissatisfaction-list.md) | Зафиксированные проблемы, возможности, связанные эмоции |
+| Стратегия (документ) | [PD.WP.006](../04-work-products/PD.WP.006-strategy.md) | Гипотезы о методах и проектах для разрешения неудовлетворённостей |
+| Список приоритетных проектов | [PD.WP.007](../04-work-products/PD.WP.007-priority-projects-list.md) | Отобранные проекты на горизонт стратегирования (1-7 проектов) |
+
+Дополнительные выходы: список всех проектов, список методов (практик), критерии отбора, список приоритетных черновиков.
 
 ---
 
-## Dissatisfaction Structure
+## Задействованные роли
 
-Each dissatisfaction (НЭП) has three components:
+| Роль | Ответственность в этом методе |
+|------|-------------------------------|
+| [Ученик](../02-domain-entities/02A-roles.md#learner) | Проводит еженедельные сессии стратегирования |
 
-| Component | Description | Example |
-|-----------|-------------|---------|
-| **Need** | Underlying human need (safety, recognition, socialization, cognition) | Safety |
-| **Dissatisfaction** | Gap between current and desired state | "Unrealized potential due to lack of growth for 10 years" |
-| **Emotion** | Psychic expression of the gap | Frustration, anxiety, excitement |
+---
 
-Capturing the emotion is not optional — it serves as a signal of priority and urgency. Dissatisfactions without named emotions tend to be intellectualized and deprioritized.
+## Связанные методы
 
-## States of Strategic Position
+| Метод | Связь |
+|-------|-------|
+| [PD.METHOD.004 Мышление письмом](./PD.METHOD.004-thinking-in-writing.md) | Инструментальная — все продукты стратегирования создаются через мышление письмом |
+| [PD.METHOD.003 Систематическое медленное чтение](./PD.METHOD.003-systematic-slow-reading.md) | Следует — материалы для чтения отбираются на основе приоритетов стратегирования |
+| [PD.METHOD.001 Учёт времени](./PD.METHOD.001-time-accounting.md) | Поставщик данных — бюджет времени информирует решения о распределении ресурсов |
 
-At any given period, the strategist operates in one of four states. Each state has a concrete playbook (diagnostic criteria, action recipe, traps, transition conditions) — see [PD.FORM.078](../02-domain-entities/formalizations/PD.FORM.078-strategic-position-playbooks.md) for full details.
+---
 
-| State | Signal | Action |
-|-------|--------|--------|
-| **Development** | Completion rate growing, projects advancing, pipeline healthy | Continue current strategy, optimize execution |
-| **Chaos** | Completion rate collapsed, too many urgent items, no focus | Reduce scope drastically, stabilize 1-3 projects |
-| **Ceiling** | Completion rate high but no growth, same results | Change strategy, seek new leverage (new method, tool, partner) |
-| **Pivot** | Fundamental assumption invalidated | Reassess dissatisfactions, may need new strategy entirely |
+## Ключевые различения
 
-The state is declared at the beginning of each monthly focus and reassessed weekly.
+| Различение | Ссылка | Почему важно |
+|------------|--------|--------------|
+| Стратегирование vs Планирование | [D.017](../01-domain-contract/01B-distinctions.md#d017-strategizing-vs-planning) | Стратегирование определяет ЧТО вести; планирование — КОГДА и КАК исполнять |
+| Стратегия (документ) vs Стратегия (метод) | — | Документ — снимок гипотез; метод — способ достижения целей |
+| Проблема vs Неудовлетворённость vs Эмоция | — | Проблема — разрыв; неудовлетворённость — психическое состояние; эмоция — его выражение |
+| Калибр как линза vs Калибр как фильтр | [PD.CHR.007](../02-domain-entities/characteristics/PD.CHR.007-personality-caliber.md) | Калибр должен расширять осознание текущего уровня и горизонта впереди, а не блокировать амбициозные проекты. Когда проект превышает текущий калибр — выявить недостающее (навыки, ресурсы, союзники), а не отказываться от проекта |
 
-## Theory of Constraints (ТОС) in Strategizing
+---
 
-Each month has 1-2 **constraints** (bottlenecks) that limit throughput of the entire system. Identifying and focusing on the constraint is more effective than optimizing non-constraints.
+## Структура неудовлетворённости
 
-**Monthly cycle:** Identify constraint → Focus resources → Measure progress → Reassess.
-**Weekly cycle:** ТОС-week = which constraint gets attention this week?
+У каждой неудовлетворённости (НЭП) есть три компонента:
 
-The constraint links to specific monthly results and РП — it answers "what blocks everything else?"
+| Компонент | Описание | Пример |
+|-----------|----------|--------|
+| **Потребность** | Базовая человеческая потребность (безопасность, признание, социализация, познание) | Безопасность |
+| **Неудовлетворённость** | Разрыв между текущим и желаемым состоянием | «Нереализованный потенциал из-за отсутствия роста в течение 10 лет» |
+| **Эмоция** | Психическое выражение разрыва | Фрустрация, тревога, воодушевление |
 
-## Каскад Вход-Действие-Выход на пяти уровнях
+Фиксация эмоции не опциональна — она служит сигналом приоритета и срочности. Неудовлетворённости без названной эмоции склонны интеллектуализироваться и уходить в низкий приоритет.
 
-Стратегирование и планирование образуют единый каскад из **пяти уровней**. На каждом уровне есть Вход, Действие и Выход (ВДВ). Выход уровня входит во Вход уровня ниже; каждый уровень также переносит **carry-over** — элементы, незавершённые на предыдущей итерации того же уровня.
+## Состояния стратегической позиции
 
-Уровень 2 (Проект) — **стабильная связка** между неудовлетворённостями, которые нестабильны, и результатами месяца, которые меняются каждый месяц. Без этого уровня стратегирование болтается между высокой аспирацией (годовые желания) и тактическим отбором РП (недельный план) — нет промежуточного слоя, живущего годами.
+В каждый момент стратег находится в одном из четырёх состояний. У каждого состояния есть конкретный playbook (диагностические критерии, рецепт действий, ловушки, условия перехода) — детали в [PD.FORM.078](../02-domain-entities/formalizations/PD.FORM.078-strategic-position-playbooks.md).
+
+| Состояние | Сигнал | Действие |
+|-----------|--------|----------|
+| **Развитие** | Completion rate растёт, проекты продвигаются, pipeline здоров | Продолжать текущую стратегию, оптимизировать исполнение |
+| **Хаос** | Completion rate обрушился, слишком много срочного, нет фокуса | Резко сократить scope, стабилизировать 1-3 проекта |
+| **Потолок** | Completion rate высокий, но нет роста, те же результаты | Сменить стратегию, искать новое плечо (новый метод, инструмент, партнёр) |
+| **Пивот** | Фундаментальное допущение опровергнуто | Переосмыслить неудовлетворённости, может потребоваться новая стратегия целиком |
+
+Состояние объявляется в начале каждого месячного фокуса и пересматривается еженедельно.
+
+## Теория ограничений (ТОС) в стратегировании
+
+В каждом месяце есть 1-2 **ограничения** (узких места), которые лимитируют пропускную способность всей системы. Выявление и фокус на ограничении эффективнее оптимизации неограничений.
+
+**Месячный цикл:** выявить ограничение → сфокусировать ресурсы → измерить прогресс → пересмотреть.
+**Недельный цикл:** ТОС-недели = какому ограничению уделяется внимание на этой неделе?
+
+Ограничение связывается с конкретными результатами месяца и РП — отвечает на вопрос «что блокирует всё остальное?»
+
+## Каскад Вход-Действие-Выход (5 уровней)
+
+Стратегирование и планирование — единый каскад из **пяти уровней**. На каждом уровне есть Вход, Действие и Выход (ВДВ). Выход уровня входит во Вход уровня ниже; каждый уровень также переносит **carry-over** — элементы, незавершённые на предыдущей итерации того же уровня.
+
+Уровень 2 (Проект) — **стабильная скрепа** между неудовлетворённостями (нестабильны) и результатами месяца (меняются каждый месяц). Без этого уровня стратегирование болтается между высокой аспирацией (годовые желания) и тактическим отбором РП (недельный план) — нет промежуточного слоя, живущего годами.
 
 | Уровень | Вход | Действие | Выход |
 |---------|------|----------|-------|
-| **Год** | Неудовлетворённости (S-список), желания, гипотезы «если → то», внешний контекст | Годовая сессия | Документ стратегии, § Год (свободная форма: желаемые состояния + гипотезы) |
-| **Проект** | Годовые желания + ядра доменов (репозитории, области практики) | Дизайн проекта (активация/архивация) | Список проектов P1…Pn, привязанных к неудовлетворённостям и ядрам доменов |
-| **Месяц** | Год + активные P + carry-over предыдущего месяца | Месячная сессия (первая стратегическая сессия месяца) | Фокус месяца: R1…Rn с критериями done и бюджетами, каждый R привязан к P |
-| **Неделя** | R1…Rn текущего месяца + недельный carry-over + бюджет времени | Недельная стратегическая сессия + отбор приоритетных РП | WeekPlan: список РП, каждый связан с R (и через R — с P) |
-| **День** | WeekPlan + события календаря + captured notes | Day Open | DayPlan: задачи дня из WeekPlan + очередь разбора заметок |
+| **Год** | НЭП (S-список), желания, гипотезы «если→то», внешний контекст | Annual Session | Strategy.md § Год (свободный текст: желаемые состояния + гипотезы) |
+| **Проект** | Годовые желания + ядра репо экосистемы развития | Проектирование стабильных направлений | Projects.md: P1…PN с привязкой НЭП→Ядра репо |
+| **Месяц** | Год + активные P + carry-over предыдущего месяца | Monthly Session | Strategy.md § Фокус месяца: R1-RN с бюджетом, каждый R→P |
+| **Неделя** | R1-RN текущего месяца + carry-over недели + бюджет | Strategy Session (Пн) + отбор РП (PD.METHOD.017) | WeekPlan W{N}: таблица РП с колонкой P |
+| **День** | WeekPlan + события календаря + capture (inbox/fleeting) | Day Open | DayPlan: работы дня из WeekPlan |
 
-### Инварианты
+**Инвариант цепочки:** каждый уровень читает выход уровня выше и carry-over своего уровня. Обратно: отчёты агрегируют факты (Day Close → WeekReport → Month Close → Year Review).
 
-1. **Чтение сверху вниз.** Каждый уровень читает Выход уровня выше (и предыдущей итерации того же уровня). Нарушение связи = тактическая работа, оторванная от стратегии.
-2. **Агрегация снизу вверх.** Отчёты идут обратно: Day Close → WeekReport → Month Close → Year Review. Факты складываются в паттерны, которые входят в следующую Годовую сессию.
-3. **Долговечность проекта.** Проекты живут годами — новый проект появляется, когда появляется новое ядро домена. Результаты месяца меняются каждый месяц, но каждый R принадлежит ровно одному P.
-4. **РП через R.** Рабочий продукт (РП) наследует свой Проект через свой Результат месяца. Если РП нельзя привязать к R → он off-plan и либо привязывается, либо убирается.
+**Связь «Проект»:** P живёт годами, меняется редко (новое ядро репо → новый P). R меняется каждый месяц, но каждый R принадлежит одному P (вопрос на Monthly Session: «каким P питается этот R?»). WP — дочерние элементы R, наследуют P через R (колонка P в WP-REGISTRY).
 
-### Сигнал сбоя
+**Сигнал сбоя:** если на вопрос «к какому P относится этот R?» или «какому R служит этот WP?» нельзя ответить — каскад сломан в этом стыке. Лекарство не в том, чтобы придумать placeholder, а в том, чтобы остановиться и пересмотреть: либо элемент не нужен, либо новый P / R должны быть объявлены явно.
 
-Если на вопрос «к какому P относится этот R?» или «какому R служит этот РП?» нельзя ответить — каскад сломан в этом стыке. Лекарство не в том, чтобы придумать placeholder, а в том, чтобы остановиться и пересмотреть: либо элемент не нужен, либо новый P / R должны быть объявлены явно.
+## Недельная сессия (Weekly Session)
 
-## Weekly Session
+Ядро практики — еженедельная сессия стратегирования (рекомендуется: один и тот же день и время каждую неделю):
 
-The core practice is a weekly strategizing session (recommended: same day and time each week):
+| Фаза | Активность |
+|------|-----------|
+| 0 | Ревью списка неудовлетворённостей — добавить новые, обновить эмоции, проверить приоритеты |
+| 1 | Ревью прошлой недели — completion rate, коммиты vs план |
+| 1b | Note-Review sweep — обработать накопившиеся fleeting-notes: классифицировать по 7 категориям ([PD.FORM.083](../02-domain-entities/formalizations/PD.FORM.083-note-categories.md)), маршрутизировать в неудовлетворённости / WeekPlan / captures / черновики |
+| 2 | Ревью месячного фокуса — обновить таблицу результатов, проверить ТОС, пересмотреть состояние |
+| 2b | Линза калибра — объявить текущий калибр ([PD.CHR.007](../02-domain-entities/characteristics/PD.CHR.007-personality-caliber.md)), показать горизонт следующего уровня, отметить что нужно для перехода |
+| 3 | Применить критерии отбора — выбрать приоритетные проекты (1-7), привязанные к результатам месяца. Для проектов выше текущего калибра — выявить недостающие навыки/ресурсы/союзников |
+| 4 | Распределить бюджет времени — задать часы на каждый приоритетный проект |
+| 5 | Определить ТОС-недели — какому ограничению достанется фокус |
+| 6 | Проверить гипотезы — пересмотреть результаты предыдущего периода |
 
-| Phase | Activity |
-|-------|----------|
-| 0 | Review dissatisfaction list — add new, update emotions, check priorities |
-| 1 | Review last week — completion rate, коммиты vs plan |
-| 1b | Note-Review sweep — process accumulated fleeting-notes: classify by 7 categories ([PD.FORM.083](../02-domain-entities/formalizations/PD.FORM.083-note-categories.md)), route to Dissatisfactions / WeekPlan / captures / drafts |
-| 2 | Review monthly focus — update results table, check ТОС, reassess state |
-| 2b | Caliber lens — declare current caliber ([PD.CHR.007](../02-domain-entities/characteristics/PD.CHR.007-personality-caliber.md)), show horizon of next level, note what's needed to get there |
-| 3 | Apply selection criteria — choose priority projects (1-7) linked to monthly results. For projects exceeding current caliber: identify required skills/resources/allies |
-| 4 | Allocate time budget — set hours for each priority project |
-| 5 | Determine ТОС-week — which constraint gets focus |
-| 6 | Test hypotheses — review results from previous period |
+## Месячная сессия (первая стратегическая сессия месяца)
 
-## Monthly Session (first strategy session of the month)
-
-| Phase | Activity |
-|-------|----------|
-| 1 | Retro: compare monthly results with actual |
-| 2 | Archive current monthly focus |
-| 3 | Declare state (Development / Chaos / Ceiling / Pivot) |
-| 3b | Declare caliber ([PD.CHR.007](../02-domain-entities/characteristics/PD.CHR.007-personality-caliber.md)) and horizon — reassess monthly: has caliber grown? Is the horizon closer? |
-| 4 | Identify ТОС for new month (1-2 constraints) |
-| 5 | Formulate hypothesis (what will unblock progress) |
-| 6 | Define monthly results (R1-RN) with done criteria and budgets |
-| 7 | Map РП → Results |
-| 8 | Check alignment with annual vision — does this month's R still connect to the year? |
+| Фаза | Активность |
+|------|-----------|
+| 1 | Ретро: сравнить месячные результаты с фактическими |
+| 2 | Архивировать текущий месячный фокус |
+| 3 | Объявить состояние (Развитие / Хаос / Потолок / Пивот) |
+| 3b | Объявить калибр ([PD.CHR.007](../02-domain-entities/characteristics/PD.CHR.007-personality-caliber.md)) и горизонт — пересматривать ежемесячно: вырос ли калибр? Ближе ли горизонт? |
+| 4 | Выявить ТОС на новый месяц (1-2 ограничения) |
+| 5 | Сформулировать гипотезу (что разблокирует прогресс) |
+| 6 | Определить результаты месяца (R1-RN) с критериями done и бюджетами |
+| 7 | Сопоставить РП → Результаты |
+| 8 | Проверить согласованность с годовым видением — связан ли R месяца с годом? |
 
 ---
 
-## Constraints and Applicability
+## Ограничения и применимость
 
-| Constraint | Description |
-|------------|-------------|
-| **Weekly mandatory session** | Like meeting with a boss — cannot be cancelled except for illness |
-| **Project limit** | Optimally 1-3 priority projects for beginners, maximum 7 |
-| **Time investment per project** | 50-500 hours per project, 3-6 month horizon |
-| **Thinking in writing required** | All work products must be written, not kept in head |
-| **No fatal errors** | Selection criteria must include maximum acceptable damage |
+| Ограничение | Описание |
+|-------------|----------|
+| **Обязательная еженедельная сессия** | Как встреча с начальником — не отменяется кроме болезни |
+| **Лимит проектов** | Оптимально 1-3 приоритетных для начинающих, максимум 7 |
+| **Вложение времени на проект** | 50-500 часов на проект, горизонт 3-6 месяцев |
+| **Обязательное мышление письмом** | Все рабочие продукты записываются, не держатся в голове |
+| **Без фатальных ошибок** | Критерии отбора включают максимально допустимый ущерб |
 
-### When Applicable
-- When multiple dissatisfactions compete for attention
-- When direction of development is unclear
-- When resources (time, money) are limited and must be allocated
+### Когда применимо
+- Когда несколько неудовлетворённостей конкурируют за внимание
+- Когда направление развития неясно
+- Когда ресурсы (время, деньги) ограничены и нужно распределение
 
-### When Not Applicable
-- When a single clear task requires execution, not strategic choice
-
----
-
-## Failure Modes
-
-| Failure Mode | Description |
-|--------------|-------------|
-| Strategizing in the head | Without written products, main ideas are lost; low quality decisions |
-| Multitasking | More than 7 simultaneous projects leads to dispersal; none completed |
-| No regular session | Without weekly discipline, decisions are forgotten; return to intuitive behavior |
-| Drowning in dissatisfactions | Too many unprocessed dissatisfactions paralyze action |
-| No hypothesis testing | Strategy chosen but not tested through actual project work |
-| Ignoring fatal errors | Not defining maximum acceptable damage; one mistake can destroy years of progress |
-| Negative labor utility | Preferring current comfort over future benefit; not convinced of priority |
+### Когда неприменимо
+- Когда нужно исполнить одну чёткую задачу, а не делать стратегический выбор
 
 ---
 
-## SoTA Status
+## Режимы отказа
+
+| Режим отказа | Описание |
+|--------------|----------|
+| Стратегирование в голове | Без письменных продуктов ключевые идеи теряются; решения низкого качества |
+| Многозадачность | Более 7 параллельных проектов = распыление; ни один не завершается |
+| Нет регулярной сессии | Без еженедельной дисциплины решения забываются; возврат к интуитивному поведению |
+| Утопание в неудовлетворённостях | Слишком много необработанных неудовлетворённостей парализуют действие |
+| Отсутствие проверки гипотез | Стратегия выбрана, но не протестирована реальной работой |
+| Игнорирование фатальных ошибок | Не определён максимально допустимый ущерб; одна ошибка может уничтожить годы |
+| Отрицательная полезность труда | Предпочтение текущего комфорта будущей выгоде; нет уверенности в приоритете |
+
+---
+
+## Статус SoTA
 
 **Status**: `current`
 
-**Basis**: Personal strategizing as continuous process draws from corporate strategy practice (Eisenhower, Mintzberg) adapted to personal domain. The dissatisfaction-driven model and hypothesis-testing cycle are from Aisystant methodology. Active Inference framework supports the anxiety-reduction function.
+**Основание**: Личное стратегирование как непрерывный процесс опирается на корпоративную стратегическую практику (Eisenhower, Mintzberg), адаптированную к личному домену. Модель, управляемая неудовлетворённостями, и цикл проверки гипотез — из методологии Aisystant. Framework Active Inference поддерживает функцию снижения тревоги.
 
-This method synthesises five SOTA approaches — see [PD.SOTA.001-strategy-hierarchy.md](../06-sota/PD.SOTA.001-strategy-hierarchy.md) for the full comparative table and mapping to IWE documents.
+Этот метод синтезирует пять SOTA-подходов — полная сравнительная таблица и сопоставление с IWE-документами в [PD.SOTA.001-strategy-hierarchy.md](../06-sota/PD.SOTA.001-strategy-hierarchy.md).
 
-| SOTA Method | What this method takes from it |
-|-------------|-------------------------------|
+| SOTA-метод | Что метод берёт из него |
+|-----------|-------------------------|
 | **RBM** (Results-Based Management) | Цепочка Impact→Outcomes→Outputs→Activities — основа пятиуровневого стратегического каскада: Год (желаемые состояния / гипотезы) → Проект (стабильное ядро домена) → Результат месяца (измеримый outcome) → Неделя (отобранные РП) → День (исполняемая работа). Проект заменил уровень Q-целей, который отпал в апреле 2026 как избыточный между годовыми желаниями и результатами месяца |
 | **OKR** | Разделение: Objective (направление) ≠ Key Result (измеримый исход) ≠ Initiative (работа). Проект = long-running Objective, R = Key Result месяца, WP = Initiative |
-| **TOC** (Theory of Constraints) | One constraint per level — ТОС-месяца identifies the bottleneck that blocks all downstream results |
-| **Shape Up** | Appetite (h budget) → Bet (R-result) → Scope (WP). Time-boxing replaces task estimation |
-| **JTBD** | S-НЭП (strategic dissatisfactions) as Jobs — the source of goals outside the planning hierarchy |
+| **TOC** (Theory of Constraints) | Одно ограничение на уровень — ТОС-месяца выявляет узкое место, блокирующее все downstream-результаты |
+| **Shape Up** | Appetite (бюджет часов) → Bet (R-результат) → Scope (WP). Time-boxing заменяет оценку задач |
+| **JTBD** | S-НЭП (стратегические неудовлетворённости) как Jobs — источник целей вне иерархии планирования |
 
-**Revision criterion**: Status would change if evidence shows that intuitive decision-making produces equivalent life outcomes to systematic strategizing, or if AI-driven life optimization eliminates the need for personal strategy.
+**Критерий пересмотра**: статус изменится, если появятся данные, что интуитивное принятие решений даёт эквивалентные жизненные результаты систематическому стратегированию, или если AI-driven оптимизация жизни устранит необходимость в личной стратегии.
 
 ---
 
-## References to Related Items
+## Ссылки на связанные сущности
 
-- Work Product: [PD.WP.005 Dissatisfaction List](../04-work-products/PD.WP.005-dissatisfaction-list.md)
-- Work Product: [PD.WP.006 Strategy](../04-work-products/PD.WP.006-strategy.md)
-- Work Product: [PD.WP.007 Priority Projects List](../04-work-products/PD.WP.007-priority-projects-list.md)
-- Map: [PD.MAP.001](../07-map/PD.MAP.001.md)
+- Рабочий продукт: [PD.WP.005 Список неудовлетворённостей](../04-work-products/PD.WP.005-dissatisfaction-list.md)
+- Рабочий продукт: [PD.WP.006 Стратегия](../04-work-products/PD.WP.006-strategy.md)
+- Рабочий продукт: [PD.WP.007 Список приоритетных проектов](../04-work-products/PD.WP.007-priority-projects-list.md)
+- Карта: [PD.MAP.001](../07-map/PD.MAP.001.md)
