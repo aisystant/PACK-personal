@@ -2,9 +2,9 @@
 id: PD.WP.005
 name: Dissatisfaction List
 status: active
-summary: "Структурированный перечень неудовлетворённостей с описанием проблем, эмоций и связей с потребностями — вход для стратегирования"
+summary: "Структурированный перечень неудовлетворённостей: триада «проблема (в мире) + неудовлетворённость (во мне) + эмоция (сигнал)» — вход для стратегирования"
 created: 2026-02-11
-last_updated: 2026-02-11
+last_updated: 2026-04-20
 related:
   produced_by: [PD.METHOD.008]
 ---
@@ -15,7 +15,9 @@ related:
 
 ## Definition
 
-**Dissatisfaction List** is a structured inventory of the agent's dissatisfactions — psychic states arising in response to gaps between the current situation and the desired outcome. Each entry captures the problem (obstacle or opportunity), the associated dissatisfaction (psychic state linked to needs), and the emotions/feelings that express it. The list is the primary input for strategizing sessions.
+**Dissatisfaction List** is a structured inventory of the agent's dissatisfactions. Each entry captures a triad: the **problem** (an objective gap or situation in the world that the agent is aware of), the **dissatisfaction** it produces inside the agent (psychic state — gap between current and desired), and the **emotion** that signals it (priority/urgency marker). The list is the primary input for strategizing sessions.
+
+Causal chain: **problem in the world → agent becomes aware → dissatisfaction inside the agent → emotion as conscious signal**. The problem is objective, the dissatisfaction is subjective, the emotion is the bridge.
 
 A dissatisfaction list is NOT:
 - A to-do list (which contains tasks, not dissatisfactions)
@@ -32,7 +34,7 @@ A dissatisfaction list is NOT:
 | **Explicitation** | Transforms intuitive unease into formal descriptions that can be analyzed |
 | **Strategizing input** | Provides the primary data for selecting priority projects |
 | **Anxiety reduction** | Writing down dissatisfactions reduces unstructured worry |
-| **Pattern detection** | Over time, reveals recurring themes and underlying needs |
+| **Pattern detection** | Over time, reveals recurring problems and stable patterns of dissatisfaction |
 
 ---
 
@@ -59,8 +61,8 @@ A dissatisfaction list is NOT:
 | Criterion | Test |
 |-----------|------|
 | **Written artifact** | Can be opened and inspected by another person |
-| **Structured entries** | Each entry has: problem, dissatisfaction, emotion/feeling |
-| **Linked to needs** | Entries connected to underlying needs (safety, respect, self-realization, etc.) |
+| **Structured entries** | Each entry has the triad: problem (in the world), dissatisfaction (in the agent), emotion (signal) |
+| **Problem is objective** | Problem is described as a gap/situation in the world, not reduced to an internal psychic state |
 | **Regularly updated** | Updated at least weekly during strategizing sessions |
 | **Non-empty** | Contains at least one entry (zero dissatisfactions suggests incomplete reflection) |
 
@@ -74,7 +76,7 @@ A dissatisfaction list is NOT:
 |-----------|-------------|---------------|
 | **Completeness** | Covers all significant life areas, not just one domain | Multiple areas represented |
 | **Specificity** | Problems described concretely, not vaguely | Each entry has observable problem description |
-| **Need linkage** | Dissatisfaction linked to underlying need | "Because I need X" is explicit |
+| **Triad integrity** | Each entry has all three: problem (in the world), dissatisfaction (in the agent), emotion (signal) | Missing component = incomplete entry |
 | **Emotion differentiation** | Distinguishes emotions (minutes) from feelings (weeks-years) | Labels are specific, not generic |
 | **Actionability** | Each entry can potentially lead to a project | Not purely philosophical complaints |
 
@@ -84,16 +86,16 @@ A dissatisfaction list is NOT:
 
 | Form | Description |
 |------|-------------|
-| **Table** | Columns: problem, dissatisfaction, emotion/feeling, need, potential project |
+| **Table** | Columns: problem (in the world), dissatisfaction (in the agent), emotion (signal), system level, priority |
 | **Spreadsheet** | Structured data with sortable/filterable columns |
 | **Exocortex entry** | Note in personal knowledge base with tags and links |
 
 ### Minimal Structure
 
 ```
-| # | Problem | Dissatisfaction | Emotion/Feeling | Need | Potential Project |
-|---|---------|-----------------|-----------------|------|-------------------|
-| 1 | [observable gap] | [psychic state] | [specific emotion] | [Maslow level] | [possible action] |
+| # | Problem (in the world) | Dissatisfaction (in the agent) | Emotion | System Level | Priority |
+|---|------------------------|-------------------------------|---------|--------------|----------|
+| 1 | [objective gap/situation] | [psychic state it produces] | [specific emotion] | [agent/family/community/etc.] | [P0..P3 / корень] |
 ```
 
 ---
