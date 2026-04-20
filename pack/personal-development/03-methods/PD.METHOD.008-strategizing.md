@@ -130,6 +130,31 @@ Each month has 1-2 **constraints** (bottlenecks) that limit throughput of the en
 
 The constraint links to specific monthly results and РП — it answers "what blocks everything else?"
 
+## Cascade: Input-Action-Output at Five Levels
+
+Strategizing and planning form a single cascade with **five levels**. Each level has an Input, an Action, and an Output (ВДВ — Вход-Действие-Выход). The output of each level becomes part of the input to the level below; each level also carries forward its own **carry-over** (items unfinished at previous iteration).
+
+Level 2 (Project) is the **stable skein** between dissatisfactions, which are unstable, and monthly results, which change every month. Without this level, strategizing oscillates between high-level aspiration (annual wishes) and tactical task selection (weekly РП), with nothing in between that lives for years.
+
+| Level | Input | Action | Output | Period |
+|-------|-------|--------|--------|--------|
+| **Year** | Dissatisfactions (S-list), desires, «if → then» hypotheses, external context | Annual Session | Strategy document, § Year (free-form: desired states + hypotheses) | 1×/year + at pivot |
+| **Project** | Annual wishes + domain cores (repositories, practice areas) | Project design (1×/year, reviewed monthly for activity) | List of projects P1…Pn linked to dissatisfactions and domain cores | 1×/year + monthly activation review |
+| **Month** | Year + active P's + previous month carry-over | Monthly Session (first strategy session of the month) | Monthly focus: R1…Rn with done criteria and budgets, each R attached to a P | 1×/month |
+| **Week** | R1…Rn of current month + weekly carry-over + time budget | Weekly Strategy Session + priority project selection | WeekPlan: list of РП, each linked to an R (and via R — to a P) | 1×/week |
+| **Day** | WeekPlan + calendar events + captured notes | Day Open | DayPlan: today's work items from WeekPlan + note-review queue | 1×/day |
+
+### Invariants
+
+1. **Downward reading.** Each level reads the output of the level above (and of the previous iteration of the same level). Breaking this link produces tactical work disconnected from strategy.
+2. **Upward aggregation.** Reports flow back: Day Close → WeekReport → Month Close → Year Review. Facts aggregate into patterns that feed the next Annual Session.
+3. **Project longevity.** Projects live for years — new project appears when a new domain core appears. Monthly results change every month but must each belong to exactly one P.
+4. **RP through R.** A work product (РП) inherits its Project through its Result-of-month. If an РП cannot be traced to an R → it is off-plan and must be either linked or removed.
+
+### Failure signal
+
+If the question «which P does this R belong to?» or «which R does this РП serve?» cannot be answered, the cascade is broken at that junction. The remedy is not to invent a placeholder but to pause and reconsider: either the item is unnecessary, or a new P / R must be declared explicitly.
+
 ## Weekly Session
 
 The core practice is a weekly strategizing session (recommended: same day and time each week):
@@ -206,8 +231,8 @@ This method synthesises five SOTA approaches — see [PD.SOTA.001-strategy-hiera
 
 | SOTA Method | What this method takes from it |
 |-------------|-------------------------------|
-| **RBM** (Results-Based Management) | Chain Impact→Outcomes→Outputs→Activities — the basis for 5-level hierarchy (Mission→Vision→Q-goals→R-month→WP) |
-| **OKR** | Separation: Objective (direction) ≠ Key Result (measurable outcome) ≠ Initiative (work). Q-goals = Objectives, R = Key Results, WP = Initiatives |
+| **RBM** (Results-Based Management) | Chain Impact→Outcomes→Outputs→Activities — the basis for 5-level strategic cascade: Year (desired states / hypotheses) → Project (stable domain core) → R-month (measurable outcome) → Week (selected РП) → Day (executed work). Project replaced the earlier Q-goals level, which dropped out in April 2026 as redundant between annual wishes and monthly results |
+| **OKR** | Separation: Objective (direction) ≠ Key Result (measurable outcome) ≠ Initiative (work). Project = long-running Objective, R = Key Result of the month, WP = Initiative |
 | **TOC** (Theory of Constraints) | One constraint per level — ТОС-месяца identifies the bottleneck that blocks all downstream results |
 | **Shape Up** | Appetite (h budget) → Bet (R-result) → Scope (WP). Time-boxing replaces task estimation |
 | **JTBD** | S-НЭП (strategic dissatisfactions) as Jobs — the source of goals outside the planning hierarchy |
