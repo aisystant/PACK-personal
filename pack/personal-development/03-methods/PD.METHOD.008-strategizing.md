@@ -130,30 +130,30 @@ Each month has 1-2 **constraints** (bottlenecks) that limit throughput of the en
 
 The constraint links to specific monthly results and РП — it answers "what blocks everything else?"
 
-## Cascade: Input-Action-Output at Five Levels
+## Каскад Вход-Действие-Выход на пяти уровнях
 
-Strategizing and planning form a single cascade with **five levels**. Each level has an Input, an Action, and an Output (ВДВ — Вход-Действие-Выход). The output of each level becomes part of the input to the level below; each level also carries forward its own **carry-over** (items unfinished at previous iteration).
+Стратегирование и планирование образуют единый каскад из **пяти уровней**. На каждом уровне есть Вход, Действие и Выход (ВДВ). Выход уровня входит во Вход уровня ниже; каждый уровень также переносит **carry-over** — элементы, незавершённые на предыдущей итерации того же уровня.
 
-Level 2 (Project) is the **stable skein** between dissatisfactions, which are unstable, and monthly results, which change every month. Without this level, strategizing oscillates between high-level aspiration (annual wishes) and tactical task selection (weekly РП), with nothing in between that lives for years.
+Уровень 2 (Проект) — **стабильная связка** между неудовлетворённостями, которые нестабильны, и результатами месяца, которые меняются каждый месяц. Без этого уровня стратегирование болтается между высокой аспирацией (годовые желания) и тактическим отбором РП (недельный план) — нет промежуточного слоя, живущего годами.
 
-| Level | Input | Action | Output | Period |
-|-------|-------|--------|--------|--------|
-| **Year** | Dissatisfactions (S-list), desires, «if → then» hypotheses, external context | Annual Session | Strategy document, § Year (free-form: desired states + hypotheses) | 1×/year + at pivot |
-| **Project** | Annual wishes + domain cores (repositories, practice areas) | Project design (1×/year, reviewed monthly for activity) | List of projects P1…Pn linked to dissatisfactions and domain cores | 1×/year + monthly activation review |
-| **Month** | Year + active P's + previous month carry-over | Monthly Session (first strategy session of the month) | Monthly focus: R1…Rn with done criteria and budgets, each R attached to a P | 1×/month |
-| **Week** | R1…Rn of current month + weekly carry-over + time budget | Weekly Strategy Session + priority project selection | WeekPlan: list of РП, each linked to an R (and via R — to a P) | 1×/week |
-| **Day** | WeekPlan + calendar events + captured notes | Day Open | DayPlan: today's work items from WeekPlan + note-review queue | 1×/day |
+| Уровень | Вход | Действие | Выход |
+|---------|------|----------|-------|
+| **Год** | Неудовлетворённости (S-список), желания, гипотезы «если → то», внешний контекст | Годовая сессия | Документ стратегии, § Год (свободная форма: желаемые состояния + гипотезы) |
+| **Проект** | Годовые желания + ядра доменов (репозитории, области практики) | Дизайн проекта (активация/архивация) | Список проектов P1…Pn, привязанных к неудовлетворённостям и ядрам доменов |
+| **Месяц** | Год + активные P + carry-over предыдущего месяца | Месячная сессия (первая стратегическая сессия месяца) | Фокус месяца: R1…Rn с критериями done и бюджетами, каждый R привязан к P |
+| **Неделя** | R1…Rn текущего месяца + недельный carry-over + бюджет времени | Недельная стратегическая сессия + отбор приоритетных РП | WeekPlan: список РП, каждый связан с R (и через R — с P) |
+| **День** | WeekPlan + события календаря + captured notes | Day Open | DayPlan: задачи дня из WeekPlan + очередь разбора заметок |
 
-### Invariants
+### Инварианты
 
-1. **Downward reading.** Each level reads the output of the level above (and of the previous iteration of the same level). Breaking this link produces tactical work disconnected from strategy.
-2. **Upward aggregation.** Reports flow back: Day Close → WeekReport → Month Close → Year Review. Facts aggregate into patterns that feed the next Annual Session.
-3. **Project longevity.** Projects live for years — new project appears when a new domain core appears. Monthly results change every month but must each belong to exactly one P.
-4. **RP through R.** A work product (РП) inherits its Project through its Result-of-month. If an РП cannot be traced to an R → it is off-plan and must be either linked or removed.
+1. **Чтение сверху вниз.** Каждый уровень читает Выход уровня выше (и предыдущей итерации того же уровня). Нарушение связи = тактическая работа, оторванная от стратегии.
+2. **Агрегация снизу вверх.** Отчёты идут обратно: Day Close → WeekReport → Month Close → Year Review. Факты складываются в паттерны, которые входят в следующую Годовую сессию.
+3. **Долговечность проекта.** Проекты живут годами — новый проект появляется, когда появляется новое ядро домена. Результаты месяца меняются каждый месяц, но каждый R принадлежит ровно одному P.
+4. **РП через R.** Рабочий продукт (РП) наследует свой Проект через свой Результат месяца. Если РП нельзя привязать к R → он off-plan и либо привязывается, либо убирается.
 
-### Failure signal
+### Сигнал сбоя
 
-If the question «which P does this R belong to?» or «which R does this РП serve?» cannot be answered, the cascade is broken at that junction. The remedy is not to invent a placeholder but to pause and reconsider: either the item is unnecessary, or a new P / R must be declared explicitly.
+Если на вопрос «к какому P относится этот R?» или «какому R служит этот РП?» нельзя ответить — каскад сломан в этом стыке. Лекарство не в том, чтобы придумать placeholder, а в том, чтобы остановиться и пересмотреть: либо элемент не нужен, либо новый P / R должны быть объявлены явно.
 
 ## Weekly Session
 
@@ -231,8 +231,8 @@ This method synthesises five SOTA approaches — see [PD.SOTA.001-strategy-hiera
 
 | SOTA Method | What this method takes from it |
 |-------------|-------------------------------|
-| **RBM** (Results-Based Management) | Chain Impact→Outcomes→Outputs→Activities — the basis for 5-level strategic cascade: Year (desired states / hypotheses) → Project (stable domain core) → R-month (measurable outcome) → Week (selected РП) → Day (executed work). Project replaced the earlier Q-goals level, which dropped out in April 2026 as redundant between annual wishes and monthly results |
-| **OKR** | Separation: Objective (direction) ≠ Key Result (measurable outcome) ≠ Initiative (work). Project = long-running Objective, R = Key Result of the month, WP = Initiative |
+| **RBM** (Results-Based Management) | Цепочка Impact→Outcomes→Outputs→Activities — основа пятиуровневого стратегического каскада: Год (желаемые состояния / гипотезы) → Проект (стабильное ядро домена) → Результат месяца (измеримый outcome) → Неделя (отобранные РП) → День (исполняемая работа). Проект заменил уровень Q-целей, который отпал в апреле 2026 как избыточный между годовыми желаниями и результатами месяца |
+| **OKR** | Разделение: Objective (направление) ≠ Key Result (измеримый исход) ≠ Initiative (работа). Проект = long-running Objective, R = Key Result месяца, WP = Initiative |
 | **TOC** (Theory of Constraints) | One constraint per level — ТОС-месяца identifies the bottleneck that blocks all downstream results |
 | **Shape Up** | Appetite (h budget) → Bet (R-result) → Scope (WP). Time-boxing replaces task estimation |
 | **JTBD** | S-НЭП (strategic dissatisfactions) as Jobs — the source of goals outside the planning hierarchy |
