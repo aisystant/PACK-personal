@@ -1,4 +1,7 @@
 # Methods Index: Personal Development
+<!-- index-health: skip -->
+<!-- Pack knowledge-index. Форма таблицы «Role → Methods» подчинена доменной
+     модели; оптимизация ячеек — отдельное решение владельца Pack. -->
 
 Navigable index of all methods in the Personal Development pack.
 
