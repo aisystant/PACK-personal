@@ -2,14 +2,14 @@
 id: PD.MAP.001
 name: Pack Navigation Map
 scope: full-pack
-created: 2026-04-24
-last_updated: 2026-04-24
+created: 2026-04-25
+last_updated: 2026-04-25
 generated: true
 ---
 
 # [PD.MAP.001] Pack Navigation Map
 
-> Auto-generated from frontmatter on 2026-04-24. Do not edit manually.
+> Auto-generated from frontmatter on 2026-04-25. Do not edit manually.
 
 ---
 
@@ -21,17 +21,17 @@ generated: true
 | CAT (CAT) | 3 |
 | Characteristics (CHR) | 9 |
 | FAIL (FAIL) | 62 |
-| FORM (FORM) | 86 |
+| FORM (FORM) | 87 |
 | Maps (MAP) | 1 |
-| METHOD (METHOD) | 17 |
+| METHOD (METHOD) | 18 |
 | PRINC (PRINC) | 14 |
 | QUAL (QUAL) | 1 |
 | ROLE (ROLE) | 6 |
-| SoTA Annotations (SOTA) | 5 |
+| SoTA Annotations (SOTA) | 6 |
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 24 |
-| **Total** | **238** |
+| **Total** | **241** |
 
 ## Work Products
 
@@ -71,6 +71,7 @@ generated: true
 | PD.SOTA.002 | Strategy Tools | Сравнительный анализ методов и инструментов личного стратегирования и планирования: GTD, PARA, Zettelkasten, OKR, Shape Up — что взять в IWE и почему | current |
 | PD.SOTA.003 | Cognitive Patterns of Multitasking and Parallel Orchestration | Когнитивные паттерны многозадачности, когнитивной разгрузки и параллельной оркестрации ИИ-агентов: различения, ограничения, условия безопасности | current |
 | PD.SOTA.004 | Landscape of Personal Development Programs and Evidence Base | Сравнительный обзор 15 программ/подходов к личному развитию (GTD, 7 Habits, Atomic Habits, Deep Work, Tiny Habits, Huberman, Flow, Dreyfus и др.) — доказательная база, что берём для обоснования программы ЛР | current |
+| PD.SOTA.005 | Lifework Design Methods Across Scope Levels | Карта решений для метода сборки пакета Lifework: 4 фундаментальных якоря (Dunbar, Singer, Bronfenbrenner, Kegan) + 10 методов дизайна жизни и стратегии, распределённых по 6 уровням системного охвата (Я → ближний круг → дальний круг → сообщество → общество → человечество) | current |
 
 ## Maps
 
@@ -251,6 +252,7 @@ generated: true
 | PD.FORM.087 | Creator Role Trajectory | Ролевая траектория созидателя: нелинейная пирамида из 5 ролей (Ученик→Интеллектуал→Профессионал→Исследователь→Просветитель) — модель смещения фокуса инвестиций по мере развития | active |
 | PD.FORM.088 | Human Potential | Потенциал человека: расширяемый потолок шкалы характеристики. Четырёхуровневая модель характеристика → показатель (шкала) → значение → потенциал. У человека динамичны два параметра одновременно: baseline (среднее значение) поднимается методами и привычками, потенциал (потолок шкалы) расширяется фундаментальным развитием | active |
 | PD.FORM.089 | Learner Rcs | Role Characterisation Space (RCS) Ученика: 7-слотовое пространство характеристик вместо плоской ступени. Каждый слот — квартет (характеристика, показатель-шкала, значение baseline+сейчас, потенциал) по PD.FORM.088 §2. Ступень = min по слотам мастерства (bottleneck); мировоззрение — отдельный gate для перехода Дисциплинированный→Проактивный (FORM.080 §7.1). Снимает произвол Диагноста/Навигатора при определении ступени. Формализм: FPF A.19 U.CharacteristicSpace | draft |
+| PD.FORM.090 | Creator Scope Levels | Шесть уровней деятельностного охвата созидателя: Я → ближний круг → дальний круг → сообщество → общество → человечество и поколения. Специализация системных уровней (PD.FORM.027) для ситуаций, где созидатель действует, и связка с ролевой траекторией (PD.FORM.087). Эмпирические основания: Dunbar (количественные пороги), Singer expanding circle (этическая рамка), Bronfenbrenner (системная вложенность), Kegan (механика подъёма) | active |
 
 ### METHOD
 
@@ -273,6 +275,7 @@ generated: true
 | PD.METHOD.015 | First Development Slot | Первый слот саморазвития: минимальное конкретное действие + время + рефлексия как точка входа в систему развития | active |
 | PD.METHOD.016 | Self Diagnostics | Самодиагностика: честный разговор с собой о текущем состоянии как основа для решений в бизнесе и жизни | active |
 | PD.METHOD.017 | Work Product Selection | Метод отбора рабочих продуктов в план недели: из приоритетов месяца и carry-over — в упорядоченный список с бюджетами | active |
+| PD.METHOD.018 | Lifework Pack Composition | Метод поэтапной сборки пакета документов Lifework — рамочного документа созидателя по 6 уровням системного охвата (Я → ближний круг → дальний круг → сообщество → общество → человечество). На каждом уровне формируется инвариантный документ, фиксирующий уже сложившийся паттерн жизни и деятельности на этом уровне; подъём на следующий уровень требует тестового периода работы документа предыдущего уровня | active |
 
 ### PRINC
 
@@ -338,15 +341,15 @@ generated: true
 
 | ID | Days Since Update |
 |----|-------------------|
-| PD.METHOD.001 | 444 |
-| PD.WP.001 | 444 |
-| PD.FAIL.001 | 444 |
-| PD.FAIL.002 | 444 |
-| PD.FAIL.003 | 444 |
-| PD.FAIL.004 | 444 |
-| PD.FAIL.005 | 444 |
-| PD.FAIL.006 | 444 |
+| PD.METHOD.001 | 445 |
+| PD.WP.001 | 445 |
+| PD.FAIL.001 | 445 |
+| PD.FAIL.002 | 445 |
+| PD.FAIL.003 | 445 |
+| PD.FAIL.004 | 445 |
+| PD.FAIL.005 | 445 |
+| PD.FAIL.006 | 445 |
 
 ---
 
-*Generated by `scripts/generate-map.py` on 2026-04-24*
+*Generated by `scripts/generate-map.py` on 2026-04-25*

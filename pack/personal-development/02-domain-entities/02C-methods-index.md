@@ -36,6 +36,7 @@ Methods that determine priorities and resource allocation.
 | [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) | Strategizing | [WP.005](../04-work-products/PD.WP.005-dissatisfaction-list.md), [WP.006](../04-work-products/PD.WP.006-strategy.md), [WP.007](../04-work-products/PD.WP.007-priority-projects-list.md) | active | current |
 | [PD.METHOD.017](../03-methods/PD.METHOD.017-wp-selection.md) | Work Product Selection | [WP.007](../04-work-products/PD.WP.007-priority-projects-list.md) | active | current |
 | [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md) | Planning | [WP.001](../04-work-products/PD.WP.001-time-budget.md), [WP.014](../04-work-products/PD.WP.014-daily-routine.md), [WP.015](../04-work-products/PD.WP.015-task-list.md) | active | current |
+| [PD.METHOD.018](../03-methods/PD.METHOD.018-lifework-pack-composition.md) | Lifework Pack Composition | 6 lifework templates (uровни 1-6 охвата) | active | current |
 
 ### Learning Methods
 
