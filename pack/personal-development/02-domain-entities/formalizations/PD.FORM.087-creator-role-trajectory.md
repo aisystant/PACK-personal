@@ -7,9 +7,9 @@ created: 2026-04-16
 valid_from: 2026-04-16
 epistemic_stage: formed
 related:
-  uses: [PD.FORM.003, PD.FORM.006, PD.FORM.034, PD.FORM.090]
+  uses: [PD.FORM.003, PD.FORM.006, PD.FORM.034, PD.FORM.090, PD.FORM.091]
   informs: [WP-245, WP-149]
-  see_also: [PD.ROLE.001, PD.FORM.080, PD.FORM.090]
+  see_also: [PD.ROLE.001, PD.FORM.080, PD.FORM.090, PD.FORM.091]
 source: "SC.020, тексты systemsworld.club (апр 2026), ролевая модель созидателя ИСЭ"
 ---
 

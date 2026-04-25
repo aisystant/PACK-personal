@@ -9,9 +9,9 @@ created: 2026-04-25
 valid_from: 2026-04-25
 epistemic_stage: formed
 related:
-  uses: [PD.FORM.027, PD.FORM.087, PD.FORM.003]
+  uses: [PD.FORM.027, PD.FORM.087, PD.FORM.003, PD.FORM.091]
   informs: [PD.METHOD.018, PD.FORM.001]
-  see_also: [PD.SOTA.005]
+  see_also: [PD.SOTA.005, PD.FORM.091]
 source: "Сессия рефрейминга 25 апр 2026 (WP-252): рост созидателя начинается с себя и расширяется до человечества; Конституция Дела появляется на высшем уровне, а не в начале"
 ---
 

@@ -12,7 +12,7 @@ trust:
 epistemic_stage: formed
 related:
   uses: [PD.CHR.001]
-  see_also: [PD.FORM.090, PD.METHOD.018]
+  see_also: [PD.FORM.090, PD.FORM.091, PD.METHOD.018]
 ---
 
 # Формализация: Программы развития (Development Programs)
