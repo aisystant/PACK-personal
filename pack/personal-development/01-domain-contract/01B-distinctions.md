@@ -1483,7 +1483,9 @@ Core conceptual distinctions for the Personal Development domain.
 
 ## [D.050] Biological Body vs. Exobody
 
-**Definition**: The **biological body** is the organism of the agent — hardware that evolved biologically. The **exobody** is the totality of technological and material extensions of the agent: from tools and clothing to financial assets and the exocortex.
+**Definition**: The **biological body** is given at birth and evolved biologically. The **exobody** is the totality of technological and material extensions of the agent: from tools and clothing to financial assets, computers and the exocortex sub-assembly.
+
+This is a **modular** distinction (FPF A.7: by carrier — what carries the agent). It is orthogonal to functional decomposition (organism / personality / exo-organism / exo-personality — see PD.FORM.018 §2). Modules are clean carrier+description pairs; functions are clean roles. Mixing the two levels in one table is an A.7 violation.
 
 **Distinction Test**:
 - Was this part of the agent at birth? (Yes → biological body; No → exobody)
@@ -1493,10 +1495,13 @@ Core conceptual distinctions for the Personal Development domain.
 |----------------|-----|---------|
 | Evolved biologically | | Created by technoevolution |
 | Cannot be transferred | | Can be given, bought, sold |
-| Fixed hardware | | Continuously extensible |
-| Includes brain (cortex) | | Includes exocortex (second brain) |
+| Carrier: muscles, nerves, brain-as-organ | | Carrier: clothing, vehicles, computers, paper |
+| Description: information in neural connections | | Description: programs, AI-models, notes, texts |
+| Realises **organism** (hardware functions) and **personality** (psychic functions) | | Realises **exo-organism** (hardware functions) and **exo-personality** (psychic functions, commonly named **exocortex** as a modular assembly) |
 
-**Typical Confusion**: Ignoring exobody development (focusing only on education/mastery), treating tools as unrelated to the agent
+**Note on the «exocortex»**: it is the *modular assembly* (computer carrier + programs/models/notes as description) that realises exo-personality. It is not a separate fifth component alongside body/exobody — it lives inside exobody. See PD.FORM.018 §4 for the function ↔ module bridge.
+
+**Typical Confusion**: Ignoring exobody development (focusing only on education/mastery), treating tools as unrelated to the agent. Or — naming «exocortex» as a function while it is a modular assembly (mixing FPF A.7 levels — see PD.FORM.018 §1).
 
 **Why It Matters**: Modern creator development requires attention to both bio-body (health, sleep, fitness) and exobody (exocortex, resources, technologies). Neglecting either half limits the whole agent.
 
