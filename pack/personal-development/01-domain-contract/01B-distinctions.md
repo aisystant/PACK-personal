@@ -110,6 +110,7 @@ Core conceptual distinctions for the Personal Development domain.
 | [D.139](#d139-system-vs-characteristic) | System vs. Characteristic (Система ≠ Характеристика) | current | D.084, FORM.088 |
 | [D.140](#d140-characteristic-vs-measure-vs-value-vs-potential) | Characteristic vs. Measure vs. Value vs. Potential (Характеристика ≠ Показатель-шкала ≠ Значение ≠ Потенциал) | current | D.139, D.141, FORM.088, FORM.038 |
 | [D.141](#d141-system-vs-role) | System vs. Role (Система ≠ Роль) | current | D.139, FORM.087 |
+| [D.142](#d142-self-development-methods-vs-work-culture-elements) | Self-Development Methods vs. Work Culture Elements (Методы саморазвития ≠ Элементы культуры работы) | current | METHOD.001-008, FORM.082 |
 
 ---
 
@@ -3874,3 +3875,37 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 **SoTA:** `current`
 - Basis: FPF (Functional Platform Framework) различение Role/RoleFiller; классическая ролевая онтология (Zachman, BPMN); различение object-of-interest и its functional placement
 - Revision criterion: Would change if a different framing of functional placement (e.g., capability, service only without role) proves sufficient for the domain without loss of clarity
+
+---
+
+### D.142: Self-Development Methods vs. Work Culture Elements (Методы саморазвития ≠ Элементы культуры работы) {#d142-self-development-methods-vs-work-culture-elements}
+
+| Методы саморазвития (8 методов, M001–M008) | | Элементы культуры работы (14 элементов) |
+|---|---|---|
+| Практики, развивающие **человека** | ≠ | Правила и паттерны **рабочего процесса** |
+| Объект изменения: способности, привычки, стиль жизни | | Объект изменения: система работы |
+| Вопрос: «Что я делаю, чтобы расти как человек?» | | Вопрос: «Как я работаю внутри рабочей среды?» |
+| Осваиваются поэтапно (слой 1 → 2 → 3) | | Встраиваются в уже существующую работу |
+| M001 Учёт времени, M003 Медленное чтение… | | ОРЗ, каскад планирования, АрхГейт, Capture… |
+
+**Distinction Test:** «Что меняется в результате?» Человек (его способность, привычка, характеристика) → метод саморазвития. Способ организации работы (протокол, формат, навык рабочего процесса) → элемент культуры.
+
+**Typical Confusion:**
+- «Учёт времени» присутствует в обоих слоях. M001 как метод = личная практика осознания ресурса (ты осваиваешь способность видеть время). Элемент 3 «ритуал учёта» = правило рабочего процесса: по РП, с бюджетом, с привязкой к результату. Одна тема — два разных объекта изменения.
+- «Стратегирование» M008 развивает способность человека видеть горизонт. Каскад планирования (элемент 2) — формат организации работы команды или системы. Можно иметь метод без культуры и наоборот.
+
+**Why It Matters:**
+1. **Разные слои лечения.** Проблема «нет регулярности» может быть: (а) не освоен M002 метод ученика → лечить методом; (б) нет ОРЗ в рабочем процессе → лечить культурой. Путать — значит чинить не тот слой.
+2. **Разная логика освоения.** Методы осваиваются последовательно (один на глубину за раз, по bottleneck). Элементы культуры встраиваются в существующую работу — не добавляются поверх, а меняют способ делать.
+3. **Полнота картины мастерства.** Ступень 4 «Дисциплинированный» требует оба слоя: и освоенные методы (M1-слот RCS), и устойчивую культуру работы (IWE как среда). Один без другого не даёт мастерства.
+
+**Analogy:** Футболист и игра. Методы саморазвития = тренировки (бег, техника удара, физподготовка) — развивают игрока. 14 элементов = тактика и правила игры — определяют, как игрок действует на поле. Можно отлично тренироваться, но играть хаотично. И наоборот.
+
+**Related Items:**
+- Methods: [PD.METHOD.001–008](../03-methods/) — восемь методов саморазвития (M001–M008)
+- Formalization: [PD.FORM.082](../02-domain-entities/formalizations/PD.FORM.082-three-lifestyle-contexts.md) — три контекста жизни; Работа (контекст 2) связана с 14 элементами культуры (DP.M.008)
+- Formalization: [PD.FORM.080](../02-domain-entities/formalizations/PD.FORM.080-stage-direction-normative-matrix.md) — матрица ступеней; M1-слот = методы саморазвития, M2-слот = инструмент (культура работы IWE)
+
+**SoTA:** `current`
+- Basis: структура программы ЛР (M1/M2 слоты RCS FORM.089); различение уровней анализа «человек vs система работы»; FPF Object ≠ Description ≠ Carrier применительно к уровням развития
+- Revision criterion: Would change if the program structure merges M1 and work-culture tracking into a single slot, or if empirical data shows the distinction does not predict different remediation paths
