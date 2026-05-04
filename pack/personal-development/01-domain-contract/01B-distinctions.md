@@ -3883,7 +3883,7 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 | Методы саморазвития (8 методов, M001–M008) | | Элементы культуры работы (14 элементов) |
 |---|---|---|
 | Практики, развивающие **человека** | ≠ | Правила и паттерны **рабочего процесса** |
-| Объект изменения: способности, привычки, стиль жизни | | Объект изменения: система работы |
+| Формируют **мастерство развития себя** (способности, привычки, стиль жизни) | | Формируют **мастерство работы** (протоколы, форматы, навыки рабочего процесса) |
 | Вопрос: «Что я делаю, чтобы расти как человек?» | | Вопрос: «Как я работаю внутри рабочей среды?» |
 | Осваиваются поэтапно (слой 1 → 2 → 3) | | Встраиваются в уже существующую работу |
 | M001 Учёт времени, M003 Медленное чтение… | | ОРЗ, каскад планирования, АрхГейт, Capture… |
@@ -3907,5 +3907,5 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 - Formalization: [PD.FORM.080](../02-domain-entities/formalizations/PD.FORM.080-stage-direction-normative-matrix.md) — матрица ступеней; M1-слот = методы саморазвития, M2-слот = инструмент (культура работы IWE)
 
 **SoTA:** `current`
-- Basis: структура программы ЛР (M1/M2 слоты RCS FORM.089); различение уровней анализа «человек vs система работы»; FPF Object ≠ Description ≠ Carrier применительно к уровням развития
+- Basis: структура программы ЛР (M1/M2 слоты RCS FORM.089); различение «мастерство развития себя vs мастерство работы»; FPF Object ≠ Description ≠ Carrier применительно к уровням развития
 - Revision criterion: Would change if the program structure merges M1 and work-culture tracking into a single slot, or if empirical data shows the distinction does not predict different remediation paths
