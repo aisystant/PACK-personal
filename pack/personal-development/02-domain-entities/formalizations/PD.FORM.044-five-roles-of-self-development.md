@@ -8,6 +8,7 @@ created: 2026-02-19
 epistemic_stage: formed
 related:
   uses: [PD.FORM.002, PD.ROLE.TRAJ.001]
+  see_also: [PD.FORM.096]
 ---
 
 # Формализация: Пять ролей самоуправления (Five Roles of Self-Development)
@@ -30,3 +31,4 @@ related:
 
 - [PD.FORM.002](./PD.FORM.002-development-directions.md) — Направления развития
 - [PD.ROLE.TRAJ.001](../roles/PD.ROLE.TRAJ.001-creator-trajectory.md) — Траектория созидателя
+- [PD.FORM.096](./PD.FORM.096-three-by-three-areas-and-roles.md) — Матрица 3×3 «Области интересов × Роли деятельности» (применение трёх деятельностных ролей — предприниматель/инженер/менеджер — в матрице с областями; FORM.044 и FORM.096 описывают разные оси одного деятеля)

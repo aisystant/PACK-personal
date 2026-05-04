@@ -223,6 +223,7 @@ related:
 
 - [PD.FORM.002 Направления развития](PD.FORM.002-development-directions.md)
 - [PD.FORM.003 Ступени зрелости ученика](PD.FORM.003-learner-maturity.md)
+- [PD.FORM.096 Матрица 3×3 «Области интересов × Роли деятельности»](PD.FORM.096-three-by-three-areas-and-roles.md) — инструмент самооценки для программы РР (ступень 3+): предметная область / метод работы / команда × предприниматель / инженер / менеджер
 - [PD.ROLE.001 Ученик](../roles/PD.ROLE.001-learner.md)
 - [PD.ROLE.TRAJ.001 Ролевая траектория](../roles/PD.ROLE.TRAJ.001-creator-trajectory.md)
 - Реализация (implementation): DS-principles-curriculum/programs/personal-development-v3.md
