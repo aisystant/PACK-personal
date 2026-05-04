@@ -30,8 +30,8 @@ generated: true
 | SoTA Annotations (SOTA) | 6 |
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
-| Work Products (WP) | 24 |
-| **Total** | **244** |
+| Work Products (WP) | 25 |
+| **Total** | **245** |
 
 ## Work Products
 
@@ -58,6 +58,7 @@ generated: true
 | PD.WP.019 | Readme | Заготовки для персонального руководства (personal-guide/{user}): 3 ступенных × 2 доменных вставки для bootstrap через /personal-guide-start | draft |
 | PD.WP.019.domain-generic | Domain Generic | Доменная вставка generic: fallback для случаев, когда RCS.M3 не даёт явной рамки — универсальные примеры, нейтральный язык | draft |
 | PD.WP.019.domain-kw | Domain Knowledge Worker | Доменная вставка для Knowledge Worker: разработчик, аналитик, архитектор, консультант-практик — типовые работы, примеры, язык | draft |
+| PD.WP.019.monthly-theme-template | Monthly Theme Template | Шаблон monthly-theme.md — ежемесячный фокус пилота. Копируется в config/monthly-theme.md личного репо. | template |
 | PD.WP.019.stage-2 | Stage 2 Practicing | Заготовка руководства для ступени Практикующего: сборка себя, первые два метода, эпизодическая систематичность | draft |
 | PD.WP.019.stage-3 | Stage 3 Systematic | Заготовка руководства для ступени Систематического: ритм встроен, все базовые методы в работе, первый взгляд на окружение | draft |
 | PD.WP.019.stage-4 | Stage 4 Disciplined | Заготовка руководства для ступени Дисциплинированного: личная траектория, разворот наружу, 10 ч/нед как норма, системное мировоззрение в работе | draft |
