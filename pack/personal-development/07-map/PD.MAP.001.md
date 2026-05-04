@@ -23,15 +23,15 @@ generated: true
 | FAIL (FAIL) | 65 |
 | FORM (FORM) | 90 |
 | Maps (MAP) | 1 |
-| METHOD (METHOD) | 24 |
+| METHOD (METHOD) | 25 |
 | PRINC (PRINC) | 14 |
 | QUAL (QUAL) | 1 |
 | ROLE (ROLE) | 6 |
-| SoTA Annotations (SOTA) | 6 |
+| SoTA Annotations (SOTA) | 7 |
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 25 |
-| **Total** | **254** |
+| **Total** | **256** |
 
 ## Work Products
 
@@ -73,6 +73,7 @@ generated: true
 | PD.SOTA.003 | Cognitive Patterns of Multitasking and Parallel Orchestration | Когнитивные паттерны многозадачности, когнитивной разгрузки и параллельной оркестрации ИИ-агентов: различения, ограничения, условия безопасности | current |
 | PD.SOTA.004 | Landscape of Personal Development Programs and Evidence Base | Сравнительный обзор 15 программ/подходов к личному развитию (GTD, 7 Habits, Atomic Habits, Deep Work, Tiny Habits, Huberman, Flow, Dreyfus и др.) — доказательная база, что берём для обоснования программы ЛР | current |
 | PD.SOTA.005 | Lifework Design Methods Across Scope Levels | Карта решений для метода сборки пакета Lifework: 4 фундаментальных якоря (Dunbar, Singer, Bronfenbrenner, Kegan) + 10 методов дизайна жизни и стратегии, распределённых по 6 уровням системного охвата (Я → ближний круг → дальний круг → сообщество → общество → человечество). ВАЖНО: метод выведен из пакета автора (single-author basis); SOTA-обзор обосновывает структурный каркас, но универсальность шаблонов по доменам — открытая гипотеза | current |
+| PD.SOTA.006 | Adaptive Personalization | Четыре ключевых алгоритма адаптивной персонализации (BKT, IRT, Spaced Repetition, Curriculum Learning) и их применение к программе ЛР: как SOTA влияет на каскад планирования (PD.METHOD.025), выбор контента Портным и метрики Диагноста | active |
 
 ## Maps
 
@@ -289,6 +290,7 @@ generated: true
 | PD.METHOD.022 | State Management | Работа с состоянием: мониторинг, защита и развитие продуктивного потенциала — дельта к PD.FORM.038 §4.1; три слоя работы с состоянием как настраиваемым режимом | active |
 | PD.METHOD.023 | Flow Management | Управление тремя потоками созидателя (рабочие продукты / информация / энергия): теория ограничений применительно к личной системе — выявить узкое место, расширить, не оптимизировать остальные | active |
 | PD.METHOD.024 | Ai Interaction Mastery | Системный метод выстраивания продуктивного взаимодействия с ИИ как усилителем мышления: триада Контекст+Промпт+Запрос, модель как зеркало мировоззрения, три режима работы (ученик/профессор/команда), границы экзоскелета | active |
+| PD.METHOD.025 | Planning Cascade | Пятиуровневый метод планирования для Ученика (программа → квартал → месяц → неделя → день). Variant B: неделя = гипотеза роста, день = тактика под гипотезу. Обеспечивает каскадное уточнение без ежедневной регенерации ДЗ. | active |
 
 ### PRINC
 
