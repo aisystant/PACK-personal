@@ -13,7 +13,7 @@ epistemic_stage: hypothesis
 related:
   refines: [PD.FORM.003]
   uses: [PD.FORM.002, PD.FORM.079, PD.FORM.087, PD.FORM.088, PD.FORM.038]
-  informs: [PD.FORM.092, DP.SC.126]
+  informs: [PD.FORM.092, PD.FORM.097, DP.SC.126]
   consumed_by: [MIM.R.009, MIM.R.007, MIM.SOP.001]
 ---
 

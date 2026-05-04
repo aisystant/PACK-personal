@@ -8,7 +8,7 @@ created: 2026-04-29
 valid_from: 2026-04-29
 epistemic_stage: forming
 related:
-  uses: [PD.FORM.001, PD.FORM.080, PD.FORM.087, PD.FORM.091, DP.CONCEPT.003, DP.SC.126]
+  uses: [PD.FORM.001, PD.FORM.080, PD.FORM.087, PD.FORM.091, PD.FORM.097, DP.CONCEPT.003, DP.SC.126]
   informs: [WP-245, DP.SC.126]
   source: "WP-194 Ф2, WP-245 Ф23; talk-1 конференция МИМ 17 апр 2026; встреча с Андреем 19 апр 2026"
 ---
