@@ -6,10 +6,10 @@ evidence_base: single-author-experience
 summary: "Метод поэтапной сборки пакета документов Lifework — рамочного документа созидателя по 6 уровням системного охвата (Я → ближний круг → дальний круг → сообщество → общество → человечество). На каждом уровне формируется инвариантный документ, фиксирующий уже сложившийся паттерн жизни и деятельности на этом уровне; подъём на следующий уровень требует тестового периода работы документа предыдущего уровня. ВАЖНО: метод выведен из единственного пакета автора (Тсерен Тсеренов, домен «Системное созидательство», 11 лет работы); универсальность — гипотеза, требующая внешней валидации"
 sota: current
 created: 2026-04-25
-last_updated: 2026-04-25
+last_updated: 2026-05-06
 related:
   produces: [PD.WP.NNN-lifework-self-charter, PD.WP.NNN-lifework-close-circle-covenant, PD.WP.NNN-lifework-professional-position, PD.WP.NNN-lifework-community-manifesto, PD.WP.NNN-lifework-mission, PD.WP.NNN-lifework-deal-constitution]
-  uses: [PD.WP.005, PD.WP.006, PD.WP.018, PD.FORM.090, PD.FORM.087, PD.FORM.001, PD.FORM.027]
+  uses: [PD.WP.005, PD.WP.006, PD.WP.018, PD.FORM.090, PD.FORM.091, PD.FORM.080, PD.FORM.087, PD.FORM.001, PD.FORM.027, PD.METHOD.008]
   fails_with: []
   requires_role: [PD.ROLE.001]
   precedes: []

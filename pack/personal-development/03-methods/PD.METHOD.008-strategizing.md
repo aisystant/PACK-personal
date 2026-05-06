@@ -5,10 +5,10 @@ status: active
 summary: "Метод непрерывной разработки и реализации личной стратегии: выявление неудовлетворённостей, выбор приоритетных проектов и тестирование гипотез"
 sota: current
 created: 2026-02-11
-last_updated: 2026-04-21
+last_updated: 2026-05-06
 related:
   produces: [PD.WP.005, PD.WP.006, PD.WP.007]
-  uses: [PD.D.017, PD.D.016, PD.FORM.078, PD.CHR.007]
+  uses: [PD.D.017, PD.D.016, PD.FORM.078, PD.FORM.080, PD.FORM.090, PD.FORM.091, PD.CHR.007, PD.METHOD.018]
   fails_with: [PD.FAIL.010]
   requires_role: [PD.ROLE.001]
   precedes: [PD.METHOD.003, PD.METHOD.006, PD.METHOD.007]
