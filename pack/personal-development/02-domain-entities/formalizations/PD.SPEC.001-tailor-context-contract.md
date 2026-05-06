@@ -4,32 +4,40 @@ type: spec
 name: "Контракт контекста Портного (Tailor Context Contract)"
 status: draft
 created: 2026-03-30
-updated: 2026-03-30
+updated: 2026-05-06
 wp: WP-149 (Блок А)
 related:
   consumed_by: [MIM.SOP.001]
-  realized_by: [WP-151, WP-175]
+  realized_by: [WP-151, WP-222, WP-245]
   upstream: [PD.CAT.001, PD.CAT.002, PD.CAT.003, PD.FORM.003, PD.FORM.081]
+  applies_distinctions: ["HD #27 Персона/Память/Контекст", "HD #49 MCP-сервис ≠ Роль"]
 summary: >
-  Спецификация формата входных данных Портного (R27): какие поля читаются из ЦД,
-  в каком формате, какое поведение при отсутствии данных. WP-149 задаёт контракт.
-  WP-151 реализует хранение. WP-175 реализует MCP endpoint get_tailor_context().
+  Спецификация формата входных данных Портного (R27 в DP.ROLE.001): какие поля
+  читаются из Памяти.Derived, в каком формате, какое поведение при отсутствии данных.
+  Контракт = объект-формат (это часть Pack — что существует). Способ доставки
+  (psycopg2 directly / MCP tool) — деталь реализации носителя роли (WP-222).
 ---
 
 # PD.SPEC.001 — Контракт контекста Портного
 
-> **Принцип least privilege:** Портной читает минимально необходимый срез ЦД.
-> Полный ЦД пользователя — в Neon (WP-151). Портной получает только этот контракт.
-> **Owner-Integrity:** этот файл = требования (что нужно). Реализация → WP-151/175.
+> **Принцип least privilege:** Портной читает минимально необходимый срез Памяти.Derived.
+> Полная Память.Derived пользователя — в Neon `indicators` schema (WP-253). Портной получает только этот контракт.
+> **Owner-Integrity:** этот файл = требования (что нужно как **объект-формат**). Реализация хранения → WP-151. Текущий носитель Портного → WP-222 (`render-pilot-guides.py` + `planner.py`).
 
 ---
 
 ## 1. Назначение
 
-Этот документ отвечает на вопрос: **что именно Портной читает из ЦД перед сборкой занятия?**
+Этот документ отвечает на вопрос: **какой формат данных получает Портной перед сборкой занятия?**
 
 SOP.001 описывает алгоритм («как»). Этот файл описывает вход («что»).
-Без чёткого контракта: WP-151 не знает, что реализовывать. WP-175 не знает, что возвращать из MCP.
+Контракт = объект-формат (поля, типы, fallback). Способ получения (текущий: psycopg2 → Neon `indicators` directly; будущий: MCP tool через Gateway) — деталь реализации носителя, не часть контракта.
+
+**Принцип роль ≠ исполнитель** (FPF, distinctions.md):
+- Роль R27 «Портной» определена в `DP.ROLE.001` (PACK-digital-platform) — переносима между носителями.
+- Контракт `tailor_context` (этот файл) — объект-формат, неизменен при смене носителя.
+- Текущий носитель: Python-скрипт `render-pilot-guides.py` (`DS-autonomous-agents`).
+- Будущий носитель: ИИ-агент с tool-use циклом (зависит от WP-150 Ф6 Unified MCP Gateway).
 
 ---
 
@@ -110,8 +118,8 @@ tailor_context:
 | `dominant_role` | Нет в профиле | `"learner"` |
 | `style.format` | Нет в профиле | `"detailed"` |
 | `style.duration_min` | Нет в профиле | `20` |
-| `state` | Нет в ЦД | `"development"` |
-| `energy` | Нет в ЦД | `3` |
+| `state` | Нет в Памяти.Derived | `"development"` |
+| `energy` | Нет в Памяти.Derived | `3` |
 | `phase` | — | Всегда вычисляется из `student_stage` по таблице SOP.001 Шаг 2 |
 | `mastery_by_area.*` | Нет истории | `0` для всех областей |
 | `last_area` | Нет истории | `null` (ротация не применяется) |
@@ -158,43 +166,58 @@ tailor_context:
 
 ---
 
-## 5. Источник данных для каждого поля
+## 5. Источник данных для каждого поля (после WP-268 cut-over)
 
-| Поле | Слой ЦД | Группа | Кто пишет |
-|------|---------|--------|-----------|
-| `student_stage` | L3 derived | `3_derived.student_stage` | dt_calc.py (WP-151) |
-| `it_level` | L1 declarative | `1_declarative.it_level` | Онбординг (бот) |
-| `dominant_role` | L1 declarative | `1_declarative.dominant_role` | Навигатор / онбординг |
-| `style.*` | L1 declarative | `1_declarative.style` | Онбординг / настройки |
-| `state` | L1 или L3 | `1_declarative.state` / `3_derived.state` | L1: сам пользователь. L3: dt_calc.py |
-| `energy` | L1 declarative | `1_declarative.energy` | Ежедневный check-in в боте |
-| `mastery_by_area` | L3 derived | `3_derived.mastery_by_area` | dt_calc.py (из 2_10) |
-| `last_area` | L2 collected | `2_10_learning_history.last_area` | dt_sync.py |
-| `recent_history` | L2 collected | `2_10_learning_history.history` | dt_sync.py (последние 10) |
-| `worldview_gaps` | L3 derived | `3_derived.worldview_gaps` | dt_calc.py (WP-151) |
-| `mastery_gaps` | L3 derived | `3_derived.mastery_gaps` | dt_calc.py (WP-151) |
-| `domain` | L1 declarative | `1_declarative.domain` | Онбординг / настройки |
+> Терминология обновлена: «ЦД L1/L2/L3» → Персона/Память/Контекст (HD #27, DP.D.052). «digital_twins/dt_calc.py» → `indicators` schema + projection-worker WP-253.
+
+| Поле | Слой | Источник в Neon | Кто пишет |
+|------|------|-----------------|-----------|
+| `student_stage` | Память.Derived | `indicators.calculated_profile.indicators` (FORM.093 graduate_profile) | projection-worker (WP-253), B-lite через FORM.093 |
+| `it_level` | Персона | declarative profile (бот онбординг) | Онбординг (бот) |
+| `dominant_role` | Персона | declarative profile | Навигатор / онбординг |
+| `style.*` | Персона | declarative profile | Онбординг / настройки |
+| `state` | Память.Derived ∨ Персона | `indicators.calculated_profile.state` ∨ declarative | Расчёт ∨ сам пользователь |
+| `energy` | Персона | daily check-in | Ежедневный check-in в боте |
+| `mastery_by_area` | Память.Derived | `indicators.calculated_profile.mastery_by_area` | projection-worker из `learning.domain_event` |
+| `last_area` | Память (Observed) | `learning.domain_event` (last entry where event_type=lesson_completed) | event-gateway / aist_bot (WP-268 cut-over) |
+| `recent_history` | Память (Observed) | `learning.domain_event` (последние 10 событий за 7 дней — B2) | event-gateway |
+| `worldview_gaps` | Память.Derived | `indicators.calculated_profile.worldview_gaps` | projection-worker (WP-151) |
+| `mastery_gaps` | Память.Derived | `indicators.calculated_profile.mastery_gaps` | projection-worker (WP-151) |
+| `rcs_profile` | Память.Derived | `indicators.calculated_profile.rcs_current` (7 слотов FORM.089) | projection-worker (WP-151 Ф12) |
+| `domain` | Персона | declarative profile | Онбординг / настройки |
 
 ---
 
-## 6. Формат MCP endpoint (требование к WP-175)
+## 6. Способы получения `tailor_context` (носители роли)
 
-```python
-# Endpoint: get_tailor_context(user_id: str) -> TailorContext
-# Возвращает: tailor_context как JSON-объект (этот контракт)
-# Least privilege: НЕ возвращает полный ЦД, только поля из §2
-# Fallback: если данных нет — возвращает §4 (MVP набор), не ошибку
+> **Принцип:** контракт = объект-формат (§2). Способ доставки — деталь реализации носителя. Контракт неизменен при смене носителя.
 
-# Пример вызова из агента Портного:
-context = await mcp.call("get_tailor_context", user_id=user_id)
-# → tailor_context dict
-```
+### 6.1. Текущий носитель: Python-скрипт (psycopg2 directly)
 
-**Требования к endpoint:**
-- Всегда возвращает полный объект (никогда не None / 404)
+**Реализация:** `DS-autonomous-agents/scripts/render-pilot-guides.py` функции `get_rcs_profile()` + `get_recent_events()`.
+
+**Доступ:** `psycopg2.connect(NEON_INDICATORS_URL)` → unpooled connection → SQL по `indicators.calculated_profile`, `indicators.digital_twins`, `learning.domain_event`. RLS-policy: read-only через user_id фильтр в WHERE.
+
+**Triggering:** systemd timer на tsekh-1 NixOS (ПН 05:00 / Вт-Вс 06:00 EEST).
+
+**Fallback:** при пустом RCS — B-lite на FORM.093 stage+path (worldview_gaps=[], mastery_gaps=[]).
+
+### 6.2. Будущий носитель: ИИ-агент через MCP Gateway (планируется)
+
+**Реализация:** ИИ-агент в Claude tool-use loop. Tools: `dt_read_digital_twin` (Память.Derived), `personal_search` (PACK-personal), `knowledge_search` (PACK-MIM, каталоги).
+
+**Доступ:** через `https://mcp.aisystant.com/` (Aisystant MCP / Gateway паттерн). OAuth 2.1 + JWT.
+
+**Triggering:** Оркестратор (WP-203 Ф1.5) по 7 типам триггеров коррекции.
+
+**Blocked by:** WP-150 Ф6 (Unified MCP Gateway в VS Code).
+
+### 6.3. Требования к контракту (любой носитель)
+
+- Возвращает полный объект (никогда None / 404)
 - При отсутствии поля — применяет fallback из §3
-- Атомарен: весь контракт за один запрос (не несколько MCP вызовов)
-- Версионирован: `schema_version: 1` в ответе (для будущих изменений)
+- Атомарен: контракт выдаётся за одну операцию (для текущего носителя — один SQL-набор; для будущего — один проход tool-calls)
+- Версионирован: `schema_version: 1` в payload
 
 ---
 
@@ -235,4 +258,4 @@ context = await mcp.call("get_tailor_context", user_id=user_id)
 
 ---
 
-*Создан: 2026-03-30 | Верифицирован субагентом: CONDITIONAL PASS → правки внесены (errors в recent_history, fallback worldview_gaps/mastery_gaps, маппинг direction→area, §6b) | WP-149 Блок А*
+*Создан: 2026-03-30 | Верифицирован субагентом: CONDITIONAL PASS → правки внесены | WP-149 Блок А | Обновлён 2026-05-06 (WP-222 Ф4): отделение контракта-объекта от способа доставки; терминология ЦД → Память.Derived (HD #27); обновлён §5 источник данных для после WP-268 cut-over architecture; §6 переписан как «способы получения» (текущий: psycopg2 directly; будущий: MCP через Gateway).*
