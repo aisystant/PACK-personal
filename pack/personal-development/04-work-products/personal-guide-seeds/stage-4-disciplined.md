@@ -76,7 +76,7 @@ related:
 
 Чеклист на ступени 4:
 - [ ] Личный устав работает ≥6 месяцев (gate FORM.090 §6)
-- [ ] Reading трекера `caliber-artifacts-tracker.md` встроено в Strategy Session
+- [ ] Reading трекера `Caliber-artifacts-tracker.md` встроено в Strategy Session
 - [ ] Если рекомендован Договор с близкими → запланирован как РП на горизонт 1-3 мес
 - [ ] Различение C_vis vs C_act применяется при формулировке НЭП (где у меня видение vs где у меня действие)
 

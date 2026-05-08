@@ -219,7 +219,7 @@ tags: [lifework, scope-levels, dunbar, succession, mission, constitution, framew
 
 ### Трекер рекомендаций (структура)
 
-Runtime-документ в governance-репо созидателя (для авторской инсталляции — `DS-my-strategy/docs/caliber-artifacts-tracker.md`; для FMT — шаблон в `templates/`).
+Runtime-документ в governance-репо созидателя (для авторской инсталляции — `DS-my-strategy/docs/Caliber-artifacts-tracker.md`; для FMT — шаблон в `templates/`).
 
 ```markdown
 | Уровень | Документ | Дата рекомендации | Статус | След. ремайндер |
