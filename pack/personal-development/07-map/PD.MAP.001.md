@@ -23,7 +23,7 @@ generated: true
 | FAIL (FAIL) | 65 |
 | FORM (FORM) | 95 |
 | Maps (MAP) | 1 |
-| METHOD (METHOD) | 25 |
+| METHOD (METHOD) | 27 |
 | PRINC (PRINC) | 15 |
 | QUAL (QUAL) | 1 |
 | ROLE (ROLE) | 6 |
@@ -31,7 +31,7 @@ generated: true
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 25 |
-| **Total** | **263** |
+| **Total** | **265** |
 
 ## Work Products
 
@@ -296,6 +296,8 @@ generated: true
 | PD.METHOD.023 | Flow Management | Управление тремя потоками созидателя (рабочие продукты / информация / энергия): теория ограничений применительно к личной системе — выявить узкое место, расширить, не оптимизировать остальные | active |
 | PD.METHOD.024 | Ai Interaction Mastery | Системный метод выстраивания продуктивного взаимодействия с ИИ как усилителем мышления: триада Контекст+Промпт+Запрос, модель как зеркало мировоззрения, три режима работы (ученик/профессор/команда), границы экзоскелета | active |
 | PD.METHOD.025 | Planning Cascade | Пятиуровневый метод планирования для Ученика (программа → квартал → месяц → неделя → день). Variant B: неделя = гипотеза роста, день = тактика под гипотезу. Обеспечивает каскадное уточнение без ежедневной регенерации ДЗ. | active |
+| PD.METHOD.026 | Physical Anchors for Role Switching | Использование физических объектов среды (стикер, доска, карточка) как якорей для переключения между ролями и активации нужного ритуала | active |
+| PD.METHOD.027 | Stream Defense | — | active |
 
 ### PRINC
 
@@ -356,6 +358,7 @@ generated: true
 ## Warnings
 
 - Missing `summary`: PD.FORM.084 (PD.FORM.084-notes-pipeline.md)
+- Missing `summary`: PD.METHOD.027 (PD.METHOD.027-stream-defense.md)
 - Missing `summary`: PD.MAP.001 (PD.MAP.001.md)
 
 ## Staleness Warnings (>90 days since update)

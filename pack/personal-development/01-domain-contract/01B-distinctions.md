@@ -113,6 +113,7 @@ Core conceptual distinctions for the Personal Development domain.
 | [D.142](#d142-self-development-methods-vs-work-culture-elements) | Self-Development Methods vs. Work Culture Elements (Методы саморазвития ≠ Элементы культуры работы) | current | METHOD.001-008, FORM.082 |
 | [D.143](#d143-unified-style-vs-fragmented-style) | Unified Style vs. Fragmented Style (Единый стиль ≠ Рассогласованный стиль) | current | FORM.098, MIM.R.009 |
 | [D.144](#d144-false-opposition-chaos-clearing-vs-self-development) | False Opposition: "Clear Chaos First" vs. "Develop Self First" (Ложная оппозиция: разгрести хаос ≠ развить себя) | current | FORM.098, D.143 |
+| [D.145](#d145-universal-guide-vs-personal-guide) | Universal Guide vs. Personal Guide (Универсальное руководство ≠ Персональное руководство) | current | WP-300 |
 
 ---
 
@@ -3943,3 +3944,19 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 - Formalization: [PD.FORM.098](../02-domain-entities/formalizations/PD.FORM.098-style-as-lr-material.md) §2
 - Distinction: [D.143](#d143-unified-style-vs-fragmented-style)
 - Navigator narrative: MIM.R.007 (SS.2, SS.6)
+
+## [D.145] Universal Guide vs. Personal Guide {#d145-universal-guide-vs-personal-guide}
+
+**Definition**: Both **universal guide** (docs) and **personal guide** (personal-guide) are projections from PACK-personal-development (SoT). They differ in personalization layer.
+
+- **Universal guide** (docs): method for everyone, no specific pilot binding, no RCS.
+- **Personal guide** (personal-guide): projection under specific pilot through RCS (stage, bottleneck, domain).
+
+**Distinction Test**: Does the artifact use RCS-data (stage 1-5, bottleneck slot, domain) to filter/select content? → Personal. Generic method without RCS → Universal.
+
+**Anti-pattern**: editing personal guide based on universal and vice versa. Both derive from Pack, not from each other. Single SoT: PACK-personal-development.
+
+**Related Items**:
+- WP-300: design of dual access surface
+- Pack: PACK-personal-development (single source of truth)
+- Carrier: docs/ folder (universal) vs personal-guide repo (personal)
