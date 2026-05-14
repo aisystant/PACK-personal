@@ -23,7 +23,7 @@ generated: true
 | FAIL (FAIL) | 65 |
 | FORM (FORM) | 95 |
 | Maps (MAP) | 1 |
-| METHOD (METHOD) | 28 |
+| METHOD (METHOD) | 29 |
 | PRINC (PRINC) | 15 |
 | QUAL (QUAL) | 1 |
 | ROLE (ROLE) | 6 |
@@ -31,7 +31,7 @@ generated: true
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 25 |
-| **Total** | **266** |
+| **Total** | **267** |
 
 ## Work Products
 
@@ -299,6 +299,7 @@ generated: true
 | PD.METHOD.026 | Physical Anchors for Role Switching | Использование физических объектов среды (стикер, доска, карточка) как якорей для переключения между ролями и активации нужного ритуала | active |
 | PD.METHOD.027 | Stream Defense | — | active |
 | PD.METHOD.028 | Reflection With Readback Agent | Метод асинхронной обратной связи через структурированную рефлексию: пилот заполняет 5 вопросов за 5 минут, агент (Портной) читает ответы при следующем рендере и учитывает в персональном руководстве. Ответ 3 → gate перехода фаз (PD.FORM.087). Ответ 5 → контекст tomorrow's daily. | active |
+| PD.METHOD.029 | Adaptive Measurement Window | Адаптивное учётное окно расчёта активности по ступени: ст.1=7д, ст.2=28д, ст.3=56д, ст.4=84д, ст.5=168д | active |
 
 ### PRINC
 
