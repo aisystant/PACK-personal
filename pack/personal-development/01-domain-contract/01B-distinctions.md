@@ -114,6 +114,7 @@ Core conceptual distinctions for the Personal Development domain.
 | [D.143](#d143-unified-style-vs-fragmented-style) | Unified Style vs. Fragmented Style (Единый стиль ≠ Рассогласованный стиль) | current | FORM.098, MIM.R.009 |
 | [D.144](#d144-false-opposition-chaos-clearing-vs-self-development) | False Opposition: "Clear Chaos First" vs. "Develop Self First" (Ложная оппозиция: разгрести хаос ≠ развить себя) | current | FORM.098, D.143 |
 | [D.145](#d145-universal-guide-vs-personal-guide) | Universal Guide vs. Personal Guide (Универсальное руководство ≠ Персональное руководство) | current | WP-300 |
+| [D.146](#d146-domain-activity-vs-marker-event) | Domain Activity vs. Marker Event (Признак практики = активность в домене ≠ маркерное событие) | current | FORM.089, WP-214 |
 
 ---
 
@@ -3960,3 +3961,17 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 - WP-300: design of dual access surface
 - Pack: PACK-personal-development (single source of truth)
 - Carrier: docs/ folder (universal) vs personal-guide repo (personal)
+
+## [D.146] Domain Activity vs. Marker Event {#d146-domain-activity-vs-marker-event}
+
+**Definition**: A **day of practice** is detected by activity in the relevant domain (`activity_domain IN ('practice','learning')`), NOT by occurrence of ritual marker events (`day_close`, `day_plan_closed`).
+
+**Distinction Test**: For streak/M1 baseline computation — does the criterion require a ritual marker, or any activity in the domain? Marker-only → restrictive (under-counts true practice days). Domain-activity → permissive but accurate.
+
+**Concrete bug fixed (WP-214 Ф10.5, 2026-05-11)**: Filter by `event_type IN ('day_close', 'day_plan_closed')` gave M1=1 for a user who had 4 actual practice days. Marker events are rare (4 events in 60 days), but practice activity in the domain spans many more days. Switched to `COUNT(DISTINCT DATE) WHERE activity_domain IN ('practice','learning')` → correct M1=4.
+
+**Generalization**: For any streak-type metric (consecutive days, weekly cadence) the presence criterion must be **domain activity**, not ritual completion. Markers signal intent/closure, not the act of practice.
+
+**Related Items**:
+- Formalization: [PD.FORM.089](../02-domain-entities/formalizations/PD.FORM.089-learner-rcs.md) §M1 baseline (rule operationalised here)
+- WP-214 Ф10.5 (fix and handoff)
