@@ -23,7 +23,7 @@ generated: true
 | FAIL (FAIL) | 65 |
 | FORM (FORM) | 95 |
 | Maps (MAP) | 1 |
-| METHOD (METHOD) | 27 |
+| METHOD (METHOD) | 28 |
 | PRINC (PRINC) | 15 |
 | QUAL (QUAL) | 1 |
 | ROLE (ROLE) | 6 |
@@ -31,7 +31,7 @@ generated: true
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 25 |
-| **Total** | **265** |
+| **Total** | **266** |
 
 ## Work Products
 
@@ -298,6 +298,7 @@ generated: true
 | PD.METHOD.025 | Planning Cascade | Пятиуровневый метод планирования для Ученика (программа → квартал → месяц → неделя → день). Variant B: неделя = гипотеза роста, день = тактика под гипотезу. Обеспечивает каскадное уточнение без ежедневной регенерации ДЗ. | active |
 | PD.METHOD.026 | Physical Anchors for Role Switching | Использование физических объектов среды (стикер, доска, карточка) как якорей для переключения между ролями и активации нужного ритуала | active |
 | PD.METHOD.027 | Stream Defense | — | active |
+| PD.METHOD.028 | Reflection With Readback Agent | Метод асинхронной обратной связи через структурированную рефлексию: пилот заполняет 5 вопросов за 5 минут, агент (Портной) читает ответы при следующем рендере и учитывает в персональном руководстве. Ответ 3 → gate перехода фаз (PD.FORM.087). Ответ 5 → контекст tomorrow's daily. | active |
 
 ### PRINC
 
