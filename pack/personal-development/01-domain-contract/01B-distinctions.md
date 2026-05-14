@@ -111,6 +111,8 @@ Core conceptual distinctions for the Personal Development domain.
 | [D.140](#d140-characteristic-vs-measure-vs-value-vs-potential) | Characteristic vs. Measure vs. Value vs. Potential (Характеристика ≠ Показатель-шкала ≠ Значение ≠ Потенциал) | current | D.139, D.141, FORM.088, FORM.038 |
 | [D.141](#d141-system-vs-role) | System vs. Role (Система ≠ Роль) | current | D.139, FORM.087 |
 | [D.142](#d142-self-development-methods-vs-work-culture-elements) | Self-Development Methods vs. Work Culture Elements (Методы саморазвития ≠ Элементы культуры работы) | current | METHOD.001-008, FORM.082 |
+| [D.143](#d143-unified-style-vs-fragmented-style) | Unified Style vs. Fragmented Style (Единый стиль ≠ Рассогласованный стиль) | current | FORM.098, MIM.R.009 |
+| [D.144](#d144-false-opposition-chaos-clearing-vs-self-development) | False Opposition: "Clear Chaos First" vs. "Develop Self First" (Ложная оппозиция: разгрести хаос ≠ развить себя) | current | FORM.098, D.143 |
 
 ---
 
@@ -3910,3 +3912,34 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 **SoTA:** `current`
 - Basis: структура программы ЛР (M1/M2 слоты RCS FORM.089); различение «мастерство развития себя vs мастерство работы»; FPF Object ≠ Description ≠ Carrier применительно к уровням развития
 - Revision criterion: Would change if the program structure merges M1 and work-culture tracking into a single slot, or if empirical data shows the distinction does not predict different remediation paths
+
+## [D.143] Unified Style vs. Fragmented Style {#d143-unified-style-vs-fragmented-style}
+
+**Definition**: A **unified style** is a stable mode of action consistent across all life spheres (work, home, learning). **Fragmented style** (рассогласованный стиль) is when a person demonstrates composure in one sphere and chaos in another.
+
+**Distinction Test**:
+- Does the person's working style differ significantly from their home/leisure style? → Fragmented (diagnostic marker of immature style)
+- Is composure/chaos consistent across all spheres? → Unified (marker of mature style)
+
+**Diagnostic Use (MIM.R.009)**: Fragmented style = low mastery level (ступень 1-2). Style immaturity, not domain-specific capability.
+
+**Key Claim**: Style is a characteristic of the creator, not of the sphere. "I'm collected at work but chaotic at home" is not a domain difference — it is unrooted style.
+
+**Related Items**:
+- Formalization: [PD.FORM.098](../02-domain-entities/formalizations/PD.FORM.098-style-as-lr-material.md)
+- Role: MIM.R.009 (Диагност)
+
+## [D.144] False Opposition: "Clear Chaos First" vs. "Develop Self First" {#d144-false-opposition-chaos-clearing-vs-self-development}
+
+**Definition**: The perceived choice between "first fix external chaos, then work on myself" vs. "first develop myself, then deal with chaos" is a **false opposition**. Both treat external and internal as separate rooms. The modern model: behavior emerges from environment, not from willpower alone.
+
+**Distinction Test**:
+- Is the person waiting for "right conditions" to start personal development? → Operating under the false opposition
+- Is the person treating current chaotic material as the *medium* for style development? → Has dissolved the false opposition
+
+**Key Claim**: External and internal are not two rooms with a door — they are one fabric viewed from different sides. Working-chaos is not a reason to postpone development; it is the material on which style is built.
+
+**Related Items**:
+- Formalization: [PD.FORM.098](../02-domain-entities/formalizations/PD.FORM.098-style-as-lr-material.md) §2
+- Distinction: [D.143](#d143-unified-style-vs-fragmented-style)
+- Navigator narrative: MIM.R.007 (SS.2, SS.6)
