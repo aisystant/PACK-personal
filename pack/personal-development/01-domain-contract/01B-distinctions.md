@@ -115,6 +115,7 @@ Core conceptual distinctions for the Personal Development domain.
 | [D.144](#d144-false-opposition-chaos-clearing-vs-self-development) | False Opposition: "Clear Chaos First" vs. "Develop Self First" (Ложная оппозиция: разгрести хаос ≠ развить себя) | current | FORM.098, D.143 |
 | [D.145](#d145-universal-guide-vs-personal-guide) | Universal Guide vs. Personal Guide (Универсальное руководство ≠ Персональное руководство) | current | WP-300 |
 | [D.146](#d146-domain-activity-vs-marker-event) | Domain Activity vs. Marker Event (Признак практики = активность в домене ≠ маркерное событие) | current | FORM.089, WP-214 |
+| [D.147](#d147-four-natures-of-personal-ai) | Four Natures of Personal AI (Инструмент ≠ Партнёр ≠ Память ≠ Зеркало) | current | DP.D.046, WP-167 |
 
 ---
 
@@ -3975,3 +3976,26 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 **Related Items**:
 - Formalization: [PD.FORM.089](../02-domain-entities/formalizations/PD.FORM.089-learner-rcs.md) §M1 baseline (rule operationalised here)
 - WP-214 Ф10.5 (fix and handoff)
+
+## [D.147] Four Natures of Personal AI {#d147-four-natures-of-personal-ai}
+
+**Definition**: Use of personal AI is not a binary "AI helps me" — it has four layered natures, each requiring different investment and yielding returns on different horizons. Расширяет DP.D.046 (Экзоскелет ≠ Автопилот) более детальной таксономией.
+
+| Природа | Что требует | Горизонт отдачи |
+|---------|------------|-----------------|
+| **Инструмент** | Ничего — зашёл, спросил, получил | Мгновенно |
+| **Партнёр** | Передать рабочий контекст задачи | Дни |
+| **Память** | Поддерживать структуру данных между сессиями | Недели |
+| **Зеркало** | Регулярно фиксировать решения → ИИ возвращает паттерны мышления | Месяцы |
+
+**Different from DP.D.046:** Bинарное «экзоскелет vs автопилот» зафиксировано в digital-platform; D.147 — таксономия способов использования ИИ с измеримыми вложениями.
+
+**Distinction Test**: «Если завтра начать с чистого листа — что сохранится?» Первая природа: ничего. Зеркало: накопленные паттерны мышления — в структуре памяти.
+
+**Key Claim**: «Большинство застряло на первой природе» — потому что она работает сразу, без вложений. Следующие три = инвестиция со сдвинутым горизонтом. Зеркало — единственная природа, которую автопилот дать не может.
+
+**Application для Навигатора (R27)**: на ступенях 1-2 — нарративный фрейм «зачем контекст»: «Сейчас ты используешь ИИ как инструмент. Партнёр требует одного шага — передать контекст задачи».
+
+**Related Items**:
+- Distinction: DP.D.046 (Экзоскелет ≠ Автопилот)
+- Source: WP-167 (D-035, пост 142, 2026-05-12)
