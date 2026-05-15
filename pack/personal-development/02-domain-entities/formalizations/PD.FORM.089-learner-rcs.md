@@ -2,7 +2,7 @@
 id: PD.FORM.089
 type: domain-entity
 status: draft
-summary: "Role Characterisation Space (RCS) Ученика: болид-онтология (Пилот+Машина), 7 bh-характеристик Аттестатора (bh.sys/inv/met/awr/agn/scl/stb) + 13 cp-срезов Диагноста (cp.rhy/wld/skl/iwe/cre/knw/env/int/auto/exo/agt/cult/traj). Ступень = двойной gate: bh-сигнал (Аттестатор, авто) → cp-подтверждение (Диагност, по запросу). Формализм: FPF A.19 U.CharacteristicSpace"
+summary: "Role Characterisation Space (RCS) Ученика: болид-онтология (Пилот+Машина), 3 узла ЛР (Мыслительное/Саморазвитие/Управление IWE), 7 bh-характеристик Аттестатора (bh.sys/inv/met/awr/agn/scl/stb) + 13 cp-срезов Диагноста (cp.rhy/wld/skl/iwe/cre/knw/env/int/auto/exo/agt/cult/traj). Ступень = двойной gate: bh-сигнал (Аттестатор, авто) → cp-подтверждение (Диагност, по запросу). Формализм: FPF A.19 U.CharacteristicSpace"
 created: 2026-04-21
 valid_from: 2026-04-21
 updated: 2026-05-15
