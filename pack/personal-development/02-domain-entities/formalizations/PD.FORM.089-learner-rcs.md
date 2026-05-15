@@ -576,6 +576,7 @@ Gap до ст.4: укрепить cp.iwe (IWE-среда, baseline 2→3)
 | v2 | Рубрики M3, IT, A; алгоритм измерения Диагноста | ✅ done (4 мая) |
 | v3 | MVP bh-модель (5 характеристик): §12 + матрица минимумов. stage_config.py. Пилоты | ✅ done (14 мая) |
 | **v4 (эта)** | Болид-онтология §1; 13 cp-срезов §2+§4; 7 bh-характеристик §12 (bh.stb + bh.scl); двойной gate §5; К2/К4/З2/З4 fix | ✅ done (15 мая) |
+| v4.1 | bh.inv self_report source extension (Ф13 WP-310): 4 source-значения для slot_logged | ✅ done (15 мая) |
 | v5 | cp.knw домен-специфичные рубрики; auto-TTL cp-срезов; bh.scl с actual_hours; cp.agt с initiator-полем | ⏳ pending |
 
 ---
@@ -652,6 +653,18 @@ week_plan_closed, month_plan_closed, strategy_session_completed, iwe_session
 **Источники (К4 fix):** только `slot_logged.hours` + `lesson_completed.duration_minutes/60`.
 
 > **К4 (WP-310):** `coding_time` (WakaTime) исключён — он включает все репозитории, в том числе рабочие. Используются только чистые учебные события. Нормативы установлены с учётом занижения этих источников.
+
+**К4-uplift (Ф13, 15 мая):** `slot_logged` принимает `payload.source` ∈:
+- `active` — вручную через `/slot N` после реальной практики
+- `self_report_backfill` — одноразовый onboarding-ввод среднего времени за прошлый период
+- `self_report_daily` — ответ на Day Close prompt (если slot за день = 0)
+- `self_report_weekly` — ответ на Week Close prompt (catch-all)
+
+Все четыре источника равноценны для bh.inv. `coding_time` остаётся исключённым — он мерит ВСЕ репо, не декларирует учёбу. Self-report допустим, потому что декларация явна и осознанна.
+
+**bh.sys и bh.stb НЕ ВКЛЮЧАЮТ self_reported события.** Только реальная активность из SELF_DEV_EVENT_TYPES. Self-report подтверждает ВРЕМЯ, не регулярность — иначе мы инфлируем оба показателя из одного ввода.
+
+**Правка истории:** UPDATE `payload.hours` существующего события (overwrite, MVP). Корректирующие события (immutable event log) — backlog при необходимости audit-trail.
 
 | Индекс | Ступень-аналог | Порог ч/нед | Окно |
 |--------|:---:|:---:|:---:|
@@ -799,7 +812,7 @@ def compute_stage_mvp(s, t, m, w, a, total_hours=0.0, stb=5) -> int:
 ### 12.5 Известные ограничения MVP
 
 1. **bh.agn без initiator.** Поле `initiator` в `wp_created` отсутствует (WP-214 Ф10.5). MVP: все wp_created = самоинициированные.
-2. **WakaTime опциональный.** Если не подключён — bh.inv опирается только на slot_logged + lesson_completed. Занижение допустимо на ранних волнах.
+2. **WakaTime запрещён в bh.inv.** Включает все репо. Для honest bh.inv: slot_logged (4 source: active, self_report_*) + lesson_completed.
 3. **bh.stb не реализован в rcs-collector.** Нет запроса max_gap в stage_evaluator.py. Добавить в Ф10+ WP-310.
 4. **bh.scl без actual_hours.** Фиксированный вес вместо реального времени. Тикет: WP-214 Ф11.
 5. **TTL cp-срезов не автоматизирован.** Проверка вручную Диагностом. Автоматический триггер — WP-310 Ф5+.
