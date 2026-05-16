@@ -659,7 +659,7 @@ Gap до ст.4: укрепить cp.iwe (IWE-среда, baseline 2→3)
 
 **Принцип окна:** растёт со ступенью. Проактивный оценивается за 24 нед — нужно доказать устойчивость на дистанции.
 
-**Множество событий SELF_DEV_EVENT_TYPES** (см. stage_config.py):
+**Множество событий SELF_DEV_EVENT_TYPES** (полный реестр в `iwe-actions-catalog.md §0`):
 ```
 lesson_completed, knowledge_extracted, pack_updated, qualification_granted,
 day_plan_opened/day_open, day_plan_closed/day_close,
@@ -759,7 +759,7 @@ week_plan_closed, month_plan_closed, strategy_session_completed, iwe_session
 
 > **bh.stb ≠ bh.sys.** bh.sys = средняя частота (сколько дней из семи). bh.stb = худший разрыв (самый длинный простой). Оба нужны: высокое bh.sys с одним разрывом-3-недели = высокая bh.sys, но низкое bh.stb.
 
-**Нормализация:** `norm_stb(max_gap_days)` из stage_config.py.
+**Нормализация bh.stb:**
 
 | bh.stb индекс | Макс. разрыв | Ступень-аналог |
 |:---:|:---:|:---:|
@@ -807,24 +807,58 @@ week_plan_closed, month_plan_closed, strategy_session_completed, iwe_session
 | **1** | 1–3 | 1–4 | 1–3 |
 | **0** | 0 | 0 | 0 |
 
-**Алгоритм расчёта** (см. `stage_config.py::compute_stage_mvp`):
+**Алгоритм расчёта** (источник — этот раздел; зеркало в `stage_config.py::compute_stage_mvp`):
 
-```python
-def compute_stage_mvp(s, t, m, w, a, total_hours=0.0, stb=5) -> int:
-    """
-    s=bh.sys, t=bh.inv, m=bh.met, w=bh.awr, a=bh.agn — индексы 0–5.
-    total_hours — накопленные ч (только slot_logged + lesson_completed, К4).
-    stb=bh.stb — индекс устойчивости (max-gap).
+```
+compute_stage_mvp(s, t, m, w, a, total_hours, stb) → stage ∈ {1..5}
 
-    Gates в порядке:
-    1. Mandatory: s==0 или t==0 → ступень 1
-    2. Матрица STAGE_GATE_MATRIX: все 5 bh ≥ минимумов → stage
-    3. Hard gate накопленных часов
-    4. bh.stb gate
-    """
+  s=bh.sys, t=bh.inv, m=bh.met, w=bh.awr, a=bh.agn — индексы 0–5.
+  total_hours — накопленные ч (только slot_logged + lesson_completed, К4).
+  stb=bh.stb — индекс устойчивости (max-gap).
+
+  Gates в порядке:
+  1. Mandatory: s==0 или t==0 → ступень 1
+  2. Матрица минимумов (выше): все 5 bh ≥ минимумов → stage
+  3. Hard gate накопленных часов: total_hours < min[stage] → stage−1
+  4. bh.stb gate: stb < STB_GATE[stage] → stage−1
 ```
 
 > Ступень 5 из этой функции — `bh_gate_passed`. Итоговая ступень 5 требует дополнительно cp-подтверждения (§5.1) и `form093_real_change_gate` (FORM.093 §7.2).
+
+### 12.3a Целевой ритм по ступеням (Навигатор)
+
+Ориентир, который Навигатор показывает пилоту как «целевой ритм для ступени N»:
+
+| Ступень | Целевые ч/нед | Назначение |
+|---|:---:|---|
+| 1 Случайный | 2 | Войти в практику |
+| 2 Практикующий | 4 | Регулярность |
+| 3 Систематический | 6 | Освоить методы |
+| 4 Дисциплинированный | 8 | Устойчивая работа |
+| 5 Проактивный | 10 | Полная норма |
+
+Эти числа — не пороги bh.inv (см. §12.2), а **ритмический ориентир** для уведомлений и руководств. Bot-уведомление при переходе ступени включает соответствующее значение.
+
+### 12.3b Source-of-truth и синхронизация
+
+Этот раздел (§12.1–§12.3a) — **единственный источник истины** для нормативов Аттестатора. Реализация в `stage_config.py` — техническое зеркало.
+
+| Норматив | Pack-источник | Код-зеркало |
+|---|---|---|
+| Окна расчёта (ACCOUNTING_WEEKS) | §12.2 таблицы bh.sys/bh.inv | `ACCOUNTING_WEEKS` |
+| Пороги bh.sys (S_THRESHOLDS) | §12.2 таблица bh.sys | `S_THRESHOLDS` |
+| Пороги bh.inv (T_THRESHOLDS) | §12.2 таблица bh.inv | `T_THRESHOLDS` |
+| Рубрики bh.met/awr/agn | §12.2 таблицы | `norm_m / norm_w / norm_a` |
+| Рубрики bh.stb (norm_stb) | §12.2 bh.stb таблица | `norm_stb` |
+| Матрица STAGE_GATE_MATRIX | §12.3 матрица | `STAGE_GATE_MATRIX` |
+| Накоп. часы (CUMULATIVE_HOURS_GATE) | §12.3 матрица строка «Накоп. часы» | `CUMULATIVE_HOURS_GATE` |
+| STB_GATE | §12.2 bh.stb блок | `STB_GATE` |
+| AWR_WINDOW_DAYS | §12.2 bh.awr «Окно: 30 дней» | `AWR_WINDOW_DAYS` |
+| Целевой ритм (TARGET_HOURS_PER_STAGE) | §12.3a | `TARGET_HOURS_PER_STAGE` |
+| Веса W_WEIGHTS / A_WEIGHTS | `iwe-actions-catalog.md §7.4/§7.5` | `W_WEIGHTS / A_WEIGHTS` |
+| Алгоритм compute_stage_mvp | §12.3 псевдокод | `compute_stage_mvp` |
+
+**Правило изменения:** норматив правится сначала здесь (Pack-коммит), затем зеркалится в `stage_config.py` (код-коммит с ссылкой на Pack-коммит). Обратный порядок (код → Pack) допустим только для bugfix-зеркалирования формул, не для изменения значений.
 
 ### 12.4 Маппинг bh. → cp. (§4)
 
