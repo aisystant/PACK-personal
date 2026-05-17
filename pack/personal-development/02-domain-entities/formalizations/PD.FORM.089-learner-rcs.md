@@ -954,3 +954,4 @@ compute_stage_mvp(s, t, m, w, a, total_hours, stb) → stage ∈ {1..5}
 <!-- WP-322 Ф1.3 e2e test trigger 2026-05-17 -->
 <!-- WP-322 Ф1.3 e2e retry post-URL-fix 2026-05-17 -->
 <!-- WP-322 Ф1.3 e2e final trigger 2026-05-17 -->
+<!-- WP-322 Ф1.3 e2e final-2 after labels created -->
