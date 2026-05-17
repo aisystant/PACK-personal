@@ -565,11 +565,13 @@ cp_confirmed_stage = min(mandatory)        # §5.1 двойной gate
 bottleneck_slot = argmin(mandatory)
 skip_to_stage = cp_confirmed_stage         # skip-level вход (не обязательно с ст. 1)
 
-# cp.iwe и cp.cre — рекомендательные оси, не блокируют ступень
-iwe_stage = name_iwe_stage(cp.iwe)  # Пользователь-1/-2/-3/-3+
-cre_stage = name_cre_stage(cp.cre)  # Разработчик-0/-1/-2/-3/-3+/Мастер
-iwe_marker_ok = (cp_confirmed_stage < 3) or (cp.iwe >= 3)  # ст.3 ≈ Пользователь-3
-cre_marker_ok = (cp_confirmed_stage < 3) or (cp.cre >= 1)  # ст.3 ≈ Разработчик-1
+# cp.iwe и cp.cre — рекомендательные оси, не блокируют ступень.
+# Имя стадии мастерства IWE — функция ступени Ученика (§6.3), не cp-индекса.
+iwe_master_stage = iwe_master_stage_label(cp_confirmed_stage)
+# ↑ ст.1→Пользователь-1, ст.2→Пользователь-2, ст.3→Пользователь-3+Разработчик-1, ст.4→Разработчик-2, ст.5→Разработчик-3
+(expected_iwe, expected_cre) = expected_profile(cp_confirmed_stage)  # из §6.3
+iwe_fact_vs_expected = (cp.iwe, expected_iwe)  # факт vs ожидание
+cre_fact_vs_expected = (cp.cre, expected_cre)
 
 if cp_confirmed_stage >= 4: recommended_stream = "S4"
 elif cp_confirmed_stage >= 3: recommended_stream = "S3"
@@ -587,8 +589,8 @@ Skip: начать с ступени 3 (skip_to_stage=3, не обязатель
 Bottleneck: cp.skl (idx=2)
 Профиль mandatory: cp.rhy=3, cp.wld=3, cp.skl=2, cp.int=3, cp.agt=3
 Профиль информационный: cp.iwe=3, cp.cre=0, ...
-Стадия мастерства IWE: Пользователь-3 + Разработчик-0
-Маркер ст.3: cp.iwe ≥ 3 ✓; cp.cre ≥ 1 ✗ — рекомендация Портному предложить начать осваивать создание (cp.cre 0→1)
+Стадия мастерства IWE на ст.3: «Пользователь-3 + Разработчик-1» (имя — функция ступени, §6.3)
+Факт vs ожидание: cp.iwe 3/3 ✓; cp.cre 0/1 ✗ — рекомендация Портному предложить начать осваивать создание (cp.cre 0→1)
 Источник: dialogue + bh_proxy
 valid_until: 2026-11-17
 Gap до ст.4: укрепить cp.skl (методы саморазвития, baseline 2→3)
