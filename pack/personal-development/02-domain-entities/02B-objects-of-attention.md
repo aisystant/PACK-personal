@@ -14,6 +14,7 @@ What practitioners in Personal Development attend to.
 | [OA.004](#oa004-discrepancies) | Discrepancies (Plan vs. Actual) | METHOD.001 | WP.001 |
 | [OA.005](#oa005-resource-flows) | Resource Flows | METHOD.001 | WP.001 |
 | [OA.006](#oa006-method-execution-quality) | Method Execution Quality | — | — |
+| [OA.007](#oa007-creator-role-objects) | Creator Role Objects (per-role attention) | — | — |
 
 ---
 
@@ -179,6 +180,42 @@ For maturity levels 0–1 (PD.FORM.003), the six objects of attention aggregate 
 This is not a simplification but a **lens**: Level 1 UI for the Level 3 data model. Transition to the full six objects occurs when the three can no longer distinguish "where exactly the problem is."
 
 See: [PD.FORM.079 — Three Attention Objects for Beginners](formalizations/PD.FORM.079-three-attention-objects-beginner.md)
+
+---
+
+## [OA.007] Creator Role Objects {#oa007-creator-role-objects}
+
+**What it is**: The specific object of attention for each of the five creator roles (PD.FORM.087). Each role attends to a distinct primary object — physical or mental — that determines what the role does and what it leaves to other roles.
+
+**Structural principle**: Every role has exactly one primary object. *Quality of role performance* (e.g., quality of thinking for the Intellectual) is a **characteristic** of the role — a description of how well it performs — not the object of attention. Confusing quality with object produces metacognitive loops instead of actual work.
+
+**Object by role**:
+
+| Role | Object of Attention | Object Type | Minimum time floor |
+|------|---------------------|-------------|--------------------|
+| Ученик (Learner) | Self as a system (methods, habits, rhythm) | Physical + Mental | never below 10% |
+| Интеллектуал (Intellectual) | Problems and uncertainties (not yet tasks) | Mental | — |
+| Профессионал (Professional) | Task + work product (concrete artifact) | Physical | — |
+| Исследователь (Researcher) | Frontier (boundary between known and unknown) | Mental | — |
+| Просветитель (Enlightener) | Ideas and meanings (for society and generations) | Mental | — |
+
+**Key distinctions**:
+- Intellectual's object is **problems/uncertainties**, not "thinking quality". Quality is the *characteristic* of how well the Intellectual translates problems into tasks.
+- Professional's object is **task + work product**, not "the domain". The domain is the environment where tasks arise; the Professional attends to the task and the output.
+- Researcher's object is **the frontier** — specifically the line between known and unknown — not "research" in general.
+
+**Problem ≠ Task** (critical for the Intellectual's role):
+- **Problem** = state of stuckness; the method of resolution is unknown.
+- **Task** = formulation where the method is known, an executor is assigned, and a completion criterion is defined.
+- The Intellectual's core operation is converting problems into tasks.
+
+**Related**: PD.FORM.087 (Creator Role Trajectory), PD.FORM.090 (Scope/Caliber Levels), OA.001–006 (practitioner-level objects)
+
+**Common mistakes**:
+- Treating "thinking quality" as the Intellectual's object → leads to metacognitive loop (thinking about thinking instead of solving problems)
+- Treating "domain" as the Professional's object → leads to activity without product
+- Treating Learner's floor as zero → Learner below 10% causes all other roles to degrade
+- Attempting Researcher role without knowing the current frontier → imitation research
 
 ---
 
