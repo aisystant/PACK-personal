@@ -333,6 +333,10 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.METHOD.027 | Stream Defense | METHOD | — | active |
 | PD.METHOD.028 | Reflection With Readback Agent | METHOD | Метод асинхронной обратной связи через структурированную рефлексию: пилот заполняет 5 вопросов за 5 минут, агент (Портной) читает ответы при следующем рендере и учитывает в персональном руководстве. Ответ 3 → gate перехода фаз (PD.FORM.087). Ответ 5 → контекст tomorrow's daily. | active |
 | PD.METHOD.029 | Adaptive Measurement Window | METHOD | Адаптивное учётное окно расчёта активности по ступени: ст.1=7д, ст.2=28д, ст.3=56д, ст.4=84д, ст.5=168д | active |
+| PD.METHOD.030 | Шкала качества с якорями на каждом делении (Anchored Quality Scale) | METHOD | — | active |
+| PD.METHOD.031 | FORM Slices + Node Tree: структура модели развития созидателя | METHOD | — | draft |
+| PD.METHOD.032 | Guide Section Template V4 | METHOD | 14-элементная структура подраздела персонального руководства с frontmatter-якорями cp_check и bh_check | active |
+| PD.METHOD.033 | Meme Removal Entry Point | METHOD | Трёхшаговая структура снятия блокирующего убеждения перед введением нового контринтуитивного понятия | active |
 | PD.PRINC.030 | Continuous Reflash | PRINC | Непрерывная перепрошивка: развитие созидателя должно быть непрерывным, инкрементальным и бесконечным — единица развития не курс, а ежедневный слот + недельный инкремент + месячный обзор | active |
 | PD.PRINC.031 | Productive State Primacy | PRINC | Примат продуктивного состояния: продуктивное состояние > план-расписание — устал → лёгкие задачи, в потоке → сложные задачи | active |
 | PD.PRINC.032 | Close The Loop | PRINC | Закрывай цикл или пиши рефлексию: каждый начатый цикл должен быть завершён до результата или осознанно закрыт с письменной рефлексией | active |

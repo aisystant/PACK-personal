@@ -23,7 +23,7 @@ generated: true
 | FAIL (FAIL) | 65 |
 | FORM (FORM) | 95 |
 | Maps (MAP) | 1 |
-| METHOD (METHOD) | 29 |
+| METHOD (METHOD) | 33 |
 | PRINC (PRINC) | 15 |
 | QUAL (QUAL) | 1 |
 | ROLE (ROLE) | 6 |
@@ -31,7 +31,7 @@ generated: true
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 26 |
-| **Total** | **268** |
+| **Total** | **272** |
 
 ## Work Products
 
@@ -301,6 +301,10 @@ generated: true
 | PD.METHOD.027 | Stream Defense | — | active |
 | PD.METHOD.028 | Reflection With Readback Agent | Метод асинхронной обратной связи через структурированную рефлексию: пилот заполняет 5 вопросов за 5 минут, агент (Портной) читает ответы при следующем рендере и учитывает в персональном руководстве. Ответ 3 → gate перехода фаз (PD.FORM.087). Ответ 5 → контекст tomorrow's daily. | active |
 | PD.METHOD.029 | Adaptive Measurement Window | Адаптивное учётное окно расчёта активности по ступени: ст.1=7д, ст.2=28д, ст.3=56д, ст.4=84д, ст.5=168д | active |
+| PD.METHOD.030 | Шкала качества с якорями на каждом делении (Anchored Quality Scale) | — | active |
+| PD.METHOD.031 | FORM Slices + Node Tree: структура модели развития созидателя | — | draft |
+| PD.METHOD.032 | Guide Section Template V4 | 14-элементная структура подраздела персонального руководства с frontmatter-якорями cp_check и bh_check | active |
+| PD.METHOD.033 | Meme Removal Entry Point | Трёхшаговая структура снятия блокирующего убеждения перед введением нового контринтуитивного понятия | active |
 
 ### PRINC
 
@@ -362,6 +366,8 @@ generated: true
 
 - Missing `summary`: PD.FORM.084 (PD.FORM.084-notes-pipeline.md)
 - Missing `summary`: PD.METHOD.027 (PD.METHOD.027-stream-defense.md)
+- Missing `summary`: PD.METHOD.030 (PD.METHOD.030-anchored-quality-scale.md)
+- Missing `summary`: PD.METHOD.031 (PD.METHOD.031-form-slices-node-tree.md)
 - Missing `summary`: PD.MAP.001 (PD.MAP.001.md)
 
 ## Staleness Warnings (>90 days since update)
