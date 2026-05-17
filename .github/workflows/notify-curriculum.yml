@@ -1,0 +1,46 @@
+name: Notify Curriculum on Pack Change
+
+# WP-322 Ф1.2 (Pack-watcher cross-repo trigger).
+# Срабатывает на push в PD.FORM.089 (онтология программы ЛР).
+# Отправляет repository_dispatch event в DS-principles-curriculum,
+# где запускается pack-drift-watcher.yml → создаёт issue при drift > 0.
+#
+# Требует secret CURRICULUM_DISPATCH_TOKEN (PAT с правами `repo` на DS-principles-curriculum).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'pack/personal-development/02-domain-entities/formalizations/PD.FORM.089-*.md'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send repository_dispatch to DS-principles-curriculum
+        env:
+          DISPATCH_TOKEN: ${{ secrets.CURRICULUM_DISPATCH_TOKEN }}
+          PACK_COMMIT: ${{ github.event.head_commit.id }}
+          PACK_COMMIT_URL: ${{ github.event.head_commit.url }}
+          PACK_AUTHOR: ${{ github.event.head_commit.author.name }}
+          PACK_MESSAGE: ${{ github.event.head_commit.message }}
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $DISPATCH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/TserenTserenov/DS-principles-curriculum/dispatches" \
+            -d @- <<EOF
+          {
+            "event_type": "pack-drift-check",
+            "client_payload": {
+              "pack_commit": "${PACK_COMMIT}",
+              "pack_commit_url": "${PACK_COMMIT_URL}",
+              "pack_author": "${PACK_AUTHOR}",
+              "pack_message": $(echo "$PACK_MESSAGE" | head -c 200 | jq -Rs .),
+              "trigger_repo": "PACK-personal",
+              "trigger_ref": "${{ github.ref }}"
+            }
+          }
+          EOF
+          echo "✅ Dispatch sent to DS-principles-curriculum (event-type: pack-drift-check)"
