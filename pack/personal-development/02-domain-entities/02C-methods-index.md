@@ -75,6 +75,17 @@ Methods that discipline conceptual thinking and tie it to the material world.
 | [PD.METHOD.034](../03-methods/PD.METHOD.034-grounding.md) | Grounding (Заземление понятия) | concept with three anchors (object / action / sign) | active | current |
 | [PD.METHOD.035](../03-methods/PD.METHOD.035-description-of-what.md) | Anchor Question «Description of What?» | restored object-level focus in thinking | active | current |
 
+### Measurement & Authoring Methods (recent additions)
+
+Methods for calibrated measurement and pedagogical content authoring.
+
+| ID | Method Name | Produces | Status | SoTA |
+|----|-------------|----------|--------|------|
+| [PD.METHOD.030](../03-methods/PD.METHOD.030-anchored-quality-scale.md) | Anchored Quality Scale (Шкала качества с якорями) | calibrated q:N rating | active | current |
+| [PD.METHOD.031](../03-methods/PD.METHOD.031-form-slices-node-tree.md) | FORM Slices + Node Tree | structure of creator development model | draft | current |
+| [PD.METHOD.032](../03-methods/PD.METHOD.032-guide-section-template-v4.md) | Guide Subsection Template v4 | guide subsection with frontmatter anchors | active | current |
+| [PD.METHOD.033](../03-methods/PD.METHOD.033-meme-removal-entry-point.md) | Meme Removal as Pedagogical Entry Point | unblocking opening before counterintuitive concept | active | current |
+
 ---
 
 ## Full Methods List (Alphabetical)
