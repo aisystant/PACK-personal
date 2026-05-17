@@ -950,3 +950,5 @@ compute_stage_mvp(s, t, m, w, a, total_hours, stb) → stage ∈ {1..5}
 3. **bh.stb не реализован в rcs-collector.** Нет запроса max_gap в stage_evaluator.py. Добавить в Ф10+ WP-310.
 4. **bh.scl без actual_hours.** Фиксированный вес вместо реального времени. Тикет: WP-214 Ф11.
 5. **TTL cp-срезов не автоматизирован.** Проверка вручную Диагностом. Автоматический триггер — WP-310 Ф5+.
+
+<!-- WP-322 Ф1.3 e2e test trigger 2026-05-17 -->
