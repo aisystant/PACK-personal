@@ -66,6 +66,15 @@ Methods that build conditions and environment for productive activity.
 | [PD.METHOD.006](../03-methods/PD.METHOD.006-leisure-organization.md) | Leisure Organization | — | active | current |
 | [PD.METHOD.007](../03-methods/PD.METHOD.007-environment-formation.md) | Environment Formation | — | active | current |
 
+### Thinking Discipline Methods
+
+Methods that discipline conceptual thinking and tie it to the material world.
+
+| ID | Method Name | Produces | Status | SoTA |
+|----|-------------|----------|--------|------|
+| [PD.METHOD.034](../03-methods/PD.METHOD.034-grounding.md) | Grounding (Заземление понятия) | concept with three anchors (object / action / sign) | active | current |
+| [PD.METHOD.035](../03-methods/PD.METHOD.035-description-of-what.md) | Anchor Question «Description of What?» | restored object-level focus in thinking | active | current |
+
 ---
 
 ## Full Methods List (Alphabetical)
