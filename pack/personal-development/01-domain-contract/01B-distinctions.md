@@ -133,6 +133,8 @@ Core conceptual distinctions for the Personal Development domain.
 | [D.162](#d162-qualification-vs-role) | Квалификация ≠ Роль созидателя (Порядковая ступень мастерства ≠ функциональная позиция) | current | FORM.087, FORM.105 (new) |
 | [D.163](#d163-culture-as-access-vs-mastery-as-result) | Культура (допуск) ≠ Мастерство (результат) — базовые практики vs владение методами | current | FORM.001 §3, FAIL.071 (new) |
 | [D.164](#d164-stage-of-learner-vs-qualification-level) | Ступень зрелости Ученика ≠ Степень квалификации — две оси: внутренняя зрелость роли vs внешнее признание мастерства | current | FORM.003, FORM.105, FORM.106 |
+| [D.165](#d165-informational-vs-mandatory-indicator) | Informational ≠ Mandatory Indicator (Рекомендательный индикатор не блокирует gate; стержневой входит в `min()`) | current | FORM.089 §5.2-§5.4 |
+| [D.166](#d166-narrative-vs-operational-stage) | Narrative-stage ≠ Operational-mastery-stage (имя operational-оси выводится из narrative-носителя) | current | FORM.089 §6.3, D.154 |
 
 ---
 
@@ -4420,3 +4422,81 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 - Formalization: [PD.FORM.106](../02-domain-entities/formalizations/PD.FORM.106-worker-stages.md) — степени квалификации в программе РР
 - Distinction: [D.162](#d162-qualification-vs-role) — Квалификация ≠ Роль (соседняя ось)
 - Source: Уточнение пилота 2026-05-18, WP-332 Этап 8 после VR.R.001 аудита
+
+## [D.165] Informational ≠ Mandatory Indicator {#d165-informational-vs-mandatory-indicator}
+
+**Definition:** В системе индикаторов прогресса (RCS, scorecard, OKR-набор) сосуществуют
+два класса:
+
+- **Mandatory (стержневой)** — входит в агрегат `min()` для `confirmed_stage`, блокирует
+  gate перехода. Просадка стержневого индикатора → блокирует ступень.
+- **Informational (рекомендательный)** — виден в профиле, используется Портным/ролями
+  для адаптивных рекомендаций, **но не блокирует** gate. Просадка → триггерит
+  рекомендацию, не блокирует.
+
+**Distinction Test:** «Если индикатор просядет на 1 балл — это блокирует ступень/уровень?»
+- Да → mandatory.
+- Нет, только триггерит рекомендацию → informational.
+
+**Граница:** Один и тот же индикатор может перейти между классами при ревизии модели
+(ломающее изменение, требует bump формализации). Пример: cp.iwe FORM.089 v4.2 →
+v5.0 — перенесён из mandatory (§5.2) в informational (§5.4); причина: жёсткий gate
+на cp.iwe смешивал narrative-ось (ступень Ученика) и operational-ось (стадии
+мастерства IWE).
+
+**Why It Matters:** Информационный класс позволяет измерять независимые оси без
+cross-coupling. Если все индикаторы mandatory — диагностика отказывает (один низкий
+индикатор скрывает прогресс по остальным). Если все informational — gate перехода
+становится номинальным (нет блокирующего критерия).
+
+**Принцип:** mandatory ≤ 4-5 индикаторов; остальные informational. Только то, без чего
+поведенческий режим действительно невозможен — mandatory.
+
+**Related Items:**
+- Source: FORM.089 §5.2 (стержневые), §5.4 (информационные); commit 9b98bbd, 91bc7bf
+  (WP-326 Ф1, v4.2→v5.0).
+- Distinction: [D.140](#d140-characteristic-vs-measure-vs-value-vs-potential) — два
+  типа индикаторов разнесены по уровню обязательности.
+- Применимо к: характеристики продукта, OKR-индикаторы, health-metrics, скоринг
+  калибра, любые составные индикаторные модели.
+
+## [D.166] Narrative-stage ≠ Operational-mastery-stage {#d166-narrative-vs-operational-stage}
+
+**Definition:** В композитной модели прогресса с двумя осями сосуществуют:
+
+- **Narrative-stage** — несущая ось развития (например, Ученик 1-5: сюжетная дуга
+  мировоззрения, нарратив зрелости). Задаёт ступень, к которой привязаны имена и
+  ожидания всех вторичных осей.
+- **Operational-mastery-stage** — оси операционного владения инструментом/доменом
+  (например, Пользователь-1/2/3, Разработчик-1/2/3: операционные стадии освоения IWE).
+  Имя operational-стадии **выводится из narrative-stage**, а не из cp-индекса
+  самой operational-оси.
+
+**Distinction Test:** «Есть ли в модели две оси прогресса — narrative (сюжетная) и
+operational (операционная)?»
+- Да → имя operational-стадии — функция narrative-носителя, не функция собственного
+  cp-индекса.
+
+**Принцип лестницы:** ось operational подчинена несущей narrative-оси. Пилот не может
+быть «Пользователь-5 на ступени 2» — имена синхронизированы по ступени Ученика. cp-индекс
+operational-оси измеряет факт освоения; имя стадии задаётся ступенью носителя.
+
+**Граница:** Если две оси самостоятельны (одного уровня) — distinction не применяется,
+оба имени выводятся независимо. Применяется только когда одна ось несущая (narrative),
+вторая — её подчинённая (operational).
+
+**Why It Matters:** Без этого distinction возникают рассинхронизации имён («Пользователь-5
+на ступени 2», «Разработчик-3 на ступени 1»), нарушающие тест «имя operational соответствует
+ожиданию на текущей ступени». Также упрощает Pack-derived naming (AR.206) — helper
+`iwe_stage_name(narrative_stage)` берёт narrative как вход, без зависимости от cp-индекса.
+
+**Related Items:**
+- Source: FORM.089 §6.3 (таблица имён стадий), §4 (структура двух осей); commit 91bc7bf
+  (WP-326 round 3 verifier-fix).
+- Distinction: [D.154](#d154-iwe-operation-vs-iwe-creation) — два узла operational
+  оси (управление vs создание).
+- Rule: AR.206 (Pack-derived naming via helper) — реализация: имя operational-стадии
+  через `*_stage_name(narrative_stage)`.
+- Применимо к: модели мастерства (профессионального, мыслительного, ролевого) с
+  несущей сюжетной осью; любые многоосные progress-модели.
+
