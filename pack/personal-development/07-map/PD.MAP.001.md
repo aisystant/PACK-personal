@@ -68,13 +68,13 @@ generated: true
 
 | ID | Name | Summary | Status |
 |----|------|---------|--------|
-| PD.SOTA.001 | Strategy Hierarchy | SOTA-основание метода стратегирования: иерархия уровней (Mission→Vision→R-месяца→WeekPlan→Day→Session), сквозные инструменты (НЭП, Калибр, ТОС, MAPSTRATEGIC) и синтез пяти методов (RBM, OKR, TOC, Shape Up, JTBD) | current |
 | PD.SOTA.001 | Registration Method {#i1-registration-method} | Состояние искусства: шесть интерпретаций учёта времени с оценкой актуальности каждой | — |
 | PD.SOTA.002 | Strategy Tools | Сравнительный анализ методов и инструментов личного стратегирования и планирования: GTD, PARA, Zettelkasten, OKR, Shape Up — что взять в IWE и почему | current |
 | PD.SOTA.003 | Cognitive Patterns of Multitasking and Parallel Orchestration | Когнитивные паттерны многозадачности, когнитивной разгрузки и параллельной оркестрации ИИ-агентов: различения, ограничения, условия безопасности | current |
 | PD.SOTA.004 | Landscape of Personal Development Programs and Evidence Base | Сравнительный обзор 15 программ/подходов к личному развитию (GTD, 7 Habits, Atomic Habits, Deep Work, Tiny Habits, Huberman, Flow, Dreyfus и др.) — доказательная база, что берём для обоснования программы ЛР | current |
 | PD.SOTA.005 | Lifework Design Methods Across Scope Levels | Карта решений для метода сборки пакета Lifework: 4 фундаментальных якоря (Dunbar, Singer, Bronfenbrenner, Kegan) + 10 методов дизайна жизни и стратегии, распределённых по 6 уровням системного охвата (Я → ближний круг → дальний круг → сообщество → общество → человечество). ВАЖНО: метод выведен из пакета автора (single-author basis); SOTA-обзор обосновывает структурный каркас, но универсальность шаблонов по доменам — открытая гипотеза | current |
 | PD.SOTA.006 | Adaptive Personalization | Четыре ключевых алгоритма адаптивной персонализации (BKT, IRT, Spaced Repetition, Curriculum Learning) и их применение к программе ЛР: как SOTA влияет на каскад планирования (PD.METHOD.025), выбор контента Портным и метрики Диагноста | active |
+| PD.SOTA.007 | Strategy Hierarchy | SOTA-основание метода стратегирования: иерархия уровней (Mission→Vision→R-месяца→WeekPlan→Day→Session), сквозные инструменты (НЭП, Калибр, ТОС, MAPSTRATEGIC) и синтез пяти методов (RBM, OKR, TOC, Shape Up, JTBD) | current |
 
 ## Maps
 

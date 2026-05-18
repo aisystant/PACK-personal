@@ -130,7 +130,7 @@ tags: [lifework, life-design, scope-levels, dunbar, expanding-circle, ecological
 ## 9. Связи
 
 - **Применяется в:** [PD.METHOD.018 Lifework Pack Composition](../03-methods/PD.METHOD.018-lifework-pack-composition.md)
-- **Дополняет:** [PD.SOTA.001 Strategy Hierarchy](PD.SOTA.001-strategy-hierarchy.md) (операционный уровень — над ним рамочный)
+- **Дополняет:** [PD.SOTA.001 Strategy Hierarchy](PD.SOTA.007-strategy-hierarchy.md) (операционный уровень — над ним рамочный)
 - **Дополняет:** [PD.SOTA.002 Strategy Tools](PD.SOTA.002-strategy-tools.md) (GTD/PARA/OKR/Shape Up — операционные инструменты, здесь рамочные)
 - **Дополняет:** [PD.SOTA.004 Personal Development Programs Landscape](PD.SOTA.004-personal-development-programs-landscape.md) (программа ЛР — уровень 1; здесь полная дуга 1-6)
 - **Различение:** PD.METHOD.008 Стратегирование = операционный процесс (неделя/месяц/год). PD.METHOD.018 Lifework Composition = рамочный процесс (десятилетия). Два разных уровня; новый метод над существующим, не вместо

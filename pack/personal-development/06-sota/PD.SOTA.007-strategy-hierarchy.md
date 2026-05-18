@@ -1,5 +1,5 @@
 ---
-id: PD.SOTA.001
+id: PD.SOTA.007
 name: Strategy Hierarchy
 status: current
 summary: "SOTA-основание метода стратегирования: иерархия уровней (Mission→Vision→R-месяца→WeekPlan→Day→Session), сквозные инструменты (НЭП, Калибр, ТОС, MAPSTRATEGIC) и синтез пяти методов (RBM, OKR, TOC, Shape Up, JTBD)"
