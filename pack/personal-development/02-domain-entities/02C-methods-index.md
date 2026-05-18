@@ -86,6 +86,18 @@ Methods for calibrated measurement and pedagogical content authoring.
 | [PD.METHOD.032](../03-methods/PD.METHOD.032-guide-section-template-v4.md) | Guide Subsection Template v4 | guide subsection with frontmatter anchors | active | current |
 | [PD.METHOD.033](../03-methods/PD.METHOD.033-meme-removal-entry-point.md) | Meme Removal as Pedagogical Entry Point | unblocking opening before counterintuitive concept | active | current |
 
+### Intellectual Mastery Methods (РР, ст. Работник→Специалист ШСМ)
+
+Methods of thinking mastery for the Intellectual role. Applied in the Worker Development program. Source: PD.ROLE.002 + PD.FORM.108 RCS.
+
+| ID | Method Name | Produces | Status | SoTA |
+|----|-------------|----------|--------|------|
+| [PD.METHOD.037](../03-methods/PD.METHOD.037-conceptual-work.md) | Conceptual Work (Понятийная работа) | concept node with ≥3 connections | draft | current |
+| [PD.METHOD.038](../03-methods/PD.METHOD.038-modelling.md) | Modelling as Thinking Technique (Моделирование) | rebuildable model of situation | draft | current |
+| [PD.METHOD.039](../03-methods/PD.METHOD.039-epistemic-rhythm.md) | Epistemic Rhythm (Эпистемический ритм) | log of mismatches and open questions | draft | current |
+| [PD.METHOD.040](../03-methods/PD.METHOD.040-transfer-of-learning.md) | Transfer of Learning (Перенос теории в практику) | documented transfer cases across domains | draft | current |
+| [PD.METHOD.041](../03-methods/PD.METHOD.041-mentor-partnership.md) | Intellectual's Mentor Partnership (Работа с наставником) | debriefs log + next-step artifacts | draft | current |
+
 ---
 
 ## Full Methods List (Alphabetical)
