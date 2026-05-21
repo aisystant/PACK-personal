@@ -443,7 +443,6 @@ generated: true
 | PD.WP.003 | 99 |
 | PD.WP.004 | 99 |
 | PD.WP.007 | 99 |
-| PD.METHOD.009 | 91 |
 | PD.METHOD.010 | 91 |
 | PD.WP.008 | 91 |
 | PD.WP.009 | 91 |
