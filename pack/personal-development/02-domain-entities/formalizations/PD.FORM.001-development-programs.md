@@ -10,6 +10,7 @@ trust:
   G: domain
   R: 0.7
 epistemic_stage: formed
+routing_note: "§5 содержит описание процесса (стадии программы), возможно неверно маршрутизировано в PACK-personal. Проверить при следующем рефакторинге."
 related:
   uses: [PD.CHR.001]
   see_also: [PD.FORM.090, PD.FORM.091, PD.FORM.097, PD.METHOD.018]
