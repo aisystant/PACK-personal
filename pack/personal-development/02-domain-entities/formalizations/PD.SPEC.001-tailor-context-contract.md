@@ -105,6 +105,18 @@ tailor_context:
 
   # ── Профессиональный домен (L1 declarative) ───────────────────────────────
   domain: "backend development"  # str | null. Для адаптации примеров (SOP.001 Шаг 6)
+
+  # ── Рабочая повестка пилота (L3 Контекст, опционально) ────────────────────
+  # Активные work products и фокус недели из governance-репо пилота (если есть).
+  # Назначение: Портной показывает связь учебной темы с актуальной задачей пилота.
+  # Если пилот не ведёт governance-репо (типично на ранних ступенях) — поле omit
+  # или {}; Портной работает без этого сигнала (legacy-режим).
+  strategy_inputs:                   # dict | null. Опционально
+    week_focus: "Закрыть архитектурную развилку X"  # str | null. Фокус недели
+    active_wp:                       # list[dict] | []. Активные work products
+      - id: "WP-NNN"                 # str. Идентификатор work product
+        title: "Краткое название"    # str. ≤80 символов
+        phase: "Ф2"                  # str | null. Текущая фаза, опционально
 ```
 
 ---
@@ -127,6 +139,7 @@ tailor_context:
 | `worldview_gaps` | L3 не вычислен | `[]` — Портной сам фильтрует CAT.001 по фазе |
 | `mastery_gaps` | L3 не вычислен | `[]` — Портной сам фильтрует CAT.002+CAT.003 по фазе |
 | `domain` | Нет в профиле | `null` (Портной не адаптирует примеры по домену) |
+| `strategy_inputs` | Нет governance-репо | `{}` или omit — Портной работает без связки с рабочими задачами (legacy-режим). См. WP-364 Развилка 1 |
 
 **Правило для нового пользователя (student_stage = 0, пустая история):**
 Портной получает `tailor_context` с максимальным fallback-набором: все области = 0,
@@ -184,7 +197,8 @@ tailor_context:
 | `worldview_gaps` | Память.Derived | `indicators.calculated_profile.worldview_gaps` | projection-worker (WP-151) |
 | `mastery_gaps` | Память.Derived | `indicators.calculated_profile.mastery_gaps` | projection-worker (WP-151) |
 | `rcs_profile` | Память.Derived | `indicators.calculated_profile.rcs_current` (7 слотов FORM.089) | projection-worker (WP-151 Ф12) |
-| `domain` | Персона | declarative profile | Онбординг / настройки |
+| `domain` | Персона | declarative profile | Онбождинг / настройки |
+| `strategy_inputs` | Контекст | governance-репо пилота: `current/active-wp.md` + `current/WeekPlan W*.md` | Пилот (стратегирование). Опционально: если репо нет — `{}`. Источник решения: WP-364 Развилка 1 (29 мая 2026) |
 
 ---
 
