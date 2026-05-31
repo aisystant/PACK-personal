@@ -74,12 +74,12 @@ This pack captures knowledge about **characteristics and states of creator** as 
 |---------|------------|--------|
 | Distinctions | 135 | active |
 | Principles | 43 | active |
-| Roles | 6 | active |
+| Roles | 7 | active (+1 PD.ROLE.006 phys-program, 2026-05-31) |
 | Objects of Attention | 6 | active |
-| Formalizations | 67 | active |
+| Formalizations | 68 | active (+1 PD.FORM.138 phys-program, 2026-05-31) |
 | Characteristics | 9 | active |
 | States | 8 | active |
-| Methods | 13 | active |
+| Methods | 16 | active (+3 PD.METHOD.046/047/048 phys-program, 2026-05-31) |
 | Work Products | 18 | active |
 | Failure Modes | 60 | active |
 | SoTA Annotations | 1 | active |
@@ -124,6 +124,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | 2026-03-09 | Bulk enrichment Phase F (посты 2026): +8 D (D.103-110), +3 FORM (048-050), +2 FAIL (045-046), +1 PRINC (033), +4 PRINC files (030-033), +4 FORM files (038-047), +5 STATE files (003-007), +8 FAIL files (037-044). Total: 224→287 entities | KE bulk extraction |
 | 2026-03-11 | Bulk enrichment Phase E (посты 2025): +25 D (D.111-135), +10 PRINC (034-045), +5 CHR (005-009), +17 FORM (051-070), +1 STATE (008), +14 FAIL (047-064), +2 METHOD (013-014), +2 WP (017-018). Total: 287→363 entities | KE bulk extraction |
 | 2026-04-03 | +1 FORM (085: Agent Description Meta-Models), +3 memes (M-065–M-067 in CAT.001). Total: 363→364+ entities | Мета-модели описания агента для практикума SS |
+| 2026-05-31 | WP-377 Ф1.5: создан каталог phys-program/ (физический слой ст. 0 saneness): +1 FORM (138), +1 ROLE (006), +3 METHOD (046/047/048), +1 README. Физический слой как pre-condition программы ЛР, gate ст. 0 → ст. 1 | WP-377 |
 
 ## Entity Index
 
@@ -348,6 +349,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FORM.135 | Description | FORM | Фиксация возможного состояния мира; всегда является описанием чего-то | draft |
 | PD.FORM.136 | Systemic Worldview | FORM | Стратегия видеть мир системно: объекты, связи, границы, уровни | draft |
 | PD.FORM.137 | Narrative 4 Levels | FORM | Нарратив превращения программы ЛР через 4 уровня результата (мировоззрение/стиль · ИИ-инструмент с двумя ролями · системное мышление · среда). Альтернативный outcome-frame для PD.FORM.087, оптимизированный для входных материалов программы ЛР (универсальные руководства, посты, диалоги Навигатора). | active |
+| PD.FORM.138 | Physical Layer Stage Zero | FORM | — | draft |
 | PD.MAP.001 | Pack Navigation Map | MAP | — | — |
 | PD.METHOD.001 | Time Accounting | METHOD | \"Метод непрерывной регистрации и категоризации трат времени для получения эмпирических данных о распределении ресурса\" | active |
 | PD.METHOD.002 | Learner Method | METHOD | Метод обучения ученика: регулярные слоты, экзокортекс, рефлексия и недельные контракты | active |
@@ -394,6 +396,9 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.METHOD.043 | Ai Management Skills | METHOD | 3 управленческих навыка работы с ИИ-помощником: постановка задачи (цель + ограничения + критерий готовности), обратная связь (что не так + почему + что вместо), удержание цели (длинная задача = серия коротких). Модель: ИИ-помощник ≈ младший сотрудник, не инструмент | draft |
 | PD.METHOD.044 | Systems Self Decomposition | METHOD | Применение метода четырёх вопросов к системе «я»: зачем (назначение/цель), что (состав: роли, ресурсы, среда), как (процессы и ритмы), когда/при каких условиях (контекст). Структурный вывод — карта системы, а не интроспективное повествование. | active |
 | PD.METHOD.045 | Body-template gate перед руководством N+1 | METHOD | — | — |
+| PD.METHOD.046 | Sleep Baseline | METHOD | — | draft |
+| PD.METHOD.047 | Walk Rhythm Evening | METHOD | — | draft |
+| PD.METHOD.048 | Energy Self Assessment Daily | METHOD | — | draft |
 | PD.NAMING.001 | 01D Naming Convention | NAMING | — | active |
 | PD.PRINC.030 | Continuous Reflash | PRINC | Непрерывная перепрошивка: развитие созидателя должно быть непрерывным, инкрементальным и бесконечным — единица развития не курс, а ежедневный слот + недельный инкремент + месячный обзор | active |
 | PD.PRINC.031 | Productive State Primacy | PRINC | Примат продуктивного состояния: продуктивное состояние > план-расписание — устал → лёгкие задачи, в потоке → сложные задачи | active |
@@ -416,6 +421,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.ROLE.003 | Professional | ROLE | Третья роль в траектории созидателя — носитель прикладного мастерства в конкретной предметной области. Объект внимания — домен. Создаёт системы и рабочие продукты, обеспечивает качество и скорость, наставляет начинающих. Соответствует степеням квалификации ШСМ Практик→Мастер. Развивается в программе Рабочего развития на степени квалификации 5+ и продолжается в Исследовательском развитии | active |
 | PD.ROLE.004 | Researcher | ROLE | Роль человека, расширяющего границы знания, создающего новые методы и проводящего эксперименты | active |
 | PD.ROLE.005 | Educator | ROLE | Роль человека, масштабирующего культуру, формирующего смыслы и влияющего на общественное сознание | active |
+| PD.ROLE.006 | Body As First System | ROLE | — | draft |
 | PD.ROLE.TRAJ.001 | Pd.Role.Traj.001 Creator Trajectory | ROLE | Траектория развития созидателя через пять ключевых ролей: от Ученика к Просветителю | active |
 | PD.SOTA.001 | Registration Method {#i1-registration-method} | SOTA | Состояние искусства: шесть интерпретаций учёта времени с оценкой актуальности каждой | — |
 | PD.SOTA.002 | Strategy Tools | SOTA | Сравнительный анализ методов и инструментов личного стратегирования и планирования: GTD, PARA, Zettelkasten, OKR, Shape Up — что взять в IWE и почему | current |

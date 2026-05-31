@@ -21,18 +21,18 @@ generated: true
 | CAT (CAT) | 3 |
 | Characteristics (CHR) | 12 |
 | FAIL (FAIL) | 73 |
-| FORM (FORM) | 130 |
+| FORM (FORM) | 131 |
 | Maps (MAP) | 1 |
-| METHOD (METHOD) | 45 |
+| METHOD (METHOD) | 48 |
 | NAMING (NAMING) | 1 |
 | PRINC (PRINC) | 15 |
 | QUAL (QUAL) | 1 |
-| ROLE (ROLE) | 6 |
+| ROLE (ROLE) | 7 |
 | SoTA Annotations (SOTA) | 7 |
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 26 |
-| **Total** | **330** |
+| **Total** | **335** |
 
 ## Work Products
 
@@ -311,6 +311,7 @@ generated: true
 | PD.FORM.135 | Description | Фиксация возможного состояния мира; всегда является описанием чего-то | draft |
 | PD.FORM.136 | Systemic Worldview | Стратегия видеть мир системно: объекты, связи, границы, уровни | draft |
 | PD.FORM.137 | Narrative 4 Levels | Нарратив превращения программы ЛР через 4 уровня результата (мировоззрение/стиль · ИИ-инструмент с двумя ролями · системное мышление · среда). Альтернативный outcome-frame для PD.FORM.087, оптимизированный для входных материалов программы ЛР (универсальные руководства, посты, диалоги Навигатора). | active |
+| PD.FORM.138 | Physical Layer Stage Zero | — | draft |
 
 ### METHOD
 
@@ -361,6 +362,9 @@ generated: true
 | PD.METHOD.043 | Ai Management Skills | 3 управленческих навыка работы с ИИ-помощником: постановка задачи (цель + ограничения + критерий готовности), обратная связь (что не так + почему + что вместо), удержание цели (длинная задача = серия коротких). Модель: ИИ-помощник ≈ младший сотрудник, не инструмент | draft |
 | PD.METHOD.044 | Systems Self Decomposition | Применение метода четырёх вопросов к системе «я»: зачем (назначение/цель), что (состав: роли, ресурсы, среда), как (процессы и ритмы), когда/при каких условиях (контекст). Структурный вывод — карта системы, а не интроспективное повествование. | active |
 | PD.METHOD.045 | Body-template gate перед руководством N+1 | — | — |
+| PD.METHOD.046 | Sleep Baseline | — | draft |
+| PD.METHOD.047 | Walk Rhythm Evening | — | draft |
+| PD.METHOD.048 | Energy Self Assessment Daily | — | draft |
 
 ### NAMING
 
@@ -403,6 +407,7 @@ generated: true
 | PD.ROLE.003 | Professional | Третья роль в траектории созидателя — носитель прикладного мастерства в конкретной предметной области. Объект внимания — домен. Создаёт системы и рабочие продукты, обеспечивает качество и скорость, наставляет начинающих. Соответствует степеням квалификации ШСМ Практик→Мастер. Развивается в программе Рабочего развития на степени квалификации 5+ и продолжается в Исследовательском развитии | active |
 | PD.ROLE.004 | Researcher | Роль человека, расширяющего границы знания, создающего новые методы и проводящего эксперименты | active |
 | PD.ROLE.005 | Educator | Роль человека, масштабирующего культуру, формирующего смыслы и влияющего на общественное сознание | active |
+| PD.ROLE.006 | Body As First System | — | draft |
 | PD.ROLE.TRAJ.001 | Pd.Role.Traj.001 Creator Trajectory | Траектория развития созидателя через пять ключевых ролей: от Ученика к Просветителю | active |
 
 ### SPEC
@@ -428,6 +433,11 @@ generated: true
 
 - Missing `summary`: PD.NAMING.001 (01D-naming-convention.md)
 - Missing `summary`: PD.FORM.084 (PD.FORM.084-notes-pipeline.md)
+- Missing `summary`: PD.FORM.138 (PD.FORM.138-physical-layer-stage-zero.md)
+- Missing `summary`: PD.METHOD.046 (PD.METHOD.046-sleep-baseline.md)
+- Missing `summary`: PD.METHOD.047 (PD.METHOD.047-walk-rhythm-evening.md)
+- Missing `summary`: PD.METHOD.048 (PD.METHOD.048-energy-self-assessment-daily.md)
+- Missing `summary`: PD.ROLE.006 (PD.ROLE.006-body-as-first-system.md)
 - Missing `summary`: PD.METHOD.027 (PD.METHOD.027-stream-defense.md)
 - Missing `summary`: PD.METHOD.030 (PD.METHOD.030-anchored-quality-scale.md)
 - Missing `summary`: PD.METHOD.031 (PD.METHOD.031-form-slices-node-tree.md)
