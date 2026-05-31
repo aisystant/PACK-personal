@@ -24,7 +24,7 @@ All identifiable items in SPF follow this pattern:
 
 | Code | Full Name | Example |
 |------|-----------|---------|
-| `M` | Method | `PD.M.001` |
+| `METHOD` | Method | `PD.METHOD.001` |
 | `WP` | Work Product | `PD.WP.001` |
 | `FM` | Failure Mode | `PD.FM.001` |
 | `SOTA` | SoTA Annotation | `PD.SOTA.001` |
@@ -48,7 +48,7 @@ All identifiable items in SPF follow this pattern:
 Files containing IDed items should be named after the ID:
 
 ```
-/pack/personal-development/03-methods/PD.M.001.md
+/pack/personal-development/03-methods/PD.METHOD.001.md
 /pack/personal-development/04-work-products/PD.WP.001.md
 /pack/personal-development/05-failure-modes/PD.FM.001.md
 ```
@@ -60,7 +60,7 @@ Files containing IDed items should be named after the ID:
 ### Within SPF (Markdown links)
 
 ```markdown
-See method [PD.M.001](../03-methods/PD.M.001.md)
+See method [PD.METHOD.001](../03-methods/PD.METHOD.001.md)
 Related work product: [PD.WP.003](../04-work-products/PD.WP.003.md)
 ```
 
@@ -68,10 +68,10 @@ Related work product: [PD.WP.003](../04-work-products/PD.WP.003.md)
 
 ```yaml
 ---
-id: PD.M.001
+id: PD.METHOD.001
 related_methods:
-  - PD.M.002
-  - PD.M.005
+  - PD.METHOD.002
+  - PD.METHOD.005
 produces:
   - PD.WP.001
 failure_modes:
@@ -82,7 +82,7 @@ failure_modes:
 ### In Prose
 
 ```markdown
-The method PD.M.001 (Strategic Planning) produces work product PD.WP.001 (Strategy Document).
+The method PD.METHOD.001 (Strategic Planning) produces work product PD.WP.001 (Strategy Document).
 ```
 
 ---

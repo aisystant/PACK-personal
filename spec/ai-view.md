@@ -38,7 +38,7 @@ AI systems (chatbots, agents, RAG pipelines) need to:
 ### Metadata to Preserve
 
 Each chunk should retain:
-- `id`: The stable ID (e.g., `PD.M.001`)
+- `id`: The stable ID (e.g., `PD.METHOD.001`)
 - `type`: method | work-product | failure-mode | distinction | sota
 - `source_path`: Relative path in repo
 - `sota_status`: current | deprecated-interpretation | hypothesis (if applicable)
@@ -71,10 +71,10 @@ When an AI response references SPF content:
 User: What methods exist for X?
 
 AI: According to SPF Personal, the following methods address X:
-- [PD.M.001] Method Name — brief description
-- [PD.M.002] Method Name — brief description
+- [PD.METHOD.001] Method Name — brief description
+- [PD.METHOD.002] Method Name — brief description
 
-[Note: PD.M.002 has SoTA status "hypothesis" — evidence is preliminary]
+[Note: PD.METHOD.002 has SoTA status "hypothesis" — evidence is preliminary]
 ```
 
 ---

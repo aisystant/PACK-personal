@@ -47,7 +47,7 @@ Use templates from `/pack/_template/`.
 ### Adding a Method
 
 1. Copy `/pack/_template/03-methods/_method-card-template.md`
-2. Create `/pack/personal-development/03-methods/PD.M.<NNN>.md`
+2. Create `/pack/personal-development/03-methods/PD.METHOD.<NNN>.md`
 3. Fill all required fields
 4. Add to `02-domain-entities/02C-methods-index.md`
 5. Update `07-map/PD.MAP.001.md`

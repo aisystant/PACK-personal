@@ -24,6 +24,7 @@ generated: true
 | FORM (FORM) | 130 |
 | Maps (MAP) | 1 |
 | METHOD (METHOD) | 45 |
+| NAMING (NAMING) | 1 |
 | PRINC (PRINC) | 15 |
 | QUAL (QUAL) | 1 |
 | ROLE (ROLE) | 6 |
@@ -31,7 +32,7 @@ generated: true
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 26 |
-| **Total** | **329** |
+| **Total** | **330** |
 
 ## Work Products
 
@@ -361,6 +362,12 @@ generated: true
 | PD.METHOD.044 | Systems Self Decomposition | Применение метода четырёх вопросов к системе «я»: зачем (назначение/цель), что (состав: роли, ресурсы, среда), как (процессы и ритмы), когда/при каких условиях (контекст). Структурный вывод — карта системы, а не интроспективное повествование. | active |
 | PD.METHOD.045 | Body-template gate перед руководством N+1 | — | — |
 
+### NAMING
+
+| ID | Name | Summary | Status |
+|----|------|---------|--------|
+| PD.NAMING.001 | 01D Naming Convention | — | active |
+
 ### PRINC
 
 | ID | Name | Summary | Status |
@@ -419,6 +426,7 @@ generated: true
 
 ## Warnings
 
+- Missing `summary`: PD.NAMING.001 (01D-naming-convention.md)
 - Missing `summary`: PD.FORM.084 (PD.FORM.084-notes-pipeline.md)
 - Missing `summary`: PD.METHOD.027 (PD.METHOD.027-stream-defense.md)
 - Missing `summary`: PD.METHOD.030 (PD.METHOD.030-anchored-quality-scale.md)
