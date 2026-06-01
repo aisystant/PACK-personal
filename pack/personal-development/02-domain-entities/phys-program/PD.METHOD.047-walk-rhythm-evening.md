@@ -108,3 +108,4 @@ source: "WP-377 Ф1.5 (2026-05-31): метод measurement для субслоя
 - **produces:** статус baseline для субслоя «движение» PD.FORM.138 §2
 - **requires_role:** [PD.ROLE.006 Тело как первая система](../02-domain-entities/phys-program/PD.ROLE.006-body-as-first-system.md)
 - **see_also:** [PD.METHOD.020 Hygienic Minimum](PD.METHOD.020-hygienic-minimum.md) — гигиенический минимум развития в ст. 1+
+- **implementation_guide:** [systems-based-fitness](https://github.com/aisystant/docs/tree/main/docs/ru/personal/systems-based-fitness) — operational руководство по физическому слою

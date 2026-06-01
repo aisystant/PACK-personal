@@ -123,3 +123,4 @@ source: "WP-377 Ф1.5 (2026-05-31): метод measurement для субслоя
 - **requires_role:** [PD.ROLE.006 Тело как первая система](../02-domain-entities/phys-program/PD.ROLE.006-body-as-first-system.md)
 - **see_also:** [PD.METHOD.012 Day Rhythm (OWC Fractal)](PD.METHOD.012-day-rhythm-owc-fractal.md) — интеграция в Close-протокол дня
 - **see_also:** [PD.STATE.008 Productive States Scale](../02-domain-entities/states/PD.STATE.008-productive-states-scale.md) — родственная шкала, открытый вопрос об интеграции
+- **implementation_guide:** [systems-based-fitness](https://github.com/aisystant/docs/tree/main/docs/ru/personal/systems-based-fitness) — operational руководство по физическому слою

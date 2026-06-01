@@ -108,3 +108,4 @@ source: "WP-377 Ф1.5 (2026-05-31): метод measurement для субслоя
 - **requires_role:** [PD.ROLE.006 Тело как первая система](../02-domain-entities/phys-program/PD.ROLE.006-body-as-first-system.md)
 - **see_also:** [PD.PRINC.034 Evening Alarm](../01-domain-contract/01C-principles/PD.PRINC.034.md) (если файл существует) — принцип «режим дня начинается с засыпания»
 - **see_also:** [PD.FORM.073 Chronotype Synchrony Effect](../02-domain-entities/formalizations/PD.FORM.073-chronotype-synchrony.md) (если файл существует) — индивидуальные различия хронотипа влияют на baseline
+- **implementation_guide:** [systems-based-fitness](https://github.com/aisystant/docs/tree/main/docs/ru/personal/systems-based-fitness) — operational руководство по физическому слою

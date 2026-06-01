@@ -127,6 +127,7 @@ source: "WP-377 (решение пилота С.3' = A, 2026-05-31): Pack-фор
 | PD.FAIL.021 (Ignoring Sleep and Daily Routine) | Failure mode, описывающий что происходит без физического слоя. Формализация даёт positive-определение того же явления |
 | PD.FORM.097 (Worldview as Executable Code) §4 | Минимальный стандарт программы ЛР = 10ч+10$/нед. Физический слой ст. 0 = условие, при котором 10ч/нед достижимы устойчиво |
 | PD.PRINC.034 (Evening Alarm) | Принцип «режим дня начинается с засыпания» — следствие приоритета субслоя «сон» в физическом слое ст. 0 |
+| systems-based-fitness | Operational руководство по физическому слою ([ссылка](https://github.com/aisystant/docs/tree/main/docs/ru/personal/systems-based-fitness)) — детали измерения сна, движения, питания, восстановления |
 
 ---
 

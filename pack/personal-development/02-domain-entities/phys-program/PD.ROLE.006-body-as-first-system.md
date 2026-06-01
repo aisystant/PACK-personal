@@ -156,3 +156,4 @@ source: "WP-377 (решение пилота С.3' = A, 2026-05-31): роль д
 - [PD.METHOD.048 Energy Self-Assessment Daily](../../03-methods/PD.METHOD.048-energy-self-assessment-daily.md) — субъективная оценка энергии
 - [PD.ROLE.001 Ученик](../roles/PD.ROLE.001-learner.md) — следующая роль (после закрытия gate ст. 0 → ст. 1)
 - [PD.FAIL.021 Ignoring Sleep and Daily Routine](../../05-failure-modes/PD.FAIL.021-ignoring-sleep-and-daily-routine.md) — failure mode без роли
+- [systems-based-fitness](https://github.com/aisystant/docs/tree/main/docs/ru/personal/systems-based-fitness) — operational руководство по физическому слою (implementation guide)
