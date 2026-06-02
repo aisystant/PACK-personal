@@ -350,6 +350,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FORM.136 | Systemic Worldview | FORM | Стратегия видеть мир системно: объекты, связи, границы, уровни | draft |
 | PD.FORM.137 | Narrative 4 Levels | FORM | Нарратив превращения программы ЛР через 4 уровня результата (мировоззрение/стиль · ИИ-инструмент с двумя ролями · системное мышление · среда). Альтернативный outcome-frame для PD.FORM.087, оптимизированный для входных материалов программы ЛР (универсальные руководства, посты, диалоги Навигатора). | active |
 | PD.FORM.138 | Physical Layer Stage Zero | FORM | — | draft |
+| PD.M.067 | Three Step Rule Adoption | M | — | active |
 | PD.MAP.001 | Pack Navigation Map | MAP | — | — |
 | PD.METHOD.001 | Time Accounting | METHOD | \"Метод непрерывной регистрации и категоризации трат времени для получения эмпирических данных о распределении ресурса\" | active |
 | PD.METHOD.002 | Learner Method | METHOD | Метод обучения ученика: регулярные слоты, экзокортекс, рефлексия и недельные контракты | active |

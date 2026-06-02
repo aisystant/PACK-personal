@@ -22,6 +22,7 @@ generated: true
 | Characteristics (CHR) | 12 |
 | FAIL (FAIL) | 73 |
 | FORM (FORM) | 131 |
+| Methods (M) | 1 |
 | Maps (MAP) | 1 |
 | METHOD (METHOD) | 48 |
 | NAMING (NAMING) | 1 |
@@ -32,7 +33,13 @@ generated: true
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 26 |
-| **Total** | **335** |
+| **Total** | **336** |
+
+## Methods
+
+| ID | Name | Summary | Status |
+|----|------|---------|--------|
+| PD.M.067 | Three Step Rule Adoption | — | active |
 
 ## Work Products
 
@@ -438,6 +445,7 @@ generated: true
 - Missing `summary`: PD.METHOD.047 (PD.METHOD.047-walk-rhythm-evening.md)
 - Missing `summary`: PD.METHOD.048 (PD.METHOD.048-energy-self-assessment-daily.md)
 - Missing `summary`: PD.ROLE.006 (PD.ROLE.006-body-as-first-system.md)
+- Missing `summary`: PD.M.067 (PD.M.067-three-step-rule-adoption.md)
 - Missing `summary`: PD.METHOD.027 (PD.METHOD.027-stream-defense.md)
 - Missing `summary`: PD.METHOD.030 (PD.METHOD.030-anchored-quality-scale.md)
 - Missing `summary`: PD.METHOD.031 (PD.METHOD.031-form-slices-node-tree.md)
