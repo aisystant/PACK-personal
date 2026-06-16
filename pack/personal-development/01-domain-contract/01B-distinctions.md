@@ -3978,6 +3978,8 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 **Related Items**:
 - Formalization: [PD.FORM.098](../02-domain-entities/formalizations/PD.FORM.098-style-as-lr-material.md) §2
 - Distinction: [D.143](#d143-unified-style-vs-fragmented-style)
+- Distinction: [D.180](#d180-style-as-method-set) — стиль как набор методов
+- Principle: [PD.PRINC.039](../02-domain-entities/principles/PD.PRINC.039-lifestyle-as-method-set.md) — стиль как инженерная совокупность методов
 - Navigator narrative: MIM.R.007 (SS.2, SS.6)
 
 ## [D.145] Universal Guide vs. Personal Guide {#d145-universal-guide-vs-personal-guide}
@@ -4869,5 +4871,9 @@ Gate перехода между ступенями программы разв�
 - [D.143] Unified Style vs. Fragmented Style
 - [D.144] False Opposition "Clear Chaos First"
 - [D.091] Anti-Entropy Practice vs. Willpower
+
+**Связанные принципы и режимы отказа:**
+- [PD.PRINC.039](../02-domain-entities/principles/PD.PRINC.039-lifestyle-as-method-set.md) — стиль как инженерная совокупность методов
+- [PD.FAIL.071](../05-failure-modes/PD.FAIL.071-method-collecting-without-culture.md) — коллекционирование методов без изменения стиля (обратная крайность)
 
 ---
