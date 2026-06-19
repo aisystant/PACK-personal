@@ -562,7 +562,8 @@ cp.iwe, cp.cre, cp.knw, cp.env, cp.auto, cp.exo, cp.cult, cp.traj — **проф
 ```python
 mandatory = [cp.rhy, cp.wld, cp.skl, cp.int, cp.agt]
 cp_confirmed_stage = min(mandatory)        # §5.1 двойной gate
-bottleneck_slot = argmin(mandatory)
+# stage >= 4: all mandatory >= 4, gap between slots negligible, bottleneck concept does not apply (v5.1)
+bottleneck_slot = None if cp_confirmed_stage >= 4 else argmin(mandatory)
 skip_to_stage = cp_confirmed_stage         # skip-level вход (не обязательно с ст. 1)
 
 # cp.iwe и cp.cre — рекомендательные оси, не блокируют ступень.
@@ -580,6 +581,13 @@ else: recommended_stream = "S1"
 ```
 
 **TTL:** `valid_until = assessed_at + 6 months` (только для mandatory-срезов).
+
+**Параметры переоценки (v5.1):**
+- Кулдаун повторной диагностики: **7 дней** (ранее 30 дней в diagnose-iwe v4.x). Если профиль моложе 7 дней — показать текущий и предложить пройти заново; не запускать диагностику принудительно.
+- Для ст.4+: `bottleneck_slot = None`. Все mandatory-срезы ≥ 4 — разрыв между ними незначителен, bottleneck-концепция теряет операциональный смысл. Bottleneck-фаза пропускается (§6.1 Фаза 2).
+- Полный TTL профиля: 6 месяцев — без изменений.
+
+*Источник изменений: WP-370 + commit 3a173605 FMT-exocortex-template 2026-06-18.*
 
 **Вывод Диагноста:**
 
