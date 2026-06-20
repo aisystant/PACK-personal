@@ -9,7 +9,7 @@ wp: WP-149 (Блок А)
 related:
   consumed_by: [MIM.SOP.001]
   realized_by: [WP-151, WP-222, WP-245]
-  upstream: [PD.CAT.001, PD.CAT.002, PD.CAT.003, PD.FORM.003, PD.FORM.081]
+  upstream: [SA.CAT.001, PD.CAT.002, PD.CAT.003, PD.FORM.003, PD.FORM.081]
   applies_distinctions: ["HD #27 Персона/Память/Контекст", "HD #49 MCP-сервис ≠ Роль"]
 summary: >
   Спецификация формата входных данных Портного (R27 в DP.ROLE.001): какие поля

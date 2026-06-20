@@ -102,10 +102,10 @@ generated: true
 
 | ID | Name | Summary | Status |
 |----|------|---------|--------|
-| PD.CAT.001 | Memes Catalog | Каталог непродуктивных мемов: 64 мема по 5 областям × 3 контекстам с антитезисами, диагностикой и методами компиляции. SOTA: Stebbins, Kaplan ART, Fredrickson, Csikszentmihalyi, leisure crafting | draft |
+| PD.CAT.001 | Memes Catalog | ПЕРЕНЕСЕНО в SA.CAT.001 (единый каталог мемов, PACK-systems-art) — секция B «Непродуктивные мемы». Номера M-NNN сохранены. | superseded |
 | PD.CAT.002 | Leisure Practices | Каталог практик досуга и восстановления: 10 практик по 2 подпотокам (Энергия + Впечатления) с can-do, диагностикой засоров, привязкой к ступеням | draft |
 | PD.CAT.003 | Practice Mastery Cards | Карточки 8 практик саморазвития × 4 ст��пени мастерства: can-do, задание, assessment. Источник: Руков. 2 §2–§9 | draft |
-| PD.CAT.004 | Productive Memes Catalog | Каталог продуктивных мемов: seed по 5 областям (зеркало PD.CAT.001), ≥1 на область, 12 мемов. Каждый запускает метод мышления с раскрытым проверяемым основанием (D.010). Источник: продуктивные антитезисы PD.CAT.001 + реестр находок РП-333 + руководства ЛР. | draft |
+| PD.CAT.004 | Productive Memes Catalog | ПЕРЕНЕСЕНО в SA.CAT.001 (единый каталог мемов, PACK-systems-art) — секция A «Продуктивные мемы». Номера P-NNN сохранены. | superseded |
 
 ### FAIL
 
