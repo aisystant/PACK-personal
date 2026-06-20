@@ -2,14 +2,14 @@
 id: PD.MAP.001
 name: Pack Navigation Map
 scope: full-pack
-created: 2026-06-19
-last_updated: 2026-06-19
+created: 2026-06-20
+last_updated: 2026-06-20
 generated: true
 ---
 
 # [PD.MAP.001] Pack Navigation Map
 
-> Auto-generated from frontmatter on 2026-06-19. Do not edit manually.
+> Auto-generated from frontmatter on 2026-06-20. Do not edit manually.
 
 ---
 
@@ -18,7 +18,7 @@ generated: true
 | Kind | Count |
 |------|-------|
 | ARCH (ARCH) | 1 |
-| CAT (CAT) | 3 |
+| CAT (CAT) | 4 |
 | Characteristics (CHR) | 12 |
 | FAIL (FAIL) | 73 |
 | FORM (FORM) | 131 |
@@ -33,7 +33,7 @@ generated: true
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 26 |
-| **Total** | **337** |
+| **Total** | **338** |
 
 ## Methods
 
@@ -105,6 +105,7 @@ generated: true
 | PD.CAT.001 | Memes Catalog | Каталог непродуктивных мемов: 64 мема по 5 областям × 3 контекстам с антитезисами, диагностикой и методами компиляции. SOTA: Stebbins, Kaplan ART, Fredrickson, Csikszentmihalyi, leisure crafting | draft |
 | PD.CAT.002 | Leisure Practices | Каталог практик досуга и восстановления: 10 практик по 2 подпотокам (Энергия + Впечатления) с can-do, диагностикой засоров, привязкой к ступеням | draft |
 | PD.CAT.003 | Practice Mastery Cards | Карточки 8 практик саморазвития × 4 ст��пени мастерства: can-do, задание, assessment. Источник: Руков. 2 §2–§9 | draft |
+| PD.CAT.004 | Productive Memes Catalog | Каталог продуктивных мемов: seed по 5 областям (зеркало PD.CAT.001), ≥1 на область, 12 мемов. Каждый запускает метод мышления с раскрытым проверяемым основанием (D.010). Источник: продуктивные антитезисы PD.CAT.001 + реестр находок РП-333 + руководства ЛР. | draft |
 
 ### FAIL
 
@@ -457,84 +458,86 @@ generated: true
 
 | ID | Days Since Update |
 |----|-------------------|
-| PD.METHOD.001 | 500 |
-| PD.WP.001 | 500 |
-| PD.FAIL.001 | 500 |
-| PD.FAIL.002 | 500 |
-| PD.FAIL.003 | 500 |
-| PD.FAIL.004 | 500 |
-| PD.FAIL.005 | 500 |
-| PD.FAIL.006 | 500 |
-| PD.FAIL.007 | 129 |
-| PD.METHOD.003 | 128 |
-| PD.METHOD.004 | 128 |
-| PD.METHOD.005 | 128 |
-| PD.METHOD.006 | 128 |
-| PD.WP.003 | 128 |
-| PD.WP.004 | 128 |
-| PD.WP.007 | 128 |
-| PD.METHOD.010 | 120 |
-| PD.WP.008 | 120 |
-| PD.WP.009 | 120 |
-| PD.WP.010 | 120 |
-| PD.WP.011 | 120 |
-| PD.WP.012 | 120 |
-| PD.WP.013 | 120 |
-| PD.WP.014 | 120 |
-| PD.WP.015 | 120 |
-| PD.WP.016 | 120 |
-| PD.FAIL.008 | 120 |
-| PD.FAIL.009 | 120 |
-| PD.FAIL.010 | 120 |
-| PD.FAIL.011 | 120 |
-| PD.FAIL.012 | 120 |
-| PD.FAIL.013 | 120 |
-| PD.FAIL.014 | 120 |
-| PD.FAIL.015 | 120 |
-| PD.FAIL.016 | 120 |
-| PD.FAIL.017 | 120 |
-| PD.FAIL.018 | 120 |
-| PD.FAIL.019 | 120 |
-| PD.FAIL.020 | 120 |
-| PD.FAIL.021 | 120 |
-| PD.FAIL.022 | 120 |
-| PD.FAIL.023 | 120 |
-| PD.FAIL.024 | 120 |
-| PD.FAIL.025 | 120 |
-| PD.FAIL.026 | 120 |
-| PD.FAIL.027 | 120 |
-| PD.FAIL.028 | 120 |
-| PD.FAIL.029 | 120 |
-| PD.FAIL.030 | 120 |
-| PD.FAIL.031 | 120 |
-| PD.FAIL.032 | 120 |
-| PD.FAIL.033 | 120 |
-| PD.FAIL.034 | 120 |
-| PD.FAIL.035 | 120 |
-| PD.FAIL.036 | 120 |
-| PD.FORM.042 | 119 |
-| PD.FAIL.044 | 119 |
-| PD.FORM.005 | 110 |
-| PD.FAIL.045 | 102 |
-| PD.FAIL.046 | 102 |
-| PD.WP.017 | 100 |
-| PD.WP.018 | 100 |
-| PD.FAIL.047 | 100 |
-| PD.FAIL.048 | 100 |
-| PD.FAIL.050 | 100 |
-| PD.FAIL.052 | 100 |
-| PD.FAIL.053 | 100 |
-| PD.FAIL.054 | 100 |
-| PD.FAIL.055 | 100 |
-| PD.FAIL.057 | 100 |
-| PD.FAIL.058 | 100 |
-| PD.FAIL.060 | 100 |
-| PD.FAIL.061 | 100 |
-| PD.FAIL.062 | 100 |
-| PD.FAIL.063 | 100 |
-| PD.FAIL.064 | 100 |
-| PD.METHOD.012 | 97 |
+| PD.METHOD.001 | 501 |
+| PD.WP.001 | 501 |
+| PD.FAIL.001 | 501 |
+| PD.FAIL.002 | 501 |
+| PD.FAIL.003 | 501 |
+| PD.FAIL.004 | 501 |
+| PD.FAIL.005 | 501 |
+| PD.FAIL.006 | 501 |
+| PD.FAIL.007 | 130 |
+| PD.METHOD.003 | 129 |
+| PD.METHOD.004 | 129 |
+| PD.METHOD.005 | 129 |
+| PD.METHOD.006 | 129 |
+| PD.WP.003 | 129 |
+| PD.WP.004 | 129 |
+| PD.WP.007 | 129 |
+| PD.METHOD.010 | 121 |
+| PD.WP.008 | 121 |
+| PD.WP.009 | 121 |
+| PD.WP.010 | 121 |
+| PD.WP.011 | 121 |
+| PD.WP.012 | 121 |
+| PD.WP.013 | 121 |
+| PD.WP.014 | 121 |
+| PD.WP.015 | 121 |
+| PD.WP.016 | 121 |
+| PD.FAIL.008 | 121 |
+| PD.FAIL.009 | 121 |
+| PD.FAIL.010 | 121 |
+| PD.FAIL.011 | 121 |
+| PD.FAIL.012 | 121 |
+| PD.FAIL.013 | 121 |
+| PD.FAIL.014 | 121 |
+| PD.FAIL.015 | 121 |
+| PD.FAIL.016 | 121 |
+| PD.FAIL.017 | 121 |
+| PD.FAIL.018 | 121 |
+| PD.FAIL.019 | 121 |
+| PD.FAIL.020 | 121 |
+| PD.FAIL.021 | 121 |
+| PD.FAIL.022 | 121 |
+| PD.FAIL.023 | 121 |
+| PD.FAIL.024 | 121 |
+| PD.FAIL.025 | 121 |
+| PD.FAIL.026 | 121 |
+| PD.FAIL.027 | 121 |
+| PD.FAIL.028 | 121 |
+| PD.FAIL.029 | 121 |
+| PD.FAIL.030 | 121 |
+| PD.FAIL.031 | 121 |
+| PD.FAIL.032 | 121 |
+| PD.FAIL.033 | 121 |
+| PD.FAIL.034 | 121 |
+| PD.FAIL.035 | 121 |
+| PD.FAIL.036 | 121 |
+| PD.FORM.042 | 120 |
+| PD.FAIL.044 | 120 |
+| PD.FORM.005 | 111 |
+| PD.FAIL.045 | 103 |
+| PD.FAIL.046 | 103 |
+| PD.WP.017 | 101 |
+| PD.WP.018 | 101 |
+| PD.FAIL.047 | 101 |
+| PD.FAIL.048 | 101 |
+| PD.FAIL.050 | 101 |
+| PD.FAIL.052 | 101 |
+| PD.FAIL.053 | 101 |
+| PD.FAIL.054 | 101 |
+| PD.FAIL.055 | 101 |
+| PD.FAIL.057 | 101 |
+| PD.FAIL.058 | 101 |
+| PD.FAIL.060 | 101 |
+| PD.FAIL.061 | 101 |
+| PD.FAIL.062 | 101 |
+| PD.FAIL.063 | 101 |
+| PD.FAIL.064 | 101 |
+| PD.METHOD.012 | 98 |
+| PD.FAIL.065 | 91 |
+| PD.FAIL.066 | 91 |
 
 ---
 
-*Generated by `scripts/generate-map.py` on 2026-06-19*
+*Generated by `scripts/generate-map.py` on 2026-06-20*
