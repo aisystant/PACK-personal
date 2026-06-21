@@ -12,6 +12,8 @@ on:
     branches: [main]
     paths:
       - 'pack/personal-development/02-domain-entities/formalizations/PD.FORM.089-*.md'
+  workflow_dispatch:
+    # Manual trigger for token smoke-test. Added WP-322 token verification.
 
 jobs:
   notify:
