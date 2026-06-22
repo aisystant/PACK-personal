@@ -11,6 +11,7 @@ related:
   uses: [PD.METHOD.001, PD.METHOD.020, PD.METHOD.042, PD.FORM.038]
   prevents: [PD.FAIL.058, PD.FAIL.062]
   see_also: [PD.FORM.003, PD.FORM.046, PD.FORM.088]
+name_ru: "Управление тремя потоками созидателя"
 ---
 
 # Метод: Управление тремя потоками созидателя

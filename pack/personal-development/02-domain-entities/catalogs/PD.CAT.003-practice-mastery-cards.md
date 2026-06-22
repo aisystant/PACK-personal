@@ -12,6 +12,7 @@ epistemic_stage: hypothesis
 related:
   uses: [PD.METHOD.001, PD.METHOD.003, PD.METHOD.004, PD.METHOD.005, PD.METHOD.006, PD.METHOD.007, PD.METHOD.008, PD.METHOD.009, PD.FORM.082]
   consumed_by: [MIM.SOP.001]
+name_ru: "Карточки практик саморазвития"
 ---
 
 # Карточки практик саморазвития (PD.CAT.003)

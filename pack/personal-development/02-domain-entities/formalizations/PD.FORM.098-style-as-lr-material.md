@@ -11,6 +11,7 @@ related:
   informs: [MIM.R.007, MIM.R.009, WP-245]
   see_also: [PD.FORM.060, PD.METHOD.007, D.180, PD.PRINC.039, PD.FAIL.071]
 source: "systemsworld.club/t/38955, tseren-tserenov, 2026-05-10"
+name_ru: "Стиль как материал личного развития"
 ---
 
 # Формализация: Стиль как материал личного развития

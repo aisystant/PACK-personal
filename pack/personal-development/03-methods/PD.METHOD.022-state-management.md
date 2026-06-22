@@ -11,6 +11,7 @@ related:
   uses: [PD.FORM.038, PD.METHOD.006, PD.METHOD.012, PD.METHOD.009]
   prevents: [PD.FAIL.066, PD.FAIL.062, PD.FAIL.053]
   see_also: [PD.FORM.003, PD.FORM.088]
+name_ru: "Работа с состоянием"
 ---
 
 # Метод: Работа с состоянием (мониторинг, защита, развитие потенциала)

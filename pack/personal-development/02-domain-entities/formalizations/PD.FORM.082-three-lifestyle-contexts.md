@@ -13,6 +13,7 @@ related:
   refines: [PD.FORM.002, PD.FORM.081]
   uses: [PD.FORM.001, PD.FORM.003, PD.FORM.042]
   consumed_by: [MIM.SOP.001, PD.FORM.080, PD.CAT.002]
+name_ru: "3 контекста стиля жизни"
 ---
 
 # Формализация: 3 контекста стиля жизни

@@ -15,6 +15,7 @@ related:
   uses: [PD.FORM.002, PD.FORM.079, PD.FORM.087, PD.FORM.088, PD.FORM.038]
   informs: [PD.FORM.092, PD.FORM.097, DP.SC.126]
   consumed_by: [MIM.R.009, MIM.R.007, MIM.SOP.001]
+name_ru: "Матрица нормативных состояний по ступеням"
 ---
 
 # Формализация: Матрица нормативных состояний по ступеням (Stage × Direction Normative Matrix)

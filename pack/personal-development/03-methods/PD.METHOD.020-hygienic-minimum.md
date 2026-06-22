@@ -11,6 +11,7 @@ related:
   uses: [PD.METHOD.012, PD.METHOD.009, PD.FORM.038]
   prevents: [PD.FAIL.064, PD.FAIL.062, PD.FAIL.067]
   see_also: [PD.FORM.003, PD.FORM.088]
+name_ru: "Гигиенический минимум развития"
 ---
 
 # Метод: Гигиенический минимум развития (6 столпов)

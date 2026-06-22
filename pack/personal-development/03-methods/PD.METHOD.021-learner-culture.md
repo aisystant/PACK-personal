@@ -11,6 +11,7 @@ related:
   uses: [PD.METHOD.002, PD.METHOD.003, PD.METHOD.020]
   prevents: [PD.FAIL.055, PD.FAIL.052, PD.FAIL.067]
   see_also: [PD.FORM.003, PD.FORM.081]
+name_ru: "Культура ученика как допуск к SoTA"
 ---
 
 # Метод: Культура ученика как допуск к SoTA

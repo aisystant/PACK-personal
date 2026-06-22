@@ -11,6 +11,7 @@ related:
   uses: [PD.METHOD.003, PD.METHOD.004, PD.METHOD.005, PD.WP.003, PD.WP.010]
   prevents: [PD.FAIL.063, PD.FAIL.055]
   see_also: [PD.FORM.038]
+name_ru: "Творческий конвейер"
 ---
 
 # Метод: Творческий конвейер (сырьё → разбор → артефакт)

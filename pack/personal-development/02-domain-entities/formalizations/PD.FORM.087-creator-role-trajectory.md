@@ -11,6 +11,7 @@ related:
   informs: [WP-245, WP-149, WP-372]
   see_also: [PD.ROLE.001, PD.FORM.080, PD.FORM.090, PD.FORM.091, PD.FORM.137]
 source: "SC.020, тексты systemsworld.club (апр 2026), ролевая модель созидателя ИСЭ"
+name_ru: "Ролевая траектория созидателя"
 ---
 
 # Формализация: Ролевая траектория созидателя
