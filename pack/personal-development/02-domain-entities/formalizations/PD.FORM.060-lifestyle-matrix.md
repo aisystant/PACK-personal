@@ -8,6 +8,7 @@ created: 2026-03-11
 epistemic_stage: formed
 related:
   uses: [PD.D.093, PD.PRINC.039, PD.METHOD.006]
+  specialized_by: [PD.FORM.139]
 ---
 
 # Формализация: Матрица стиля жизни 3×2
