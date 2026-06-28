@@ -18,7 +18,7 @@ generated: true
 | Kind | Count |
 |------|-------|
 | ARCH (ARCH) | 1 |
-| CAT (CAT) | 4 |
+| CAT (CAT) | 5 |
 | Characteristics (CHR) | 12 |
 | FAIL (FAIL) | 73 |
 | FORM (FORM) | 132 |
@@ -33,7 +33,7 @@ generated: true
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 27 |
-| **Total** | **340** |
+| **Total** | **341** |
 
 ## Methods
 
@@ -107,6 +107,7 @@ generated: true
 | PD.CAT.002 | Leisure Practices | Каталог практик досуга и восстановления: 10 практик по 2 подпотокам (Энергия + Впечатления) с can-do, диагностикой засоров, привязкой к ступеням | draft |
 | PD.CAT.003 | Practice Mastery Cards | Карточки 8 практик саморазвития × 4 ст��пени мастерства: can-do, задание, assessment. Источник: Руков. 2 §2–§9 | draft |
 | PD.CAT.004 | Productive Memes Catalog | ПЕРЕНЕСЕНО в SA.CAT.001 (единый каталог мемов, PACK-systems-art) — секция A «Продуктивные мемы». Номера P-NNN сохранены. | superseded |
+| PD.CAT.005 | Intellectual Contribution | 12 подписных концепций Церена как автора: указатели на SoT-определения + авторский контекст применения в публичных текстах. | active |
 
 ### FAIL
 
