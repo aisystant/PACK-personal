@@ -465,6 +465,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.WP.019.domain-generic | Domain Generic | WP | Доменная вставка generic: fallback для случаев, когда RCS.M3 не даёт явной рамки — универсальные примеры, нейтральный язык | draft |
 | PD.WP.019.domain-kw | Domain Knowledge Worker | WP | Доменная вставка для Knowledge Worker: разработчик, аналитик, архитектор, консультант-практик — типовые работы, примеры, язык | draft |
 | PD.WP.019.monthly-theme-template | Monthly Theme Template | WP | Шаблон monthly-theme.md — ежемесячный фокус пилота. Копируется в config/monthly-theme.md личного репо. | template |
+| PD.WP.019.qual-L7 | Qualification Reformer | WP | Заготовка руководства для степени квалификации Реформатор (PD.QUAL.001 L7): трансформация контекстов, создание новых подходов, влияние на сообщество. Ориентир — степень квалификации, не учебная ступень. | draft |
 | PD.WP.019.stage-1 | Stage 1 Random | WP | Заготовка руководства для ступени Случайного: первый шаг, одно действие, минимальный ритм | draft |
 | PD.WP.019.stage-2 | Stage 2 Practicing | WP | Заготовка руководства для ступени Практикующего: сборка себя, первые два метода, эпизодическая систематичность | draft |
 | PD.WP.019.stage-3 | Stage 3 Systematic | WP | Заготовка руководства для ступени Систематического: ритм встроен, все базовые методы в работе, первый взгляд на окружение | draft |
