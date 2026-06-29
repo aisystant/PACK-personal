@@ -403,7 +403,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.METHOD.046 | Sleep Baseline | METHOD | — | draft |
 | PD.METHOD.047 | Walk Rhythm Evening | METHOD | — | draft |
 | PD.METHOD.048 | Energy Self Assessment Daily | METHOD | — | draft |
-| PD.METHOD.049 | Iwe Multiplier Calculation | METHOD | Множитель = Σ(засчитанный бюджет закрытых РП) / инвестированное физ-время, как прибор диагностики узкого места (не оценка успеха). Панель из 5 показателей вместо одного числа, защита от накрутки (Гудхарт), заморозка бюджета, reference-class, bias-factor. | — |
+| PD.METHOD.049 | Iwe Multiplier Calculation | METHOD | Множитель = Σ(засчитанный бюджет закрытых РП) / инвестированное физ-время, как прибор диагностики узкого места (не оценка успеха). Панель из 6 показателей вместо одного числа, защита от накрутки (Гудхарт), заморозка бюджета, reference-class, bias-factor; тайл параллелизма (WP-447-v2). | — |
 | PD.NAMING.001 | 01D Naming Convention | NAMING | — | active |
 | PD.PRINC.030 | Continuous Reflash | PRINC | Непрерывная перепрошивка: развитие созидателя должно быть непрерывным, инкрементальным и бесконечным — единица развития не курс, а ежедневный слот + недельный инкремент + месячный обзор | active |
 | PD.PRINC.031 | Productive State Primacy | PRINC | Примат продуктивного состояния: продуктивное состояние > план-расписание — устал → лёгкие задачи, в потоке → сложные задачи | active |
