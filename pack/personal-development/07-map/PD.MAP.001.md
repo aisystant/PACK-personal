@@ -378,7 +378,7 @@ generated: true
 | PD.METHOD.046 | Sleep Baseline | — | draft |
 | PD.METHOD.047 | Walk Rhythm Evening | — | draft |
 | PD.METHOD.048 | Energy Self Assessment Daily | — | draft |
-| PD.METHOD.049 | Iwe Multiplier Calculation | Множитель = Σ(засчитанный бюджет закрытых РП) / инвестированное физ-время, как прибор диагностики узкого места (не оценка успеха). Панель из 6 показателей вместо одного числа, защита от накрутки (Гудхарт), заморозка бюджета, reference-class, bias-factor; тайл параллелизма (WP-447-v2). | — |
+| PD.METHOD.049 | Iwe Multiplier Calculation | Множитель = Σ(засчитанный бюджет закрытых РП) / инвестированное физ-время, как прибор диагностики узкого места (не оценка успеха). Панель из 6 показателей вместо одного числа, защита от накрутки (Гудхарт), заморозка бюджета, reference-class, bias-factor; тайл параллелизма (WP-454, wp447-v3). | — |
 
 ### NAMING
 
