@@ -221,6 +221,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.FAIL.075 | Magic Rabbits — Re-engineering by Intuition with Hidden Workings | FAIL | Failure mode из BORO Methodology. | active |
 | PD.FAIL.076 | Estimation by Inherent Complexity (Broken Under Generalisation) | FAIL | Failure mode из BORO Methodology. | active |
 | PD.FAIL.077 | Перечисление методов вместо архитектурной концепции | FAIL | Архитектурный концептуальный документ содержит перечисление компонентов вместо принципов структуры. | active |
+| PD.FAIL.079 | Practice Without Deliberate Work | FAIL | Регулярная практика навыка без целенаправленной работы над конкретными слабостями и немедленной обратной связи приводит к плато: время в занятии растёт, результат — нет. Отличие от FAIL.067: FAIL.067 — почему человек вообще бросает учиться; FAIL.079 — почему тот, кто практикует стабильно, не улучшается. | active |
 | PD.FORM.001 | Development Programs | FORM | Формализация трёх уровней систематического развития: личного, рабочего и исследовательского | active |
 | PD.FORM.002 | Development Directions | FORM | Шесть направлений развития: мировоззрение, мастерство, ограничения, экзокортекс, культура, организм | active |
 | PD.FORM.003 | Learner Maturity | FORM | Пять ступеней зрелости ученика: от случайного к проактивному саморазвитию с полной систематизацией | active |
