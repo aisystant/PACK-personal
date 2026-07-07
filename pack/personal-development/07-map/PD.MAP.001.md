@@ -24,7 +24,7 @@ generated: true
 | FORM (FORM) | 134 |
 | Methods (M) | 1 |
 | Maps (MAP) | 1 |
-| METHOD (METHOD) | 49 |
+| METHOD (METHOD) | 50 |
 | NAMING (NAMING) | 1 |
 | PRINC (PRINC) | 15 |
 | QUAL (QUAL) | 1 |
@@ -33,7 +33,7 @@ generated: true
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 27 |
-| **Total** | **344** |
+| **Total** | **345** |
 
 ## Methods
 
@@ -380,6 +380,7 @@ generated: true
 | PD.METHOD.047 | Walk Rhythm Evening | — | draft |
 | PD.METHOD.048 | Energy Self Assessment Daily | — | draft |
 | PD.METHOD.049 | Iwe Multiplier Calculation | Множитель = Σ(засчитанный бюджет закрытых РП) / инвестированное физ-время, как прибор диагностики узкого места (не оценка успеха). Панель из 6 показателей вместо одного числа, защита от накрутки (Гудхарт), заморозка бюджета, reference-class, bias-factor; тайл параллелизма (WP-454, wp447-v3). | — |
+| PD.METHOD.050 | Precise Figure With Collection Method | — | — |
 
 ### NAMING
 
@@ -458,6 +459,7 @@ generated: true
 - Missing `summary`: PD.METHOD.030 (PD.METHOD.030-anchored-quality-scale.md)
 - Missing `summary`: PD.METHOD.031 (PD.METHOD.031-form-slices-node-tree.md)
 - Missing `summary`: PD.METHOD.045 (PD.METHOD.045-body-template-gate.md)
+- Missing `summary`: PD.METHOD.050 (PD.METHOD.050-precise-figure-with-collection-method.md)
 - Missing `summary`: PD.MAP.001 (PD.MAP.001.md)
 
 ## Staleness Warnings (>90 days since update)
