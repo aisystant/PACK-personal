@@ -2,14 +2,14 @@
 id: PD.MAP.001
 name: Pack Navigation Map
 scope: full-pack
-created: 2026-07-07
-last_updated: 2026-07-07
+created: 2026-07-08
+last_updated: 2026-07-08
 generated: true
 ---
 
 # [PD.MAP.001] Pack Navigation Map
 
-> Auto-generated from frontmatter on 2026-07-07. Do not edit manually.
+> Auto-generated from frontmatter on 2026-07-08. Do not edit manually.
 
 ---
 
@@ -29,11 +29,11 @@ generated: true
 | PRINC (PRINC) | 15 |
 | QUAL (QUAL) | 1 |
 | ROLE (ROLE) | 7 |
-| SoTA Annotations (SOTA) | 7 |
+| SoTA Annotations (SOTA) | 8 |
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 27 |
-| **Total** | **345** |
+| **Total** | **346** |
 
 ## Methods
 
@@ -84,6 +84,7 @@ generated: true
 | PD.SOTA.005 | Lifework Design Methods Across Scope Levels | Карта решений для метода сборки пакета Lifework: 4 фундаментальных якоря (Dunbar, Singer, Bronfenbrenner, Kegan) + 10 методов дизайна жизни и стратегии, распределённых по 6 уровням системного охвата (Я → ближний круг → дальний круг → сообщество → общество → человечество). ВАЖНО: метод выведен из пакета автора (single-author basis); SOTA-обзор обосновывает структурный каркас, но универсальность шаблонов по доменам — открытая гипотеза | current |
 | PD.SOTA.006 | Adaptive Personalization | Четыре ключевых алгоритма адаптивной персонализации (BKT, IRT, Spaced Repetition, Curriculum Learning) и их применение к программе ЛР: как SOTA влияет на каскад планирования (PD.METHOD.025), выбор контента Портным и метрики Диагноста | active |
 | PD.SOTA.007 | Strategy Hierarchy | SOTA-основание метода стратегирования: иерархия уровней (Mission→Vision→R-месяца→WeekPlan→Day→Session), сквозные инструменты (НЭП, Калибр, ТОС, MAPSTRATEGIC) и синтез пяти методов (RBM, OKR, TOC, Shape Up, JTBD) | current |
+| PD.SOTA.008 | Мозг как машина предсказаний — обоснование метода управления вниманием | — | draft |
 
 ## Maps
 
@@ -460,96 +461,97 @@ generated: true
 - Missing `summary`: PD.METHOD.031 (PD.METHOD.031-form-slices-node-tree.md)
 - Missing `summary`: PD.METHOD.045 (PD.METHOD.045-body-template-gate.md)
 - Missing `summary`: PD.METHOD.050 (PD.METHOD.050-precise-figure-with-collection-method.md)
+- Missing `summary`: PD.SOTA.008 (PD.SOTA.008-predictive-processing-attention.md)
 - Missing `summary`: PD.MAP.001 (PD.MAP.001.md)
 
 ## Staleness Warnings (>90 days since update)
 
 | ID | Days Since Update |
 |----|-------------------|
-| PD.METHOD.001 | 518 |
-| PD.WP.001 | 518 |
-| PD.FAIL.001 | 518 |
-| PD.FAIL.002 | 518 |
-| PD.FAIL.003 | 518 |
-| PD.FAIL.004 | 518 |
-| PD.FAIL.005 | 518 |
-| PD.FAIL.006 | 518 |
-| PD.FAIL.007 | 147 |
-| PD.METHOD.003 | 146 |
-| PD.METHOD.004 | 146 |
-| PD.METHOD.005 | 146 |
-| PD.METHOD.006 | 146 |
-| PD.WP.003 | 146 |
-| PD.WP.004 | 146 |
-| PD.WP.007 | 146 |
-| PD.METHOD.010 | 138 |
-| PD.WP.008 | 138 |
-| PD.WP.009 | 138 |
-| PD.WP.010 | 138 |
-| PD.WP.011 | 138 |
-| PD.WP.012 | 138 |
-| PD.WP.013 | 138 |
-| PD.WP.014 | 138 |
-| PD.WP.015 | 138 |
-| PD.WP.016 | 138 |
-| PD.FAIL.008 | 138 |
-| PD.FAIL.009 | 138 |
-| PD.FAIL.010 | 138 |
-| PD.FAIL.011 | 138 |
-| PD.FAIL.012 | 138 |
-| PD.FAIL.013 | 138 |
-| PD.FAIL.014 | 138 |
-| PD.FAIL.015 | 138 |
-| PD.FAIL.016 | 138 |
-| PD.FAIL.017 | 138 |
-| PD.FAIL.018 | 138 |
-| PD.FAIL.019 | 138 |
-| PD.FAIL.020 | 138 |
-| PD.FAIL.021 | 138 |
-| PD.FAIL.022 | 138 |
-| PD.FAIL.023 | 138 |
-| PD.FAIL.024 | 138 |
-| PD.FAIL.025 | 138 |
-| PD.FAIL.026 | 138 |
-| PD.FAIL.027 | 138 |
-| PD.FAIL.028 | 138 |
-| PD.FAIL.029 | 138 |
-| PD.FAIL.030 | 138 |
-| PD.FAIL.031 | 138 |
-| PD.FAIL.032 | 138 |
-| PD.FAIL.033 | 138 |
-| PD.FAIL.034 | 138 |
-| PD.FAIL.035 | 138 |
-| PD.FAIL.036 | 138 |
-| PD.FORM.042 | 137 |
-| PD.FAIL.044 | 137 |
-| PD.FORM.005 | 128 |
-| PD.FAIL.045 | 120 |
-| PD.FAIL.046 | 120 |
-| PD.WP.017 | 118 |
-| PD.WP.018 | 118 |
-| PD.FAIL.047 | 118 |
-| PD.FAIL.048 | 118 |
-| PD.FAIL.050 | 118 |
-| PD.FAIL.052 | 118 |
-| PD.FAIL.053 | 118 |
-| PD.FAIL.054 | 118 |
-| PD.FAIL.055 | 118 |
-| PD.FAIL.057 | 118 |
-| PD.FAIL.058 | 118 |
-| PD.FAIL.060 | 118 |
-| PD.FAIL.061 | 118 |
-| PD.FAIL.062 | 118 |
-| PD.FAIL.063 | 118 |
-| PD.FAIL.064 | 118 |
-| PD.METHOD.012 | 115 |
-| PD.FAIL.065 | 108 |
-| PD.FAIL.066 | 108 |
-| PD.WP.006 | 97 |
-| PD.SOTA.002 | 97 |
-| PD.SOTA.007 | 97 |
-| PD.SOTA.003 | 92 |
+| PD.METHOD.001 | 519 |
+| PD.WP.001 | 519 |
+| PD.FAIL.001 | 519 |
+| PD.FAIL.002 | 519 |
+| PD.FAIL.003 | 519 |
+| PD.FAIL.004 | 519 |
+| PD.FAIL.005 | 519 |
+| PD.FAIL.006 | 519 |
+| PD.FAIL.007 | 148 |
+| PD.METHOD.003 | 147 |
+| PD.METHOD.004 | 147 |
+| PD.METHOD.005 | 147 |
+| PD.METHOD.006 | 147 |
+| PD.WP.003 | 147 |
+| PD.WP.004 | 147 |
+| PD.WP.007 | 147 |
+| PD.METHOD.010 | 139 |
+| PD.WP.008 | 139 |
+| PD.WP.009 | 139 |
+| PD.WP.010 | 139 |
+| PD.WP.011 | 139 |
+| PD.WP.012 | 139 |
+| PD.WP.013 | 139 |
+| PD.WP.014 | 139 |
+| PD.WP.015 | 139 |
+| PD.WP.016 | 139 |
+| PD.FAIL.008 | 139 |
+| PD.FAIL.009 | 139 |
+| PD.FAIL.010 | 139 |
+| PD.FAIL.011 | 139 |
+| PD.FAIL.012 | 139 |
+| PD.FAIL.013 | 139 |
+| PD.FAIL.014 | 139 |
+| PD.FAIL.015 | 139 |
+| PD.FAIL.016 | 139 |
+| PD.FAIL.017 | 139 |
+| PD.FAIL.018 | 139 |
+| PD.FAIL.019 | 139 |
+| PD.FAIL.020 | 139 |
+| PD.FAIL.021 | 139 |
+| PD.FAIL.022 | 139 |
+| PD.FAIL.023 | 139 |
+| PD.FAIL.024 | 139 |
+| PD.FAIL.025 | 139 |
+| PD.FAIL.026 | 139 |
+| PD.FAIL.027 | 139 |
+| PD.FAIL.028 | 139 |
+| PD.FAIL.029 | 139 |
+| PD.FAIL.030 | 139 |
+| PD.FAIL.031 | 139 |
+| PD.FAIL.032 | 139 |
+| PD.FAIL.033 | 139 |
+| PD.FAIL.034 | 139 |
+| PD.FAIL.035 | 139 |
+| PD.FAIL.036 | 139 |
+| PD.FORM.042 | 138 |
+| PD.FAIL.044 | 138 |
+| PD.FORM.005 | 129 |
+| PD.FAIL.045 | 121 |
+| PD.FAIL.046 | 121 |
+| PD.WP.017 | 119 |
+| PD.WP.018 | 119 |
+| PD.FAIL.047 | 119 |
+| PD.FAIL.048 | 119 |
+| PD.FAIL.050 | 119 |
+| PD.FAIL.052 | 119 |
+| PD.FAIL.053 | 119 |
+| PD.FAIL.054 | 119 |
+| PD.FAIL.055 | 119 |
+| PD.FAIL.057 | 119 |
+| PD.FAIL.058 | 119 |
+| PD.FAIL.060 | 119 |
+| PD.FAIL.061 | 119 |
+| PD.FAIL.062 | 119 |
+| PD.FAIL.063 | 119 |
+| PD.FAIL.064 | 119 |
+| PD.METHOD.012 | 116 |
+| PD.FAIL.065 | 109 |
+| PD.FAIL.066 | 109 |
+| PD.WP.006 | 98 |
+| PD.SOTA.002 | 98 |
+| PD.SOTA.007 | 98 |
+| PD.SOTA.003 | 93 |
 
 ---
 
-*Generated by `scripts/generate-map.py` on 2026-07-07*
+*Generated by `scripts/generate-map.py` on 2026-07-08*
