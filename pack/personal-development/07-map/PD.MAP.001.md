@@ -24,7 +24,7 @@ generated: true
 | FORM (FORM) | 135 |
 | Methods (M) | 1 |
 | Maps (MAP) | 1 |
-| METHOD (METHOD) | 54 |
+| METHOD (METHOD) | 55 |
 | NAMING (NAMING) | 1 |
 | PRINC (PRINC) | 15 |
 | QUAL (QUAL) | 1 |
@@ -33,7 +33,7 @@ generated: true
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 27 |
-| **Total** | **351** |
+| **Total** | **352** |
 
 ## Methods
 
@@ -387,6 +387,7 @@ generated: true
 | PD.METHOD.052 | Small Step Paradox Pedagogy | — | — |
 | PD.METHOD.053 | Idea Capture Before Feeds | Яп-карта: фиксировать 3-5 сырых собственных зацепок ДО открытия социальных лент — защита стадии 1 конвейера (сырьё) от вытеснения чужим контентом | draft |
 | PD.METHOD.054 | Ir Zero Weight Invariant | Маршрутизация заданий персонального руководства через таблицы весов LR/RR/IR по 12 ступеням. Инвариант: вес ИР-заданий = 0 на ступенях 1–11 (до specialist/rung 12). Один вход (cp.stage + msh_qual) → один rung → sorted список → первое подходящее задание без LLM. | — |
+| PD.METHOD.055 | Рефрейм многократного переноса РП как сигнала корректной dependency-цепочки | — | — |
 
 ### NAMING
 
@@ -468,6 +469,7 @@ generated: true
 - Missing `summary`: PD.METHOD.050 (PD.METHOD.050-precise-figure-with-collection-method.md)
 - Missing `summary`: PD.METHOD.051 (PD.METHOD.051-result-not-infrastructure-explanation.md)
 - Missing `summary`: PD.METHOD.052 (PD.METHOD.052-small-step-paradox-pedagogy.md)
+- Missing `summary`: PD.METHOD.055 (PD.METHOD.055-dependency-reframe-blocking-wp.md)
 - Missing `summary`: PD.SOTA.008 (PD.SOTA.008-predictive-processing-attention.md)
 - Missing `summary`: PD.MAP.001 (PD.MAP.001.md)
 
