@@ -412,6 +412,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.METHOD.051 | Result Not Infrastructure Explanation | METHOD | — | — |
 | PD.METHOD.052 | Small Step Paradox Pedagogy | METHOD | — | — |
 | PD.METHOD.053 | Idea Capture Before Feeds | METHOD | Яп-карта: фиксировать 3-5 сырых собственных зацепок ДО открытия социальных лент — защита стадии 1 конвейера (сырьё) от вытеснения чужим контентом | draft |
+| PD.METHOD.054 | Ir Zero Weight Invariant | METHOD | Маршрутизация заданий персонального руководства через таблицы весов LR/RR/IR по 12 ступеням. Инвариант: вес ИР-заданий = 0 на ступенях 1–11 (до specialist/rung 12). Один вход (cp.stage + msh_qual) → один rung → sorted список → первое подходящее задание без LLM. | — |
 | PD.NAMING.001 | 01D Naming Convention | NAMING | — | active |
 | PD.PRINC.030 | Continuous Reflash | PRINC | Непрерывная перепрошивка: развитие созидателя должно быть непрерывным, инкрементальным и бесконечным — единица развития не курс, а ежедневный слот + недельный инкремент + месячный обзор | active |
 | PD.PRINC.031 | Productive State Primacy | PRINC | Примат продуктивного состояния: продуктивное состояние > план-расписание — устал → лёгкие задачи, в потоке → сложные задачи | active |
