@@ -2,14 +2,14 @@
 id: PD.MAP.001
 name: Pack Navigation Map
 scope: full-pack
-created: 2026-07-09
-last_updated: 2026-07-09
+created: 2026-07-10
+last_updated: 2026-07-10
 generated: true
 ---
 
 # [PD.MAP.001] Pack Navigation Map
 
-> Auto-generated from frontmatter on 2026-07-09. Do not edit manually.
+> Auto-generated from frontmatter on 2026-07-10. Do not edit manually.
 
 ---
 
@@ -24,7 +24,7 @@ generated: true
 | FORM (FORM) | 134 |
 | Methods (M) | 1 |
 | Maps (MAP) | 1 |
-| METHOD (METHOD) | 50 |
+| METHOD (METHOD) | 52 |
 | NAMING (NAMING) | 1 |
 | PRINC (PRINC) | 15 |
 | QUAL (QUAL) | 1 |
@@ -33,7 +33,7 @@ generated: true
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 27 |
-| **Total** | **346** |
+| **Total** | **348** |
 
 ## Methods
 
@@ -382,6 +382,8 @@ generated: true
 | PD.METHOD.048 | Energy Self Assessment Daily | — | draft |
 | PD.METHOD.049 | Iwe Multiplier Calculation | Множитель = Σ(засчитанный бюджет закрытых РП) / инвестированное физ-время, как прибор диагностики узкого места (не оценка успеха). Панель из 6 показателей вместо одного числа, защита от накрутки (Гудхарт), заморозка бюджета, reference-class, bias-factor; тайл параллелизма (WP-454, wp447-v3). | — |
 | PD.METHOD.050 | Precise Figure With Collection Method | — | — |
+| PD.METHOD.051 | Result Not Infrastructure Explanation | — | — |
+| PD.METHOD.052 | Small Step Paradox Pedagogy | — | — |
 
 ### NAMING
 
@@ -461,6 +463,8 @@ generated: true
 - Missing `summary`: PD.METHOD.031 (PD.METHOD.031-form-slices-node-tree.md)
 - Missing `summary`: PD.METHOD.045 (PD.METHOD.045-body-template-gate.md)
 - Missing `summary`: PD.METHOD.050 (PD.METHOD.050-precise-figure-with-collection-method.md)
+- Missing `summary`: PD.METHOD.051 (PD.METHOD.051-result-not-infrastructure-explanation.md)
+- Missing `summary`: PD.METHOD.052 (PD.METHOD.052-small-step-paradox-pedagogy.md)
 - Missing `summary`: PD.SOTA.008 (PD.SOTA.008-predictive-processing-attention.md)
 - Missing `summary`: PD.MAP.001 (PD.MAP.001.md)
 
@@ -468,90 +472,90 @@ generated: true
 
 | ID | Days Since Update |
 |----|-------------------|
-| PD.METHOD.001 | 520 |
-| PD.WP.001 | 520 |
-| PD.FAIL.001 | 520 |
-| PD.FAIL.002 | 520 |
-| PD.FAIL.003 | 520 |
-| PD.FAIL.004 | 520 |
-| PD.FAIL.005 | 520 |
-| PD.FAIL.006 | 520 |
-| PD.FAIL.007 | 149 |
-| PD.METHOD.003 | 148 |
-| PD.METHOD.004 | 148 |
-| PD.METHOD.005 | 148 |
-| PD.METHOD.006 | 148 |
-| PD.WP.003 | 148 |
-| PD.WP.004 | 148 |
-| PD.WP.007 | 148 |
-| PD.METHOD.010 | 140 |
-| PD.WP.008 | 140 |
-| PD.WP.009 | 140 |
-| PD.WP.010 | 140 |
-| PD.WP.011 | 140 |
-| PD.WP.012 | 140 |
-| PD.WP.013 | 140 |
-| PD.WP.014 | 140 |
-| PD.WP.015 | 140 |
-| PD.WP.016 | 140 |
-| PD.FAIL.008 | 140 |
-| PD.FAIL.009 | 140 |
-| PD.FAIL.010 | 140 |
-| PD.FAIL.011 | 140 |
-| PD.FAIL.012 | 140 |
-| PD.FAIL.013 | 140 |
-| PD.FAIL.014 | 140 |
-| PD.FAIL.015 | 140 |
-| PD.FAIL.016 | 140 |
-| PD.FAIL.017 | 140 |
-| PD.FAIL.018 | 140 |
-| PD.FAIL.019 | 140 |
-| PD.FAIL.020 | 140 |
-| PD.FAIL.021 | 140 |
-| PD.FAIL.022 | 140 |
-| PD.FAIL.023 | 140 |
-| PD.FAIL.024 | 140 |
-| PD.FAIL.025 | 140 |
-| PD.FAIL.026 | 140 |
-| PD.FAIL.027 | 140 |
-| PD.FAIL.028 | 140 |
-| PD.FAIL.029 | 140 |
-| PD.FAIL.030 | 140 |
-| PD.FAIL.031 | 140 |
-| PD.FAIL.032 | 140 |
-| PD.FAIL.033 | 140 |
-| PD.FAIL.034 | 140 |
-| PD.FAIL.035 | 140 |
-| PD.FAIL.036 | 140 |
-| PD.FORM.042 | 139 |
-| PD.FAIL.044 | 139 |
-| PD.FORM.005 | 130 |
-| PD.FAIL.045 | 122 |
-| PD.FAIL.046 | 122 |
-| PD.WP.017 | 120 |
-| PD.WP.018 | 120 |
-| PD.FAIL.047 | 120 |
-| PD.FAIL.048 | 120 |
-| PD.FAIL.050 | 120 |
-| PD.FAIL.052 | 120 |
-| PD.FAIL.053 | 120 |
-| PD.FAIL.054 | 120 |
-| PD.FAIL.055 | 120 |
-| PD.FAIL.057 | 120 |
-| PD.FAIL.058 | 120 |
-| PD.FAIL.060 | 120 |
-| PD.FAIL.061 | 120 |
-| PD.FAIL.062 | 120 |
-| PD.FAIL.063 | 120 |
-| PD.FAIL.064 | 120 |
-| PD.METHOD.012 | 117 |
-| PD.FAIL.065 | 110 |
-| PD.FAIL.066 | 110 |
-| PD.WP.006 | 99 |
-| PD.SOTA.002 | 99 |
-| PD.SOTA.007 | 99 |
-| PD.SOTA.003 | 94 |
+| PD.METHOD.001 | 521 |
+| PD.WP.001 | 521 |
+| PD.FAIL.001 | 521 |
+| PD.FAIL.002 | 521 |
+| PD.FAIL.003 | 521 |
+| PD.FAIL.004 | 521 |
+| PD.FAIL.005 | 521 |
+| PD.FAIL.006 | 521 |
+| PD.FAIL.007 | 150 |
+| PD.METHOD.003 | 149 |
+| PD.METHOD.004 | 149 |
+| PD.METHOD.005 | 149 |
+| PD.METHOD.006 | 149 |
+| PD.WP.003 | 149 |
+| PD.WP.004 | 149 |
+| PD.WP.007 | 149 |
+| PD.METHOD.010 | 141 |
+| PD.WP.008 | 141 |
+| PD.WP.009 | 141 |
+| PD.WP.010 | 141 |
+| PD.WP.011 | 141 |
+| PD.WP.012 | 141 |
+| PD.WP.013 | 141 |
+| PD.WP.014 | 141 |
+| PD.WP.015 | 141 |
+| PD.WP.016 | 141 |
+| PD.FAIL.008 | 141 |
+| PD.FAIL.009 | 141 |
+| PD.FAIL.010 | 141 |
+| PD.FAIL.011 | 141 |
+| PD.FAIL.012 | 141 |
+| PD.FAIL.013 | 141 |
+| PD.FAIL.014 | 141 |
+| PD.FAIL.015 | 141 |
+| PD.FAIL.016 | 141 |
+| PD.FAIL.017 | 141 |
+| PD.FAIL.018 | 141 |
+| PD.FAIL.019 | 141 |
+| PD.FAIL.020 | 141 |
+| PD.FAIL.021 | 141 |
+| PD.FAIL.022 | 141 |
+| PD.FAIL.023 | 141 |
+| PD.FAIL.024 | 141 |
+| PD.FAIL.025 | 141 |
+| PD.FAIL.026 | 141 |
+| PD.FAIL.027 | 141 |
+| PD.FAIL.028 | 141 |
+| PD.FAIL.029 | 141 |
+| PD.FAIL.030 | 141 |
+| PD.FAIL.031 | 141 |
+| PD.FAIL.032 | 141 |
+| PD.FAIL.033 | 141 |
+| PD.FAIL.034 | 141 |
+| PD.FAIL.035 | 141 |
+| PD.FAIL.036 | 141 |
+| PD.FORM.042 | 140 |
+| PD.FAIL.044 | 140 |
+| PD.FORM.005 | 131 |
+| PD.FAIL.045 | 123 |
+| PD.FAIL.046 | 123 |
+| PD.WP.017 | 121 |
+| PD.WP.018 | 121 |
+| PD.FAIL.047 | 121 |
+| PD.FAIL.048 | 121 |
+| PD.FAIL.050 | 121 |
+| PD.FAIL.052 | 121 |
+| PD.FAIL.053 | 121 |
+| PD.FAIL.054 | 121 |
+| PD.FAIL.055 | 121 |
+| PD.FAIL.057 | 121 |
+| PD.FAIL.058 | 121 |
+| PD.FAIL.060 | 121 |
+| PD.FAIL.061 | 121 |
+| PD.FAIL.062 | 121 |
+| PD.FAIL.063 | 121 |
+| PD.FAIL.064 | 121 |
+| PD.METHOD.012 | 118 |
+| PD.FAIL.065 | 111 |
+| PD.FAIL.066 | 111 |
+| PD.WP.006 | 100 |
+| PD.SOTA.002 | 100 |
+| PD.SOTA.007 | 100 |
+| PD.SOTA.003 | 95 |
 
 ---
 
-*Generated by `scripts/generate-map.py` on 2026-07-09*
+*Generated by `scripts/generate-map.py` on 2026-07-10*
