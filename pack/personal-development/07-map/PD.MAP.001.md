@@ -20,7 +20,7 @@ generated: true
 | ARCH (ARCH) | 1 |
 | CAT (CAT) | 5 |
 | Characteristics (CHR) | 12 |
-| FAIL (FAIL) | 74 |
+| FAIL (FAIL) | 75 |
 | FORM (FORM) | 135 |
 | Methods (M) | 1 |
 | Maps (MAP) | 1 |
@@ -33,7 +33,7 @@ generated: true
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 27 |
-| **Total** | **355** |
+| **Total** | **356** |
 
 ## Methods
 
@@ -188,6 +188,7 @@ generated: true
 | PD.FAIL.076 | Estimation by Inherent Complexity (Broken Under Generalisation) | Failure mode из BORO Methodology. | active |
 | PD.FAIL.077 | Перечисление методов вместо архитектурной концепции | Архитектурный концептуальный документ содержит перечисление компонентов вместо принципов структуры. | active |
 | PD.FAIL.079 | Practice Without Deliberate Work | Регулярная практика навыка без целенаправленной работы над конкретными слабостями и немедленной обратной связи приводит к плато: время в занятии растёт, результат — нет. Отличие от FAIL.067: FAIL.067 — почему человек вообще бросает учиться; FAIL.079 — почему тот, кто практикует стабильно, не улучшается. | active |
+| PD.FAIL.080 | Опора на исследование, ослабленное самими авторами | Load-bearing тезис опирается на исследование, чьи авторы позже публично ослабили результат — аргумент становится запрещённым. | active |
 
 ### FORM
 
