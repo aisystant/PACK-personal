@@ -11,7 +11,7 @@ related:
 tags: [strategy, hierarchy, OKR, RBM, TOC, JTBD, shape-up, НЭП]
 ---
 
-# [PD.SOTA.001] Strategy Hierarchy
+# [PD.SOTA.007] Strategy Hierarchy
 
 ---
 
