@@ -1,7 +1,9 @@
 ---
 id: PD.ROLE.TRAJ.001
 type: role-trajectory
-status: active
+status: superseded
+superseded_by: PD.FORM.087
+superseded_date: 2026-07-12
 summary: "Траектория развития созидателя через пять ключевых ролей: от Ученика к Просветителю"
 created: 2026-02-07
 migrated_from: ecosystem-development/A2.2.Architecture/2.2.2
@@ -20,6 +22,8 @@ related:
   specializes: [U.RoleAssignment]
   uses: [PD.ROLE.001, PD.ROLE.002, PD.ROLE.003, PD.ROLE.004, PD.ROLE.005]
 ---
+
+> **SUPERSEDED 2026-07-12 → [PD.FORM.087](../formalizations/PD.FORM.087-creator-role-trajectory.md).** Тот же документ (буквально то же название и та же модель 5 ролей), FORM.087 создан позже (16 апр) и значительно полнее (смещение инвестиций %, мировоззренческая дуга, применение в РП245/149/372). Список ролей PD.ROLE.001-005, на который эта карточка ссылается, остаётся валидным — но 9 файлов в Pack всё ещё указывают на этот superseded-файл вместо FORM.087; полный релинк не сделан в этой сессии (см. content-cleanup-backlog CC-119), текст ниже остаётся для истории.
 
 # Ролевая траектория созидателя
 
