@@ -24,16 +24,16 @@ generated: true
 | FORM (FORM) | 135 |
 | Methods (M) | 1 |
 | Maps (MAP) | 1 |
-| METHOD (METHOD) | 58 |
+| METHOD (METHOD) | 59 |
 | NAMING (NAMING) | 1 |
 | PRINC (PRINC) | 15 |
 | QUAL (QUAL) | 1 |
 | ROLE (ROLE) | 7 |
-| SoTA Annotations (SOTA) | 8 |
+| SoTA Annotations (SOTA) | 12 |
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 28 |
-| **Total** | **357** |
+| **Total** | **362** |
 
 ## Methods
 
@@ -86,6 +86,10 @@ generated: true
 | PD.SOTA.006 | Adaptive Personalization | Четыре ключевых алгоритма адаптивной персонализации (BKT, IRT, Spaced Repetition, Curriculum Learning) и их применение к программе ЛР: как SOTA влияет на каскад планирования (PD.METHOD.025), выбор контента Портным и метрики Диагноста | active |
 | PD.SOTA.007 | Strategy Hierarchy | SOTA-основание метода стратегирования: иерархия уровней (Mission→Vision→R-месяца→WeekPlan→Day→Session), сквозные инструменты (НЭП, Калибр, ТОС, MAPSTRATEGIC) и синтез пяти методов (RBM, OKR, TOC, Shape Up, JTBD) | current |
 | PD.SOTA.008 | Мозг как машина предсказаний — обоснование метода управления вниманием | — | draft |
+| PD.SOTA.009 | Geographical Distance and Cognitive Mode Activation | Физическая и психологическая дистанция активирует абстрактный когнитивный режим: эмпирические данные Maddux/Galinsky 2009 и Jia/Hirt/Karpen 2009 | current |
+| PD.SOTA.010 | Ego Depletion Replication Failure | Теория ego depletion (Baumeister 1998) — не воспроизведена в крупнейших мульти-сайтовых репликациях. Практические следствия: дизайн среды надёжнее «тренировки силы воли» | deprecated-interpretation |
+| PD.SOTA.011 | Deliberate practice не подтверждена прямой репликацией исходного эксперимента (Macnamara & Maitra, 2019) | — | draft |
+| PD.SOTA.012 | Напоминания к сигналам среды надёжнее напоминаний по времени для проспективной памяти (Peper & Ball, 2023) | — | draft |
 
 ## Maps
 
@@ -393,6 +397,7 @@ generated: true
 | PD.METHOD.056 | Two Layer Communication Formula | Три явных слоя: (1) глубинный — точность для внутренней согласованности; (2) коммуникационный крюк — охват широкой аудитории; (3) гардрейл — обязательная защита от ложного считывания рядом с крюком. | — |
 | PD.METHOD.057 | Personal Vs Product Brand Boundary | Операционный тест из 4 осей (что исчезнет без персоны; грамматика субъекта; имена собственные; владелец решений) плюс leak-test («звучит ли от лица компании?»). Предохранитель: метод называть только родовым именем. | — |
 | PD.METHOD.058 | Два паттерна записи в авторский каталог: указатель vs полный entry | — | — |
+| PD.METHOD.059 | Skill Pipeline Four Nodes | — | active |
 
 ### NAMING
 
@@ -476,7 +481,10 @@ generated: true
 - Missing `summary`: PD.METHOD.052 (PD.METHOD.052-small-step-paradox-pedagogy.md)
 - Missing `summary`: PD.METHOD.055 (PD.METHOD.055-dependency-reframe-blocking-wp.md)
 - Missing `summary`: PD.METHOD.058 (PD.METHOD.058-intellectual-catalog-pointer-vs-full-entry.md)
+- Missing `summary`: PD.METHOD.059 (PD.METHOD.059-skill-pipeline-four-nodes.md)
 - Missing `summary`: PD.SOTA.008 (PD.SOTA.008-predictive-processing-attention.md)
+- Missing `summary`: PD.SOTA.011 (PD.SOTA.011-deliberate-practice-replication-failure-2019.md)
+- Missing `summary`: PD.SOTA.012 (PD.SOTA.012-environment-cued-reminders-prospective-memory-2023.md)
 - Missing `summary`: PD.MAP.001 (PD.MAP.001.md)
 
 ## Staleness Warnings (>90 days since update)

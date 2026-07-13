@@ -418,6 +418,7 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.METHOD.056 | Two Layer Communication Formula | METHOD | Три явных слоя: (1) глубинный — точность для внутренней согласованности; (2) коммуникационный крюк — охват широкой аудитории; (3) гардрейл — обязательная защита от ложного считывания рядом с крюком. | — |
 | PD.METHOD.057 | Personal Vs Product Brand Boundary | METHOD | Операционный тест из 4 осей (что исчезнет без персоны; грамматика субъекта; имена собственные; владелец решений) плюс leak-test («звучит ли от лица компании?»). Предохранитель: метод называть только родовым именем. | — |
 | PD.METHOD.058 | Два паттерна записи в авторский каталог: указатель vs полный entry | METHOD | — | — |
+| PD.METHOD.059 | Skill Pipeline Four Nodes | METHOD | — | active |
 | PD.NAMING.001 | 01D Naming Convention | NAMING | — | active |
 | PD.PRINC.030 | Continuous Reflash | PRINC | Непрерывная перепрошивка: развитие созидателя должно быть непрерывным, инкрементальным и бесконечным — единица развития не курс, а ежедневный слот + недельный инкремент + месячный обзор | active |
 | PD.PRINC.031 | Productive State Primacy | PRINC | Примат продуктивного состояния: продуктивное состояние > план-расписание — устал → лёгкие задачи, в потоке → сложные задачи | active |
@@ -450,6 +451,10 @@ This pack captures knowledge about **characteristics and states of creator** as 
 | PD.SOTA.006 | Adaptive Personalization | SOTA | Четыре ключевых алгоритма адаптивной персонализации (BKT, IRT, Spaced Repetition, Curriculum Learning) и их применение к программе ЛР: как SOTA влияет на каскад планирования (PD.METHOD.025), выбор контента Портным и метрики Диагноста | active |
 | PD.SOTA.007 | Strategy Hierarchy | SOTA | SOTA-основание метода стратегирования: иерархия уровней (Mission→Vision→R-месяца→WeekPlan→Day→Session), сквозные инструменты (НЭП, Калибр, ТОС, MAPSTRATEGIC) и синтез пяти методов (RBM, OKR, TOC, Shape Up, JTBD) | current |
 | PD.SOTA.008 | Мозг как машина предсказаний — обоснование метода управления вниманием | SOTA | — | draft |
+| PD.SOTA.009 | Geographical Distance and Cognitive Mode Activation | SOTA | Физическая и психологическая дистанция активирует абстрактный когнитивный режим: эмпирические данные Maddux/Galinsky 2009 и Jia/Hirt/Karpen 2009 | current |
+| PD.SOTA.010 | Ego Depletion Replication Failure | SOTA | Теория ego depletion (Baumeister 1998) — не воспроизведена в крупнейших мульти-сайтовых репликациях. Практические следствия: дизайн среды надёжнее «тренировки силы воли» | deprecated-interpretation |
+| PD.SOTA.011 | Deliberate practice не подтверждена прямой репликацией исходного эксперимента (Macnamara & Maitra, 2019) | SOTA | — | draft |
+| PD.SOTA.012 | Напоминания к сигналам среды надёжнее напоминаний по времени для проспективной памяти (Peper & Ball, 2023) | SOTA | — | draft |
 | PD.SPEC.001 | Контракт контекста Портного (Tailor Context Contract) | SPEC | Спецификация формата входных данных Портного (R27 в DP.ROLE.001): какие поля читаются из Памяти.Derived, в каком формате, какое поведение при отсутствии данных. Контракт = объект-формат (это часть Pack — что существует). Способ доставки (psycopg2 directly / MCP tool) — деталь реализации носителя роли (WP-222). | draft |
 | PD.STATE.001 | States | STATE | Категории состояний созидателя: продуктивное, эмоциональное, ролевое, неудовлетворённости и физическое | active |
 | PD.STATE.002 | Discomposure | STATE | Состояние разобранности: самоподдерживающееся анти-состояние с петлёй потери фокуса -> ошибки -> потеря ресурсов -> ещё больше потери фокуса | active |
