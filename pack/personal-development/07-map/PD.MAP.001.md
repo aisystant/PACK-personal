@@ -2,14 +2,14 @@
 id: PD.MAP.001
 name: Pack Navigation Map
 scope: full-pack
-created: 2026-07-12
-last_updated: 2026-07-12
+created: 2026-07-13
+last_updated: 2026-07-13
 generated: true
 ---
 
 # [PD.MAP.001] Pack Navigation Map
 
-> Auto-generated from frontmatter on 2026-07-12. Do not edit manually.
+> Auto-generated from frontmatter on 2026-07-13. Do not edit manually.
 
 ---
 
@@ -254,7 +254,7 @@ generated: true
 | PD.FORM.058 | Four Functions Of Self Development | 4 группы функций саморазвития по масштабу: устойчивость (микро), когнитивная мощность (мезо), системный дизайн (макро), эволюционная пригодность (мета-темпоральный) | active |
 | PD.FORM.059 | Culture As Accepted Methods | Культура как совокупность методов, принятых и воспроизводимых группой лиц; культура саморазвития = набор систематически практикуемых методов | active |
 | PD.FORM.060 | Lifestyle Matrix | Матрица стиля жизни 3×2: (Я/Среда/Мир) × (Поддерживать/Развивать) = 6 ячеек для размещения методов | active |
-| PD.FORM.061 | Learner Qualification Ladder | Квалификационная лестница ученика: 5 ступеней от случайного (0) до профессионального (4) с метриками часы/неделю и длительность | active |
+| PD.FORM.061 | Learner Qualification Ladder | Квалификационная лестница ученика: 5 ступеней от случайного (0) до проактивного (4) с метриками часы/неделю и длительность | active |
 | PD.FORM.062 | Six Cybercharacteristics | 6 киберхарактеристик киберчеловека: расширение Big Five инженерным подходом с индикаторами, методами улучшения и рисками | active |
 | PD.FORM.065 | Learner Time Budgets | Ступени ученика с бюджетами времени: числовые нормативы по квалификационным ступеням W1-5, W6-25, W26+ | active |
 | PD.FORM.066 | Echeloned Leisure Framework | Каркас эшелонированного досуга: 6 временных горизонтов восстановления от микроперерыва (минуты) до саббатикала (год) | active |
@@ -483,90 +483,90 @@ generated: true
 
 | ID | Days Since Update |
 |----|-------------------|
-| PD.METHOD.001 | 523 |
-| PD.WP.001 | 523 |
-| PD.FAIL.001 | 523 |
-| PD.FAIL.002 | 523 |
-| PD.FAIL.003 | 523 |
-| PD.FAIL.004 | 523 |
-| PD.FAIL.005 | 523 |
-| PD.FAIL.006 | 523 |
-| PD.FAIL.007 | 152 |
-| PD.METHOD.003 | 151 |
-| PD.METHOD.004 | 151 |
-| PD.METHOD.005 | 151 |
-| PD.METHOD.006 | 151 |
-| PD.WP.003 | 151 |
-| PD.WP.004 | 151 |
-| PD.WP.007 | 151 |
-| PD.METHOD.010 | 143 |
-| PD.WP.008 | 143 |
-| PD.WP.009 | 143 |
-| PD.WP.010 | 143 |
-| PD.WP.011 | 143 |
-| PD.WP.012 | 143 |
-| PD.WP.013 | 143 |
-| PD.WP.014 | 143 |
-| PD.WP.015 | 143 |
-| PD.WP.016 | 143 |
-| PD.FAIL.008 | 143 |
-| PD.FAIL.009 | 143 |
-| PD.FAIL.010 | 143 |
-| PD.FAIL.011 | 143 |
-| PD.FAIL.012 | 143 |
-| PD.FAIL.013 | 143 |
-| PD.FAIL.014 | 143 |
-| PD.FAIL.015 | 143 |
-| PD.FAIL.016 | 143 |
-| PD.FAIL.017 | 143 |
-| PD.FAIL.018 | 143 |
-| PD.FAIL.019 | 143 |
-| PD.FAIL.020 | 143 |
-| PD.FAIL.021 | 143 |
-| PD.FAIL.022 | 143 |
-| PD.FAIL.023 | 143 |
-| PD.FAIL.024 | 143 |
-| PD.FAIL.025 | 143 |
-| PD.FAIL.026 | 143 |
-| PD.FAIL.027 | 143 |
-| PD.FAIL.028 | 143 |
-| PD.FAIL.029 | 143 |
-| PD.FAIL.030 | 143 |
-| PD.FAIL.031 | 143 |
-| PD.FAIL.032 | 143 |
-| PD.FAIL.033 | 143 |
-| PD.FAIL.034 | 143 |
-| PD.FAIL.035 | 143 |
-| PD.FAIL.036 | 143 |
-| PD.FORM.042 | 142 |
-| PD.FAIL.044 | 142 |
-| PD.FORM.005 | 133 |
-| PD.FAIL.045 | 125 |
-| PD.FAIL.046 | 125 |
-| PD.WP.017 | 123 |
-| PD.WP.018 | 123 |
-| PD.FAIL.047 | 123 |
-| PD.FAIL.048 | 123 |
-| PD.FAIL.050 | 123 |
-| PD.FAIL.052 | 123 |
-| PD.FAIL.053 | 123 |
-| PD.FAIL.054 | 123 |
-| PD.FAIL.055 | 123 |
-| PD.FAIL.057 | 123 |
-| PD.FAIL.058 | 123 |
-| PD.FAIL.060 | 123 |
-| PD.FAIL.061 | 123 |
-| PD.FAIL.062 | 123 |
-| PD.FAIL.063 | 123 |
-| PD.FAIL.064 | 123 |
-| PD.METHOD.012 | 120 |
-| PD.FAIL.065 | 113 |
-| PD.FAIL.066 | 113 |
-| PD.WP.006 | 102 |
-| PD.SOTA.002 | 102 |
-| PD.SOTA.007 | 102 |
-| PD.SOTA.003 | 97 |
+| PD.METHOD.001 | 524 |
+| PD.WP.001 | 524 |
+| PD.FAIL.001 | 524 |
+| PD.FAIL.002 | 524 |
+| PD.FAIL.003 | 524 |
+| PD.FAIL.004 | 524 |
+| PD.FAIL.005 | 524 |
+| PD.FAIL.006 | 524 |
+| PD.FAIL.007 | 153 |
+| PD.METHOD.003 | 152 |
+| PD.METHOD.004 | 152 |
+| PD.METHOD.005 | 152 |
+| PD.METHOD.006 | 152 |
+| PD.WP.003 | 152 |
+| PD.WP.004 | 152 |
+| PD.WP.007 | 152 |
+| PD.METHOD.010 | 144 |
+| PD.WP.008 | 144 |
+| PD.WP.009 | 144 |
+| PD.WP.010 | 144 |
+| PD.WP.011 | 144 |
+| PD.WP.012 | 144 |
+| PD.WP.013 | 144 |
+| PD.WP.014 | 144 |
+| PD.WP.015 | 144 |
+| PD.WP.016 | 144 |
+| PD.FAIL.008 | 144 |
+| PD.FAIL.009 | 144 |
+| PD.FAIL.010 | 144 |
+| PD.FAIL.011 | 144 |
+| PD.FAIL.012 | 144 |
+| PD.FAIL.013 | 144 |
+| PD.FAIL.014 | 144 |
+| PD.FAIL.015 | 144 |
+| PD.FAIL.016 | 144 |
+| PD.FAIL.017 | 144 |
+| PD.FAIL.018 | 144 |
+| PD.FAIL.019 | 144 |
+| PD.FAIL.020 | 144 |
+| PD.FAIL.021 | 144 |
+| PD.FAIL.022 | 144 |
+| PD.FAIL.023 | 144 |
+| PD.FAIL.024 | 144 |
+| PD.FAIL.025 | 144 |
+| PD.FAIL.026 | 144 |
+| PD.FAIL.027 | 144 |
+| PD.FAIL.028 | 144 |
+| PD.FAIL.029 | 144 |
+| PD.FAIL.030 | 144 |
+| PD.FAIL.031 | 144 |
+| PD.FAIL.032 | 144 |
+| PD.FAIL.033 | 144 |
+| PD.FAIL.034 | 144 |
+| PD.FAIL.035 | 144 |
+| PD.FAIL.036 | 144 |
+| PD.FORM.042 | 143 |
+| PD.FAIL.044 | 143 |
+| PD.FORM.005 | 134 |
+| PD.FAIL.045 | 126 |
+| PD.FAIL.046 | 126 |
+| PD.WP.017 | 124 |
+| PD.WP.018 | 124 |
+| PD.FAIL.047 | 124 |
+| PD.FAIL.048 | 124 |
+| PD.FAIL.050 | 124 |
+| PD.FAIL.052 | 124 |
+| PD.FAIL.053 | 124 |
+| PD.FAIL.054 | 124 |
+| PD.FAIL.055 | 124 |
+| PD.FAIL.057 | 124 |
+| PD.FAIL.058 | 124 |
+| PD.FAIL.060 | 124 |
+| PD.FAIL.061 | 124 |
+| PD.FAIL.062 | 124 |
+| PD.FAIL.063 | 124 |
+| PD.FAIL.064 | 124 |
+| PD.METHOD.012 | 121 |
+| PD.FAIL.065 | 114 |
+| PD.FAIL.066 | 114 |
+| PD.WP.006 | 103 |
+| PD.SOTA.002 | 103 |
+| PD.SOTA.007 | 103 |
+| PD.SOTA.003 | 98 |
 
 ---
 
-*Generated by `scripts/generate-map.py` on 2026-07-12*
+*Generated by `scripts/generate-map.py` on 2026-07-13*
