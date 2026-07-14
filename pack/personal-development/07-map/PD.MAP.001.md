@@ -2,14 +2,14 @@
 id: PD.MAP.001
 name: Pack Navigation Map
 scope: full-pack
-created: 2026-07-13
-last_updated: 2026-07-13
+created: 2026-07-14
+last_updated: 2026-07-14
 generated: true
 ---
 
 # [PD.MAP.001] Pack Navigation Map
 
-> Auto-generated from frontmatter on 2026-07-13. Do not edit manually.
+> Auto-generated from frontmatter on 2026-07-14. Do not edit manually.
 
 ---
 
@@ -21,7 +21,7 @@ generated: true
 | CAT (CAT) | 5 |
 | Characteristics (CHR) | 12 |
 | FAIL (FAIL) | 75 |
-| FORM (FORM) | 135 |
+| FORM (FORM) | 136 |
 | Methods (M) | 1 |
 | Maps (MAP) | 1 |
 | METHOD (METHOD) | 59 |
@@ -33,7 +33,7 @@ generated: true
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 28 |
-| **Total** | **362** |
+| **Total** | **363** |
 
 ## Methods
 
@@ -334,6 +334,7 @@ generated: true
 | PD.FORM.140 | System State Role | Состояние системы как динамический снимок: ролевое (функция выполняется / нет), продуктивное (готово к работе / нет), и переход между состояниями через метод. Снапшот состояния — инструмент диагностики, не оценки. | active |
 | PD.FORM.141 | Problem Task Fractal | Фрактал проблема-задача: дерево узлов, которое достраивается динамически по ходу решения. «Переформулировать» = уже сработавшая неподтверждённая гипотеза. Отличие от линейного дерева: узлы появляются в процессе, а не планируются заранее. | active |
 | PD.FORM.143 | Actor normative profile notation (NORM.axis.state.chr) | Нотационная система для нормативных профилей деятеля: NORM.<ось>.<состояние>.<характеристика>. 9 семейств характеристик (A-I) по 8 степеням квалификации (Ученик-1...Деятель-4). Применимость по 6 осям (основная — Компетентность WP-457). Семантика 'не ниже N': норматив = нижняя граница, не точечная цель. SOTA-методы доставки через рычаги rung-1. Расширяет PD.FORM.080 от нормативных состояний к характеристикам. | draft |
+| PD.FORM.144 | Note As Feedback | Заметка как контур обратной связи: активный вывод (active inference) — модель мира скрыта, заметка выводит её фрагмент в артефакт, который можно сопоставить с миром | draft |
 
 ### METHOD
 
@@ -491,90 +492,90 @@ generated: true
 
 | ID | Days Since Update |
 |----|-------------------|
-| PD.METHOD.001 | 524 |
-| PD.WP.001 | 524 |
-| PD.FAIL.001 | 524 |
-| PD.FAIL.002 | 524 |
-| PD.FAIL.003 | 524 |
-| PD.FAIL.004 | 524 |
-| PD.FAIL.005 | 524 |
-| PD.FAIL.006 | 524 |
-| PD.FAIL.007 | 153 |
-| PD.METHOD.003 | 152 |
-| PD.METHOD.004 | 152 |
-| PD.METHOD.005 | 152 |
-| PD.METHOD.006 | 152 |
-| PD.WP.003 | 152 |
-| PD.WP.004 | 152 |
-| PD.WP.007 | 152 |
-| PD.METHOD.010 | 144 |
-| PD.WP.008 | 144 |
-| PD.WP.009 | 144 |
-| PD.WP.010 | 144 |
-| PD.WP.011 | 144 |
-| PD.WP.012 | 144 |
-| PD.WP.013 | 144 |
-| PD.WP.014 | 144 |
-| PD.WP.015 | 144 |
-| PD.WP.016 | 144 |
-| PD.FAIL.008 | 144 |
-| PD.FAIL.009 | 144 |
-| PD.FAIL.010 | 144 |
-| PD.FAIL.011 | 144 |
-| PD.FAIL.012 | 144 |
-| PD.FAIL.013 | 144 |
-| PD.FAIL.014 | 144 |
-| PD.FAIL.015 | 144 |
-| PD.FAIL.016 | 144 |
-| PD.FAIL.017 | 144 |
-| PD.FAIL.018 | 144 |
-| PD.FAIL.019 | 144 |
-| PD.FAIL.020 | 144 |
-| PD.FAIL.021 | 144 |
-| PD.FAIL.022 | 144 |
-| PD.FAIL.023 | 144 |
-| PD.FAIL.024 | 144 |
-| PD.FAIL.025 | 144 |
-| PD.FAIL.026 | 144 |
-| PD.FAIL.027 | 144 |
-| PD.FAIL.028 | 144 |
-| PD.FAIL.029 | 144 |
-| PD.FAIL.030 | 144 |
-| PD.FAIL.031 | 144 |
-| PD.FAIL.032 | 144 |
-| PD.FAIL.033 | 144 |
-| PD.FAIL.034 | 144 |
-| PD.FAIL.035 | 144 |
-| PD.FAIL.036 | 144 |
-| PD.FORM.042 | 143 |
-| PD.FAIL.044 | 143 |
-| PD.FORM.005 | 134 |
-| PD.FAIL.045 | 126 |
-| PD.FAIL.046 | 126 |
-| PD.WP.017 | 124 |
-| PD.WP.018 | 124 |
-| PD.FAIL.047 | 124 |
-| PD.FAIL.048 | 124 |
-| PD.FAIL.050 | 124 |
-| PD.FAIL.052 | 124 |
-| PD.FAIL.053 | 124 |
-| PD.FAIL.054 | 124 |
-| PD.FAIL.055 | 124 |
-| PD.FAIL.057 | 124 |
-| PD.FAIL.058 | 124 |
-| PD.FAIL.060 | 124 |
-| PD.FAIL.061 | 124 |
-| PD.FAIL.062 | 124 |
-| PD.FAIL.063 | 124 |
-| PD.FAIL.064 | 124 |
-| PD.METHOD.012 | 121 |
-| PD.FAIL.065 | 114 |
-| PD.FAIL.066 | 114 |
-| PD.WP.006 | 103 |
-| PD.SOTA.002 | 103 |
-| PD.SOTA.007 | 103 |
-| PD.SOTA.003 | 98 |
+| PD.METHOD.001 | 525 |
+| PD.WP.001 | 525 |
+| PD.FAIL.001 | 525 |
+| PD.FAIL.002 | 525 |
+| PD.FAIL.003 | 525 |
+| PD.FAIL.004 | 525 |
+| PD.FAIL.005 | 525 |
+| PD.FAIL.006 | 525 |
+| PD.FAIL.007 | 154 |
+| PD.METHOD.003 | 153 |
+| PD.METHOD.004 | 153 |
+| PD.METHOD.005 | 153 |
+| PD.METHOD.006 | 153 |
+| PD.WP.003 | 153 |
+| PD.WP.004 | 153 |
+| PD.WP.007 | 153 |
+| PD.METHOD.010 | 145 |
+| PD.WP.008 | 145 |
+| PD.WP.009 | 145 |
+| PD.WP.010 | 145 |
+| PD.WP.011 | 145 |
+| PD.WP.012 | 145 |
+| PD.WP.013 | 145 |
+| PD.WP.014 | 145 |
+| PD.WP.015 | 145 |
+| PD.WP.016 | 145 |
+| PD.FAIL.008 | 145 |
+| PD.FAIL.009 | 145 |
+| PD.FAIL.010 | 145 |
+| PD.FAIL.011 | 145 |
+| PD.FAIL.012 | 145 |
+| PD.FAIL.013 | 145 |
+| PD.FAIL.014 | 145 |
+| PD.FAIL.015 | 145 |
+| PD.FAIL.016 | 145 |
+| PD.FAIL.017 | 145 |
+| PD.FAIL.018 | 145 |
+| PD.FAIL.019 | 145 |
+| PD.FAIL.020 | 145 |
+| PD.FAIL.021 | 145 |
+| PD.FAIL.022 | 145 |
+| PD.FAIL.023 | 145 |
+| PD.FAIL.024 | 145 |
+| PD.FAIL.025 | 145 |
+| PD.FAIL.026 | 145 |
+| PD.FAIL.027 | 145 |
+| PD.FAIL.028 | 145 |
+| PD.FAIL.029 | 145 |
+| PD.FAIL.030 | 145 |
+| PD.FAIL.031 | 145 |
+| PD.FAIL.032 | 145 |
+| PD.FAIL.033 | 145 |
+| PD.FAIL.034 | 145 |
+| PD.FAIL.035 | 145 |
+| PD.FAIL.036 | 145 |
+| PD.FORM.042 | 144 |
+| PD.FAIL.044 | 144 |
+| PD.FORM.005 | 135 |
+| PD.FAIL.045 | 127 |
+| PD.FAIL.046 | 127 |
+| PD.WP.017 | 125 |
+| PD.WP.018 | 125 |
+| PD.FAIL.047 | 125 |
+| PD.FAIL.048 | 125 |
+| PD.FAIL.050 | 125 |
+| PD.FAIL.052 | 125 |
+| PD.FAIL.053 | 125 |
+| PD.FAIL.054 | 125 |
+| PD.FAIL.055 | 125 |
+| PD.FAIL.057 | 125 |
+| PD.FAIL.058 | 125 |
+| PD.FAIL.060 | 125 |
+| PD.FAIL.061 | 125 |
+| PD.FAIL.062 | 125 |
+| PD.FAIL.063 | 125 |
+| PD.FAIL.064 | 125 |
+| PD.METHOD.012 | 122 |
+| PD.FAIL.065 | 115 |
+| PD.FAIL.066 | 115 |
+| PD.WP.006 | 104 |
+| PD.SOTA.002 | 104 |
+| PD.SOTA.007 | 104 |
+| PD.SOTA.003 | 99 |
 
 ---
 
-*Generated by `scripts/generate-map.py` on 2026-07-13*
+*Generated by `scripts/generate-map.py` on 2026-07-14*
