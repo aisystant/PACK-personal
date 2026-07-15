@@ -14,7 +14,7 @@ sota_methods:
   - European Qualification Framework (EQF)
   - Competency Architecture
 related:
-  uses: [PD.ROLE.TRAJ.001, PD.FORM.003]
+  uses: [PD.FORM.087, PD.FORM.003]
 ---
 
 # Система квалификации созидателя
@@ -123,5 +123,5 @@ related:
 
 ## 7. Связанные документы
 
-- [PD.ROLE.TRAJ.001 Траектория ролей](../roles/PD.ROLE.TRAJ.001-creator-trajectory.md)
+- [PD.FORM.087 Ролевая траектория созидателя](../formalizations/PD.FORM.087-creator-role-trajectory.md)
 - [PD.FORM.003 Ступени зрелости](../formalizations/PD.FORM.003-learner-maturity.md)

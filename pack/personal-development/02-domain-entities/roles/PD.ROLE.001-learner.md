@@ -11,7 +11,7 @@ trust:
   R: 0.8
 epistemic_stage: evidence
 depends_on:
-  - PD.ROLE.TRAJ.001
+  - PD.FORM.087
   - "FPF-Spec.md#A.2"
   - "FPF-Spec.md#A.7"
 provides_evidence_for:
@@ -113,7 +113,7 @@ related:
 
 ## 8. Связанные документы
 
-- [PD.ROLE.TRAJ.001 Траектория созидателя](PD.ROLE.TRAJ.001-creator-trajectory.md)
+- [PD.FORM.087 Ролевая траектория созидателя](../formalizations/PD.FORM.087-creator-role-trajectory.md)
 - [PD.METHOD.002 Метод обучения ученика](../../03-methods/PD.METHOD.002-learner-method.md)
 - [PD.WP.002 Работы ученика](../../04-work-products/PD.WP.002-learner-works.md)
 - [PD.ROLE.002 Интеллектуал](PD.ROLE.002-intellectual.md) — следующая роль

@@ -92,7 +92,7 @@ Core conceptual distinctions for the Personal Development domain.
 | [D.121](#d121-activity-parity) | Activity Parity (Labor = Leisure) | current | D.020, PRINC.038 |
 | [D.122](#d122-flight-hours-vs-checkmark) | Flight Hours vs. Completion Checkmark | current | METHOD.001, D.016 |
 | [D.123](#d123-fundamental-vs-applied-role) | Fundamental Role vs. Applied Role | current | ROLE.001, D.002 |
-| [D.124](#d124-rhythm-speed-value) | Rhythm vs. Speed vs. Value (Development Layers) | current | ROLE.TRAJ.001, PRINC.041 |
+| [D.124](#d124-rhythm-speed-value) | Rhythm vs. Speed vs. Value (Development Layers) | current | FORM.087, PRINC.041 |
 | [D.125](#d125-wanting-liking-joy) | Wanting vs. Liking vs. Joy (Three Pleasure Types) | current | D.096, D.088 |
 | [D.126](#d126-problem-level-worldview-mastery-systems) | Problem Level: Worldview / Mastery / Systems | current | FORM.041 |
 | [D.127](#d127-creative-debt-vs-technical-debt) | Creative Debt vs. Technical Debt | current | D.099, METHOD.010 |
@@ -106,7 +106,7 @@ Core conceptual distinctions for the Personal Development domain.
 | [D.135](#d135-approval-vs-reality-orientation) | Approval Orientation vs. Reality Orientation | current | PRINC.045, D.021 |
 | [D.136](#d136-loaded-context-vs-abstract-intelligence) | Loaded Context vs. Abstract Intelligence | current | — |
 | [D.137](#d137-profile-vs-level) | Profile vs. Level (Профиль ≠ Уровень) | current | MIM.FORM.006 |
-| [D.138](#d138-thinking-skills-vs-applied-skills) | Thinking Skills vs. Applied Skills (Мыслительные vs Прикладные навыки) | current | FORM.006, ROLE.TRAJ.001, D.118 |
+| [D.138](#d138-thinking-skills-vs-applied-skills) | Thinking Skills vs. Applied Skills (Мыслительные vs Прикладные навыки) | current | FORM.006, FORM.087, D.118 |
 | [D.139](#d139-system-vs-characteristic) | System vs. Characteristic (Система ≠ Характеристика) | current | D.084, FORM.088 |
 | [D.140](#d140-characteristic-vs-measure-vs-value-vs-potential) | Characteristic vs. Measure vs. Value vs. Potential (Характеристика ≠ Показатель-шкала ≠ Значение ≠ Потенциал) | current | D.139, D.141, FORM.088, FORM.038 |
 | [D.141](#d141-system-vs-role) | System vs. Role (Система ≠ Роль) | current | D.139, FORM.087 |
@@ -1963,7 +1963,7 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 
 **Typical Confusion**: Optimizing life for direct pleasure and wondering why it feels empty (hedonic treadmill vs. eudaimonic path)
 
-**Why It Matters**: Creator trajectory (ROLE.TRAJ.001) progressively shifts from direct pleasure toward system creation pleasure. This shift is an indicator of development stage.
+**Why It Matters**: Creator trajectory (FORM.087) progressively shifts from direct pleasure toward system creation pleasure. This shift is an indicator of development stage.
 
 **SoTA**: `current`
 - Revision criterion: Would change if direct and system-creation pleasures prove neurologically identical
@@ -3469,7 +3469,7 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 **Why It Matters**: Each layer builds on the previous. Attempting higher layers without solid lower ones collapses the development stack.
 
 **Related Items**:
-- Role trajectory: [PD.ROLE.TRAJ.001](../02-domain-entities/roles/PD.ROLE.TRAJ.001-creator-trajectory.md)
+- Role trajectory: [PD.FORM.087](../02-domain-entities/formalizations/PD.FORM.087-creator-role-trajectory.md)
 - Principle: [PD.PRINC.041](../02-domain-entities/principles/PD.PRINC.041-rhythm-over-confidence.md)
 
 **SoTA**: `current`
@@ -3787,7 +3787,7 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 | «Как думать» | | «Как делать» |
 | Развиваются через интеллектуальные практики (чтение, письмо, различения) | | Развиваются через предметные практики (задачи, проекты, эксперименты) |
 
-**Подтипы прикладных навыков** (зависят от доминирующей роли по PD.ROLE.TRAJ.001):
+**Подтипы прикладных навыков** (зависят от доминирующей роли по PD.FORM.087):
 
 | Роль | Тип прикладных навыков | Примеры |
 |------|----------------------|---------|
@@ -3805,11 +3805,11 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 **Related Items**:
 - Distinction: [D.118](#d118-intellect-vs-applied-mastery-mode) — режимы развития (смежное, но D.118 про режимы, D.138 про типы навыков)
 - Formalization: [PD.FORM.006](../02-domain-entities/formalizations/PD.FORM.006-mastery-degrees.md) — степени мастерства (применимы к обоим типам)
-- Trajectory: [PD.ROLE.TRAJ.001](../02-domain-entities/roles/PD.ROLE.TRAJ.001-creator-trajectory.md) — ролевая траектория (определяет подтип прикладных)
+- Trajectory: [PD.FORM.087](../02-domain-entities/formalizations/PD.FORM.087-creator-role-trajectory.md) — ролевая траектория (определяет подтип прикладных)
 - SOP: [MIM.SOP.001](~/IWE/PACK-MIM/pack/mim/03-methods/MIM.SOP.001-tailor-assembly.md) — Портной использует это различение в шаге 5
 
 **SoTA**: `current`
-- Basis: PD.FORM.002 (направление 2 уже описывает ролевую траекторию внутри навыков), D.118 (два режима), PD.ROLE.TRAJ.001 (пять ролей с разными фокусами мастерства)
+- Basis: PD.FORM.002 (направление 2 уже описывает ролевую траекторию внутри навыков), D.118 (два режима), PD.FORM.087 (пять ролей с разными фокусами мастерства)
 - Revision criterion: Would change if a single skill-type model proves sufficient for personalization across all roles
 
 ---

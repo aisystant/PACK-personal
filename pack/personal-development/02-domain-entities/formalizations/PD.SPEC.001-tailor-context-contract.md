@@ -48,7 +48,7 @@ tailor_context:
   # ── Профиль (L1 declarative, самооценка) ──────────────────────────────────
   student_stage: 1          # int 0–4. Ступень ученика (PD.FORM.003)
   it_level: 1               # int 0–3. ИТ-уровень (SOP.001 §Scaffolding)
-  dominant_role: "learner"  # str. Из PD.ROLE.TRAJ.001: learner | intellectual |
+  dominant_role: "learner"  # str. Из PD.FORM.087: learner | intellectual |
                             #        professional | researcher | enlightener
   style:
     format: "brief"         # str: brief | detailed | analogies

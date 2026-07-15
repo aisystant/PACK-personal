@@ -12,7 +12,7 @@ trust:
 epistemic_stage: formed
 depends_on:
   - PD.ROLE.004
-  - PD.ROLE.TRAJ.001
+  - PD.FORM.087
 aliases:
   - educator
   - просветитель
@@ -87,7 +87,7 @@ related:
 
 ## 8. Связанные документы
 
-- [PD.ROLE.TRAJ.001 Траектория](PD.ROLE.TRAJ.001-creator-trajectory.md)
+- [PD.FORM.087 Ролевая траектория созидателя](../formalizations/PD.FORM.087-creator-role-trajectory.md)
 - [PD.ROLE.004 Исследователь](PD.ROLE.004-researcher.md)
 - [PD.QUAL.001 Система квалификации](../qualification/PD.QUAL.001-qualification-system.md)
 

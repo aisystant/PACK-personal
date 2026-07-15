@@ -12,7 +12,7 @@ trust:
 epistemic_stage: formed
 depends_on:
   - PD.ROLE.003
-  - PD.ROLE.TRAJ.001
+  - PD.FORM.087
 provides_evidence_for:
   - PD.ROLE.005
 aliases:
@@ -76,6 +76,6 @@ related:
 
 ## 7. Связанные документы
 
-- [PD.ROLE.TRAJ.001 Траектория](PD.ROLE.TRAJ.001-creator-trajectory.md)
+- [PD.FORM.087 Ролевая траектория созидателя](../formalizations/PD.FORM.087-creator-role-trajectory.md)
 - [PD.ROLE.003 Профессионал](PD.ROLE.003-professional.md)
 - [PD.ROLE.005 Просветитель](PD.ROLE.005-educator.md)

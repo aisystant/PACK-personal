@@ -127,4 +127,4 @@ related:
 
 - [PD.FORM.001 Программы развития](PD.FORM.001-development-programs.md)
 - [PD.FORM.079 Три объекта внимания новичка](PD.FORM.079-three-attention-objects-beginner.md)
-- [PD.ROLE.TRAJ.001 Траектория ролей](../roles/PD.ROLE.TRAJ.001-creator-trajectory.md)
+- [PD.FORM.087 Ролевая траектория созидателя](PD.FORM.087-creator-role-trajectory.md)
