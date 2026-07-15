@@ -20,7 +20,7 @@ related:
 
 ---
 
-# DP.FM.031: Object Myth — O-O как «естественное» восприятие
+# PD.FAIL.073: Object Myth — O-O как «естественное» восприятие
 
 ## Описание failure mode
 

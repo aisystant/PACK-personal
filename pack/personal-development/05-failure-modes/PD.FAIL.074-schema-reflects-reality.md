@@ -20,7 +20,7 @@ related:
 
 ---
 
-# DP.FM.049: Схема БД отражает реальность напрямую (false reflection assumption)
+# PD.FAIL.074: Схема БД отражает реальность напрямую (false reflection assumption)
 
 ## Сигнатура
 

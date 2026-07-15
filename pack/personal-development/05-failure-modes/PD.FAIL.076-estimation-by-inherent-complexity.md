@@ -20,7 +20,7 @@ related:
 
 ---
 
-# DP.FM.036: Estimation by inherent complexity — оценка по «врождённой сложности» требований
+# PD.FAIL.076: Estimation by inherent complexity — оценка по «врождённой сложности» требований
 
 ## Признак
 
