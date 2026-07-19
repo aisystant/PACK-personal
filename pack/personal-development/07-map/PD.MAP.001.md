@@ -2,14 +2,14 @@
 id: PD.MAP.001
 name: Pack Navigation Map
 scope: full-pack
-created: 2026-07-16
-last_updated: 2026-07-16
+created: 2026-07-19
+last_updated: 2026-07-19
 generated: true
 ---
 
 # [PD.MAP.001] Pack Navigation Map
 
-> Auto-generated from frontmatter on 2026-07-16. Do not edit manually.
+> Auto-generated from frontmatter on 2026-07-19. Do not edit manually.
 
 ---
 
@@ -278,7 +278,7 @@ generated: true
 | PD.FORM.080 | Stage Direction Normative Matrix | Матрица нормативных состояний: 5 ступеней × 6 направлений. Две сквозные линии (Мировоззрение × Мастерство). M1-M4 — наборы методов (содержание освоения), cp.rhy/skl/iwe/cre/int/wld — диагностические срезы их освоения (FORM.089). ЛР работает на 4 узла: Мыслительное мастерство (cp.int, M4), Мастерство саморазвития (cp.rhy + cp.skl, M1), Управление IWE (cp.iwe, часть M2), Создание IWE (cp.cre, часть M2). M3 (Профессиональные методы, cp.knw) — вне ЛР. Два горизонта: показатели × потенциал (FORM.088) | draft |
 | PD.FORM.081 | Five Development Areas | Проекция 6 направлений развития (FORM.002) в 5 областей применения программы ЛР. Области = контексты, в которых развиваются 2 объекта (мировоззрение + мастерство) | draft |
 | PD.FORM.082 | Three Lifestyle Contexts | Три контекста стиля жизни: Саморазвитие, Работа, Досуг. Замена лестницы 29 ступеней. Граф зависимостей + привязка к ступеням ученика | draft |
-| PD.FORM.083 | Note Categories | Формализация семи категорий заметок с маршрутами маршрутизации: от fleeting-notes до целевых документов | active |
+| PD.FORM.083 | Note Categories | Формализация восьми категорий заметок с маршрутами маршрутизации: от fleeting-notes до целевых документов | active |
 | PD.FORM.084 | Notes Pipeline | — | active |
 | PD.FORM.085 | Agent Description Meta Models | Три мета-модели описания агента: атрибутивная (качества), деятельностная (процессы), ролевая (функции в системах). Ролевая — наиболее продуктивна для саморазвития | active |
 | PD.FORM.086 | Semiosis As Metanoia Mechanism | Семиозис как механизм метанойи: переход между ступенями мастерства происходит через смену режима интерпретации знаков — не через накопление данных, а через переопределение смысла | active |
@@ -492,91 +492,90 @@ generated: true
 
 | ID | Days Since Update |
 |----|-------------------|
-| PD.METHOD.001 | 527 |
-| PD.WP.001 | 527 |
-| PD.FAIL.001 | 527 |
-| PD.FAIL.002 | 527 |
-| PD.FAIL.003 | 527 |
-| PD.FAIL.004 | 527 |
-| PD.FAIL.005 | 527 |
-| PD.FAIL.006 | 527 |
-| PD.FAIL.007 | 156 |
-| PD.METHOD.003 | 155 |
-| PD.METHOD.004 | 155 |
-| PD.METHOD.005 | 155 |
-| PD.METHOD.006 | 155 |
-| PD.WP.003 | 155 |
-| PD.WP.004 | 155 |
-| PD.WP.007 | 155 |
-| PD.METHOD.010 | 147 |
-| PD.WP.008 | 147 |
-| PD.WP.009 | 147 |
-| PD.WP.010 | 147 |
-| PD.WP.011 | 147 |
-| PD.WP.012 | 147 |
-| PD.WP.013 | 147 |
-| PD.WP.014 | 147 |
-| PD.WP.015 | 147 |
-| PD.WP.016 | 147 |
-| PD.FAIL.008 | 147 |
-| PD.FAIL.009 | 147 |
-| PD.FAIL.010 | 147 |
-| PD.FAIL.011 | 147 |
-| PD.FAIL.012 | 147 |
-| PD.FAIL.013 | 147 |
-| PD.FAIL.014 | 147 |
-| PD.FAIL.015 | 147 |
-| PD.FAIL.016 | 147 |
-| PD.FAIL.017 | 147 |
-| PD.FAIL.018 | 147 |
-| PD.FAIL.019 | 147 |
-| PD.FAIL.020 | 147 |
-| PD.FAIL.021 | 147 |
-| PD.FAIL.022 | 147 |
-| PD.FAIL.023 | 147 |
-| PD.FAIL.024 | 147 |
-| PD.FAIL.025 | 147 |
-| PD.FAIL.026 | 147 |
-| PD.FAIL.027 | 147 |
-| PD.FAIL.028 | 147 |
-| PD.FAIL.029 | 147 |
-| PD.FAIL.030 | 147 |
-| PD.FAIL.031 | 147 |
-| PD.FAIL.032 | 147 |
-| PD.FAIL.033 | 147 |
-| PD.FAIL.034 | 147 |
-| PD.FAIL.035 | 147 |
-| PD.FAIL.036 | 147 |
-| PD.FORM.042 | 146 |
-| PD.FAIL.044 | 146 |
-| PD.FORM.005 | 137 |
-| PD.FAIL.045 | 129 |
-| PD.FAIL.046 | 129 |
-| PD.WP.017 | 127 |
-| PD.WP.018 | 127 |
-| PD.FAIL.047 | 127 |
-| PD.FAIL.048 | 127 |
-| PD.FAIL.050 | 127 |
-| PD.FAIL.052 | 127 |
-| PD.FAIL.053 | 127 |
-| PD.FAIL.054 | 127 |
-| PD.FAIL.055 | 127 |
-| PD.FAIL.057 | 127 |
-| PD.FAIL.058 | 127 |
-| PD.FAIL.060 | 127 |
-| PD.FAIL.061 | 127 |
-| PD.FAIL.062 | 127 |
-| PD.FAIL.063 | 127 |
-| PD.FAIL.064 | 127 |
-| PD.METHOD.012 | 124 |
-| PD.FAIL.065 | 117 |
-| PD.FAIL.066 | 117 |
-| PD.WP.006 | 106 |
-| PD.SOTA.002 | 106 |
-| PD.SOTA.007 | 106 |
-| PD.SOTA.003 | 101 |
-| PD.SOTA.004 | 91 |
+| PD.METHOD.001 | 530 |
+| PD.WP.001 | 530 |
+| PD.FAIL.001 | 530 |
+| PD.FAIL.002 | 530 |
+| PD.FAIL.003 | 530 |
+| PD.FAIL.004 | 530 |
+| PD.FAIL.005 | 530 |
+| PD.FAIL.006 | 530 |
+| PD.FAIL.007 | 159 |
+| PD.METHOD.003 | 158 |
+| PD.METHOD.004 | 158 |
+| PD.METHOD.005 | 158 |
+| PD.METHOD.006 | 158 |
+| PD.WP.003 | 158 |
+| PD.WP.004 | 158 |
+| PD.WP.007 | 158 |
+| PD.METHOD.010 | 150 |
+| PD.WP.008 | 150 |
+| PD.WP.009 | 150 |
+| PD.WP.011 | 150 |
+| PD.WP.012 | 150 |
+| PD.WP.013 | 150 |
+| PD.WP.014 | 150 |
+| PD.WP.015 | 150 |
+| PD.WP.016 | 150 |
+| PD.FAIL.008 | 150 |
+| PD.FAIL.009 | 150 |
+| PD.FAIL.010 | 150 |
+| PD.FAIL.011 | 150 |
+| PD.FAIL.012 | 150 |
+| PD.FAIL.013 | 150 |
+| PD.FAIL.014 | 150 |
+| PD.FAIL.015 | 150 |
+| PD.FAIL.016 | 150 |
+| PD.FAIL.017 | 150 |
+| PD.FAIL.018 | 150 |
+| PD.FAIL.019 | 150 |
+| PD.FAIL.020 | 150 |
+| PD.FAIL.021 | 150 |
+| PD.FAIL.022 | 150 |
+| PD.FAIL.023 | 150 |
+| PD.FAIL.024 | 150 |
+| PD.FAIL.025 | 150 |
+| PD.FAIL.026 | 150 |
+| PD.FAIL.027 | 150 |
+| PD.FAIL.028 | 150 |
+| PD.FAIL.029 | 150 |
+| PD.FAIL.030 | 150 |
+| PD.FAIL.031 | 150 |
+| PD.FAIL.032 | 150 |
+| PD.FAIL.033 | 150 |
+| PD.FAIL.034 | 150 |
+| PD.FAIL.035 | 150 |
+| PD.FAIL.036 | 150 |
+| PD.FORM.042 | 149 |
+| PD.FAIL.044 | 149 |
+| PD.FORM.005 | 140 |
+| PD.FAIL.045 | 132 |
+| PD.FAIL.046 | 132 |
+| PD.WP.017 | 130 |
+| PD.WP.018 | 130 |
+| PD.FAIL.047 | 130 |
+| PD.FAIL.048 | 130 |
+| PD.FAIL.050 | 130 |
+| PD.FAIL.052 | 130 |
+| PD.FAIL.053 | 130 |
+| PD.FAIL.054 | 130 |
+| PD.FAIL.055 | 130 |
+| PD.FAIL.057 | 130 |
+| PD.FAIL.058 | 130 |
+| PD.FAIL.060 | 130 |
+| PD.FAIL.061 | 130 |
+| PD.FAIL.062 | 130 |
+| PD.FAIL.063 | 130 |
+| PD.FAIL.064 | 130 |
+| PD.METHOD.012 | 127 |
+| PD.FAIL.065 | 120 |
+| PD.FAIL.066 | 120 |
+| PD.WP.006 | 109 |
+| PD.SOTA.002 | 109 |
+| PD.SOTA.007 | 109 |
+| PD.SOTA.003 | 104 |
+| PD.SOTA.004 | 94 |
 
 ---
 
-*Generated by `scripts/generate-map.py` on 2026-07-16*
+*Generated by `scripts/generate-map.py` on 2026-07-19*

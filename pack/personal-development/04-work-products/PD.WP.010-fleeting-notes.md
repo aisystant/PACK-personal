@@ -4,7 +4,7 @@ name: Fleeting Notes
 status: active
 summary: "Мимолётные заметки — сырой захват мыслей и резонансов, подлежащий обязательному разбору и удалению"
 created: 2026-02-19
-last_updated: 2026-02-19
+last_updated: 2026-07-19
 related:
   produced_by: [PD.METHOD.003, PD.METHOD.004]
 ---
@@ -103,6 +103,10 @@ Fleeting notes are NOT:
 [raw thought / resonance / idea]
 [optional: source reference for educational type]
 ```
+
+### Subtype: Hypothesis Note
+
+A fleeting note may carry a prediction about the world with a checkable verdict ("if X, then Y", "it must be true that Z"). Capture stays raw — same minimal structure above, no extra fields at capture time (over-formatting at capture is the anti-pattern this WP exists to prevent). The 4-field structure (claim, confidence %, falsification criterion, review date — [PD.FORM.083](../02-domain-entities/formalizations/PD.FORM.083-note-categories.md) §3) is filled during Note-Review as a draft, then confirmed by the pilot — not authored at capture. Distinguishing test: is there an answer to "what would prove this wrong?" — if yes, route to hypotheses-log.md as Hypothesis, not to WeekPlan/DayPlan as Task.
 
 ---
 
