@@ -5,7 +5,7 @@ status: active
 summary: \"Метод непрерывной регистрации и категоризации трат времени для получения эмпирических данных о распределении ресурса\"
 sota: current
 created: 2025-02-04
-last_updated: 2025-02-04
+last_updated: 2026-07-22
 related:
   produces: [PD.WP.001]
   fails_with: [PD.FAIL.001, PD.FAIL.002, PD.FAIL.003, PD.FAIL.004, PD.FAIL.005]
@@ -36,6 +36,18 @@ Time accounting is NOT:
 | **Feedback generation** | Creates information flow for self-correction |
 | **Pattern visibility** | Reveals recurring allocations invisible to introspection |
 | **Resource awareness** | Makes time investment decisions explicit |
+
+---
+
+## Forces
+
+_(Optional, WP-448 Ф12) Competing pressures the method holds in balance._
+
+| Force | Tension |
+|-------|---------|
+| Granularity ↔ cognitive overhead | Finer time intervals produce more accurate patterns, but registration below ~15 minutes costs attention that competes with the activity being tracked |
+| Category stability ↔ evolving understanding | Fixed categories keep periods comparable, but real activity structure changes over time — revising categories breaks the very comparability the method exists to provide |
+| Completeness ↔ sustainability of the habit | Full-coverage registration gives reliable patterns, but the discipline required to log every interval erodes over weeks, producing gaps a simpler partial scheme would have avoided |
 
 ---
 
@@ -111,6 +123,17 @@ Essential distinctions for correct application of this method:
 
 ---
 
+## Bias-Annotation
+
+_(Optional, WP-448 Ф12) Where a practitioner's attention systematically drifts._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Registration read as intervention | Because logging time takes effort, the agent perceives the act of tracking itself as behavior change; attention drifts from "did allocation shift" to "did I log enough today" |
+| Recall decay treated as noise, not signal | Delayed entries are backfilled from memory and treated as equally reliable as real-time entries; the method's own constraint (latency sensitivity) is quietly ignored under time pressure |
+
+---
+
 ## Failure Modes
 
 | Failure Mode | Link | Description |
@@ -153,3 +176,7 @@ Note: Tool selection does not change the method. See [PD.FAIL.005](../05-failure
 - Work Product: [PD.WP.001 Time Budget](../04-work-products/PD.WP.001-time-budget.md)
 - SoTA: [PD.SOTA.001](../06-sota/PD.SOTA.001-time-accounting-interpretations.md)
 - Map: [PD.MAP.001](../07-map/PD.MAP.001.md)
+
+---
+
+> 2026-07-22 — migrated to enriched card format (Forces + Bias-Annotation), WP-448 Ф12. Format reference: `SPF/pack-template/03-methods/_method-card-template.md`.
