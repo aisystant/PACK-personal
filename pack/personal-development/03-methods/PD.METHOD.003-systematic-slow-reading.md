@@ -5,7 +5,7 @@ status: active
 summary: "Метод ежедневного планового потребления качественной информации с остановками для составления образовательных заметок"
 sota: current
 created: 2026-02-11
-last_updated: 2026-02-11
+last_updated: 2026-07-23
 related:
   produces: [PD.WP.003]
   uses: [PD.D.016, PD.D.017]
@@ -40,6 +40,18 @@ Systematic slow reading is NOT:
 | **Cognitive resonance** | Creates collisions between new knowledge and existing mental models, producing insights |
 | **Creative pipeline initiation** | Feeds the first stage of the creative pipeline (notes → drafts → publications) |
 | **Worldview updating** | Enables continuous updating of mental models with SoTA knowledge over long time horizons |
+
+---
+
+## Forces
+
+_(Optional, WP-448 Ф12) Competing pressures the method holds in balance._
+
+| Force | Tension |
+|-------|---------|
+| Depth of pausing ↔ reading throughput | Definition frames "slow" as pausing for cognitive resonance rather than speed, while the Minimum duration constraint (25 minutes) still pushes toward covering material — pausing too often starves the session of content left to react to |
+| Pre-selected material ↔ environment pull | Purpose names "planned information intake ... not dictated by environment" as a function, yet Failure Mode "Environment-driven selection" shows the same environment constantly competes for the reading slot |
+| Reading as standalone act ↔ tandem requirement with writing | The method explicitly denies being "a standalone practice" and requires pairing with Thinking in Writing, but reading itself can proceed with the parallel note channel closed, silently dropping the tandem |
 
 ---
 
@@ -86,6 +98,17 @@ Systematic slow reading is NOT:
 |-------------|------|----------------|
 | Invested time vs. Spent time | [D.016](../01-domain-contract/01B-distinctions.md#d016-invested-time-vs-spent-time) | Reading pre-selected materials is investment; browsing social media is spending |
 | Slow reading vs. Speed reading | D.017 | Slow reading requires pauses for notes; speed reading optimizes throughput without processing |
+
+---
+
+## Bias-Annotation
+
+_(Optional, WP-448 Ф12) Where a practitioner's attention systematically drifts._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Volume overestimated as signal of progress | Constraint states consistency matters more than volume, but attention drifts toward counting pages/chapters covered per session, treating "more read" as the marker of a good day |
+| Note-taking as proof-of-completion | Purpose ties output quality to genuine cognitive resonance, but as the slot's time boundary approaches, attention drifts toward writing something — anything — to close the loop, rather than checking whether resonance actually occurred |
 
 ---
 
@@ -146,3 +169,7 @@ Systematic slow reading is NOT:
 
 - Work Product: [PD.WP.003 Educational Notes](../04-work-products/PD.WP.003-educational-notes.md)
 - Map: [PD.MAP.001](../07-map/PD.MAP.001.md)
+
+---
+
+> 2026-07-23 — migrated to enriched card format (Forces + Bias-Annotation), WP-448 Ф12. Format reference: `pack/_template/03-methods/_method-card-template.md`.

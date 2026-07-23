@@ -5,7 +5,7 @@ type: method-card
 status: active
 summary: "Вечерняя микро-практика: перечисление ролей дня, внешних и внутренних рабочих продуктов — предотвращение иллюзии продуктивности"
 created: 2026-02-19
-last_updated: 2026-02-19
+last_updated: 2026-07-23
 related:
   uses: [D.076, D.077]
   produces: []
@@ -35,6 +35,18 @@ A Daily Reflective Review is NOT:
 | **Analytical/engineering balance** | Shows ratio of internal vs. external WPs |
 | **Role awareness building** | Trains the habit of naming roles throughout the day |
 | **Daily feedback loop** | Quick correction signal before the next day |
+
+---
+
+## Forces
+
+_(Optional, WP-448 Ф12) Competing pressures the method holds in balance._
+
+| Force | Tension |
+|-------|---------|
+| Brevity ↔ honesty | Constraint caps the review at 3-5 minutes, but Constraint also demands the list "reflect actual roles and products, not aspirational ones" — a fuller, more honest accounting takes more than the time-box allows |
+| External WP visibility ↔ internal WP volume | Purpose asks the review to surface an empty external-WP list as a signal, but most days generate more internal WPs (plans, analyses) than external ones, pulling attention toward what was produced in quantity rather than what the signal is checking |
+| Daily practice ↔ genuine rest | Constraint requires the review "every evening (including weekends)", while When Not Applicable exempts "sick days or genuine rest days" — the two rules leave no explicit line for an ordinary tired evening that is neither |
 
 ---
 
@@ -94,6 +106,18 @@ This method does not produce a formal work product. Its output is a brief evenin
 
 ---
 
+## Bias-Annotation
+
+_(Optional, WP-448 Ф12) Where a practitioner's attention systematically drifts._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Recency dominance | Attention drifts toward the last task performed before the review — roles played earlier in the day fade from what gets listed, even though Procedure step 1 asks for the whole day |
+| Fresh-in-hand outweighs sent-away | Internal WPs (plans, notes) are still open on screen at review time — easy to point to; external WPs already left your hands earlier in the day and require actively recalling who received them, so attention gravitates to what's still in front of you before step 4's check ("is the external WP list empty?") is even reached |
+| Role read as task | Attention drifts from named roles (D.076) toward completed tasks — the review quietly turns into a to-do check, the exact framing Definition rules out ("is NOT a to-do list review") |
+
+---
+
 ## Failure Modes
 
 | Failure Mode | Description |
@@ -127,3 +151,7 @@ This method does not produce a formal work product. Its output is a brief evenin
 **Basis**: Derived from systems thinking role-method-product framework applied to daily reflective practice. Source: Guide 1-3, Section 3.5 (explicit recommendation to list analytical vs. engineering work daily).
 
 **Revision criterion**: Status would change if a superior micro-reflection method for productivity illusion detection is established.
+
+---
+
+> 2026-07-23 — миграция на обогащённый формат карточки (Forces + Bias-Annotation), WP-448 Ф12. Эталон формата: `pack/_template/03-methods/_method-card-template.md`.

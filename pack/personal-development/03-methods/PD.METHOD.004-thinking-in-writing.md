@@ -5,7 +5,7 @@ status: active
 summary: "Метод создания мыслей через письмо: заметки → черновики → заготовки, обучающий нейронную сеть агента через материализацию мышления"
 sota: current
 created: 2026-02-11
-last_updated: 2026-02-11
+last_updated: 2026-07-23
 related:
   produces: [PD.WP.004]
   uses: [PD.D.019]
@@ -40,6 +40,18 @@ Thinking in writing is NOT:
 | **Thought materialization** | Externalizes thinking into inspectable, revisable artifacts |
 | **Knowledge base building** | Produces personal knowledge base in exocortex (notes, drafts, publications) |
 | **Complexity handling** | In difficult situations, writing decomposes problems into manageable elements |
+
+---
+
+## Forces
+
+_(Optional, WP-448 Ф12) Competing pressures the method holds in balance._
+
+| Force | Tension |
+|-------|---------|
+| Consistency for beginners ↔ concept-focus quality | Constraint "Daily practice" explicitly trades quality for consistency at the start, while the defining distinction from freewriting (D.019) is precisely quality of concept engagement — the same practice is asked to satisfy both at once |
+| Externalizing thought ↔ sharing it unfinished | Purpose names "thought materialization" as making thinking inspectable and revisable, but the Publication requirement forces that half-formed artifact out to peers before it is ready, which the Failure Mode "Expecting perfect first draft" shows agents resist |
+| Bottom-up accumulation ↔ urge to write from scratch | The Four-Stage Pipeline requires notes to accumulate before drafts form, and the Constraint "No writing from scratch" enforces this order, but starting directly from a blank page is the more natural impulse when an idea feels ready |
 
 ---
 
@@ -85,6 +97,17 @@ Thinking in writing is NOT:
 | Distinction | Link | Why It Matters |
 |-------------|------|----------------|
 | Thinking in writing vs. Freewriting | [D.019](../01-domain-contract/01B-distinctions.md#d019-thinking-in-writing-vs-freewriting) | Thinking in writing focuses on concepts and SoTA theories; freewriting has no quality criterion |
+
+---
+
+## Bias-Annotation
+
+_(Optional, WP-448 Ф12) Where a practitioner's attention systematically drifts._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Word count read as thinking-depth | Purpose frames the method around forming new connections between concepts (Neural network training), but attention drifts toward how much was written in a sitting, treating length as a proxy for how much genuine thinking occurred |
+| Organizing tool over-tended | Tools list the exocortex and note-taking apps as storage, but attention drifts from grappling with concepts (Purpose: concept focus) toward tuning the app or folder structure, producing a feeling of progress without a single new thought recorded (Constraints and Applicability: Concept focus) |
 
 ---
 
@@ -159,3 +182,7 @@ Stages 5-7 (public articles, promotion, revision) are beyond thinking in writing
 
 - Work Product: [PD.WP.004 Draft](../04-work-products/PD.WP.004-draft.md)
 - Map: [PD.MAP.001](../07-map/PD.MAP.001.md)
+
+---
+
+> 2026-07-23 — migrated to enriched card format (Forces + Bias-Annotation), WP-448 Ф12. Format reference: `pack/_template/03-methods/_method-card-template.md`.

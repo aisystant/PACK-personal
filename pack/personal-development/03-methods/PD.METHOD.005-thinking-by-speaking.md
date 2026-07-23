@@ -5,7 +5,7 @@ status: active
 summary: "Метод создания и тестирования понимания через вербальное выражение: проговаривание понятий и их связей для усвоения нового знания"
 sota: current
 created: 2026-02-11
-last_updated: 2026-02-11
+last_updated: 2026-07-23
 related:
   produces: [PD.WP.003]
   uses: [PD.D.019]
@@ -40,6 +40,18 @@ Thinking by speaking is NOT:
 | **Error detection** | Reveals logical gaps and contradictions in understanding when spoken aloud |
 | **Neural pathway formation** | Creates connections between concepts by linking them in different contexts |
 | **Understanding verification** | Tests whether knowledge is truly understood — "if you think you understand, try saying it" |
+
+---
+
+## Forces
+
+_(Optional, WP-448 Ф12) Competing pressures the method holds in balance._
+
+| Force | Tension |
+|-------|---------|
+| Habitual form-attention ↔ required content-attention | Key Distinction "Form vs. Content" notes ordinary speech gives 80% attention to how it sounds; the method demands inverting that ratio toward concepts, working against a deeply trained habit |
+| Solo accessibility ↔ social error-detection | Inputs allow a mirror or dictaphone as interlocutor, but Constraint "Social environment" states the method is most effective with peers who can catch content errors — the easy solo version forgoes the very mechanism that makes speaking a test of understanding |
+| Conversational speed ↔ slow-thinking requirement | Key Distinction "Fast vs. Slow thinking" and the Constraint both demand deliberate engagement, but everyday speech runs on fast, automatic thinking — the practice must fight the default cognitive mode it is performed in |
 
 ---
 
@@ -89,6 +101,17 @@ Thinking by speaking is NOT:
 
 ---
 
+## Bias-Annotation
+
+_(Optional, WP-448 Ф12) Where a practitioner's attention systematically drifts._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Notes prepared but never voiced | Constraint "Prepared notes required" makes writing the notes feel like doing the work; attention drifts toward polishing the written notes instead of actually articulating them aloud, skipping the verbal test entirely |
+| Smoothing over detected gaps | Purpose names error detection as the mechanism of value ("reveals logical gaps ... aloud"), but once a gap surfaces mid-speech, attention drifts toward talking past it fluently rather than stopping to name what wasn't understood |
+
+---
+
 ## Constraints and Applicability
 
 | Constraint | Description |
@@ -135,3 +158,7 @@ Thinking by speaking is NOT:
 
 - Work Product: [PD.WP.003 Educational Notes](../04-work-products/PD.WP.003-educational-notes.md)
 - Map: [PD.MAP.001](../07-map/PD.MAP.001.md)
+
+---
+
+> 2026-07-23 — migrated to enriched card format (Forces + Bias-Annotation), WP-448 Ф12. Format reference: `pack/_template/03-methods/_method-card-template.md`.

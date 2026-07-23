@@ -5,7 +5,7 @@ type: method-card
 status: active
 summary: "Fractal Open-Work-Close pattern at Day and Session scales — structuring entry, work rules, and reflective closure for each day"
 created: 2026-03-14
-last_updated: 2026-03-14
+last_updated: 2026-07-23
 related:
   uses: [D.076, D.077]
   produces: [PD.WP.014]
@@ -36,6 +36,18 @@ Day Rhythm is NOT:
 | **Rhythm maintenance** | Pomodoro cycles + break reminders prevent overwork and attention decay |
 | **Reflective closure** | Daily review of what was learned, praise ritual, prep for tomorrow |
 | **Fractal consistency** | Same OWC pattern at Day and Session scales — one mental model |
+
+---
+
+## Forces
+
+_(Optional, WP-448 Ф12) Competing pressures the method holds in balance._
+
+| Force | Tension |
+|-------|---------|
+| Ritual lightweight ↔ ritual completeness | Constraints cap Open/Close at "5-10 min each", yet Purpose loads that same window with context entry, self-development priority, and reflective closure at once |
+| Self-development priority ↔ daily urgency | Purpose ensures "self-development slot is always first, never displaced by urgency", but the Work stage runs alongside whatever urgent items the day brings, and both compete for the identical morning position |
+| Fractal consistency ↔ rhythm maintenance | Running Day-scale OWC nested with Session-scale OWC at once ("one mental model") competes with keeping the pomodoro/break cadence of Rhythm maintenance simple — more structural layers can itself become the overhead Day Rhythm exists to remove |
 
 ---
 
@@ -116,6 +128,18 @@ A conscious OWC session for self-development:
 
 ---
 
+## Bias-Annotation
+
+_(Optional, WP-448 Ф12) Where a practitioner's attention systematically drifts._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Stage tracking fades into task tracking | Attention drifts from the Open→Work→Close transition itself toward the content of the work list — awareness of "which stage am I in" erodes before any stage is literally skipped |
+| Session Close read as Day Close | Attention overestimates the light Session-scale "closing" habit as satisfying Day-scale reflective closure, understating what Day Close's review/praise/prep-for-tomorrow actually requires |
+| Fractal claim drifts into two separate habits | The "one mental model" claim (Fractal consistency) is treated only as a design description — Day-scale and Session-scale OWC drift toward being maintained as unrelated habits, even while neither is technically skipped |
+
+---
+
 ## Failure Modes
 
 | Failure Mode | Description |
@@ -153,3 +177,7 @@ A conscious OWC session for self-development:
 **Basis**: Derived from OWC (Open-Work-Close) fractal pattern applied to personal productivity. Combines pomodoro technique for rhythm, structured reflection for closure, and self-development prioritization. Source: IWE platform architecture (DP.ARCH.001 §3.1.1a).
 
 **Revision criterion**: Status would change if a superior daily structuring method is established that better supports fractal OWC at multiple scales while maintaining lightweight ritual.
+
+---
+
+> 2026-07-23 — миграция на обогащённый формат карточки (Forces + Bias-Annotation), WP-448 Ф12. Эталон формата: `pack/_template/03-methods/_method-card-template.md`.

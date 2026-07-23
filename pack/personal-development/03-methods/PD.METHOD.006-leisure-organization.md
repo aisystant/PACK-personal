@@ -5,7 +5,7 @@ status: active
 summary: "Метод систематического управления практиками досуга: выбор, планирование и контроль на всех временных горизонтах для восстановления и качества жизни"
 sota: current
 created: 2026-02-11
-last_updated: 2026-02-11
+last_updated: 2026-07-23
 related:
   produces: []
   uses: [PD.D.020]
@@ -40,6 +40,18 @@ Leisure organization is NOT:
 | **Recovery** | Physical and mental restoration enabling sustained productive work (6-9 hours/day) |
 | **Role expansion** | Increasing the number of roles performed makes life richer |
 | **Burnout prevention** | Echeloned defense against fatigue, exhaustion, and depression |
+
+---
+
+## Forces
+
+_(Optional, WP-448 Ф12) Competing pressures the method holds in balance._
+
+| Force | Tension |
+|-------|---------|
+| Leisure as process ↔ leisure as recovery-for-work | Definition draws leisure by where the benefit lands (process, not result), but Purpose justifies the whole method by "Recovery" enabling 6-9 hours of productive work — leisure is asked to be both self-contained and instrumental to work at once |
+| Echeloned coverage at every horizon ↔ finite time/money/health | The Echeloned Defense Principle requires no time horizon (minutes to years) be empty, while Inputs list time budget, financial resources, and physical capabilities as hard constraints — full coverage competes directly with the resources available |
+| State-dependent selection ↔ scheduled routine | State-Dependent Practice Selection asks leisure intensity to match the agent's current productive state, but Failure Mode "No routine" demands a fixed schedule for reliability — adapting to the state of the moment pulls against keeping to the plan |
 
 ---
 
@@ -90,6 +102,17 @@ Leisure organization is NOT:
 |-------------|------|----------------|
 | Leisure vs. Work | [D.020](../01-domain-contract/01B-distinctions.md#d020-leisure-vs-work) | In leisure, attention is on process; in work, on result. Confusing them corrupts both |
 | Leisure practice vs. Leisure organization | — | Practice is the activity itself; organization is managing the system of practices |
+
+---
+
+## Bias-Annotation
+
+_(Optional, WP-448 Ф12) Where a practitioner's attention systematically drifts._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Impressions overshadowed by visible achievement | Definition locates leisure's benefit in the process itself, but attention drifts toward practices that also produce a visible marker (a trip checked off the "at least once" list, a skill learned) — process-only impressions are undervalued next to anything that leaves a trophy |
+| Habitual practice overriding state signal | State-Dependent Practice Selection ties recommended leisure class to current productive state, but attention drifts toward the same familiar go-to activity regardless of state, so the state-check is skipped and mismatched leisure gets applied anyway |
 
 ---
 
@@ -154,3 +177,7 @@ Related: [PD.FORM.068 State-Dependent Task Allocation](../02-domain-entities/for
 ## References to Related Items
 
 - Map: [PD.MAP.001](../07-map/PD.MAP.001.md)
+
+---
+
+> 2026-07-23 — migrated to enriched card format (Forces + Bias-Annotation), WP-448 Ф12. Format reference: `pack/_template/03-methods/_method-card-template.md`.

@@ -5,7 +5,7 @@ status: active
 summary: "Метод осознанного развития физической и социальной среды: типология агентов влияния (усилители/тормоза/зеркала), постановка в роль, системные уровни"
 sota: current
 created: 2026-02-11
-last_updated: 2026-05-21
+last_updated: 2026-07-23
 related:
   produces: []
   uses: [PD.FORM.087]
@@ -41,6 +41,18 @@ Environment formation is NOT:
 | **Role activation** | Physical attributes and social setting help agent enter the required role |
 | **Attention economy** | Well-formed environment frees attention and time for investment in self-development |
 | **Positive impressions** | Continuous interaction with developed environment produces wellbeing |
+
+---
+
+## Forces
+
+_(Optional, WP-448 Ф12) Competing pressures the method holds in balance._
+
+| Force | Tension |
+|-------|---------|
+| Autonomy ↔ Openness | Key Distinction "Autonomy vs. Openness" already states the agent must simultaneously resist being captured by environment and remain open to its influence — Environment Formation exists precisely to hold this pair together, not resolve it |
+| Amplifier proximity ↔ anchor loyalty | Agent Typology frames amplifiers as pulling upward and anchors as holding in place (often loyal old friends or family); Frequency tuning calls for increasing amplifier exposure and reducing anchor exposure "not eliminate — gradual shift," which keeps loyalty and growth in permanent tension |
+| Learner position (growth) ↔ Teacher position (identity lock-in) | Role Positioning's own table names Learner's risk as ego resistance and Teacher's risk as locking into "expert" identity; the Optimal pattern of occupying all three positions at once is the method's answer to holding growth and stable identity together |
 
 ---
 
@@ -110,6 +122,17 @@ Environment formation is NOT:
 | **Агент-зеркало** | Агент, который отражает состояние пилота без оценки, помогая замечать дрейф | ≠ критик, ≠ ментор |
 | **Переквалификация** | Изменение контекста взаимодействия с агентом-тормозом через смещение тем, ограничение времени или смену формата | ≠ конфликт, ≠ адаптация |
 | **Ролевое позиционирование** | Осознанный выбор роли (ученик, равный, учитель) в конкретном социальном контексте | ≠ притворство, ≠ манипуляция |
+
+---
+
+## Bias-Annotation
+
+_(Optional, WP-448 Ф12) Where a practitioner's attention systematically drifts._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Aspiration substituted for audit | Inputs call for an honest "Current environment state" assessment before any change, but attention drifts toward the desired end-state (aesthetic, motivational) and skips documenting what is actually there now |
+| Quick impression over compounding project | Purpose names "Positive impressions" as a function, but attention drifts toward one-off purchases or changes that produce an immediate pleasant feeling, at the expense of the longer "Environment development projects" (Outputs) that would compound |
 
 ---
 
@@ -217,3 +240,7 @@ Role positioning is the **micro-mechanism** through which the creator role traje
 ## References to Related Items
 
 - Map: [PD.MAP.001](../07-map/PD.MAP.001.md)
+
+---
+
+> 2026-07-23 — migrated to enriched card format (Forces + Bias-Annotation), WP-448 Ф12. Format reference: `pack/_template/03-methods/_method-card-template.md`.

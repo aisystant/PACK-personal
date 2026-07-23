@@ -5,7 +5,7 @@ status: active
 summary: "Метод преобразования задач в формулировки работ и размещения их в физическом времени с учётом ресурсов и дедлайнов"
 sota: current
 created: 2026-02-19
-last_updated: 2026-05-21
+last_updated: 2026-07-23
 related:
   produces: [PD.WP.001, PD.WP.013, PD.WP.014, PD.WP.015]
   uses: [PD.D.041, PD.D.042, PD.D.043, PD.D.044]
@@ -39,6 +39,18 @@ Planning is NOT:
 | **Realistic budgeting** | Reveals actual available capacity by summing planned hours |
 | **Procrastination reduction** | Properly formulated work reduces brain's resistance to unclear tasks |
 | **Flow acceleration** | Prioritizes throughput over individual task optimization |
+
+---
+
+## Forces
+
+_(Optional, WP-448 Ф12) Competing pressures the method holds in balance._
+
+| Force | Tension |
+|-------|---------|
+| Weekly horizon ↔ daily adjustment | Planning fixes a weekly horizon for stability, but operates "with daily adjustments" — every adjustment risks eroding the very horizon that made the week comparable |
+| Important (PD.D.042) ↔ Urgent (PD.D.043) | Important work needs a protected morning slot, but urgent work is "injected between sessions" and competes for the same physical time, as named in PD.FAIL.018 |
+| Buffer ↔ realistic full-capacity budgeting | The buffer (~20% reserve, see Ключевые понятия) protects against disruption, but Purpose also calls for "realistic budgeting" that reveals actual available capacity — a generous buffer and a fully accounted week pull against each other |
 
 ---
 
@@ -111,6 +123,18 @@ Planning is NOT:
 
 ---
 
+## Bias-Annotation
+
+_(Optional, WP-448 Ф12) Where a practitioner's attention systematically drifts._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Формулировка съезжает в размещение | Внимание смещается с 6-компонентной формулировки работы (кто/когда/роль/метод/ресурсы/ожидаемый WP) на простое размещение блока в календаре (time-blocking) — карточка формально закрыта раньше, чем работа реально сформулирована |
+| Пропускная способность недооценивается | Внимание уходит с недельного throughput (Flow acceleration) на полировку одной конкретной задачи — общий баланс недели и буфер выпадают из поля зрения |
+| Буфер переоценивается как свободное место | Под давлением заполнить неделю внимание съезжает с буфера как защиты от непредвиденного (Ключевые понятия) к буферу как «ещё одному слоту», который можно занять задачей |
+
+---
+
 ## Failure Modes
 
 | Failure Mode | Description |
@@ -158,3 +182,7 @@ Planning is NOT:
 - Formalization: [PD.FORM.010 Task Classification 3x2](../02-domain-entities/formalizations/PD.FORM.010-task-classification.md)
 - Formalization: [PD.FORM.014 Work Formulation](../02-domain-entities/formalizations/PD.FORM.014-work-formulation.md)
 - Map: [PD.MAP.001](../07-map/PD.MAP.001.md)
+
+---
+
+> 2026-07-23 — миграция на обогащённый формат карточки (Forces + Bias-Annotation), WP-448 Ф12. Эталон формата: `pack/_template/03-methods/_method-card-template.md`.

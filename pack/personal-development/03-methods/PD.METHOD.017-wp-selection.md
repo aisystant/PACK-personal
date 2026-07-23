@@ -5,7 +5,7 @@ status: active
 summary: "Метод отбора рабочих продуктов в план недели: из приоритетов месяца и carry-over — в упорядоченный список с бюджетами"
 sota: current
 created: 2026-04-20
-last_updated: 2026-04-20
+last_updated: 2026-07-23
 related:
   produces: [PD.WP.007]
   uses: [PD.D.042, PD.D.043, PD.D.044]
@@ -38,6 +38,18 @@ Selection is NOT:
 | **Priority visibility** | Makes trade-offs explicit: which WPs displace which |
 | **Carry-over handling** | Ensures unfinished work from prior week is triaged, not silently dropped |
 | **ТОС focus** | Surfaces the weekly bottleneck that constrains throughput |
+
+---
+
+## Forces
+
+_(Optional, WP-448 Ф12) Competing pressures the method holds in balance._
+
+| Force | Tension |
+|-------|---------|
+| Budget realism ↔ priority visibility | Fitting selected WPs to available hours (Purpose: Budget realism) competes with keeping every trade-off explicit (Priority visibility) — trimming to fit budget can silently demote a WP whose priority was never surfaced |
+| Carry-over triage ↔ new WP admission | Every pending WP from the previous week must be re-validated (Constraints: "Carry-over triage"), competing with new WPs entering the same pool via WP Gate during the week |
+| Named ТОС (Action step 4) ↔ multi-WP breadth | Naming one bottleneck concentrates attention on a single constraint, while the candidate pool (Action step 1) pulls toward representing every active R1-RN priority |
 
 ---
 
@@ -100,6 +112,17 @@ Four steps, executed in order inside Strategy Session (Monday):
 
 ---
 
+## Bias-Annotation
+
+_(Optional, WP-448 Ф12) Where a practitioner's attention systematically drifts._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Priority marks (Action step 2) read as fixed facts | Once a WP is marked 🔴/🟡/🟢/⚪, attention drifts from re-checking whether the mark still holds toward treating the label itself as settled |
+| Carry-over triage overweights "keep" | Attention drifts toward re-adding pending WPs by default (Constraints: "Carry-over triage"), because closing or demoting requires explicit justification that keeping does not — the four-way decision degrades into a two-way one |
+
+---
+
 ## Failure Modes
 
 | Failure Mode | Description |
@@ -147,3 +170,7 @@ Four steps, executed in order inside Strategy Session (Monday):
 - Method: [PD.METHOD.008 Strategizing](./PD.METHOD.008-strategizing.md)
 - Method: [PD.METHOD.009 Planning](./PD.METHOD.009-planning.md)
 - Map: [PD.MAP.001](../07-map/PD.MAP.001.md)
+
+---
+
+> 2026-07-23 — миграция на обогащённый формат карточки (Forces + Bias-Annotation), WP-448 Ф12. Эталон формата: `pack/_template/03-methods/_method-card-template.md`.
