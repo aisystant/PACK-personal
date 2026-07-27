@@ -25,7 +25,7 @@ source: "WP-377 Ф1.5 (2026-05-31): метод measurement для субслоя
 
 ## Описание
 
-**Метод ежедневной самооценки энергии** — процедура субъективной оценки уровня энергии в конце дня по шкале 1-5 как интегрального сигнала работоспособности и восстановления (субслой «восстановление» физического слоя ст. 0, [PD.FORM.138 §2 №4](../02-domain-entities/phys-program/PD.FORM.138-physical-layer-stage-zero.md)).
+**Метод ежедневной самооценки энергии** — процедура субъективной оценки уровня энергии в конце дня по шкале 1-5 как интегрального сигнала работоспособности и восстановления (субслой «восстановление» физического слоя ст. 0, [PD.FORM.138 §2 №4](../02-domain-entities/formalizations/PD.FORM.138-physical-layer-stage-zero.md)).
 
 Метод производит ежедневную точку данных в шкале 1-5; недельная динамика этих точек — baseline-сигнал для субслоя «восстановление».
 
@@ -92,11 +92,11 @@ _(Optional, WP-448 Ф12) Какие конкурирующие давления 
 
 | Условие | Действие |
 |---------|----------|
-| Энергия <3 два дня подряд | Сигнал просадки субслоя «восстановление» от [PD.ROLE.006](../02-domain-entities/phys-program/PD.ROLE.006-body-as-first-system.md) |
+| Энергия <3 два дня подряд | Сигнал просадки субслоя «восстановление» от [PD.ROLE.006](../02-domain-entities/roles/PD.ROLE.006-body-as-first-system.md) |
 | Энергия =1 один день | Сигнал просадки (один день =1 = серьёзный сигнал, не ждать второго) |
 | Просадка >7 дней | Сигнал «вне scope» — рекомендация проверки сна/питания/физического состояния, при необходимости консультация |
 
-**Действие при просадке:** следующий день — досуг приоритетнее слота саморазвития ([PD.FORM.138 §4](../02-domain-entities/phys-program/PD.FORM.138-physical-layer-stage-zero.md), см. [PD.METHOD.006 Leisure Organization](PD.METHOD.006-leisure-organization.md)).
+**Действие при просадке:** следующий день — досуг приоритетнее слота саморазвития ([PD.FORM.138 §4](../02-domain-entities/formalizations/PD.FORM.138-physical-layer-stage-zero.md), см. [PD.METHOD.006 Leisure Organization](PD.METHOD.006-leisure-organization.md)).
 
 ---
 
@@ -146,7 +146,7 @@ _(Optional, WP-448 Ф12) Куда систематически съезжает 
 ## Связи
 
 - **produces:** baseline-сигнал для субслоя «восстановление» PD.FORM.138 §2
-- **requires_role:** [PD.ROLE.006 Тело как первая система](../02-domain-entities/phys-program/PD.ROLE.006-body-as-first-system.md)
+- **requires_role:** [PD.ROLE.006 Тело как первая система](../02-domain-entities/roles/PD.ROLE.006-body-as-first-system.md)
 - **see_also:** [PD.METHOD.012 Day Rhythm (OWC Fractal)](PD.METHOD.012-day-rhythm-owc-fractal.md) — интеграция в Close-протокол дня
 - **see_also:** [PD.STATE.008 Productive States Scale](../02-domain-entities/states/PD.STATE.008-productive-states-scale.md) — родственная шкала, открытый вопрос об интеграции
 - **implementation_guide:** [systems-based-fitness](https://github.com/aisystant/docs/tree/main/docs/ru/personal/systems-based-fitness) — operational руководство по физическому слою

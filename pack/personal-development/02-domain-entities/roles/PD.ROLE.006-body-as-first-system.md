@@ -103,7 +103,7 @@ source: "WP-377 (решение пилота С.3' = A, 2026-05-31): роль д
 | [R28 Диагност](../../../../FMT-exocortex-template/.claude/rules/role-prefixes.md) (MIM.R.009) | Pre-check | При вычислении cp-профиля Диагност сверяет статус ст. 0 как gate-условие. Без открытого ст. 0 → ст. 1 не закрывается двойной gate ст. 1 → ст. 2 (PD.FORM.097 §4) |
 | [R27 Навигатор](../../../../FMT-exocortex-template/.claude/rules/role-prefixes.md) (MIM.R.007) | Downshift signal | При просадке субслоя 2 дня подряд Навигатор переключает диалог с пилотом на режим downshift (микро-шаги, восстановление слоя приоритетнее новых методов) |
 | Портной (MIM.SOP.001) | Pre-render check | Перед рендером персонального руководства Портной запрашивает статус ст. 0. Если открыт (просадка) — рендер идёт под downshift-режим |
-| [PD.ROLE.001 Ученик](../roles/PD.ROLE.001-learner.md) | Precedes | Тело как первая система — pre-condition для роли Ученика. Ученик не активируется устойчиво без закрытого gate ст. 0 → ст. 1 |
+| [PD.ROLE.001 Ученик](PD.ROLE.001-learner.md) | Precedes | Тело как первая система — pre-condition для роли Ученика. Ученик не активируется устойчиво без закрытого gate ст. 0 → ст. 1 |
 | Аттестатор (DP.ROLE.041) | bh-сигналы | Если Аттестатор фиксирует bh.sys (системность) ≥3 при сломанном физическом слое — конфликт сигналов; ст. 0 имеет приоритет над bh-прокси |
 
 ---
@@ -154,6 +154,6 @@ source: "WP-377 (решение пилота С.3' = A, 2026-05-31): роль д
 - [PD.METHOD.046 Sleep Baseline](../../03-methods/PD.METHOD.046-sleep-baseline.md) — метод установки baseline сна
 - [PD.METHOD.047 Walk Rhythm Evening](../../03-methods/PD.METHOD.047-walk-rhythm-evening.md) — метод вечерних прогулок
 - [PD.METHOD.048 Energy Self-Assessment Daily](../../03-methods/PD.METHOD.048-energy-self-assessment-daily.md) — субъективная оценка энергии
-- [PD.ROLE.001 Ученик](../roles/PD.ROLE.001-learner.md) — следующая роль (после закрытия gate ст. 0 → ст. 1)
+- [PD.ROLE.001 Ученик](PD.ROLE.001-learner.md) — следующая роль (после закрытия gate ст. 0 → ст. 1)
 - [PD.FAIL.021 Ignoring Sleep and Daily Routine](../../05-failure-modes/PD.FAIL.021-ignoring-sleep-and-daily-routine.md) — failure mode без роли
 - [systems-based-fitness](https://github.com/aisystant/docs/tree/main/docs/ru/personal/systems-based-fitness) — operational руководство по физическому слою (implementation guide)

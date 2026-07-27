@@ -25,7 +25,7 @@ source: "WP-377 Ф1.5 (2026-05-31): метод measurement для субслоя
 
 ## Описание
 
-**Метод ритма вечерних прогулок** — процедура регистрации факта целевой прогулки и поддержания минимума движения, обеспечивающего baseline субслоя «движение» физического слоя ст. 0 ([PD.FORM.138 §2 №2](../02-domain-entities/phys-program/PD.FORM.138-physical-layer-stage-zero.md)).
+**Метод ритма вечерних прогулок** — процедура регистрации факта целевой прогулки и поддержания минимума движения, обеспечивающего baseline субслоя «движение» физического слоя ст. 0 ([PD.FORM.138 §2 №2](../02-domain-entities/formalizations/PD.FORM.138-physical-layer-stage-zero.md)).
 
 Метод производит регистрацию факта движения (не интервенцию), относительно которой детектируется просадка субслоя.
 
@@ -79,11 +79,11 @@ _(Optional, WP-448 Ф12) Какие конкурирующие давления 
 
 | Условие | Действие |
 |---------|----------|
-| 0 целевых прогулок за 7 дней + шаги <5000 | Сигнал просадки субслоя «движение» от [PD.ROLE.006](../02-domain-entities/phys-program/PD.ROLE.006-body-as-first-system.md) |
+| 0 целевых прогулок за 7 дней + шаги <5000 | Сигнал просадки субслоя «движение» от [PD.ROLE.006](../02-domain-entities/roles/PD.ROLE.006-body-as-first-system.md) |
 | <5000 шагов 5+ дней подряд | Сигнал просадки субслоя «движение» |
 | Длительность просадки >7 дней | Сигнал «вне scope» — проверить физическое самочувствие, при необходимости консультация |
 
-**Действие при просадке:** следующий день — целевая прогулка приоритетнее слота саморазвития ([PD.FORM.138 §4](../02-domain-entities/phys-program/PD.FORM.138-physical-layer-stage-zero.md)).
+**Действие при просадке:** следующий день — целевая прогулка приоритетнее слота саморазвития ([PD.FORM.138 §4](../02-domain-entities/formalizations/PD.FORM.138-physical-layer-stage-zero.md)).
 
 ---
 
@@ -132,7 +132,7 @@ _(Optional, WP-448 Ф12) Куда систематически съезжает 
 ## Связи
 
 - **produces:** статус baseline для субслоя «движение» PD.FORM.138 §2
-- **requires_role:** [PD.ROLE.006 Тело как первая система](../02-domain-entities/phys-program/PD.ROLE.006-body-as-first-system.md)
+- **requires_role:** [PD.ROLE.006 Тело как первая система](../02-domain-entities/roles/PD.ROLE.006-body-as-first-system.md)
 - **see_also:** [PD.METHOD.020 Hygienic Minimum](PD.METHOD.020-hygienic-minimum.md) — гигиенический минимум развития в ст. 1+
 - **implementation_guide:** [systems-based-fitness](https://github.com/aisystant/docs/tree/main/docs/ru/personal/systems-based-fitness) — operational руководство по физическому слою
 
