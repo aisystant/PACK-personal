@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# commit-msg hook — Ф6.2 routing-bypass audit trail (WP-429)
+# tracked hook (.githooks/, паттерн WP-436) — вызывается через core.hooksPath.
+# auto-installed by install-pack-hooks.sh — не редактировать вручную, править SoT-скрипт.
+IWE="${IWE_ROOT:-$HOME/IWE}"
+bash "$IWE/DS-MCP/knowledge-mcp/scripts/pack-commit-msg.sh" "$1"

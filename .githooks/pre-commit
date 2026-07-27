@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# pre-commit hook — pack-lint (WP-242 Ф5) + Ф6.2 placement-линтер (WP-429)
+# tracked hook (.githooks/, паттерн WP-436) — вызывается через core.hooksPath.
+# auto-installed by install-pack-hooks.sh — не редактировать вручную, править SoT-скрипты.
+IWE="${IWE_ROOT:-$HOME/IWE}"
+bash "$IWE/DS-MCP/knowledge-mcp/scripts/pack-lint.sh"
