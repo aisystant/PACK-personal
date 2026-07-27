@@ -1,0 +1,176 @@
+# Машинный контракт маршрутизации знаний (WP-429 Ф6.1)
+# SoT для размещения записей этого Pack. Заменяет прозаические копии в:
+#   DP.KR.001 §5, memory/routing-vocab.md, memory/repo-type-rules.md, apply-captures/SKILL.md шаг 4в.
+# memory/routing-vocab.md — производная авто-собираемая проекция поверх этого файла, не редактировать вручную.
+#
+# Ключ верхнего уровня — kinds: (код идентификатора, напр. PD.CAT), НЕ types: (это поле frontmatter).
+# Вторичная сверка frontmatter — frontmatter_check: {field, value}; null, если у Pack нет
+# устоявшегося значения для данного kind (см. консенсус пир-сессии 2026-07-16, WP-429 Ф6.1).
+# Имя поля frontmatter в этом Pack — "type" (как PACK-systems-art), НЕ "kind" (как PACK-verification).
+# Поле "kind:" встречается в 3 файлах 03-methods/PD.METHOD.030/031/059 со значением "Method" —
+# похоже на опечатку/дубль поля "type", не используется контрактом как проверочное поле.
+#
+# Census 2026-07-27 (WP-429 Ф6.1): 387 .md-файлов под pack/personal-development/ (без pack/_template/,
+# который содержит только шаблоны с префиксом "_" и НЕ матчит ни один id_pattern ниже).
+# 357 файлов покрыты kinds ниже, 30 — вне юрисдикции контракта (структурные/индексные/downstream —
+# не kind-карточки), перечислены по категориям:
+#
+#   1. Секции вместо файлов (storage: section, НЕ storage: file):
+#      01-domain-contract/01B-distinctions.md — 155 различений (PD.D.001..PD.D.155+) хранятся как
+#      markdown-секции "## [D.NNN] ..." ВНУТРИ одного файла (383 KB), не отдельными карточками.
+#      f6_placement_linter.py матчит kind только по ИМЕНИ ФАЙЛА — секции физически невидимы этому
+#      контракту. Не заводим kind PD.D здесь (не файл-маршрутизируемая сущность).
+#
+#   2. Id в frontmatter, но имя файла не по ID-конвенции (невидимо для kind_of(), который матчит
+#      filename.startswith(kind + ".")):
+#      - 01-domain-contract/01D-naming-convention.md — id: PD.NAMING.001 (единственная запись,
+#        канон-решение WP-377: "PD.METHOD" — длинная форма, "PD.M" — устаревшая). Файл называется
+#        по позиционной схеме 01A-01D, не по ID.
+#      - 04-work-products/personal-guide-seeds/*.md (11 файлов) — id: PD.WP.019 (README.md, головная
+#        запись) + PD.WP.019.<suffix> (10 дочерних seed-фрагментов: assignment-form, domain-generic,
+#        domain-kw, monthly-theme-template, qual-L7, render-checklist, stage-1..4). Имена файлов —
+#        content-slug (domain-generic.md, stage-1-random.md, ...), не PD.WP.019-*.md. Не покрыто kind
+#        PD.WP ниже (его id_pattern требует ИМЯ файла PD.WP.NNN-slug.md — эти файлы под него не
+#        попадают ни по kind_of(), ни по id_pattern).
+#
+#   3. Структурные/индексные файлы без id (аналог 00-pack-manifest.md, 01A-01C, 02A-02E):
+#      00-pack-manifest.md; 01-domain-contract/01A-bounded-context.md, 01B-distinctions.md (как файл
+#      целиком — сама секционная структура см. п.1), 01C-principles.md; 02-domain-entities/02A-roles.md,
+#      02B-objects-of-attention.md, 02C-methods-index.md, 02D-tools-index.md, 02E-characteristics-registry.md;
+#      02-domain-entities/phys-program/README.md.
+#
+#   4. Downstream-шаблоны без id (не Pack-карточки, см. CLAUDE.md §2.1 — дидактика/шаблоны — downstream):
+#      04-work-products/lifework-templates/*.md (7 файлов, README.md + 6 lifework-template) —
+#      frontmatter type: template-index / нет frontmatter вообще, поле "realizes"/"uses" ссылается
+#      на PD.METHOD.018/PD.FORM.090, но сами шаблоны не несут собственного PD-id.
+#
+#   5. Устаревшая форма ID, сознательно НЕ зарегистрирована как kind (не легитимизируем):
+#      03-methods/PD.M.067-three-step-rule-adoption.md — короткая форма "PD.M", отменена канон-решением
+#      PD.NAMING.001 (WP-377, 2026-05-31) в пользу "PD.METHOD". Единственный файл в Pack на старой форме,
+#      не переименован. Оставлен непокрытым (orphaned) намеренно — не заводим kind PD.M.
+#
+# Известный дрейф размещения (реальный, НЕ баг контракта — см. verification (a) в отчёте сессии):
+#   02-domain-entities/phys-program/ — сателлит-каталог "ст. 0 saneness, предусловие программы"
+#   (см. phys-program/README.md: "снаружи программы (предусловие)"), хостит 5 файлов, чьи ID
+#   заимствуют нумерацию основных последовательностей PD.METHOD/PD.FORM/PD.ROLE, но физически лежат
+#   не в канонической директории своего kind:
+#     - PD.METHOD.046/047/048 (sleep-baseline, walk-rhythm-evening, energy-self-assessment-daily)
+#     - PD.FORM.138 (physical-layer-stage-zero)
+#     - PD.ROLE.006 (body-as-first-system)
+#   f6_placement_linter.py поддерживает только ОДИН dir на kind (без учёта директории при матчинге
+#   kind_of() — см. скрипт), поэтому единственный канонический dir ниже (majority: 03-methods,
+#   formalizations, roles) технически BLOCK-ает эти 5 файлов при прогоне линтера. Это осознанно
+#   задокументированный дрейф данных, а не ошибка контракта — не чиним (Drift Reporting), пилот решает:
+#   либо переносить файлы в канонические директории, либо расширять линтер до multi-dir per kind.
+schema_version: 1
+pack: personal-development
+
+kinds:
+  PD.ARCH:
+    dir: pack/personal-development/02-domain-entities/architecture/
+    id_pattern: 'PD\.ARCH\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: type, value: domain-entity}   # n=1, единственный файл в Pack
+    storage: file
+
+  PD.CAT:
+    dir: pack/personal-development/02-domain-entities/catalogs/
+    id_pattern: 'PD\.CAT\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: type, value: catalog}   # 5/5 однородно
+    storage: file
+
+  PD.CHR:
+    dir: pack/personal-development/02-domain-entities/characteristics/
+    id_pattern: 'PD\.CHR\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: type, value: domain-entity}   # 12/12 однородно
+    storage: file
+
+  PD.FORM:
+    dir: pack/personal-development/02-domain-entities/formalizations/
+    id_pattern: 'PD\.FORM\.\d{3}-[a-z0-9-]+\.md$'
+    # реальность (140 файлов): 137× type=domain-entity, 2× type=formalization (FORM.084, FORM.138),
+    # 1× без type (FORM.078) — не строго однородно, но большинство value одно и то же; берём null,
+    # т.к. есть 2 легитимных альтернативных значения (не опечатка одного файла).
+    frontmatter_check: null
+    storage: file
+    # FORM.138 физически в phys-program/, не здесь — см. «Известный дрейф размещения» выше (BLOCK ожидаем).
+
+  PD.SPEC:
+    dir: pack/personal-development/02-domain-entities/formalizations/
+    id_pattern: 'PD\.SPEC\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: type, value: spec}   # n=1, единственный файл (PD.SPEC.001), тот же каталог что PD.FORM, но отдельный id-неймспейс
+    storage: file
+
+  PD.PRINC:
+    dir: pack/personal-development/02-domain-entities/principles/
+    id_pattern: 'PD\.PRINC\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: type, value: domain-entity}   # 15/15 однородно
+    storage: file
+
+  PD.QUAL:
+    dir: pack/personal-development/02-domain-entities/qualification/
+    id_pattern: 'PD\.QUAL\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: type, value: domain-entity}   # n=1, единственный файл
+    storage: file
+
+  PD.ROLE.TRAJ:
+    dir: pack/personal-development/02-domain-entities/roles/
+    id_pattern: 'PD\.ROLE\.TRAJ\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: type, value: role-trajectory}   # n=1; подтип роли, отдельный от PD.ROLE (длиннее по префиксу → kind_of() матчит этот, не PD.ROLE)
+    storage: file
+
+  PD.ROLE:
+    dir: pack/personal-development/02-domain-entities/roles/
+    id_pattern: 'PD\.ROLE\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: type, value: role}   # 6/6 однородно (включая PD.ROLE.006 из phys-program)
+    storage: file
+    # PD.ROLE.006 физически в phys-program/, не здесь — см. «Известный дрейф размещения» выше (BLOCK ожидаем).
+
+  PD.STATE:
+    dir: pack/personal-development/02-domain-entities/states/
+    id_pattern: 'PD\.STATE\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: type, value: domain-entity}   # 8/8 однородно
+    storage: file
+
+  PD.METHOD:
+    dir: pack/personal-development/03-methods/
+    id_pattern: 'PD\.METHOD\.\d{3}-[a-z0-9-]+\.md$'
+    # реальность (60 файлов): type сильно неоднороден — 29× method, 15× domain-entity, 2× method-card,
+    # 14× без type; плюс поле "kind: Method" на 3 файлах (030/031/059, вероятно опечатка/дубль type).
+    # Ни одно значение не доминирует настолько, чтобы считать его контрактом — null.
+    frontmatter_check: null
+    storage: file
+    # PD.METHOD.046/047/048 физически в phys-program/, не здесь — см. «Известный дрейф размещения» выше (BLOCK ожидаем).
+    # PD.M.067 (устаревшая короткая форма) сознательно НЕ покрыт этим kind — см. п.5 выше.
+
+  PD.WP:
+    dir: pack/personal-development/04-work-products/
+    id_pattern: 'PD\.WP\.\d{3}-[a-z0-9-]+\.md$'
+    # реальность (19 файлов): 18/19 без type, 1 (WP.002) type=work-product — не показатель конвенции, null.
+    frontmatter_check: null
+    storage: file
+    # PD.WP.019 хранится иначе (README.md + 10 seed-фрагментов в personal-guide-seeds/, id в
+    # frontmatter, имя файла — content-slug) — вне действия этого kind, см. п.2 выше.
+
+  PD.FAIL:
+    dir: pack/personal-development/05-failure-modes/
+    id_pattern: 'PD\.FAIL\.\d{3}-[a-z0-9-]+\.md$'
+    # реальность (75 файлов): type — 18 различных значений (methodological×28, structural×9,
+    # domain-entity×7, cognitive×5, psychological×4, strategic×3, ontological×3, behavioral×2,
+    # role-based×2, cognitive-atrophy×2, и по 1×: deprecated-interpretation, instrumental, worldview,
+    # meme-error, structural-error, systemic, epistemological, failure-mode; 2× без type).
+    # "type" здесь — свободная описательная категория ошибки, не строгий дискриминатор kind — null.
+    frontmatter_check: null
+    storage: file
+
+  PD.SOTA:
+    dir: pack/personal-development/06-sota/
+    id_pattern: 'PD\.SOTA\.\d{3}-[a-z0-9-]+\.md$'
+    # реальность (12 файлов): 8/12 без type, 4 новых (006/008/011/012) — type=sota. Не однородно — null.
+    frontmatter_check: null
+    storage: file
+
+  PD.MAP:
+    dir: pack/personal-development/07-map/
+    id_pattern: 'PD\.MAP\.\d{3}\.md$'   # реальность: без слага (PD.MAP.001.md), в отличие от VR.MAP/PD.* остальных — единственный файл, без frontmatter type
+    frontmatter_check: null
+    storage: file
