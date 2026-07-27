@@ -1,6 +1,20 @@
 #!/usr/bin/env bash
-# commit-msg hook — Ф6.2 routing-bypass audit trail (WP-429)
-# tracked hook (.githooks/, паттерн WP-436) — вызывается через core.hooksPath.
-# auto-installed by install-pack-hooks.sh — не редактировать вручную, править SoT-скрипт.
-IWE="${IWE_ROOT:-$HOME/IWE}"
-bash "$IWE/DS-MCP/knowledge-mcp/scripts/pack-commit-msg.sh" "$1"
+# commit-msg hook — requires [routing-bypass] tag when pre-commit's [R0] was bypassed
+# via ALLOW_ROUTING_BYPASS=1 (WP-429 Ф6.2). Marker is unconditionally cleared at the
+# top of every run so an aborted commit attempt never leaks its bypass requirement
+# onto the next, unrelated commit (HIGH-2 finding, 2026-07-27 independent review).
+GIT_DIR="$(git rev-parse --git-dir)"
+MARKER="$GIT_DIR/ROUTING_BYPASS_USED"
+MSG_FILE="$1"
+
+if [ -f "$MARKER" ]; then
+  rm -f "$MARKER"
+  if ! grep -qF '[routing-bypass]' "$MSG_FILE" 2>/dev/null; then
+    echo ""
+    echo "❌ Commit blocked: ALLOW_ROUTING_BYPASS=1 использован, но тег [routing-bypass] отсутствует в сообщении коммита."
+    echo "   Добавь тег [routing-bypass] в сообщение коммита, чтобы обход оставлял след."
+    exit 1
+  fi
+fi
+
+exit 0
