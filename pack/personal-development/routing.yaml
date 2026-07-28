@@ -36,8 +36,7 @@
 #   3. Структурные/индексные файлы без id (аналог 00-pack-manifest.md, 01A-01C, 02A-02E):
 #      00-pack-manifest.md; 01-domain-contract/01A-bounded-context.md, 01B-distinctions.md (как файл
 #      целиком — сама секционная структура см. п.1), 01C-principles.md; 02-domain-entities/02A-roles.md,
-#      02B-objects-of-attention.md, 02C-methods-index.md, 02D-tools-index.md, 02E-characteristics-registry.md;
-#      02-domain-entities/phys-program/README.md.
+#      02B-objects-of-attention.md, 02C-methods-index.md, 02D-tools-index.md, 02E-characteristics-registry.md.
 #
 #   4. Downstream-шаблоны без id (не Pack-карточки, см. CLAUDE.md §2.1 — дидактика/шаблоны — downstream):
 #      04-work-products/lifework-templates/*.md (7 файлов, README.md + 6 lifework-template) —
@@ -49,19 +48,9 @@
 #      PD.NAMING.001 (WP-377, 2026-05-31) в пользу "PD.METHOD". Единственный файл в Pack на старой форме,
 #      не переименован. Оставлен непокрытым (orphaned) намеренно — не заводим kind PD.M.
 #
-# Известный дрейф размещения (реальный, НЕ баг контракта — см. verification (a) в отчёте сессии):
-#   02-domain-entities/phys-program/ — сателлит-каталог "ст. 0 saneness, предусловие программы"
-#   (см. phys-program/README.md: "снаружи программы (предусловие)"), хостит 5 файлов, чьи ID
-#   заимствуют нумерацию основных последовательностей PD.METHOD/PD.FORM/PD.ROLE, но физически лежат
-#   не в канонической директории своего kind:
-#     - PD.METHOD.046/047/048 (sleep-baseline, walk-rhythm-evening, energy-self-assessment-daily)
-#     - PD.FORM.138 (physical-layer-stage-zero)
-#     - PD.ROLE.006 (body-as-first-system)
-#   f6_placement_linter.py поддерживает только ОДИН dir на kind (без учёта директории при матчинге
-#   kind_of() — см. скрипт), поэтому единственный канонический dir ниже (majority: 03-methods,
-#   formalizations, roles) технически BLOCK-ает эти 5 файлов при прогоне линтера. Это осознанно
-#   задокументированный дрейф данных, а не ошибка контракта — не чиним (Drift Reporting), пилот решает:
-#   либо переносить файлы в канонические директории, либо расширять линтер до multi-dir per kind.
+# Дрейф phys-program/ устранён (WP-429: перенос 2026-07-27 коммит b731c8c, каталог удалён 2026-07-28).
+# Историческое размещение: 5 файлов (PD.METHOD.046/047/048, PD.FORM.138, PD.ROLE.006)
+# лежали в 02-domain-entities/phys-program/ → перенесены в канонические директории.
 schema_version: 1
 pack: personal-development
 
@@ -92,7 +81,6 @@ kinds:
     # т.к. есть 2 легитимных альтернативных значения (не опечатка одного файла).
     frontmatter_check: null
     storage: file
-    # FORM.138 физически в phys-program/, не здесь — см. «Известный дрейф размещения» выше (BLOCK ожидаем).
 
   PD.SPEC:
     dir: pack/personal-development/02-domain-entities/formalizations/
@@ -121,9 +109,8 @@ kinds:
   PD.ROLE:
     dir: pack/personal-development/02-domain-entities/roles/
     id_pattern: 'PD\.ROLE\.\d{3}-[a-z0-9-]+\.md$'
-    frontmatter_check: {field: type, value: role}   # 6/6 однородно (включая PD.ROLE.006 из phys-program)
+    frontmatter_check: {field: type, value: role}   # 6/6 однородно
     storage: file
-    # PD.ROLE.006 физически в phys-program/, не здесь — см. «Известный дрейф размещения» выше (BLOCK ожидаем).
 
   PD.STATE:
     dir: pack/personal-development/02-domain-entities/states/
@@ -139,7 +126,6 @@ kinds:
     # Ни одно значение не доминирует настолько, чтобы считать его контрактом — null.
     frontmatter_check: null
     storage: file
-    # PD.METHOD.046/047/048 физически в phys-program/, не здесь — см. «Известный дрейф размещения» выше (BLOCK ожидаем).
     # PD.M.067 (устаревшая короткая форма) сознательно НЕ покрыт этим kind — см. п.5 выше.
 
   PD.WP:
