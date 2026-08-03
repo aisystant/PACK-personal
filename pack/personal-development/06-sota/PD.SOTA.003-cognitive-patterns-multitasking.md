@@ -4,10 +4,10 @@ name: Cognitive Patterns of Multitasking and Parallel Orchestration
 status: current
 summary: "Когнитивные паттерны многозадачности, когнитивной разгрузки и параллельной оркестрации ИИ-агентов: различения, ограничения, условия безопасности"
 created: 2026-04-06
-last_updated: 2026-04-06
+last_updated: 2026-08-03
 related:
   supports: [PD.METHOD.008]
-  see_also: [PD.SOTA.001, PD.SOTA.002]
+  see_also: [PD.SOTA.001, PD.SOTA.002, PD.SOTA.010]
 tags: [multitasking, cognitive-load, decision-fatigue, AI-orchestration, exoskeleton, context-switching]
 ---
 
@@ -24,7 +24,7 @@ tags: [multitasking, cognitive-load, decision-fatigue, AI-orchestration, exoskel
 | 23 мин на восстановление глубокого фокуса после прерывания | Gloria Mark, UC Irvine |
 | До 40% продуктивного времени теряется на переключения | Multiple meta-analyses |
 | -10 IQ при хроническом мультитаскинге | Hewlett-Packard / University of London |
-| ~35 000 микрорешений/день, качество деградирует нелинейно | Baumeister (Strength Model of Self-Control) |
+| При высокой плотности решений наблюдаются субъективная усталость и ухудшение надзора; механизм единого истощаемого ресурса не подтверждён | См. PD.SOTA.010 |
 
 **Статус:** current. Это нейрофизиологическое ограничение, не культурное. ИИ его не отменяет.
 
@@ -57,7 +57,7 @@ tags: [multitasking, cognitive-load, decision-fatigue, AI-orchestration, exoskel
 
 **Когнитивный долг** (MIT Media Lab, 2025): ИИ позволяет пропустить когнитивную работу сейчас, но долг накапливается — аналогия с техдолгом в коде. При пассивном использовании человек теряет экспертизу в деталях.
 
-**Bottleneck shift:** При ИИ-усилении bottleneck смещается: исполнение → oversight → decision fatigue. Мозг больше не «делает» — он «решает». Решения истощают ресурс самоконтроля (Baumeister).
+**Bottleneck shift:** При ИИ-усилении bottleneck смещается: исполнение → oversight → decision fatigue. Мозг больше не «делает» — он «решает». Это создаёт наблюдаемую усталость суждений и риск ухудшения надзора, но не доказывает модель «истощаемого ресурса самоконтроля» Baumeister — её репликационный статус разобран в PD.SOTA.010.
 
 **Revision criterion:** Появление ИИ-систем с верифицируемыми гарантиями качества (formal verification), снижающих oversight burden. До тех пор — current.
 
@@ -171,3 +171,4 @@ tags: [multitasking, cognitive-load, decision-fatigue, AI-orchestration, exoskel
 | Дата | Изменение |
 |------|-----------|
 | 2026-04-06 | Создание. Синтез: базовая наука + ИИ-парадокс + параллельная оркестрация + аудит IWE |
+| 2026-08-03 | Добавлена связь с PD.SOTA.010; утверждение об ego depletion отделено от наблюдаемой усталости суждений |
