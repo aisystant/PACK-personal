@@ -12,6 +12,7 @@ related:
     - "../../01-domain-contract/01B-distinctions.md#d194-thinking-vs-applied-mastery-work-product"
     - "../../01-domain-contract/01B-distinctions.md#d195-problem-task-formulation-work"
 name_ru: "Осваиваемые прикладные мастерства"
+name_en: "Applied Mastery Focus"
 ---
 
 # PD.CAT.006 — Осваиваемые прикладные мастерства

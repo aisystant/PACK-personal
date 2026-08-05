@@ -6,8 +6,10 @@ status: active
 summary: "Формализация интеллект-стека: 16 трансдисциплин, развивающих мыслительное мастерство, и их отличие от прикладных дисциплин"
 created: 2026-02-19
 epistemic_stage: formed
+name_ru: "Интеллект-стек"
+name_en: "Intelligence Stack"
 related:
-  uses: [PD.D.046, PD.D.047]
+  uses: [PD.D.046, PD.D.047, PD.D.194, PD.D.195, PD.CAT.006]
 ---
 
 # Формализация: Интеллект-стек — 16 трансдисциплин (Intelligence Stack)
