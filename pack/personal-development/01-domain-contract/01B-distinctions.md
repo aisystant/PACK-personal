@@ -5215,3 +5215,53 @@ Gate перехода между ступенями программы разв�
 - Revision criterion: появление эмпирических данных о том, что развитие определённых ресурсов автоматически влечёт умение их применять (без промежуточного Z-шага).
 
 ---
+
+## [D.194] Thinking Mastery vs. Applied Mastery — by Work-Product Kind {#d194-thinking-vs-applied-mastery-work-product}
+
+**Definition**: Both thinking mastery and applied mastery produce a work product, but of a different kind. **Thinking mastery** (мыслительное мастерство) resolves a Проблема (no known method) into a Задача or Формулировка работы (task or work formulation, DP.D.053) — its work product is a hypothesis, a task description, or a solution description, which may exist only in the author's head or as a light note, not yet realized in the world. **Applied mastery** (прикладное мастерство) executes an already-determined Задача/ФР through a specific applied method (front-crawl swimming technique, bookkeeping, DevOps) into the Работа itself (DP.D.053) — a document, a system, or a change in a system's state, realized in the physical or digital world. Applied mastery spans professional mastery (the task belongs to work), everyday/household mastery (e.g., cooking an omelet for oneself), and self-care mastery.
+
+**Distinction Test**:
+- Is the work product still a description of what to do (a task, a hypothesis, a spec) — possibly unexpressed outside the author's head? → thinking mastery.
+- Is the work product the thing itself, realized in the world (the finished document, the running system, the changed state)? → applied mastery.
+- Is the applied method used at work, at home, or on oneself? (Work → professional mastery; home/self-directed → everyday/self-care mastery — both remain applied mastery.)
+
+| Thinking mastery | vs. | Applied mastery |
+|---|---|---|
+| Resolves Проблема into Задача/ФР (DP.D.053) | | Executes Задача/ФР into Работа (DP.D.053) |
+| Work product: hypothesis, task description, solution description | | Work product: the realized document, system, or system state |
+| May stay entirely in the author's head | | Always realized outside the head, in the world |
+| Developed via intellect-stack transdisciplines | | Developed via a specific applied method (front crawl, bookkeeping, DevOps) |
+| Universally transferable | | Scoped to a domain: professional, household/everyday, or self-care |
+
+**Typical Confusion**: Treating "no visible output yet" as "no work product at all" — a hypothesis held in the head is still thinking mastery's work product, just not yet materialized. Treating applied-mastery domains as auto-derivable from behavioral data (sleep quality or focus persistence describe HOW an activity went, not WHICH applied-mastery domain the pilot is developing) — the pilot must name the applied-mastery domain explicitly (see PD.CAT.006).
+
+**Why It Matters**: Without this distinction, a personal-development guide cannot tell "produce a plan/hypothesis" (needs thinking mastery, intellect-stack) apart from "execute a known method to a finished result" (needs applied mastery, a specific discipline) — and risks coaching the wrong kind of mastery for the situation at hand.
+
+**Related Items**:
+- Formalization: PD.FORM.019 (Intelligence Stack) §5, §6
+- Distinction: D.046 (Transdiscipline vs. Discipline), D.047 (Education vs. Professionalism), D.195 (Проблема ≠ Задача ≠ ФР ≠ Работа)
+- Catalog: PD.CAT.006 (Осваиваемые прикладные мастерства)
+
+**SoTA**: `current`
+- Revision criterion: Would change if a work product realized in the world (a finished document/system) turns out producible by thinking mastery alone, without an applied method
+
+---
+
+## [D.195] Проблема ≠ Задача ≠ Формулировка работы ≠ Работа {#d195-problem-task-formulation-work}
+
+Паттерн: A (указатель — SoT во внешнем Pack, тело не дублируется).
+
+> Определение: `DP.D.053-problem-task-workflow.md` (SoT — PACK-digital-platform, `pack/digital-platform/01-domain-contract/DP.D.053-problem-task-workflow.md`)
+
+**Четыре уровня** (полностью — см. SoT): Проблема (ступор, метод неизвестен) → Задача (метод известен, результат — нет) → Формулировка работы (спецификация: исполнитель, метод, срок, рабочий продукт) → Работа (исполнение в физическом мире).
+
+**Применение в personal-development:** мыслительное мастерство (D.194) действует на переходе Проблема→Задача и частично Задача→ФР; прикладное мастерство (D.194) действует на переходе Задача/ФР→Работа. Уровень, на котором остановился рабочий продукт, и есть операционный тест D.194: продукт ещё описание/гипотеза (Задача или ФР) → мыслительное мастерство; продукт — реализация (Работа) → прикладное.
+
+**Related Items**:
+- Distinction: D.194 (Thinking Mastery vs. Applied Mastery)
+- Внешний SoT: DP.D.053 (PACK-digital-platform) — то же различение уже указано авторским каталогом PD.CAT.005 → PD.IC.001 (публичный/контентный контекст, не операционная формализация)
+
+**SoTA**: `current` (наследует ревизию внешнего SoT — DP.D.053)
+- Revision criterion: см. DP.D.053; локально — если уровни ФР и Работа перестанут различаться применительно к прикладному мастерству
+
+---
