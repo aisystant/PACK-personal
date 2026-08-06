@@ -13,12 +13,12 @@ EXIT_CODE=0
 rm -f "$(git rev-parse --git-dir)/ROUTING_BYPASS_USED"
 
 if [ -z "${ALLOW_ROUTING_BYPASS:-}" ]; then
-  python3 "/Users/tserentserenov/IWE/DS-MCP/knowledge-mcp/scripts/f6_placement_linter.py" || EXIT_CODE=1
+  python3 "$IWE/DS-MCP/knowledge-mcp/scripts/f6_placement_linter.py" || EXIT_CODE=1
 else
   touch "$(git rev-parse --git-dir)/ROUTING_BYPASS_USED"
   echo "⚠️  [R0] placement-линтер пропущен: ALLOW_ROUTING_BYPASS=1 (требует тега [routing-bypass] в commit-msg)"
 fi
 
-bash "/Users/tserentserenov/IWE/DS-MCP/knowledge-mcp/scripts/pack-lint.sh" || EXIT_CODE=1
+bash "$IWE/DS-MCP/knowledge-mcp/scripts/pack-lint.sh" || EXIT_CODE=1
 
 exit $EXIT_CODE
