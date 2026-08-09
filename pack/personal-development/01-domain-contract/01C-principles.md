@@ -465,13 +465,22 @@ When choosing systems to create, roles to play, and methods to use, the creator 
 
 Ethics is not an add-on to decision-making but an integral part of it. Every choice of target system, role, and method passes through the ethical filter: does this create genuine value, does it avoid harm, does it pass the skin-in-the-game test? The creator who separates ethics from engineering decisions risks creating technically successful but harmful systems. This principle connects to compassion (feeling others' suffering as motivation) and systemic leadership (using agency to reduce suffering at scale).
 
+The filter is operational rather than declarative. A consequential decision contains four explicit elements:
+
+- The stakeholder roles affected by the decision and the dissatisfactions or interests each role brings.
+- Known omissions and uncertain consequences, acknowledging that any model remains incomplete.
+- The interests the decision will and will not satisfy; identifying an interest does not require satisfying it.
+- The distribution of downside, including the consequences borne personally by the decision-maker.
+
+An ethical decision need not satisfy every stakeholder. The test is whether the trade-off is visible, reasoned, and owned rather than hidden while all costs are externalized to others.
+
 ### Related Methods
 
 - [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) — strategy selection must pass ethical filter
 
 ### Source Practice
 
-Guide 1-1, Chapters 8.7-8.8 (Этика, мораль и системное мышление)
+Guide 1-1, Chapters 8.7-8.8 (Этика, мораль и системное мышление); Practicum «Системное саморазвитие», meeting 2026-08-09
 
 ---
 
@@ -503,7 +512,18 @@ Both systems and personal mastery develop through small iterative improvements (
 
 ### Explanation
 
-Each iteration is a cycle of hypothesis, test, result, correction. Each increment is a small but meaningful improvement obtained in one iteration. The principle rejects "big bang" approaches to self-improvement in favor of daily incremental practice. Each iteration must avoid fatal errors — mistakes so large they eliminate the possibility of further iterations.
+Each iteration is a cycle of hypothesis, test, result, correction. Each increment is a small but meaningful improvement obtained in one iteration. The principle rejects "big bang" approaches to self-improvement in favor of daily incremental practice.
+
+Iteration requires preserving the base that makes another test possible: health, core relationships, financial runway, professional reputation, and other context-specific non-recoverable assets. A failed test is not fatal while it produces information and leaves enough capacity for another test. A fatal error destroys that base or closes the option to continue iterating.
+
+The preferred experiment has asymmetric exposure: bounded and survivable downside with a potentially large upside. The creator protects the base, reduces the initial exposure to the smallest size that can still test the hypothesis, and runs many inexpensive probes rather than making one irreversible bet.
+
+An admissible iteration makes four constraints explicit:
+
+- The maximum credible downside.
+- The base that must remain intact.
+- The resources remaining for another attempt if the hypothesis fails.
+- The minimum informative exposure: small enough to survive, large enough to test the hypothesis.
 
 ### Related Methods
 
@@ -512,7 +532,7 @@ Each iteration is a cycle of hypothesis, test, result, correction. Each incremen
 
 ### Source Practice
 
-Guide 1-1, Chapter 9.5 (Непрерывное и бесконечное развитие)
+Guide 1-1, Chapter 9.5 (Непрерывное и бесконечное развитие); Practicum «Системное саморазвитие», meeting 2026-08-09
 
 ---
 
@@ -526,6 +546,15 @@ Prefer decisions that maximize future option space — more mastery and educatio
 
 Every decision closes some doors and opens others. The principle of freedom of choice counsels selecting the path that preserves the widest range of future options. Education and mastery are the primary mechanisms for expanding option space: a person with more knowledge has more possible career paths, more ways to resolve dissatisfactions, and more strategies available. Conversely, narrow specialization without breadth, or decisions made under pressure without strategizing, tend to close doors prematurely.
 
+The immediate gain is therefore only half of a choice. A consequential decision is evaluated across four variables:
+
+- Immediate gain.
+- Future options that remain available.
+- Future branches that become unavailable.
+- Reversibility and the cost of reversal.
+
+Closing a door is not automatically a mistake. The principle requires making the closure visible and comparing its price with the present interest being served.
+
 ### Related Methods
 
 - [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) — strategic decisions should maximize option space
@@ -533,7 +562,7 @@ Every decision closes some doors and opens others. The principle of freedom of c
 
 ### Source Practice
 
-Guide 1-1, Chapter 2.6 (Профориентация)
+Guide 1-1, Chapter 2.6 (Профориентация); Practicum «Системное саморазвитие», meeting 2026-08-09
 
 ---
 
