@@ -82,6 +82,20 @@ Four steps, executed in order inside Strategy Session (Monday):
 |--------|------|-------------|
 | Priority projects list | [PD.WP.007](../04-work-products/PD.WP.007-priority-projects-list.md) | Ordered WPs for the week with budgets — downstream into WeekPlan document (IWE implementation) |
 
+## Связь РП со ставками
+
+РП не обязана быть экспериментом, но до начала работы имеет явное основание:
+`tests H-NNN`, `enables H-NNN`, `responds H-NNN`, `researches` или
+`operational`. Для первых трёх допустима ровно одна основная гипотеза: иначе
+невозможно понять, какой результат относится к какой ставке. `researches`
+создаёт черновик гипотезы, а `operational` поддерживает норму, устраняет
+инцидент либо исполняет обязательство и не притворяется проверкой гипотезы.
+
+На отборе недели Стратег сверяет: РП, проверяющие главные гипотезы месяца,
+связаны с результатом месяца и ТОС; поддерживающие РП занимают только
+минимально необходимую ёмкость. Эта связь показывается в WeekPlan вместе с
+источником РП и возвращается в Week Close как факт для следующей сверки.
+
 ---
 
 ## Roles Involved
