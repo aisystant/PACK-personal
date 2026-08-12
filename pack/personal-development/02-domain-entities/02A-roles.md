@@ -108,7 +108,7 @@ Functional roles relevant to Personal Development.
 - Quality issues undetected
 - Method drift without correction
 
-**Often confused with**: Coach (who facilitates but may not have domain mastery), Teacher (who operates in didactic contexts — not in SPF scope).
+**Often confused with**: Coach (who facilitates but may not have domain mastery), Teacher (who operates in didactic contexts — not in SPF scope). See also: lexical collision with `MIM.R.001` «Наставник» (PACK-MIM, different pack — not equivalent, not a specialization) → [D.196](../01-domain-contract/01B-distinctions.md#d196-spf-mentor-vs-mim-nastavnik).
 
 ---
 
