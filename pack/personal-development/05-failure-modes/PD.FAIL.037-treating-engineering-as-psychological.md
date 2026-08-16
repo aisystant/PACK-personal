@@ -36,4 +36,4 @@ related:
 ## 5. Связанные документы
 
 - [PD.D.086](../01-domain-contract/01B-distinctions.md#d086-psychological-language-vs-engineering-language) — Психологический vs. инженерный язык
-- [PD.FORM.041](../02-domain-entities/formalizations/PD.FORM.041-three-levels-of-problem-origin.md) — Три уровня проблем
+- [PD.FORM.041](../02-domain-entities/formalizations/PD.FORM.041-four-levels-of-problem-origin.md) — Четыре уровня проблем

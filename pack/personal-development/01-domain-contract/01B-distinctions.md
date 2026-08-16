@@ -94,7 +94,7 @@ Core conceptual distinctions for the Personal Development domain.
 | [D.123](#d123-fundamental-vs-applied-role) | Fundamental Role vs. Applied Role | current | ROLE.001, D.002 |
 | [D.124](#d124-rhythm-speed-value) | Rhythm vs. Speed vs. Value (Development Layers) | current | FORM.087, PRINC.041 |
 | [D.125](#d125-wanting-liking-joy) | Wanting vs. Liking vs. Joy (Three Pleasure Types) | current | D.096, D.088 |
-| [D.126](#d126-problem-level-worldview-mastery-systems) | Problem Level: Worldview / Mastery / Systems | current | FORM.041 |
+| [D.126](#d126-problem-level-attention-worldview-mastery-systems) | Problem Level: Attention / Worldview / Mastery / Systems | current | FORM.041 |
 | [D.127](#d127-creative-debt-vs-technical-debt) | Creative Debt vs. Technical Debt | current | D.099, METHOD.010 |
 | [D.128](#d128-click-resonance-vibration) | Click / Resonance / Vibration (Development Signals) | current | D.087, METHOD.003 |
 | [D.129](#d129-biological-vs-cyberhuman) | Biological Human vs. Cyberhuman | current | D.050, ARCH.001, CHR.006 |
@@ -2508,7 +2508,7 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 
 **Related Items**:
 - Failure Mode: [PD.FAIL.037](../05-failure-modes/PD.FAIL.037-treating-engineering-as-psychological.md)
-- Formalization: [PD.FORM.041](../02-domain-entities/formalizations/PD.FORM.041-three-levels-of-problem-origin.md)
+- Formalization: [PD.FORM.041](../02-domain-entities/formalizations/PD.FORM.041-four-levels-of-problem-origin.md)
 
 **SoTA**: `current`
 - Revision criterion: Would change if psychological framing proves equally actionable for self-development
@@ -3501,23 +3501,23 @@ This is a **modular** distinction (FPF A.7: by carrier — what carries the agen
 
 ---
 
-### D.126: Problem Level: Worldview / Mastery / Systems {#d126-problem-level-worldview-mastery-systems}
+### D.126: Problem Level: Attention / Worldview / Mastery / Systems {#d126-problem-level-attention-worldview-mastery-systems}
 
-| Worldview Problem | Mastery Problem | Systems Problem |
-|---|---|---|
-| Wrong model of reality | Missing skills | Dysfunctional environment |
-| Fix: new distinctions, reframing | Fix: practice, training | Fix: redesign system |
-| "I don't understand WHY" | "I don't know HOW" | "The system blocks me" |
+| Attention Problem | Worldview Problem | Mastery Problem | Systems Problem |
+|---|---|---|---|
+| Environment/habit controls focus, not the agent | Wrong model of reality | Missing skills | Dysfunctional environment |
+| Fix: notice automatic behavior, ask "why", stop-moment | Fix: new distinctions, reframing | Fix: practice, training | Fix: redesign system |
+| "I'm swamped by urgency, never get to what matters" | "I don't understand WHY" | "I don't know HOW" | "The system blocks me" |
 
-**Typical Confusion**: Treating all problems as mastery problems ("I just need to try harder") when the root cause is at the worldview level (wrong model) or systems level (toxic environment).
+**Typical Confusion**: Treating all problems as mastery problems ("I just need to try harder") when the root cause is at the attention level (focus captured by environment), worldview level (wrong model), or systems level (toxic environment).
 
-**Why It Matters**: Correct diagnosis of problem level determines the intervention type. Wrong level = wasted effort. Three levels require three different response strategies.
+**Why It Matters**: Correct diagnosis of problem level determines the intervention type. Wrong level = wasted effort. Four levels require four different response strategies — and attention is the entry point: without it, work on worldview doesn't start (worldview is itself an object of attention).
 
 **Related Items**:
-- Formalization: [PD.FORM.041](../02-domain-entities/formalizations/PD.FORM.041-three-levels-of-problem-origin.md)
+- Formalization: [PD.FORM.041](../02-domain-entities/formalizations/PD.FORM.041-four-levels-of-problem-origin.md)
 
 **SoTA**: `current`
-- Basis: Post "Мы лечим не то место" (2025-08-18)
+- Basis: Post "Мы лечим не то место" (2025-08-18); attention level added per pilot decision 2026-08-16
 - Revision criterion: Would change if a more granular problem taxonomy is validated
 
 ---
