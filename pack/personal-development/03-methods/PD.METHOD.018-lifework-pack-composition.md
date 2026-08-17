@@ -231,7 +231,7 @@ _(Optional, WP-448 Ф12) Какие конкурирующие давления 
 
 ### Трекер рекомендаций (структура)
 
-Runtime-документ в governance-репо созидателя (для авторской инсталляции — `DS-my-strategy/docs/Caliber-artifacts-tracker.md`; для FMT — шаблон в `templates/`).
+Runtime-документ в governance-репо созидателя (для авторской инсталляции — `DS-my-strategy/Lifework/Caliber-artifacts-tracker.md`; для FMT — шаблон в `templates/strategy-skeleton/Lifework/`).
 
 ```markdown
 | Уровень | Документ | Дата рекомендации | Статус | След. ремайндер |
