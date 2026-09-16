@@ -406,6 +406,7 @@ generated: true
 | PD.METHOD.058 | Два паттерна записи в авторский каталог: указатель vs полный entry | — | — |
 | PD.METHOD.059 | Skill Pipeline Four Nodes | — | active |
 | PD.METHOD.060 | Pre Registration Hypotheses Metrics Before Data Query | — | draft |
+| PD.METHOD.061 | Session Three-Results Test | Тест заявленного результата сессии: каждое заявление относится к одному из трёх слотов (проект / человек / среда) и имеет наблюдаемый носитель; заявление без слота или носителя — впечатление, не результат | draft |
 
 ### NAMING
 

@@ -57,6 +57,7 @@ Methods that build self-awareness and feedback loops.
 | [PD.METHOD.010](../03-methods/PD.METHOD.010-daily-reflective-review.md) | Daily Reflective Role-Product Review | — | active | current |
 | [PD.METHOD.012](../03-methods/PD.METHOD.012-day-rhythm.md) | Day Rhythm (OWC Fractal) | [WP.014](../04-work-products/PD.WP.014-daily-routine.md) | active | current |
 | [PD.METHOD.016](../03-methods/PD.METHOD.016-self-diagnostics.md) | Self-Diagnostics | [WP.017](../04-work-products/PD.WP.017-learner-diagnostic-map.md) | active | current |
+| [PD.METHOD.061](../03-methods/PD.METHOD.061-session-three-results-test.md) | Session Three-Results Test (Project / Person / Environment) | [WP.014](../04-work-products/PD.WP.014-daily-routine.md) | draft | hypothesis |
 
 ### Infrastructure Methods
 
@@ -118,6 +119,7 @@ Methods of thinking mastery for the Intellectual role. Applied in the Worker Dev
 | [PD.METHOD.012](../03-methods/PD.METHOD.012-day-rhythm.md) | Day Rhythm (OWC Fractal) | Reflective | [WP.014](../04-work-products/PD.WP.014-daily-routine.md) | current |
 | [PD.METHOD.015](../03-methods/PD.METHOD.015-first-development-slot.md) | First Development Slot | Learning | [WP.010](../04-work-products/PD.WP.010-fleeting-notes.md) + применённый след живого проекта | hypothesis |
 | [PD.METHOD.016](../03-methods/PD.METHOD.016-self-diagnostics.md) | Self-Diagnostics | Reflective | [WP.017](../04-work-products/PD.WP.017-learner-diagnostic-map.md) | current |
+| [PD.METHOD.061](../03-methods/PD.METHOD.061-session-three-results-test.md) | Session Three-Results Test | Reflective | [WP.014](../04-work-products/PD.WP.014-daily-routine.md) | hypothesis |
 
 ---
 
@@ -138,7 +140,7 @@ Methods of thinking mastery for the Intellectual role. Applied in the Worker Dev
 | [PD.WP.011 Draft List](../04-work-products/PD.WP.011-draft-list.md) | [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md), [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) |
 | [PD.WP.012 Communication Errors List](../04-work-products/PD.WP.012-communication-errors-list.md) | [PD.METHOD.005](../03-methods/PD.METHOD.005-thinking-by-speaking.md) |
 | [PD.WP.013 My Leisure Practices](../04-work-products/PD.WP.013-my-leisure-practices.md) | [PD.METHOD.006](../03-methods/PD.METHOD.006-leisure-organization.md) |
-| [PD.WP.014 Daily Routine](../04-work-products/PD.WP.014-daily-routine.md) | [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md) |
+| [PD.WP.014 Daily Routine](../04-work-products/PD.WP.014-daily-routine.md) | [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md), [PD.METHOD.061](../03-methods/PD.METHOD.061-session-three-results-test.md) |
 | [PD.WP.015 Task List](../04-work-products/PD.WP.015-task-list.md) | [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md), [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md) |
 | [PD.WP.016 Selection Criteria](../04-work-products/PD.WP.016-selection-criteria.md) | [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md) |
 
@@ -148,7 +150,7 @@ Methods of thinking mastery for the Intellectual role. Applied in the Worker Dev
 
 | Role | Methods Performed |
 |------|-------------------|
-| [Learner](02A-roles.md#learner) | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md), [PD.METHOD.002](../03-methods/PD.METHOD.002-learner-method.md), [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md), [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md), [PD.METHOD.005](../03-methods/PD.METHOD.005-thinking-by-speaking.md), [PD.METHOD.006](../03-methods/PD.METHOD.006-leisure-organization.md), [PD.METHOD.007](../03-methods/PD.METHOD.007-environment-formation.md), [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md), [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md) |
+| [Learner](02A-roles.md#learner) | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md), [PD.METHOD.002](../03-methods/PD.METHOD.002-learner-method.md), [PD.METHOD.003](../03-methods/PD.METHOD.003-systematic-slow-reading.md), [PD.METHOD.004](../03-methods/PD.METHOD.004-thinking-in-writing.md), [PD.METHOD.005](../03-methods/PD.METHOD.005-thinking-by-speaking.md), [PD.METHOD.006](../03-methods/PD.METHOD.006-leisure-organization.md), [PD.METHOD.007](../03-methods/PD.METHOD.007-environment-formation.md), [PD.METHOD.008](../03-methods/PD.METHOD.008-strategizing.md), [PD.METHOD.009](../03-methods/PD.METHOD.009-planning.md), [PD.METHOD.061](../03-methods/PD.METHOD.061-session-three-results-test.md) |
 | [Analyst](02A-roles.md#analyst) | [PD.METHOD.001](../03-methods/PD.METHOD.001-time-accounting.md) |
 
 ---

@@ -122,7 +122,7 @@ related_wp: "WP-565"
 
 **Проблема/силы:** без явных гипотез и регулярной ретроспективы опыт не кумулируется, а повторяющиеся ошибки маскируются под «занятость».
 
-**Методы пака:** [PD.METHOD.060](../03-methods/PD.METHOD.060-pre-registration-hypotheses-metrics-before-data-query.md) (пре-регистрация гипотез и метрик), [PD.METHOD.010](../03-methods/PD.METHOD.010-daily-reflective-review.md) (ежедневный рефлексивный обзор), [PD.METHOD.028](../03-methods/PD.METHOD.028-reflection-with-readback-agent.md) (рефлексия с зачитыванием агентом), [PD.METHOD.039](../03-methods/PD.METHOD.039-epistemic-rhythm.md) (эпистемический ритм).
+**Методы пака:** [PD.METHOD.060](../03-methods/PD.METHOD.060-pre-registration-hypotheses-metrics-before-data-query.md) (пре-регистрация гипотез и метрик), [PD.METHOD.010](../03-methods/PD.METHOD.010-daily-reflective-review.md) (ежедневный рефлексивный обзор), [PD.METHOD.028](../03-methods/PD.METHOD.028-reflection-with-readback-agent.md) (рефлексия с зачитыванием агентом), [PD.METHOD.039](../03-methods/PD.METHOD.039-epistemic-rhythm.md) (эпистемический ритм), [PD.METHOD.061](../03-methods/PD.METHOD.061-session-three-results-test.md) (тест трёх результатов сессии).
 
 **Анти-паттерны пака:** [PD.FAIL.079](../05-failure-modes/PD.FAIL.079-practice-without-deliberate-work.md), [PD.FAIL.061](../05-failure-modes/PD.FAIL.061-insight-without-rhythm.md) (инсайт без ритма).
 
