@@ -7,7 +7,7 @@ created: 2026-07-22
 valid_from: 2026-07-22
 source: "session-transcript, triage 2026-07-22"
 related:
-  see_also: [PD.METHOD.061, WP-587]
+  see_also: [PD.METHOD.061]
 ---
 
 # PD.METHOD.060 — пре-регистрация гипотез и метрик до запроса к данным
