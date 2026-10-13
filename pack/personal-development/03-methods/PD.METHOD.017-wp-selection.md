@@ -71,7 +71,11 @@ Four steps, executed in order inside Strategy Session (Monday):
 
 1. **Candidate pool.** Gather all WPs in one list: (a) R1-RN active phases, (b) carry-over, (c) new WPs registered during the week via WP Gate.
 2. **Priority marking.** Assign each WP a priority: 🔴 critical (blocker or deadline ≤2 days), 🟡 high (deadline within week), 🟢 medium (planned), ⚪ low/ongoing. Priorities follow from deadlines, dependencies, and ТОС of the week.
+
+   _Уточнение (WP-561, пир-критика Kimi, 2026-10-12):_ формальная метка месячного приоритета (★-список) сама по себе не учитывает операционные зависимости и блокеры — WP с меткой может физически не продвигаться без отдельного решения пилота, что создаёт иллюзию фокуса при тех же заторах. При подозрении на раздутый пул триажить кандидатов по явной таблице пересечения нескольких независимых сигналов (месячный приоритет × сегодняшний фокус × зависимость × блокер × нужно ли решение пилота × предлагаемое действие), а не резать по одной формальной метке.
 3. **Budget fit.** Sum estimated hours across all selected WPs. Compare to available budget. If over — demote or defer lower-priority WPs. If under — pull from backlog. Ongoing WPs use minimum maintenance budget (typically 0.5–3h).
+
+   _Уточнение (WP-561, пир-критика Kimi, 2026-10-12):_ если вместо/вместе с часовым бюджетом используется лимит числа одновременных WP (WIP-лимит), число выводится из измеренной пропускной способности (например, 2× среднее число завершённых WP за последние несколько недель), а не берётся как типовой диапазон-ориентир без проверки по факту — готовый диапазон одинаково легитимен для 1-2 РП/неделю и для 10 РП/неделю, и в первом случае даже нижняя граница диапазона может быть завышена.
 4. **ТОС-of-week.** Name the one constraint that, if resolved, unblocks the most throughput. Surface it as a separate item in the plan header.
 
 ---
