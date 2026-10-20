@@ -7,7 +7,7 @@ status: draft
 summary: "Role Characterisation Space (RCS) Ученика: болид-онтология (Пилот+Машина), 4 узла ЛР (Мыслительное/Саморазвитие/Управление IWE/Создание IWE), 7 bh-характеристик Аттестатора (bh.sys/inv/met/awr/agn/scl/stb) + 13 cp-срезов Диагноста (cp.rhy/wld/skl/iwe/cre/knw/env/int/auto/exo/agt/cult/traj). Ступени 1-4 = двойной RCS-gate: bh-сигнал → cp-подтверждение. Ступень 5 — продвинутое завершение ЛР и готовность к РР — дополнительно требует метрического профиля Проактивного и подтверждённого реального изменения по FORM.093. Две оси мастерства IWE — cp.iwe и cp.cre — рекомендательные, не блокируют ступень. Формализм: FPF A.19 U.CharacteristicSpace. §13 (v6.0-draft, not_implemented): объединённый каталог 9 характеристик (bh/cp + 4 из FORM.093), правило ступени «согласованный профиль», сосуществует с §1-12 (v5.0, действующий расчёт) до отдельной кодовой миграции."
 created: 2026-04-21
 valid_from: 2026-04-21
-updated: 2026-10-15
+updated: 2026-10-20
 version: v5.0.2
 epistemic_stage: draft
 trust:
@@ -469,9 +469,11 @@ cp.cre-индекс (0-5) измеряет **факт** освоения соз�
 ```
 1. Аттестатор рассчитывает bh-сигнал по §12.3 → recommended_stage
 2. Диагност проводит диагностику: ≤5 вопросов по cp-срезам → cp-профиль
-3. Для ступеней 1–4: подтверждаемая текущими данными ступень = min(recommended_stage, core_cp_floor)
+3. Для ступеней 1–4: подтверждаемая текущими данными ступень = min(recommended_stage, cp_floor), где cp_floor — минимум пяти обязательных срезов (cp.rhy, cp.wld, cp.skl, cp.int, cp.agt)
 4. Для перехода 4→5 применяется составной gate §5.2
 ```
+
+**Агентность в минимуме на всех ступенях (решение пилота 20.10.2026, РП-576 — как в коде, `cp_assessment.compute_cp_stage`).** Прежняя редакция брала для ступеней 1–4 минимум только четырёх стержневых срезов, а `cp.agt` проверяла лишь на переходе 4→5.
 
 **Порядок приоритета для ступеней 1–4:** bh-сигнал не может быть выше cp-профиля. Человек с высокой систематичностью (bh.sys=5), но слабым мировоззрением (cp.wld=2) остаётся на ступени 2.
 
@@ -484,8 +486,10 @@ cp.cre-индекс (0-5) измеряет **факт** освоения соз�
 > **Полный тройной gate:** (i) двойной RCS-gate — bh-сигнал + cp-подтверждение (§§5.1–5.2, 12.3); (ii) метрический gate переходного профиля с уверенностью не ниже medium, рассчитанной только по пяти обязательным характеристикам (PD.FORM.093 §§5.4, 7.1); (iii) свежее подтверждение изменения на уровне охвата не ниже 2 (PD.FORM.093 §7.2: confidence ≥ medium, изменение и диагностическая сессия ≤3 месяцев).
 
 **Cp-часть RCS-gate:** для перехода ст. 4 → 5:
-- **Стержневой gate:** cp.rhy ≥ 4, cp.wld ≥ 4, cp.skl ≥ 4, cp.int ≥ 4
-- **Agency gate:** cp.agt ≥ 4 (устойчивая доля самоинициированных действий)
+- **Стержневой gate:** cp.rhy = 5, cp.wld = 5, cp.skl = 5, cp.int = 5
+- **Agency gate:** cp.agt = 5 (устойчивая доля самоинициированных действий)
+
+> **Решение пилота 20.10.2026 (РП-576, пир-сессия `2026-10-20-14-wp576-sh2-stage-bridge`): правило — как в коде.** Подтверждённая диагностикой ступень = минимум пяти обязательных срезов (`cp.rhy`, `cp.wld`, `cp.skl`, `cp.int`, `cp.agt`; `activity_hub/cp_assessment.py::compute_cp_stage`), поэтому ступень 5 требует пятёрок по всем пяти. Прежняя редакция (≥ 4 по каждому) — мягче фактического поведения; заменена.
 - **TTL gate:** все blocking cp-срезы диагностированы ≤6 месяцев назад
 - **cp.iwe и cp.cre — не в gate.** Используются Портным для рекомендаций (см. §6.3), не блокируют переход.
 
@@ -508,13 +512,14 @@ core_cp_fresh = all(cp_is_fresh(slice_code) for slice_code in CORE_CP)
 cp_agt = cp.get('agt')
 cp_agt_fresh = cp_agt is not None and cp_is_fresh('agt')
 core_cp_known_failure = any(
-    cp_is_fresh(slice_code) and cp[slice_code].baseline_idx < 4
+    cp_is_fresh(slice_code) and cp[slice_code].baseline_idx < 5
     for slice_code in CORE_CP
 )
-cp_agt_known_failure = cp_agt_fresh and cp_agt.baseline_idx < 4
-core_cp_floor = (
-    min(cp[slice_code].baseline_idx for slice_code in CORE_CP)
-    if core_cp_fresh else None
+cp_agt_known_failure = cp_agt_fresh and cp_agt.baseline_idx < 5
+CP_FLOOR_SLICES = CORE_CP + ('agt',)
+cp_floor = (
+    min(cp[slice_code].baseline_idx for slice_code in CP_FLOOR_SLICES)
+    if core_cp_fresh and cp_agt_fresh else None
 )
 # Количество последовательных полностью наблюдаемых календарных дней,
 # заканчивающихся текущим днём; отсутствие событий допустимо, разрыв ingestion — нет.
@@ -553,11 +558,11 @@ stage5_gate_status = (
 )
 stage5_gate_passed_now = stage5_gate_status == 'passed'
 
-if not bh_signal_evaluable or not core_cp_fresh:
+if not bh_signal_evaluable or cp_floor is None:
     candidate_stage = None
     stage_evaluation_status = 'indeterminate'
 else:
-    candidate_stage = 5 if stage5_gate_passed_now else min(recommended_stage, core_cp_floor, 4)
+    candidate_stage = 5 if stage5_gate_passed_now else min(recommended_stage, cp_floor, 4)
     stage_evaluation_status = 'confirmed'
 
 current_stage = candidate_stage
@@ -668,24 +673,18 @@ cp.iwe, cp.cre, cp.knw, cp.env, cp.auto, cp.exo, cp.cult, cp.traj — **проф
 core_cp_fresh = all(cp_is_fresh(slice_code) for slice_code in CORE_CP)
 cp_agt = cp.get('agt')
 cp_agt_fresh = cp_agt is not None and cp_is_fresh('agt')
-core_cp_floor = (
-    min(cp[slice_code].baseline_idx for slice_code in CORE_CP)
-    if core_cp_fresh else None
+CP_FLOOR_SLICES = CORE_CP + ('agt',)
+cp_floor = (
+    min(cp[slice_code].baseline_idx for slice_code in CP_FLOOR_SLICES)
+    if core_cp_fresh and cp_agt_fresh else None
 )
-stage5_cp_gate_passed = (
-    core_cp_fresh and core_cp_floor >= 4
-    and cp_agt_fresh and cp_agt.baseline_idx >= 4
-)
-# При core_cp_floor >= 4 bottleneck ступеней ЛР отсутствует; cp.agt проверяется отдельно для 4→5.
+# Решение пилота 20.10.2026: cp.agt входит в минимум на всех ступенях, ступень 5 — пятёрки по всем пяти.
+stage5_cp_gate_passed = cp_floor is not None and cp_floor >= 5
 bottleneck_slice = (
-    None if not core_cp_fresh or core_cp_floor >= 4
-    else argmin(cp[slice_code] for slice_code in CORE_CP)
+    None if cp_floor is None or cp_floor >= 4
+    else argmin(cp[slice_code] for slice_code in CP_FLOOR_SLICES)
 )
-stage5_transition_blocker = (
-    'cp.agt' if core_cp_fresh and core_cp_floor >= 4
-    and (not cp_agt_fresh or cp_agt.baseline_idx < 4) else None
-)
-skip_to_stage = min(core_cp_floor, 4) if core_cp_fresh else None
+skip_to_stage = min(cp_floor, 4) if cp_floor is not None else None
 
 # cp.iwe и cp.cre — рекомендательные оси, не блокируют ступень.
 # current_stage поступает из полного вычисления §5.2, поэтому свежий gate ступени 5
@@ -711,11 +710,11 @@ else: recommended_stream = "S1"
 
 Этот блок определяет размещение внутри базовых потоков ЛР. Ступень 5 впервые подтверждается только полным gate §5.2 и может быть достигнута в продвинутой траектории ЛР; при свежем полном gate действует `rr_readiness_status = ready`, а передача и старт РР оформляются отдельно. Один cp-профиль не может выдать ступень 5 в обход остальных условий.
 
-**TTL:** `valid_until = assessed_at + 6 months` для четырёх стержневых срезов при любой текущей оценке; для `cp.agt` — только когда проверяется переход 4→5. Просроченный стержневой профиль даёт `stage_evaluation_status = indeterminate`, а не понижает `attained_stage`.
+**TTL:** `valid_until = assessed_at + 6 months` для всех пяти обязательных срезов (четыре стержневых + `cp.agt`) при любой текущей оценке (с 20.10.2026; прежде `cp.agt` — только на переходе 4→5). Просроченный стержневой профиль даёт `stage_evaluation_status = indeterminate`, а не понижает `attained_stage`.
 
 **Параметры переоценки (v5.1):**
 - Минимальный интервал между повторными диагностиками: **7 дней** (ранее 30 дней в diagnose-iwe v4.x). Если профиль моложе 7 дней — показать текущий результат и предложить вернуться к диагностике после истечения интервала; не запускать её принудительно. В пользовательском тексте использовать объяснение из границы выше, не слово «кулдаун».
-- Для ст.4+: `bottleneck_slice = None`. Все четыре стержневых среза ≥ 4 — разрыв между ними незначителен, bottleneck-концепция ступеней 1–4 теряет операциональный смысл. `cp.agt` проверяется отдельно как transition blocker (§6.1 Фаза 2). Старое имя runtime-поля `bottleneck_slot` требует отдельной миграции адаптера.
+- Для ст.4+: `bottleneck_slice = None`. Все пять обязательных срезов (включая `cp.agt`) ≥ 4 — разрыв между ними незначителен, bottleneck-концепция ступеней 1–4 теряет операциональный смысл. Отдельного transition blocker по `cp.agt` больше нет: агентность входит в общий минимум (решение пилота 20.10.2026). Старое имя runtime-поля `bottleneck_slot` требует отдельной миграции адаптера.
 - Полный TTL профиля: 6 месяцев — без изменений.
 
 *Источник изменений: WP-370 + commit 3a173605 FMT-exocortex-template 2026-06-18.*
@@ -1010,6 +1009,8 @@ strategy_session_completed, iwe_session
 
 ### 12.3 Матрица минимумов ступеней
 
+> **С 15.10.2026 для присвоения ступени не применяется.** Боевой расчёт (`stage_evaluator`) решает ступень по §13.3 (`derive_stage_v6`); матрица ниже вычисляется только для сравнения v5/v6 (`evidence.v5_computed_for_comparison`) и как источник отката. Накопленные часы как hard gate не действуют (решения пилота 15.10: часы — рекомендация до появления признака подключения учёта, РП-602 Ф7). Приёмка владельцем модели — РП-576, 20.10.2026.
+
 | Характеристика | Ст. 1 | Ст. 2 | Ст. 3 | Ст. 4 | Ст. 5 |
 |---|:---:|:---:|:---:|:---:|:---:|
 | **bh.sys** (обяз.) | — | ≥ 2 | ≥ 3 | ≥ 4 | ≥ 5 |
@@ -1059,7 +1060,7 @@ compute_stage_mvp(s, t, m, w, a, total_hours, stb) → recommended_stage ∈ {1.
   4. bh.stb gate: stb < STB_GATE[кандидат] → кандидат−1
 ```
 
-> Для ступеней 1–4 результат этой функции — только `recommended_stage`; подтверждённая текущая оценка появляется лишь после полного недельного окна bh-наблюдений и равна `min(recommended_stage, core_cp_floor)` при свежем стержневом профиле (§5.1). Значение 5 означает лишь `stage5_bh_gate_status = passed` и требует также `stage5_cp_gate_status = passed`, `form093_metric_gate_status = passed` и `form093_real_change_gate_status = passed` (§5.2). Фактический старт РР проверяется отдельно.
+> Для ступеней 1–4 результат этой функции — только `recommended_stage`; подтверждённая текущая оценка появляется лишь после полного недельного окна bh-наблюдений и равна `min(recommended_stage, cp_floor)` при свежем профиле пяти обязательных срезов (§5.1). Значение 5 означает лишь `stage5_bh_gate_status = passed` и требует также `stage5_cp_gate_status = passed`, `form093_metric_gate_status = passed` и `form093_real_change_gate_status = passed` (§5.2). Фактический старт РР проверяется отдельно.
 
 ### 12.3a Целевой ритм по ступеням (Навигатор)
 
@@ -1225,7 +1226,7 @@ compute_stage_mvp(s, t, m, w, a, total_hours, stb) → recommended_stage ∈ {1.
 
 ### 13.3 Ступень: согласованный профиль
 
-> **АрхГейт обязателен перед первым кодом**, реализующим это правило (стейдж-эвалюатор, матрица минимумов §12.3 v5) — смена алгоритма присвоения ступени системного уровня. Правка Pack-формализации ниже гейта не требует. **Эта правка не меняет runtime: `check_rcs_stage()` остаётся единственным действующим расчётом до отдельной кодовой миграции.**
+> **АрхГейт обязателен перед первым кодом**, реализующим это правило (стейдж-эвалюатор, матрица минимумов §12.3 v5) — смена алгоритма присвоения ступени системного уровня. Правка Pack-формализации ниже гейта не требует. **АрхГейт пройден 14.10.2026; с 15.10.2026 правило действует в боевом расчёте** (`activity_hub/core/stage_v6.py::derive_stage_v6`, вызывается из `stage_evaluator`, РП-602). Стартовый состав обязательных — по решениям пилота 15.10 (РП-602 Ф2-Ф3). Приёмка владельцем модели (РП-576, 20.10.2026): §5.1 соблюдён; cp-часть §5.2 — в строгой редакции выше; составные части §5.2 (ii) метрический gate и (iii) подтверждение охвата изменений в коде не реализованы — блокер допуска к переходу 4→5 до первого кандидата (РП-602).
 
 **Формула.** Профиль = оценки ОБЯЗАТЕЛЬНЫХ характеристик текущего состава (целые 1-5; состав обязательных — §13.1, сегодня 6 из 9: собранность, агентность, зрелость, системность, ясность, оснащённость). Вспомогательные (продуктивность, ресурсность, стрессоустойчивость) в формулу не входят — видны отдельно на витрине (§13.7 п.4). Отсортировать оценки обязательных по возрастанию: v1≤v2≤…≤vn (n=6 сегодня, меняется вместе с составом обязательных). `min_личн` = минимум среди личностных обязательных характеристик (все обязательные, кроме средовых — сегодня средовая одна: оснащённость).
 
@@ -1287,7 +1288,7 @@ stage_v6 = min( v2 , min_личн + 1 )
 
 ### 13.6 Версионирование и обратная совместимость
 
-- `rcs_version`: `v5.0` (§1-12, действующие расчёты) и `v6` (этот раздел, `not_implemented`) сосуществуют. Существующие записи `cp_assessments` НЕ переписываются; v6-оценка — новая запись с полями `source_assessment_id`, `source_rcs_version='v5.0'`, `derivation_version='v6.mig.1'`, `derived_at`.
+- `rcs_version`: `v5.0` (§1-12) и `v6` (этот раздел; боевой расчёт ступени с 15.10.2026) сосуществуют. В цифровом двойнике (`3_derived.3_4_qualification`) версия ступени указана явно полем `rcs_version` (`v6` — из журнала `learning.stage_transitions`, `v5` — прежняя лестница профилировщика для аккаунтов без записи в журнале); мост — РП-576, 20.10.2026. Существующие записи `cp_assessments` НЕ переписываются; v6-оценка — новая запись с полями `source_assessment_id`, `source_rcs_version='v5.0'`, `derivation_version='v6.mig.1'`, `derived_at`.
 - **Переименования и консолидации** (например агентности, §13.1.2) — только через слой `canonical_id`+`alias_name`. **Механизм (выбран раундом критики 13.09, вариант «таблица-сателлит», не `registry-view` — второй вариант отклонён, чтобы не создавать неоднозначность реализации): не аддитивные nullable-поля в существующей `learning.characteristic_norm`** (это всё равно изменение схемы действующей таблицы + backfill), **а отдельная физическая таблица-сателлит** вида `(catalog_version, canonical_id, alias_name, legacy_key)`. Минимальные требования к её схеме до кода (уточнено раундом критики, финальный проход): первичный ключ строки `(catalog_version, canonical_id, alias_name)` даёт идентичность записи; отдельно **`UNIQUE (catalog_version, alias_name)`** — это и есть правило «один alias резолвится ровно в один canonical_id на версию каталога» (составного ключа выше для этого недостаточно — он не запрещает записать один и тот же alias с разными canonical_id). Правило кратности в другую сторону: один `canonical_id` может иметь несколько `alias_name` (например агентность: `cp.agt`, `agency_idx`, `CHR.K.001`) — это разрешено обеими схемами ключей. Записи версии `catalog_version` иммутабельны после публикации (новая консолидация — новая версия, не правка задним числом). Существующие читатели (`dt_calc.py`, `cp_assessment.py`) продолжают читать по старым ключам без изменений до отдельного решения о переключении; таблица-сателлит — это отображение поверх, не миграция первичных данных. Честная оговорка: это backward-compatible ROLLOUT, не гарантия «вообще без schema change» — переключение первичного ключа, uniqueness/FK или контрактов API на canonical-id, если оно понадобится, останется отдельным, потенциально breaking, решением на фазе реализации.
 - Детерминированный derive-проход: `cp_scores` + bh-метрики → v6-профиль с полем confidence по каждой присвоенной характеристике. Confidence — про доверие к уже присвоенному значению (свежесть источника и т.п.); при отсутствии сигнала по обязательной характеристике действует отдельное, более жёсткое правило §13.3 (`stage_v6 = null`, не «низкая confidence»).
 - Двойной gate Аттестатор→Диагност (§5.1-5.2 v5) сохраняется и проверяет профильный паттерн (разброс, хвост), не только ступень.
