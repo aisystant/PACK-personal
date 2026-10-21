@@ -24,7 +24,7 @@ generated: true
 | FORM (FORM) | 140 |
 | Methods (M) | 1 |
 | Maps (MAP) | 2 |
-| METHOD (METHOD) | 60 |
+| METHOD (METHOD) | 61 |
 | NAMING (NAMING) | 1 |
 | PRINC (PRINC) | 15 |
 | QUAL (QUAL) | 1 |
@@ -33,7 +33,7 @@ generated: true
 | SPEC (SPEC) | 1 |
 | STATE (STATE) | 8 |
 | Work Products (WP) | 28 |
-| **Total** | **370** |
+| **Total** | **371** |
 
 ## Methods
 
@@ -407,6 +407,7 @@ generated: true
 | PD.METHOD.059 | Skill Pipeline Four Nodes | — | active |
 | PD.METHOD.060 | Pre Registration Hypotheses Metrics Before Data Query | — | draft |
 | PD.METHOD.061 | Session Three-Results Test | Тест заявленного результата сессии: каждое заявление относится к одному из трёх слотов (проект / человек / среда) и имеет наблюдаемый носитель; заявление без слота или носителя — впечатление, не результат | draft |
+| PD.METHOD.063 | Сквозной пример для связи различений в материале | Проектный приём построения связного материала: один рабочий пример удерживает отношения между различениями. В исходном обсуждении предложено управлять содержательной сложностью без простого увеличения длины. Это гипотеза дизайна одной встречи, не измеренное универсальное превосходство плотности терминов над объёмом текста. | draft |
 
 ### NAMING
 

@@ -47,6 +47,7 @@ Methods that structure the learning process.
 |----|-------------|----------|--------|------|
 | [PD.METHOD.002](../03-methods/PD.METHOD.002-learner-method.md) | Learner Method | [WP.002](../04-work-products/PD.WP.002-learner-works.md) | active | current |
 | [PD.METHOD.015](../03-methods/PD.METHOD.015-first-development-slot.md) | First Development Slot | [WP.010](../04-work-products/PD.WP.010-fleeting-notes.md) + применённый след в рабочем продукте живого проекта | active | hypothesis |
+| [PD.METHOD.063](../03-methods/PD.METHOD.063-density-of-distinctions-with-throughline-example.md) | Сквозной пример для связи различений | [WP.004](../04-work-products/PD.WP.004-draft.md) | draft | hypothesis |
 
 ### Reflective Methods
 
