@@ -224,7 +224,7 @@ _(Optional, WP-448 Ф12) Какие конкурирующие давления 
 
 ### Трекер рекомендаций (структура)
 
-Runtime-документ в governance-репо созидателя (для авторской инсталляции — `DS-my-strategy/Lifework/Caliber-artifacts-tracker.md`; для FMT — шаблон в `templates/strategy-skeleton/Lifework/`).
+Runtime-документ рядом с документами Lifework созидателя: по умолчанию в governance-репо (`Lifework/Caliber-artifacts-tracker.md`), у авторской инсталляции — `PD-persona/Lifework/Caliber-artifacts-tracker.md` (переезд 29.08.2026); заготовка — `templates/strategy-skeleton/Lifework/` шаблона FMT. Сессия стратегирования трекер находит, но не создаёт: второй пустой трекер рядом с настоящим — дубль.
 
 ```markdown
 | Уровень | Документ | Дата рекомендации | Статус | След. ремайндер |
