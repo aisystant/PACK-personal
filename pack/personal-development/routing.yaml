@@ -85,7 +85,7 @@ kinds:
   PD.SPEC:
     dir: pack/personal-development/02-domain-entities/formalizations/
     id_pattern: 'PD\.SPEC\.\d{3}-[a-z0-9-]+\.md$'
-    frontmatter_check: {field: type, value: spec}   # n=1, единственный файл (PD.SPEC.001), тот же каталог что PD.FORM, но отдельный id-неймспейс
+    frontmatter_check: {field: type, value: spec}   # n=2 (PD.SPEC.001, PD.SPEC.002), тот же каталог что PD.FORM, но отдельный id-неймспейс
     storage: file
 
   PD.PRINC:
