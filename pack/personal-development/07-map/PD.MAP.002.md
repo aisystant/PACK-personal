@@ -1,6 +1,8 @@
 ---
 id: PD.MAP.002
 name: Personal Development Pattern Map
+summary: "Восемь стержневых паттернов ЛР (проблема/силы → принцип → методы/анти-паттерны пака → FPF-первоисточник → сигнал), собраны по итогам пир-сессии 08.09; ссылки на FPF с зафиксированным коммитом"
+status: active
 scope: cross-cutting (03-methods, 05-failure-modes, 02-domain-entities/principles, 06-sota)
 created: 2026-09-08
 last_updated: 2026-09-08
