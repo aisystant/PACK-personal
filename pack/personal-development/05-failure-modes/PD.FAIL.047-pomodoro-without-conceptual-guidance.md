@@ -8,7 +8,7 @@ status: active
 summary: 'Использование помодоро без понятийного наведения внимания: таймер запускается, но агент не направляет
   внимание на роль, метод и рабочий продукт. Механическое отмеривание интервалов без стоп-момента.'
 created: 2026-03-11
-last_updated: 2026-03-11
+last_updated: 2026-11-04
 related:
   violates:
   - PD.D.032
@@ -16,7 +16,6 @@ related:
   - PD.D.054
   applies_to:
   - PD.METHOD.001
-updated: '2026-11-04'
 accepted_additions:
 - source_candidate: 8
   decision_source: pilot
