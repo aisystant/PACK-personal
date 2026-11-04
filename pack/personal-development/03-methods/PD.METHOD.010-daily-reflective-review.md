@@ -158,7 +158,7 @@ _(Optional, WP-448 Ф12) Where a practitioner's attention systematically drifts.
 
 ## Уточнение применения по встрече 04.11.2026: от продукта к роли
 
-**Статус:** гипотеза варианта разбора; [разбор встречи 04.11.2026](https://github.com/MimEcoSys/Programs/blob/main/personal-development/practicums/%D0%98%D0%B4%D0%B5%D0%B8%20%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87/2026-11-04/README.md), идея 4, [расшифровка](https://drive.google.com/file/d/1xBsXQAW1G-T7FxjphoP0v_CFL7MQHDqH/view) 57:00–63:00.
+**Статус:** гипотеза варианта разбора; [разбор встречи 04.11.2026](https://github.com/MimEcoSys/Programs/blob/main/personal-development/practicums/S1-S2/2026-11-04/README.md), идея 4, [расшифровка](https://drive.google.com/file/d/1xBsXQAW1G-T7FxjphoP0v_CFL7MQHDqH/view) 57:00–63:00.
 
 Если перечисление ролей даётся абстрактно, разбор можно начинать с выполненной работы: указать рабочий продукт и наблюдаемые действия, предложить применённый метод и роль исполнителя в конкретной системе. Это вариант входа в тот же разбор, а не новый метод. Название должности, бытовой деятельности или продукта само по себе роль не подтверждает.
 
