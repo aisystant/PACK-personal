@@ -17,6 +17,11 @@ related:
   - PD.FAIL.014
   - PD.METHOD.027
 name_en: Permission for any result before practice, reinforcement and defense
+pack: PACK-personal
+valid_from: '2026-11-04'
+schema_version: 1
+trust: medium
+epistemic_stage: forming
 ---
 
 # PD.METHOD.065 — Разрешение на любой результат до практики, усиление и защита
