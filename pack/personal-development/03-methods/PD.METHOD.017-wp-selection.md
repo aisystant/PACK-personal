@@ -76,6 +76,8 @@ Four steps, executed in order inside Strategy Session (Monday):
 3. **Budget fit.** Sum estimated hours across all selected WPs. Compare to available budget. If over — demote or defer lower-priority WPs. If under — pull from backlog. Ongoing WPs use minimum maintenance budget (typically 0.5–3h).
 
    _Уточнение (WP-561, пир-критика Kimi, 2026-10-12):_ если вместо/вместе с часовым бюджетом используется лимит числа одновременных WP (WIP-лимит), число выводится из измеренной пропускной способности (например, 2× среднее число завершённых WP за последние несколько недель), а не берётся как типовой диапазон-ориентир без проверки по факту — готовый диапазон одинаково легитимен для 1-2 РП/неделю и для 10 РП/неделю, и в первом случае даже нижняя граница диапазона может быть завышена.
+
+   _Уточнение (WP-577, стратегическая сессия W45, 2026-11-02):_ сумма часов — не единственная проверка. Если в стратегии есть правила долей (например, «на развитие самой среды не больше 25% времени», «главное месяца — не меньше N%»), до утверждения посчитать доли черновика по этим категориям и сверить с каждым правилом и с решениями последних сессий. Черновик, собранный переносом незакрытых РП (автоматически или вручную), повторяет фактическое распределение прошлой недели, вместе с её перекосом: при поштучном триаже каждый РП выглядит оправданным, а перекос виден только в сумме по категории. Прецедент: черновик W45 из переноса 35 РП дал фундаменту 57% часов при правиле 25%, главному результату месяца — 9%, ветви денег — 0 ч при решении 29.10, что она основная. После сверки фундамент сжат до 40% (осознанная верхняя граница пилота), часы переданы главному результату и ветви денег. Отклонение от правила допустимо, но только как явное решение с записанной границей, а не как унаследованное значение.
 4. **ТОС-of-week.** Name the one constraint that, if resolved, unblocks the most throughput. Surface it as a separate item in the plan header.
 
 ---
@@ -147,6 +149,7 @@ _(Optional, WP-448 Ф12) Where a practitioner's attention systematically drifts.
 |-------------|-------------|
 | Budget overflow without trade-off | All candidates selected, total exceeds available hours — no explicit demotion, leads to incomplete week |
 | Silent carry-over | Previous week's unfinished WPs pulled without re-validation of priority or deadline |
+| Inherited allocation drift | Draft assembled from carry-over passes per-WP triage and total budget fit, yet reproduces last week's category shares; strategy share rules (e.g. infrastructure ≤ 25%) are violated without anyone deciding so. Detect: compute category shares of the draft and compare against each strategy rule before approval |
 | Missing ТОС | No named bottleneck — week proceeds without focus, throughput stays flat |
 | PD.FAIL.017 | Planning blamed for failure that originated at selection (wrong WPs chosen) |
 | PD.FAIL.018 | Urgent work displacing important work due to missing priority marks |
