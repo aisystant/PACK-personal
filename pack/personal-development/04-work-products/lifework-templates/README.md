@@ -30,7 +30,7 @@ related:
 | Уровень | Шаблон | Цикл ревизии |
 |---------|--------|--------------|
 | 1. Я | [lifework-self-charter-template.md](./lifework-self-charter-template.md) | квартал |
-| 1А. Железный человек (я и моя ИИ-среда) | [lifework-ironman-template.md](./lifework-ironman-template.md) | квартал (предварительно) |
+| 1А. Железный человек (я и моя ИИ-среда) | [lifework-ironman-template.md](./lifework-ironman-template.md) — Устав железного человека | квартал |
 | 2. Ближний круг (1-15) | [lifework-close-circle-covenant-template.md](./lifework-close-circle-covenant-template.md) | год |
 | 3. Дальний круг (15-150) | [lifework-professional-position-template.md](./lifework-professional-position-template.md) | год |
 | 4. Сообщество (150-1500) | [lifework-community-manifesto-template.md](./lifework-community-manifesto-template.md) | 2-3 года |
