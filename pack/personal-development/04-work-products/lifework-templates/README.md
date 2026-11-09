@@ -9,7 +9,7 @@ related:
 
 # Шаблоны пакета Lifework
 
-> Шесть шаблонов документов пакета Lifework по уровням охвата созидателя (PD.FORM.090). Реализуют метод [PD.METHOD.018 Lifework Pack Composition](../../03-methods/PD.METHOD.018-lifework-pack-composition.md).
+> Шаблоны документов пакета Lifework по шести уровням охвата созидателя и промежуточному уровню 1А (PD.FORM.090). Реализуют метод [PD.METHOD.018 Lifework Pack Composition](../../03-methods/PD.METHOD.018-lifework-pack-composition.md).
 
 ## Происхождение шаблонов
 
@@ -25,11 +25,12 @@ related:
 
 Шаблон — структурный каркас документа с вопросами-провокаторами для заполнения и чеклистом готовности. **Не вписывать в шаблон желаемое; вписывать только то, что уже есть в практике созидателя за последние ≥6 месяцев.** Имитация подъёма (см. PD.METHOD.018 Failure Modes) — главный режим отказа метода.
 
-## Шесть шаблонов по уровням охвата
+## Шаблоны по уровням охвата
 
 | Уровень | Шаблон | Цикл ревизии |
 |---------|--------|--------------|
 | 1. Я | [lifework-self-charter-template.md](./lifework-self-charter-template.md) | квартал |
+| 1А. Железный человек (я и моя ИИ-среда) | [lifework-ironman-template.md](./lifework-ironman-template.md) | квартал (предварительно) |
 | 2. Ближний круг (1-15) | [lifework-close-circle-covenant-template.md](./lifework-close-circle-covenant-template.md) | год |
 | 3. Дальний круг (15-150) | [lifework-professional-position-template.md](./lifework-professional-position-template.md) | год |
 | 4. Сообщество (150-1500) | [lifework-community-manifesto-template.md](./lifework-community-manifesto-template.md) | 2-3 года |
